@@ -1,0 +1,30 @@
+---
+title: "Sobre o {{< var observe >}}"
+---
+
+O {{< var observe >}} foi formado no ano de 2023 a partir da união de várias ações envolvendo o ensino e a divulgação de astronomia que vem ocorrendo no [*campus* de Araras da UFSCar](https://www.cca.ufscar.br/pt-br/pagina-inicial) desde a fundação do [Curso de Licenciatura em Física](https://www.fisicaararas.ufscar.br/pt-br) no ano de 2009.
+
+## Breve histórico
+
+- 2009 - Inaugurado o evento Jornada das Estrelas pelo Prof. Alexandre Colato.
+- 2010 - Prof. João Teles ingressa no *campus* e se une ao Prof. Colato na Jornada das Estrelas.
+- 2011 - São adquiridos os dois primeiros telescópios.
+
+## Logotipo
+
+Para a escolha do logotipo do grupo, pensamos em algo que refletisse o tipo de atividades e ferramentas que utilizamos em nossos trabalhos. 
+
+Por um lado, tratamos dos conhecimentos básicos da Astronomia desbravados por pensadores como Galileu Galilei. Por outro, estudamos tecnologias atuais para tornar esses conhecimentos mais sensoriais, cativantes e contemporanizados.
+
+Daí surgiu a ideia de consultar a caligrafia original de Galileu em documentos históricos e copiar as letras apropriadas para formar a palavra {{< var observe >}}.
+
+![](assets/logo_origem.png)
+
+Quanto à palavra em si, buscávamos algo simples e direto, com grafia semelhante em várias línguas ocidentais e que, obviamente, remetesse a algum aspecto fundamental da Astronomia.
+
+Nesse sentido, a palavra {{< var observe >}} surge no imperativo como um convite ao fazer, ao experimentar e à ação, ensejando, ao mesmo tempo, a contemplação -- características ancestrais desta que é uma das mais belas das ciências.
+
+Por fim, temos as letras maiúsculas "R" e "V" diferenciando-se das demais em alusão à sigla para "Realidade Virtual", fazendo a ponte com as tecnologias que abrem novas perspectivas de experiências e interações muitas vezes inviáveis -- financeiramente ou tecnicamente -- de serem realizadas no mundo físico. 
+
+
+

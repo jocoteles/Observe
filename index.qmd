@@ -1,0 +1,23 @@
+::: {.light-mode}
+<img src="assets/observe_logo_light.svg" class="centerImage" width="60%">
+:::
+
+::: {.dark-mode}
+<img src="assets/observe_logo_dark.svg" class="centerImage" width="60%">
+:::
+
+::: {.description}
+Do céu real ao céu virtual - ensino e divulgação de Astronomia
+:::
+
+::: {.centerText}
+O {{< var observe >}} é um grupo de estudos voltado à divulgação e ensino de Astronomia, desenvolvendo e utilizando recursos didáticos para a apreciação e compreensão dos fenômenos celestes.
+
+Nosso enfoque tem sido no estudo e desenvolvimento de instrumentação física e digital que proporcionem experiências ricas e diversificadas para as pessoas interessadas no universo da Astronomia.
+:::
+
+::: {layout="[1,1]" .centerText}
+[![Atividades](atividades/atividades.svg)](atividades/atividades.qmd)
+
+[![Materiais](materiais/materiais.svg)](materiais/materiais.qmd)
+:::

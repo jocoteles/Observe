@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "*obseRVe*"
+  navbar:
+    left:
+      - href: about.qmd
+        text: Sobre
+    tools:
+      - icon: instagram
+        href: https://instagram.com  
+  page-footer:
+    "obseRVe - CCA/UFSCar<br>
+    Rodovia Anhanguera, km 174 - SP-330 - Araras-SP-BR<br>
+    observe@ufscar.br"
+
+
+format:
+  html:
+    page-layout: full
+    theme:
+      light: [flatly, light_mode.scss]
+      dark: [darkly, dark_mode.scss]
+    css: styles.css
+    toc: true
+
+
+
