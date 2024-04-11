@@ -1,10 +1,8 @@
-::: {.light-mode}
-<img src="assets/observe_logo_light.svg" class="centerImage" width="60%">
+::: {.column-screen style="margin-top: -4.5%;"}
+![](assets/observe_in_the_sky_animated.svg)
 :::
 
-::: {.dark-mode}
-<img src="assets/observe_logo_dark.svg" class="centerImage" width="60%">
-:::
+::: {.column-page}
 
 ::: {.description}
 Do céu real ao céu virtual - ensino e divulgação de Astronomia
@@ -12,12 +10,44 @@ Do céu real ao céu virtual - ensino e divulgação de Astronomia
 
 ::: {.centerText}
 O {{< var observe >}} é um grupo de estudos voltado à divulgação e ensino de Astronomia, desenvolvendo e utilizando recursos didáticos para a apreciação e compreensão dos fenômenos celestes.
-
-Nosso enfoque tem sido no estudo e desenvolvimento de instrumentação física e digital que proporcionem experiências ricas e diversificadas para as pessoas interessadas no universo da Astronomia.
 :::
 
-::: {layout="[1,1]" .centerText}
-[![Atividades](atividades/atividades.svg)](atividades/atividades.qmd)
+::: {.light-mode}
+::: {.centerText}
 
-[![Materiais](materiais/materiais.svg)](materiais/materiais.qmd)
+
+::: {.grid}
+::: {.g-col-sm-2 .g-col-12}
+[![Atividades](atividades/atividades.svg)](atividades/atividades.qmd)
+:::
+
+::: {.g-col-sm-2 .g-col-12}
+[![Projetos](projetos/projetos.svg)](projetos/)
+:::
+
+::: {.g-col-sm-2 .g-col-12}
+[![Acervo](acervo/acervo.svg)](acervo/acervo.qmd)
+:::
+
+::: {.g-col-sm-2 .g-col-12}
+[![Blog](blog/blog.svg)](blog/)
+:::
+
+::: {.g-col-sm-2 .g-col-12}
+[![Equipe](equipe/equipe.svg)](equipe/)
+:::
+
+::: {.g-col-sm-2 .g-col-12}
+[![Sobre](sobre/sobre.svg)](sobre/sobre.qmd)
+:::
+:::
+
+
+:::
+:::
+
+::: {.centerText}
+Um dos nossos enfoques tem sido no estudo e desenvolvimento de instrumentação física e digital que proporcionem experiências ricas e diversificadas para as pessoas interessadas no universo da Astronomia.
+:::
+
 :::

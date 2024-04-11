@@ -5,13 +5,15 @@ website:
   title: "*obseRVe*"
   navbar:
     left:
-      - href: about.qmd
+      - href: atividades/atividades.qmd
+        text: Atividades 
+      - href: sobre/sobre.qmd
         text: Sobre
     tools:
       - icon: instagram
         href: https://instagram.com  
   page-footer:
-    "obseRVe - CCA/UFSCar<br>
+    "*obseRVe* - CCA/UFSCar<br>
     Rodovia Anhanguera, km 174 - SP-330 - Araras-SP-BR<br>
     observe@ufscar.br"
 

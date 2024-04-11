@@ -4,4 +4,18 @@ description: " "
 image: atividades.svg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Nesta página reunimos todas as atividades que desenvolvemos rotineiramente que envolvem eventos, exposições, oficinas e sessões de observação do céu. Para saber mais, consulte nosso calendário ou escreva para observe@ufscar.br.
+
+## Jornada das Estrelas
+
+## Jornada do Sol
+
+## Observatório a Olho Nu
+
+## Passeio dos Planetas
+
+## Pêndulo de Foucault
+
+## Construção de Planisfério
+
+## Observação do céu
