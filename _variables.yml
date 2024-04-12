@@ -1,1 +1,22 @@
-observe: "*obseRVe*"
+#Variáveis de tipografia:
+tipo:
+  observe: "*obseRVe*"
+
+#Variáveis de localização de arquivos e pastas:
+loc:
+  atividades: "/atividades"
+  projetos: "/projetos"
+  acervo: "/acervo"
+  blog: "/blog"
+  equipe: "/equipe"
+  sobre: "/sobre"
+  acervo: "/acervo"
+  calendario: "/calendario"
+  localizacao: "/localizacao"
+  observatorio: "/atividades/observatorio"
+  palestras: "/atividades/palestras"
+
+#Gerais:
+observe-endereco:
+  "Rodovia Anhanguera, km 174 - SP-330 - Araras-SP-BR<br>
+  observe@ufscar.br"

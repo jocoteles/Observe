@@ -1,0 +1,39 @@
+---
+title: Localização
+description: " "
+---
+
+::: {.column-body}
+
+Abaixo encontra-se o mapa de localização da Praça do Observatório a Olho Nu -- marca vermelha -- que é o ponto de referência da maioria das atividades desenvolvidas no {{< var tipo.observe >}}. O CCA/UFSCar possui duas entradas. Uma indicada pela marca azul no mapa que é por dentro da cidade entre o Jd. Pedras Preciosas e o Jd. Esmeralda. A outra, indicada pela marca verde, é pela rodovia Anhanguera no sentido de Araras para Ribeirão Preto.
+
+Mas atenção, todas as atividades do {{< var tipo.observe >}} precisam ser pré-agendadas ou estarem programadas no [calendário de eventos]({{< var loc.calendario >}}\calendario.qmd). Não há pessoas disponíveis para atendimento fora dessas condições.
+
+```{python}
+#| echo: false
+import folium
+m = folium.Map([-22.315687, -47.384686], zoom_start=15)
+folium.Marker(
+    location=[-22.315134, -47.382005],
+    tooltip="Observatório a Olho Nu",
+    popup="Observatório a Olho Nu",
+    icon=folium.Icon(icon="check", color="red", ),
+).add_to(m)
+folium.Marker(
+    location=[-22.318592, -47.379902],
+    tooltip="Entrada Jd. Esmeralda",
+    popup="Entrada Jd. Esmeralda",
+    icon=folium.Icon(icon="arrow-down", color="blue"),
+).add_to(m)
+folium.Marker(
+    location=[-22.316097, -47.390171],
+    tooltip="Entrada Anhanguera",
+    popup="Entrada Anhanguera",
+    icon=folium.Icon(icon="arrow-down", color="green"),
+).add_to(m)
+m
+```
+
+{{< var observe-endereco >}}
+
+:::

@@ -14,8 +14,7 @@ website:
         href: https://instagram.com  
   page-footer:
     "*obseRVe* - CCA/UFSCar<br>
-    Rodovia Anhanguera, km 174 - SP-330 - Araras-SP-BR<br>
-    observe@ufscar.br"
+    {{< var observe-endereco >}}"
 
 
 format:

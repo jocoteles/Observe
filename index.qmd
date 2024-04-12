@@ -5,11 +5,11 @@
 ::: {.column-page}
 
 ::: {.description}
-Do céu real ao céu virtual - ensino e divulgação de Astronomia
+Do céu real ao céu virtual - ensino e divulgação de astronomia
 :::
 
 ::: {.centerText}
-O {{< var observe >}} é um grupo de estudos voltado à divulgação e ensino de Astronomia, desenvolvendo e utilizando recursos didáticos para a apreciação e compreensão dos fenômenos celestes.
+O {{< var tipo.observe >}} é um grupo de estudos voltado à divulgação e ensino de astronomia, desenvolvendo e utilizando recursos didáticos para a apreciação e compreensão dos fenômenos celestes.
 :::
 
 ::: {.light-mode}
@@ -17,37 +17,60 @@ O {{< var observe >}} é um grupo de estudos voltado à divulgação e ensino de
 
 
 ::: {.grid}
-::: {.g-col-sm-2 .g-col-12}
-[![Atividades](atividades/atividades.svg)](atividades/atividades.qmd)
+::: {.g-col-sm-1 .g-col-12}
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Projetos](projetos/projetos.svg)](projetos/)
+[![Atividades]({{< var loc.atividades >}}/atividades.svg)]({{< var loc.atividades >}}/atividades.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Acervo](acervo/acervo.svg)](acervo/acervo.qmd)
+[![Projetos]({{< var loc.projetos >}}/projetos.svg)]({{< var loc.projetos >}}/projetos.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Blog](blog/blog.svg)](blog/)
+[![Acervo]({{< var loc.acervo >}}/acervo.svg)]({{< var loc.acervo >}}/acervo.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Equipe](equipe/equipe.svg)](equipe/)
+[![Blog]({{< var loc.blog >}}/blog.svg)]({{< var loc.blog >}}/blog.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Sobre](sobre/sobre.svg)](sobre/sobre.qmd)
-:::
+[![Calendário de eventos]({{< var loc.calendario >}}/calendario.svg)]({{< var loc.calendario >}}/calendario.qmd)
 :::
 
-
+::: {.g-col-sm-1 .g-col-12}
 :::
 :::
 
 ::: {.centerText}
-Um dos nossos enfoques tem sido no estudo e desenvolvimento de instrumentação física e digital que proporcionem experiências ricas e diversificadas para as pessoas interessadas no universo da Astronomia.
+Um dos nossos enfoques tem sido no estudo e desenvolvimento de instrumentação física e digital que proporcionem experiências ricas e diversificadas para as pessoas interessadas no universo da astronomia.
 :::
+
+
+::: {.grid}
+::: {.g-col-sm-3 .g-col-12}
+:::
+
+::: {.g-col-sm-2 .g-col-12}
+[![Equipe]({{< var loc.equipe >}}/equipe.svg)]({{< var loc.equipe >}}/equipe.qmd)
+:::
+
+::: {.g-col-sm-2 .g-col-12}
+[![Sobre o Observe]({{< var loc.sobre >}}/sobre.svg)]({{< var loc.sobre >}}/sobre.qmd)
+:::
+
+::: {.g-col-sm-2 .g-col-12}
+[![Como chegar]({{< var loc.localizacao >}}/localizacao.svg)]({{< var loc.localizacao >}}/localizacao.qmd)
+:::
+
+::: {.g-col-sm-3 .g-col-12}
+:::
+:::
+
+:::
+:::
+
 
 :::
