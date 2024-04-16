@@ -1,0 +1,17 @@
+---
+title: Observatório a Olho Nu
+description: " "
+---
+
+O Observatório a Olho Nu do CCA/UFSCar consiste em uma pequena praça contento uma série de marcações e informações interessantes que podem ser apreciadas à vista desarmada, convidando o(a) visitante a descobrir aspectos do céu que são acessíveis a todos, apesar de muitas vezes desconhecidos.
+
+## Atividades
+
+- **Círculo das estações**. *Você irá se surpreender como o Sol nem sempre nasce no Leste e como os dias e as noites mudam ao longo do ano.*
+- **Círculo dos astrônomos**. *Como a astronomia evoluiu ao longo do tempo através de alguns dos seus expoentes.*
+- **Círculo dos planetas**. *As peculiaridades, superlativos, semelhanças e diferenças que compõe o "panteão" do Sistema Solar.*
+- **Relógio/calendário solar**. *Relógio com projeção horizontal e ponteiro de 2 metros de altura que possibilita a medição das horas e dos meses do ano.*
+- **Relógio estelar**. *Grade equatorial com 1 metro de diâmetro composto por 24 hastes que possibilitam a medição da passagem do tempo através da leitura do posicionamento das estrelas.*
+- **Bússola**. *Localizada no centro do Observatório, seu ponteiro possui uma forte imantação que mostra claramente o desvio entre a direção do campo magnético terrestre e seu eixo de rotação.*
+
+

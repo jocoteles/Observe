@@ -1,11 +1,12 @@
 project:
   type: website
+  
 
 website:
   title: "*obseRVe*"
   navbar:
     left:
-      - href: atividades/atividades.qmd
+      - href: "{{< var loc.atividades >}}/atividades.qmd"
         text: Atividades 
       - href: sobre/sobre.qmd
         text: Sobre
@@ -13,8 +14,7 @@ website:
       - icon: instagram
         href: https://instagram.com  
   page-footer:
-    "*obseRVe* - CCA/UFSCar<br>
-    {{< var observe-endereco >}}"
+    "*obseRVe* - CCA/UFSCar<br>observe@ufscar.br"
 
 
 format:

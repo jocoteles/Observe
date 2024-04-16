@@ -1,0 +1,28 @@
+---
+title: Desafios online
+subtitle: Atividades desenvolvidas em H5P para você se divertir testando seus conhecimentos em astronomia.
+image: desafios_online.svg
+format:
+    html: 
+        include-in-header: 
+            text: |
+                <link type="text/css" rel="stylesheet" media="all" href="/h5p/dist/styles/h5p.css" />
+                <script type="text/javascript" src="/h5p/dist/main.bundle.js"></script>
+        include-before-body: 
+            text: |
+
+---
+
+No momento, esta atividade encontra-se em construção e assim que estiver pronta disponibilizaremos aqui os detalhes da sua localização e forma de visitação.
+
+<div id="h5p-container"></div>
+<script type="text/javascript">
+const {
+    H5P
+} = H5PStandalone;
+new H5P(document.getElementById('h5p-container'), {
+    h5pJsonPath: '../../h5p-instrumentos',
+    frameJs: '../../h5p/dist/frame.bundle.js',
+    frameCss: '../../h5p/dist/styles/h5p.css'
+});
+</script>

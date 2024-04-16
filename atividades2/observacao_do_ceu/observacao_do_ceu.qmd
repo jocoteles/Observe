@@ -1,0 +1,30 @@
+---
+title: Observação do céu
+subtitle: Encontros semanais ou quinzenais que ocorrem principalmente no período de estiagem para a observação do céu a olho nu e identificação das principais constelações e estrelas.
+image: observacao_do_ceu.jpg
+---
+
+Encontros de curta duração, normalmente realizados no intervalo das aulas do período noturno do CCA-UFSCar.
+
+Possui a finalidade de aumentar o conhecimento das pessoas sobre o céu noturno visível a olho nu, dando noções de localização no céu das principais estrelas e constelações, bem como seus movimentos e épocas do ano em que são visíveis.
+
+Nesses encontros, nossa principal ferramenta é o planisfério. Sabemos que existem ótimos aplicativos de celular que permitem a identificação de estrelas e constelações mirando a tela do aparelho na direção a ser observada. Entretanto, eles não possibilitam o mesmo grau de engajamento e de construção mental propiciados pelo planisfério. *Por esses motivos, evitamos o uso de celulares nesses encontros.*
+
+### Duração de cada encontro
+
+Entre 20 e 30 minutos.
+
+### Formas de participação
+
+Consulte as datas de observação no calendário de eventos. Não é necessário agendamento prévio. Não há limitação no número de pessoas. A participação é gratuita.
+
+### Público alvo
+
+Qualquer pessoa a partir de 6 anos de idade. Crianças devem estar acompanhadas pelos pais ou responsáveis.
+
+### Localização
+
+[CCA-UFSCar, *campus* Araras]({{< var loc.localizacao >}}/localizacao.qmd)
+{{< var observe-endereco >}}
+
+O local específico dentro do *campus* é informado no calendário.
