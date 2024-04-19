@@ -32,7 +32,7 @@ A apresentação foi dividida em três momentos: estruturas e funcionamento sola
  
 ### Observação do Sol com o telescópio 
 
-A observação do Sol foi realizada com o telescópio Schmidt-Cassegrain. Esta atividade foi ministrada pelo bolsista Guilherme Nunes e teve duração em torno de 30 minutos. Nesta parte do evento, foi necessário o uso de um filtro para a observação do Sol com o telescópio, visto que, como a luz solar é muito intensa e o telescópio é composto por conjuntos de lentes, ver o Sol sem nenhuma proteção pode causar danos irreversíveis para a visão. Logo, conectou-se uma câmera de astrofotografia ao telescópio e, esta, ao computador para captarmos as imagens do Sol em tempo real. Também fez-se um comparativo, em tempo real, das nossas imagens com a sonda *Solar and Heliospheric Observatory* (SOHO). 
+A observação do Sol foi realizada com o telescópio Schmidt-Cassegrain. Esta atividade foi ministrada pelo bolsista Guilherme Nunes e teve duração em torno de 30 minutos. Nesta parte do evento, foi necessário o uso de um filtro para a observação do Sol com o telescópio, visto que, como a luz solar é muito intensa e o telescópio é composto por conjuntos de lentes, ver o Sol sem nenhuma proteção pode causar danos irreversíveis para a visão. Logo, conectou-se uma câmera de astrofotografia ao telescópio e, esta, ao computador para captarmos as imagens do Sol em tempo real. Também fez-se um comparativo, em tempo real, das nossas imagens com a sonda *Solar and Heliospheric Observatory (SOHO)*. 
 
 Esta atividade foi muito interessante pois, as manchas solares foram um dos principais assuntos abordados durante a  palestra e os alunos tiveram a oportunidade de vê-las em tempo real com  nosso telescópio. 
 
