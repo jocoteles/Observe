@@ -113,3 +113,5 @@ Este é um guia direto usando a linha de comando do seu sistema operacional e, p
 [Crie uma conta no GitHub](https://docs.github.com/pt/get-started/start-your-journey/creating-an-account-on-github)
 
 #### Primeira vez no repositório do obseRVe
+
+Faça o clone do repositório.
