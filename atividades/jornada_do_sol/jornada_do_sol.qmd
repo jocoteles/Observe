@@ -1,13 +1,14 @@
 ---
 title: Jornada do Sol
-description: " "
+subtitle: Evento dedicado à observação do Sol usando telescópios com os devidos filtros solares.
+image: jornada_do_sol.jpg
 ---
 
-Evento dedicado à observação do astro mais importante das nossas vidas. Com seus quase 4 trilhões de trilhões de megawatts constantemente "fritando" Mercúrio e tornando o céu de Plutão "enluarado", o Sol é um espetáculo à parte. Longe de ser um mar de aparente estabilidade, guarda em seu interior o movimento frenético das partículas que o compõe.
+Com seus quase 4 trilhões de trilhões de megawatts constantemente "fritando" Mercúrio e tornando o céu de Plutão "enluarado", o Sol é um espetáculo à parte. Longe de ser um mar de aparente estabilidade, guarda em seu interior o movimento frenético das partículas que o compõe.
 
-Galileu Galilei foi o primeiro a descobrir isso, observando o Sol com seu telescópio e relatando a existência das manchas solares. Hoje sabemos que são regiões mais frias na superfície solar devido ao confinamento do plasma em imensas linhas de campo magnético, impedindo assim a convecção que renova sua temperatura.
+Galileu Galilei foi o primeiro a testemunhar isso, observando o Sol com seu telescópio e relatando a existência das manchas solares. Hoje sabemos que são regiões mais frias na superfície solar devido ao confinamento do plasma em imensas linhas de campo magnético, impedindo assim a convecção que renova sua temperatura.
 
-Aqui temos a oportunidade de observar o Sol e suas manchas em tempo real com nossos telescópios. Mesmo utilizando filtros solares adequados, evitamos observar diretamente pela ocular do telescópio. Usamos, ao invés disso, uma câmera de astrofotografia para projetar em um telão a imagem do Sol com grande ampliação e, assim, observar os detalhes das manchas solares.
+Aqui temos a oportunidade de observar o Sol e suas manchas em tempo real com nossos telescópios. Mesmo utilizando filtros solares adequados, evitamos observar diretamente pela ocular do telescópio. Usamos, ao invés disso, uma câmera de astrofotografia para projetar a imagem do Sol com grande ampliação e, assim, observar os detalhes das manchas solares.
 
 ### Atividades
 
@@ -32,7 +33,7 @@ O evento Jornada do Sol é gratuito.
 
 ### Público alvo
 
-Todas as pessoas de todas as idades.
+Todas as pessoas de todas as idades. Crianças devem estar acompanhadas pelos pais ou responsáveis.
 
 ### Localização
 

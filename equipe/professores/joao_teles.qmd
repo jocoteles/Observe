@@ -1,0 +1,26 @@
+---
+title: "João Teles de Carvalho Neto"
+subtitle: "Coordenador do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: joao_teles.jpg
+  links:
+    - icon: journal-text
+      text: Lattes
+      href: http://lattes.cnpq.br/8622059450756991
+    - icon: github
+      text: Github
+      href: https://github.com/jocoteles
+---
+
+Tem experiência em Ressonância Magnética Nuclear e Computação Quântica. Orientou trabalhos de graduação e mestrado em Ensino de Física e trabalha desde o início de sua atuação docente com ensino e divulgação de Astronomia.
+
+**Formação**
+
+Graduado em Física pela Unicamp  
+Doutor em Física pelo IFSC-USP
+
+**Atuação profissional**
+
+Professor | UFMT | 2009 - 2010  
+Professor | UFSCar | 2010 - presente

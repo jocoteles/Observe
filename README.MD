@@ -1,45 +1,63 @@
-# 1. Aparência do website do Observe
+# Website do grupo obseRVe
 
-## Páginas
------
+## Barra de navegação
 
-> Todas as páginas terão o menu de navegação de páginas no cabeçalho e os links para as redes sociais no rodapé. Serão escritas em html.
+Todos os itens da página inicial acessíveis na barra de navegação.
 
-### Início
+A barra de navegação também contém ícones para o Instagram e futuramente para o Youtube.
 
-> Logo do Observe e carrossel de fotos.  
-> Últimas notícias.
+## Página principal
 
 ### Atividades
 
->- Jornada das Estrelas (página)
->- Observação do céu (página)
->- Minicursos (página)
->- Palestras (página)
+Esta página reúne todas as atividades que envolvem a participação do público interessado. Portanto, deve conter informações precisas e diretas do que se trata a atividade, de como participar, se inscrever, como chegar, etc.
 
-### Acervo
+Por enquanto, publicamos as seguintes atividades:
 
-> Cards com breve descrição e foto dos equipamentos e espaços educacionais.
+- Jornada das Estrelas
+- Jornada do Sol
+- Observatório a Olho Nu
+- Construção de Planisfério
+- Observação do céu
+- Passeio dos Planetas
+- Pêndulo de Foucault
+- Desafios online usando H5P
 
-### Equipe
+### Projetos
 
-> Cards com breve descrição e foto dos membros.
+No momento esta página está em construção. Ela é dedicada ao compartilhamento do detalhamento dos projetos e equipamentos desenvolvidos. Cada item adicionado, pode ter diferentes níveis de detalhamento para diferentes faixas etárias e diferentes públicos. 
 
-### Divirta-se
+Por exemplo, o pêndulo de Foucault pode ser incluído como um projeto nesta página, a qual pode conter sub páginas. Em uma delas mostra-se explicações simples, simulações e filmagens, por exemplo. Em outra mostra-se dados técnicos da eletrônica, da mecânica do suporte, das medidas de precessão, etc.
 
-> Material autoral interativo escrito em H5P e/ou Javascript.
+### Calendário de eventos
+
+Divido nas abas de eventos agendados e eventos encerrados. Será na forma de um *quarto.org listing*, cada evento conterá a data, a forma específica de participação -- quando diferente do descrito na página de Atividades, senão será dado o link para a respectiva atividade -- formulário de inscrição, quando for o caso.
 
 ### Blog
 
-> Relato das atividades realizadas ou notícias.
+Postagens dos eventos e visitações realizadas, com descrição da faixa etária do público e quantidade de pessoas, nome das escolas que visitaram quando for o caso, quais atividades foram realizadas no evento, etc. O texto tem que ser o mais detalhado possível.
 
-### Contato e agendamentos
+Importante usar um mesmo padrão. A primeira postagem inserida foi a visita da escola Maria Rosa em novembro/2023. É importante usar o mesmo padrão dessa postagem para as postagens futuras.
 
-> Dúvidas ou agendamento para eventos, oficinas, etc.
+### Equipe
+
+Equipe do grupo Observe separada em professores, técnicos e estudantes.
+
+### Acervo
+
+Materiais do projeto. Cada item é separado em abas contendo descrição, especificações e formas de uso.
+
+### Sobre o obseRVe
+
+Explicação sobre o histórico das ações de astronomia que levaram a criação do obseRVe e a explicação da escolha do logotipo.
+
+### Como chegar
+
+Explicação de como acessar o Observatório a Olho Nu através de mapa gerado pela biblioteca em Python contendo explicações sobre as duas entradas do CCA-UFSCar.
 
 ### Links
 
-- Observatório e grupos de astronomia
+Ainda não foi implementado. Mas abaixo, temos alguns exemplos.
 
     >- [ExpLORa](https://wordpress.ft.unicamp.br/explora/)
     >- [Observatório Astronômico da UFSCar](http://www.observatorio.ufscar.br/)
@@ -47,20 +65,43 @@
     >- [Planeta Rio](https://planeta.rio/)
     >- [Observatório Astronômico da UFSC](https://observatorio.ufsc.br/)
 
-## Artigos
-----
 
-Os artigos serão escritos preferencialmente em markdown (.md), mas também poderão ser escritos em restructuredText (.rst) e html.
+# Como contribuir com o desenvolvimento e atualização do website do obseRVe
 
-O começo de cada artigo contém meta tags para alocá-los automaticamente nas páginas corretas do site.
+Se você não conhece o sistema de controle de versão **Git** ou o repositório **GitHub** e sua forma de uso, é recomendável o seu estudo na página:
 
-### Exemplo de artigo:
+[Sobre o GitHub e o Git.](https://docs.github.com/pt/get-started/start-your-journey/about-github-and-git)
 
->title: XII Jornada das Estrelas  
->category: jornada  
->date: 10/08/2023  
->status: rascunho
->
->Nesta edição da Jornada das Estrelas observaremos os eclipses das luas de Júpiter.
+A qual é subdividida em:
 
-# 2. Estrutura interna do website do Observe
+- Criar uma conta
+- Olá, Mundo
+- Configure o seu perfil
+- Encontre inspiração
+- Baixar arquivos
+- Carregar um projeto
+- Recursos de aprendizagem
+
+Para uma documentação específica do Git, incluindo vídeos tutoriais, acesse [Git documentation](https://git-scm.com/doc).
+
+Se você for usar o [VS Code](https://code.visualstudio.com/) para editar o website, também é recomendável o estudo do material abaixo para ter uma boa integração do VS Code com o Git e o GitHub:
+
+- [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
+- [Working with GitHub in VS Code](https://code.visualstudio.com/docs/sourcecontrol/github)
+
+
+## Guia direto para a linha de comando
+
+Este é um guia direto usando a linha de comando do seu sistema operacional e, por isso, é independente do editor de texto ou da IDE usada para editar o website.
+
+### Primeira vez no Git
+
+[Instale o Git no seu computador](https://git-scm.com/downloads).
+
+### Primeira vez no GitHub
+
+[Crie uma conta no GitHub](https://docs.github.com/pt/get-started/start-your-journey/creating-an-account-on-github)
+
+### Primeira vez no repositório do obseRVe
+
+

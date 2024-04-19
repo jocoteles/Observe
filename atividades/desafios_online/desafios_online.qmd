@@ -1,0 +1,13 @@
+---
+title: Desafios online
+subtitle: Atividades desenvolvidas em H5P para você se divertir testando seus conhecimentos em astronomia.
+image: desafios_online.svg
+listing:
+    type: table
+    fields: [title, subtitle]
+    table-hover: true
+    contents: h5p-atividades/*.qmd
+    field-display-names:
+        title: Atividade
+        subtitle: Tipo
+---

@@ -1,0 +1,99 @@
+---
+title: NexStar 4SE - Celestron
+image: nexstar4se.webp
+description: "Maksutov-Cassegrain 102 mm f/13, altazimutal, motorizado e computadorizado."
+category: Telescópio
+---
+
+::: {.panel-tabset}
+
+## Descrição
+
+Alguns telescópios, conhecidos como refratores, usam lentes. Outros, conhecidos como refletores, usam espelhos. O sistema óptico Maksutov-Cassegrain usa uma combinação de espelhos e lentes e é chamado de telescópio composto ou catadióptrico.
+
+O sistema Maksutov-Cassegrain consiste em um corretor de placas, um espelho primário esférico e um ponto de espelho secundário. Uma vez que os raios de luz entram no sistema óptico, eles percorrem o comprimento do tubo três vezes. Com isso, esse design oferece grandes comprimentos focais em tubos muito curtos, tornando-os extremamente portáteis.
+
+Devido à sua grande relação focal e pequena abertura é mais voltado para a observação dos planetas e da Lua.
+
+## Instruções
+
+### Instalação do telescópio
+
+1. Comece removendo o telescópio de sua caixa de transporte e colocando a base redonda em uma mesa ou superfície plana. É melhor levar o telescópio segurando-o pela parte inferior do braço do garfo e pela parte inferior da base.
+1. Remova todos os acessórios de suas respectivas caixas. Lembre-se de guardar todos os recipientes para que possam ser usados para transportar o telescópio.
+1. O tubo do telescópio deve ser posicionado horizontalmente ao solo. Para fazer isso, gire suavemente a frente do tubo para cima até que esteja nivelado com o chão
+1. O NexStar pode ser alimentado por quaisquer uma dessas três opções: (i) oito pilhas AA (alcalinas ou recarregáveis de Ni-MH), (ii) fonte CA de 12 V e (iii) adaptador 12 V de bateria de carro.
+
+### Calibração e uso do sistema Go-To
+
+Texto em construção.
+
+## Especificações
+
+*Extraídas do site da Celestron Brasil*
+
+### Informações do tubo óptico
+
+- Design Óptico: Maksutov-Cassegrain
+- Abertura: 102 mm (4,02")
+- Distância focal: 1325mm (52")
+- Razão focal: f/13
+- Distância focal da ocular 1: 25mm (0,98")
+- Ampliação da ocular 1: 53x
+- Finderscope: localizador de ponto vermelho StarPointer™
+- Star Diagonal: Retrovisor interno para ângulo de visão direto ou de 90°
+- Tubo Óptico: Alumínio
+- Maior ampliação útil: 241x
+- Ampliação útil mais baixa: 15x
+- Limitando a Magnitude Estelar: 12,5
+- Resolução (Rayleigh): 1,37 segundos de arco
+- Resolução (Dawes): 1,14 segundos de arco
+- Poder de coleta de luz (comparado ao olho humano): 212x
+- Obstrução do espelho secundário: 35mm (0,38")
+- Obstrução do espelho secundário por diâmetro: 34%
+- Obstrução de espelho secundário por área: 12%
+- Revestimentos ópticos: StarBright XLT
+- Comprimento do tubo óptico: 343mm (13,5")
+- Diâmetro do tubo óptico: 125 mm (4,9")
+- Peso do tubo óptico: 6 libras (2,7 kg)
+- Cauda de andorinha: barra de cauda de andorinha CG-5
+
+
+### Informações da montagem
+
+- Tipo de montagem: Braço de garfo único computadorizado de altitude-azimute
+- Capacidade de carga do instrumento: 10 lbs (4,54 kg)
+- Faixa de ajuste de altura (inclui montagem e tripé): 939,8 mm - 2397 mm (37" - 55")
+- Diâmetro da perna do tripé: 38,1 mm (1,5") Aço inoxidável
+- Peso da cabeça de montagem: 7 lbs (3,2 kg)
+- Bandeja de acessórios: Sim
+- Peso do tripé: 10 libras (4,54 kg)
+- Velocidades de giro: 9 velocidades de giro - velocidade máxima 3°/segundo
+- Taxas de Rastreamento: Sideral, Solar e Lunar
+- Modos de rastreamento: Alt-Az, EQ North e EQ South
+- GPS: N/A
+- Compatibilidade de cauda de andorinha: cauda de andorinha CG-5
+- Número de portas auxiliares: 1x porta AUX
+- Porta de guia automático: Não
+- Porta USB: Sim, entrada de controle manual
+- Requisitos de alimentação: 8 pilhas AA (não incluídas) e 12 VDC-750 mA (ponta positiva)
+- Acionamento do motor: servo motores DC
+- Procedimentos de alinhamento: SkyAlign, 1-Star Align, 2-Star Align, Auto 2-Star Align, Solar System Align, EQ North / EQ South Alignment (EQ align requer uma cunha equatorial)
+- Correção periódica de erros: Não
+- Controle manual computadorizado: Linha dupla, display de cristal líquido de 18 caracteres com 19 botões de LED retroiluminados de fibra óptica
+- Banco de dados NexStar+: 38.181 objetos acessíveis. Informações aprimoradas sobre mais de 200 objetos.
+- Software: Celestron Starry Night Special Edition Software e SkyPortal App
+- Peso total do kit: 23 libras (10,4 kg)
+
+### Itens inclusos
+
+- Tubo Óptico
+- Montagem de braço de garfo único e tripé
+- Bandeja de acessórios
+- Localizador de Ponteiro Estelar
+- Cunha Embutida
+- Controle manual NexStar+
+- ocular de 25 mm
+
+:::
+

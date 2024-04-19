@@ -1,0 +1,21 @@
+---
+title: "Fernando Rezende Apolinário"
+subtitle: "Colaborador do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: fernando_apolinario.jpg
+  links:
+    - icon: journal-text
+      text: Lattes
+      href: http://lattes.cnpq.br/5165721870469193
+---
+
+Descrição do Fernando.
+
+**Formação**
+
+Graduado em Física pela Unicamp.
+
+**Atuação profissional**
+
+Técnico de laboratório | UFSCar | 2015 - presente

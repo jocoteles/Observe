@@ -1,6 +1,7 @@
 ---
 title: Jornada das Estrelas
-description: " "
+subtitle: Evento dedicado à observação do céu noturno com telescópios e a olho nu e à divulgação de astronomia com palestras e exposições.
+image: jornada_das_estrelas.jpg
 ---
 
 Essa é a grande festa da astronomia em nosso *campus* onde ao longo de três noites entre os meses de junho e setembro recebemos a visita de pessoas de todas as idades em grupos de amigos e familiares ou em excursões escolares. Em mais de uma década do evento, milhares de visitantes de Araras e região já passaram por aqui.
@@ -28,12 +29,9 @@ O evento Jornada das Estrelas é gratuito.
 
 ### Público alvo
 
-Todas as pessoas de todas as idades.
+Todas as pessoas de todas as idades. Crianças devem estar acompanhadas pelos pais ou responsáveis.
 
 ### Localização
 
 [Praça do Observatório a Olho NU, CCA-UFSCar]({{< var loc.localizacao >}}/localizacao.qmd)
 {{< var observe-endereco >}}
-
-
-

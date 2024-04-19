@@ -1,0 +1,43 @@
+---
+title: Equipe
+listing:
+    -   id: professores
+        type: table
+        fields: [title]
+        sort: false
+        sort-ui: false
+        filter-ui: false
+        table-hover: true
+        contents: professores
+        field-display-names:
+            title: Professores
+    -   id: tecnicos
+        type: table
+        fields: [title]
+        sort: false
+        sort-ui: false
+        filter-ui: false
+        table-hover: true
+        contents: tecnicos
+        field-display-names:
+            title: Técnicos
+    -   id: estudantes
+        type: table
+        fields: [title]
+        sort: false
+        sort-ui: false
+        filter-ui: false
+        table-hover: true
+        contents: estudantes
+        field-display-names:
+            title: Estudantes
+---
+
+:::{#professores}
+:::
+
+:::{#tecnicos}
+:::
+
+:::{#estudantes}
+:::

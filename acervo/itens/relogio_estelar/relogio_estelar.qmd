@@ -1,0 +1,41 @@
+---
+title: Relógio estelar
+image: relogio_estelar.jpg
+description: "Grade equatorial metálica, 260 cm de diâmetro, 24 divisões."
+category: Instalação
+---
+
+::: {.panel-tabset}
+
+## Descrição
+
+### O que é um relógio estelar
+
+O relógio estelar é um instrumento no qual podemos observar o movimento aparente da esfera celeste e determinar o tempo que se passou entre sucessivas observações. 
+
+Há registros que o relógio estelar é usado há mais de 500 anos pelos árabes. O relógio estelar é um tipo de relógio noturno. No Observatório a Olho Nu do CCA-UFSCar há um relógio estelar na placa Sul.
+
+### Como funciona o nosso relógio estelar
+
+Se deixarmos uma câmera fotográfica fixada e mirada na direção do eixo do relógio estelar e obtivermos uma fotografia de longa exposição, obteremos um resultado extraordinário como o da @fig-ityanagui.
+
+![Fotografia de longa exposição do céu estrelado na direção do eixo do relógio estelar. Cada rastro na imagem é uma estrela. *Crédito da imagem: Gustavo Ityanagui*.](relogio_estelar_ityanagui.jpg){#fig-ityanagui}
+
+O relógio é composto por 25 hastes metálicas que dividem o semicírculo em 24 intervalos. O eixo do relógio encontra-se inclinado em relação a horizontal por um ângulo de 22,3° que é aproximadamente a latitude da cidade de Araras. Além disso, ele aponta exatamente na direção sul geográfica. Com isso, o seu eixo -- que aparece como sendo o pequeno círculo escuro no centro do semicírculo -- encontra-se paralelo ao eixo de rotação da Terra.
+
+Pela foto, vemos que as estrelas varreram o mesmo ângulo em torno do eixo do relógio durante o tempo de exposição da fotografia[^1]. A origem desse movimento não é das estrelas em si, mas do planeta Terra que dá uma volta completa em torno do próprio eixo em aproximadamente 24 horas. O semicírculo do relógio estelar é dividido em 12 intervalos pelas hastes maiores, de tal forma que em uma hora a Terra gira de uma haste grande para a outra. Para nós, que giramos junto com a Terra, parece que são as estrelas que fizeram esse giro no sentido contrário e é esse movimento aparente das estrelas que vemos na foto da @fig-ityanagui.
+
+Agora, vem uma pergunta para você. Baseando-se nas explicações acima, você saberia dizer quanto tempo se passou ao longo da tomada da foto da @fig-ityanagui? Pense um pouco e <u type="button" onclick="alert('Se passaram aproximadamente 45 minutos, pois as estrelas varreram aproximadamente três quartos do intervalo entre duas hastes grandes.')">confira a resposta aqui.</u>
+
+[^1]: Repare que o tamanho de cada rastro na @fig-ityanagui é proporcional à sua distância ao eixo do relógio -- quanto mais longe do centro, maior o rastro. Por isso que podemos dizer que todos os rastros da foto varrem o mesmo ângulo. Na dúvida, trace duas linhas: de cada borda de um rastro até o eixo do relógio. Você verá que o ângulo formado pelas duas linhas é o mesmo para qualquer rastro.
+
+## Especificações
+
+Serão dadas em breve.
+
+## Localização
+
+Placa Sul da [Praça do Observatório a Olho NU, CCA-UFSCar]({{< var loc.localizacao >}}/localizacao.qmd). Permanentemente exposto e aberto à visitação.
+
+:::
+

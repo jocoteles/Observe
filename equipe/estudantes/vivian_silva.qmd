@@ -1,0 +1,17 @@
+---
+title: "Vivian Lara Silva"
+subtitle: "Estudante do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: vivian_silva.gif
+  links:
+    - icon: journal-text
+      text: Lattes
+      href: http://lattes.cnpq.br/4618900039572169
+---
+
+Descrição da Vivian.
+
+**Formação**
+
+Graduanda em Física pela UFSCar | 2021 - presente

@@ -1,0 +1,17 @@
+---
+title: "Daniel Matheus de Oliveira Joaquim"
+subtitle: "Estudante do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: daniel_oliveira.jpg
+  links:
+    - icon: journal-text
+      text: Lattes
+      href: http://lattes.cnpq.br/0317603501254957
+---
+
+Descrição do Daniel.
+
+**Formação**
+
+Graduando em Biotecnologia pela UFSCar | 2019 - presente

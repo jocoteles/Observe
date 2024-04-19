@@ -1,9 +1,12 @@
 ---
 title: Acervo
-description: " "
+subtitle: "Materiais, instrumentos e instalações"
+listing:
+    type: default
+    fields: [image, title, description, category]    
+    filter-ui: [title, category, description]
+    sort-ui: [title, category, description]
+    field-display-names:
+        title: Item
+        category: Categoria
 ---
-
-## Telescópios {#sec-telescopios}
-
-- Maksutov
-- Equatorial

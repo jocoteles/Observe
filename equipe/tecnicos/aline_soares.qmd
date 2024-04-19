@@ -1,0 +1,22 @@
+---
+title: "Aline de Almeida Soares"
+subtitle: "Colaboradora do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: aline_soares.jpg
+  links:
+    - icon: journal-text
+      text: Lattes
+      href: http://lattes.cnpq.br/6915290487730346
+---
+
+Descrição da Aline.
+
+**Formação**
+
+Graduada em Engenharia Mecânica pela Uniararas  
+Mestre em Engenharia Mecânica pela Unicamp
+
+**Atuação profissional**
+
+Técnica de laboratório | UFSCar | 2009 - presente

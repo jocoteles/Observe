@@ -1,0 +1,26 @@
+---
+title: "Alexandre Colato"
+subtitle: "Colaborador do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: alexandre_colato.jpg
+  links:
+    - icon: journal-text
+      text: Lattes
+      href: http://lattes.cnpq.br/5460973924624757
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/colato
+---
+
+Descrição do Prof Alexandre.
+
+**Formação**
+
+Graduado em Física pela UFSCar  
+Doutor em Física pelo IFSC-USP
+
+**Atuação profissional**
+
+Professor | UEFS | 2006 - 2009  
+Professor | UFSCar | 2009 - presente

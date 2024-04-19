@@ -1,0 +1,43 @@
+---
+title: C6-S - Celestron
+image: c6-s.png
+description: "Schmidt-Cassegrain 150 mm f/10, equatorial, motorizado e computadorizado."
+category: Telescópio
+---
+
+::: {.panel-tabset}
+
+## Descrição
+
+Este telescópio usa uma combinação de lente e espelhos, sendo assim chamado de telescópio catadióptrico. Mais especificamente, é um sistema Schmidt-Cassegrain que consiste em uma lente corretiva, um espelho primário esférico e um espelho secundário. Uma vez que os raios de luz entram no sistema óptico, eles percorrem o comprimento do tubo óptico três vezes: o raio de luz atravessa a lente corretiva, reflete no espelho primário, reflete no secundário e é direcionado para a as lentes oculares.
+
+Sua montagem é do tipo equatorial, a qual permite rotacionar o telescópio em torno do eixo de rotação terrestre. Para equilibrar bem o telescópio existe um contrapeso. Essa característica é especialmente útil para astrofotografia que necessita de prolongados tempos de aquisição das imagens.
+
+Devido à sua relação focal e abertura mediana é voltado para a observação dos planetas e da Lua e objetos medianamente difusos, como aglomerados abertos e globulares e nebulosas de maior magnitude.
+
+## Instruções
+
+### Instalação do telescópio
+
+Texto em construção.
+
+### Calibração e uso do sistema Go-To
+
+Texto em construção.
+
+## Especificações
+
+### Informações do tubo óptico
+
+A ser extraído do manual.
+
+### Informações da montagem
+
+A ser extraído do manual.
+
+### Itens inclusos
+
+A ser extraído do manual.
+
+:::
+

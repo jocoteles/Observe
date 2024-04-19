@@ -1,0 +1,11 @@
+---
+title: Blog
+listing:
+    type: default
+    fields: [image, title, date, category, description]    
+    filter-ui: [date, title, date, category, description]
+    sort-ui: [date, title, date, category, description]
+    field-display-names:
+        title: Título
+        category: Categoria
+---

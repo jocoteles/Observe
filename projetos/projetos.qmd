@@ -3,4 +3,4 @@ title: "Projetos"
 description: "Projetos desenvolvidos no obseRVe."
 ---
 
-## Observatório a Olho Nu
+Em construção.

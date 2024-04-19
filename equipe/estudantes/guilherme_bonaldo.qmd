@@ -1,0 +1,17 @@
+---
+title: "Guilherme Nunes Bonaldo"
+subtitle: "Estudante do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: guilherme_bonaldo.gif
+  links:
+    - icon: journal-text
+      text: Lattes
+      href: http://lattes.cnpq.br/1863924366391276
+---
+
+Descrição do Guilherme.
+
+**Formação**
+
+Graduando em Física pela UFSCar | 2020 - presente

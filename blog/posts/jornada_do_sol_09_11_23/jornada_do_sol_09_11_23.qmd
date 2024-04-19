@@ -1,0 +1,57 @@
+---
+title: Escola Maria Rosa - nov/2023
+date: 11/09/2023
+image: turma_maria_rosa.jpg
+categories: [Evento, "Jornada do Sol"]
+author: Vivian Lara Silva
+---
+
+## Descrição do evento
+
+O evento Jornada do Sol ocorreu no dia 09 de novembro de 2023 no CCA-UFSCar e teve duração de, aproximadamente, duas horas. A Jornada foi organizada pelos bolsistas do projeto {{< var tipo.observe >}} (Daniel Oliveira, Guilherme Nunes e Vivian Lara) juntamente com o professor João Teles e com o técnico em laboratório, Fernando Apolinário. 
+	
+A Escola Estadual Professora Maria Rosa Nucci Pacífico Homem, situada no município de Araras-SP, foi a convidada para participar deste evento. Os estudantes do 1° ano do Ensino Médio foram o público alvo do evento e cerca de 90 pessoas compareceram às programações. 
+
+![Foto tirada com a turma do Maria Rosa junto com os bolsistas.](turma_maria_rosa.jpg)
+
+## Atividades realizadas
+
+A Jornada do Sol contou com três atividades:
+
+- Palestra no anfiteatro sobre o Sol e explosões solares.
+- Observação do Sol com o telescópio Schmidt-Cassegrain.
+- Passeio pelo observatório e explicação sobre o relógio solar.
+
+### Palestra sobre o Sol e explosões solares
+
+A palestra foi a primeira atividade. A apresentação foi ministrada pela bolsista Vivian Lara Silva, graduanda em Física. O local de realização da exposição foi o anfiteatro do CCA-UFSCar. Antes de começar o evento sobre o Sol, o professor João Teles mostrou para a turma quais eram os cursos oferecidos no CCA-UFSCar e mostrou também qual era a área de atuação de cada curso. Depois desta breve apresentação sobre o campus, deu-se início a palestra. 
+	
+A apresentação foi dividida em três momentos: estruturas e funcionamento solar, campo magnético solar e explosões solares. 	A palestra em si teve duração de,aproximadamente, 45 minutos. Foi perceptível a participação e a curiosidade de alguns alunos. Logo após a apresentação, o bolsista Daniel Oliveira conduziu os jovens até o bloco B. Chegando lá, foi necessário dividir a turma em dois grupos para que houvesse um revezamento entre os grupos e, assim, melhorar o aproveitamento das atividades que faltavam: observação do sol com o telescópio e explicação do relógio solar.
+
+![Palestra realizada no anfiteatro do CCA-UFSCar.](palestra_anfiteatro.jpg)
+ 
+### Observação do Sol com o telescópio 
+
+A observação do Sol foi realizada com o telescópio Schmidt-Cassegrain. Esta atividade foi ministrada pelo bolsista Guilherme Nunes e teve duração em torno de 30 minutos. Nesta parte do evento, foi necessário o uso de um filtro para a observação do Sol com o telescópio, visto que, como a luz solar é muito intensa e o telescópio é composto por conjuntos de lentes, ver o Sol sem nenhuma proteção pode causar danos irreversíveis para a visão. Logo, conectou-se uma câmera de astrofotografia ao telescópio e, esta, ao computador para captarmos as imagens do Sol em tempo real. Também fez-se um comparativo, em tempo real, das nossas imagens com a sonda *Solar and Heliospheric Observatory* (SOHO). 
+
+Esta atividade foi muito interessante pois, as manchas solares foram um dos principais assuntos abordados durante a  palestra e os alunos tiveram a oportunidade de vê-las em tempo real com  nosso telescópio. 
+
+
+![Sessão de observação do Sol com telescópio.](observacao_sol.jpg)
+
+
+### Passeio pelo Observatório a Olho Nu e explicação sobre o relógio solar
+
+O passeio pelo observatório e a explicação sobre o relógio solar foi conduzida pelo bolsista Daniel de Oliveira. A atividade teve como foco principal elucidar para os estudantes como se dava o funcionamento de um relógio solar, já que este é um dos instrumentos de contagem do tempo mais antigos da história da humanidade. Nesta parte da programação os alunos tiveram a oportunidade de conhecer o observatório que conta com: oito placas sobre planetas, estações e astrônomos, relógio solar, relógio estelar e bússola. 
+
+O bolsista Daniel explicou à turma como era possível saber as horas do dia somente com os raios de Sol incidentes no aparato. Neste momento, os alunos também viram um pouco da história da astronomia pelas placas do observatório.
+
+![Estudantes em visitação ao Observatório a Olho Nu](visitacao_observatorio.jpg)
+
+## Conclusão
+
+Pode-se concluir que o evento foi bem proveitoso, pois houve participação dos alunos durante as atividades. No dia não houve inconveniências climáticas e todos os bolsistas contribuíram com as atividades.
+
+A realização de eventos como a Jornada do Sol são importantes para a divulgação da astronomia para a sociedade e, também, para que os estudantes conheçam e se aproximem da universidade, incentivando-os a entrarem em uma instituição de ensino superior.
+
+A divulgação científica é um método importante para combater as fakes news que são tão comuns e corriqueiras nos dias atuais, logo o nosso compromisso como instituição de ensino é alertar e difundir o conhecimento científico para a comunidade. 

@@ -1,39 +1,21 @@
 ---
 title: Atividades
-description: " "
-image: atividades.svg
+listing:
+    type: grid
+    fields: [image, title, subtitle]
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    table-hover: true
+    contents:
+        - "jornada_das_estrelas/jornada_das_estrelas.qmd"
+        - "jornada_do_sol/jornada_do_sol.qmd"
+        - "observatorio/observatorio.qmd"
+        - "planisferio/planisferio.qmd"
+        - "observacao_do_ceu/observacao_do_ceu.qmd"
+        - "passeio_dos_planetas/passeio_dos_planetas.qmd"
+        - "pendulo_de_foucault/pendulo_de_foucault.qmd"
+        - "desafios_online/desafios_online.qmd"
 ---
 
 Nesta página reunimos todas as atividades que desenvolvemos rotineiramente que envolvem eventos, exposições, oficinas e sessões de observação do céu.
-
-## [Jornada das Estrelas](jornada_das_estrelas/jornada_das_estrelas.qmd)
-
-Evento dedicado à observação do céu noturno com telescópios e a olho nu e à divulgação de astronomia com palestras e exposições.
-
-## [Jornada do Sol](jornada_do_sol/jornada_do_sol.qmd)
-
-Evento dedicado à observação do Sol usando telescópios com os devidos filtros solares.
-
-## [Observatório a Olho Nu](observatorio/observatorio.qmd)
-
-Praça circular contendo relógios solar e estelar, além de totens informativos sobre as estações, os astrônomos e os planetas.
-
-## Passeio dos Planetas
-
-Exposição fixa com os planetas do sistema solar em escala reduzida. *Viaje pelo Sistema Solar em velocidades superluminais!*
-
-## Pêndulo de Foucault
-
-Um dos mais belos experimentos que demonstram que a rotação da Terra é absoluta. *Venha conhecer o nosso exemplar!*
-
-## Construção de Planisfério
-
-Oficina dedicada à construção de um planisfério e à aprendizagem da forma correta do seu uso. *Ele será um guia precioso na sua jornada de apreciação dos céus estrelados*.
-
-## Observação do céu
-
-Encontros semanais ou quinzenais que ocorrem principalmente no período de estiagem para a observação do céu a olho nu e identificação das principais constelações e estrelas.
-
-## Desafios online
-
-Atividades desenvolvidas em H5P para você se divertir testando seus conhecimentos em astronomia.

@@ -1,24 +1,44 @@
 project:
   type: website
+  output-dir: ../_site
+  preview: 
+    port: 4321
+  resources:
+    - /h5p
+    - /atividades/desafios_online/h5p-atividades
   
 
 website:
   title: "*obseRVe*"
+  site-url: https://www.observe.ufscar.br
   navbar:
     left:
       - href: "{{< var loc.atividades >}}/atividades.qmd"
         text: Atividades 
+      - href: "{{< var loc.atividades >}}/projetos.qmd"
+        text: Projetos
+      - href: "{{< var loc.calendario >}}/calendario.qmd"
+        text: Calendário
+      - href: "{{< var loc.blog >}}/blog.qmd"
+        text: Blog
+      - href: "{{< var loc.equipe >}}/equipe.qmd"
+        text: Equipe     
+      - href: "{{< var loc.acervo >}}/acervo.qmd"
+        text: Acervo
+      - href: "{{< var loc.localizacao >}}/localizacao.qmd"
+        text: Localização  
       - href: sobre/sobre.qmd
         text: Sobre
     tools:
       - icon: instagram
-        href: https://instagram.com  
+        href: https://www.instagram.com/observe_ufscar 
   page-footer:
     "*obseRVe* - CCA/UFSCar<br>observe@ufscar.br"
 
 
 format:
   html:
+    lang: pt
     page-layout: full
     theme:
       light: [flatly, light_mode.scss]
