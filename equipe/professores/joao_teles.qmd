@@ -5,9 +5,10 @@ about:
   template: jolla
   image: joao_teles.jpg
   links:
-    - icon: journal-text
-      text: Lattes
+    - text: "{{< ai lattes size=lg >}} Lattes"
       href: http://lattes.cnpq.br/8622059450756991
+    - text: "{{< ai researchgate size=lg >}} ResearchGate"
+      href: https://www.researchGate.net/profile/Joao-Teles-De-Carvalho-Neto
     - icon: github
       text: Github
       href: https://github.com/jocoteles

@@ -5,8 +5,7 @@ about:
   template: jolla
   image: aline_soares.jpg
   links:
-    - icon: journal-text
-      text: Lattes
+    - text: "{{< ai lattes size=lg >}} Lattes"
       href: http://lattes.cnpq.br/6915290487730346
 ---
 

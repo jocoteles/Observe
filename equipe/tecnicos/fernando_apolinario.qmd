@@ -5,8 +5,7 @@ about:
   template: jolla
   image: fernando_apolinario.jpg
   links:
-    - icon: journal-text
-      text: Lattes
+    - text: "{{< ai lattes size=lg >}} Lattes"
       href: http://lattes.cnpq.br/5165721870469193
 ---
 
