@@ -26,13 +26,15 @@ A Jornada do Sol contou com três atividades:
 
 A palestra foi a primeira atividade. A apresentação foi ministrada pela bolsista Vivian Lara Silva, graduanda em Física. O local de realização da exposição foi o anfiteatro do CCA-UFSCar. Antes de começar o evento sobre o Sol, o professor João Teles mostrou para a turma quais eram os cursos oferecidos no CCA-UFSCar e mostrou também qual era a área de atuação de cada curso. Depois desta breve apresentação sobre o campus, deu-se início a palestra. 
 	
-A apresentação foi dividida em três momentos: estruturas e funcionamento solar, campo magnético solar e explosões solares. 	A palestra em si teve duração de,aproximadamente, 45 minutos. Foi perceptível a participação e a curiosidade de alguns alunos. Logo após a apresentação, o bolsista Daniel Oliveira conduziu os jovens até o bloco B. Chegando lá, foi necessário dividir a turma em dois grupos para que houvesse um revezamento entre os grupos e, assim, melhorar o aproveitamento das atividades que faltavam: observação do sol com o telescópio e explicação do relógio solar.
+A apresentação foi dividida em três momentos: estruturas e funcionamento solar, campo magnético solar e explosões solares.
+
+A palestra em si teve duração de, aproximadamente, 45 minutos. Foi perceptível a participação e a curiosidade de alguns alunos. Logo após a apresentação, o bolsista Daniel Oliveira conduziu os jovens até o bloco B. Chegando lá, foi necessário dividir a turma em dois grupos para que houvesse um revezamento entre os grupos e, assim, melhorar o aproveitamento das atividades que faltavam: observação do sol com o telescópio e explicação do relógio solar.
 
 ![Palestra realizada no anfiteatro do CCA-UFSCar.](palestra_anfiteatro.jpg)
  
 ### Observação do Sol com o telescópio 
 
-A observação do Sol foi realizada com o telescópio Schmidt-Cassegrain. Esta atividade foi ministrada pelo bolsista Guilherme Nunes e teve duração em torno de 30 minutos. Nesta parte do evento, foi necessário o uso de um filtro para a observação do Sol com o telescópio, visto que, como a luz solar é muito intensa e o telescópio é composto por conjuntos de lentes, ver o Sol sem nenhuma proteção pode causar danos irreversíveis para a visão. Logo, conectou-se uma câmera de astrofotografia ao telescópio e, esta, ao computador para captarmos as imagens do Sol em tempo real. Também fez-se um comparativo, em tempo real, das nossas imagens com a sonda *Solar and Heliospheric Observatory (SOHO)*. 
+A observação do Sol foi realizada com o telescópio Schmidt-Cassegrain. Esta atividade foi ministrada pelo bolsista Guilherme Nunes e teve duração em torno de 30 minutos. Nesta parte do evento, foi necessário o uso de um filtro para a observação do Sol com o telescópio, visto que, como a luz solar é muito intensa e o telescópio é composto por conjuntos de lentes, ver o Sol sem nenhuma proteção pode causar danos irreversíveis para a visão. Logo, conectou-se uma câmera de astrofotografia ao telescópio e, esta, ao computador para captarmos as imagens do Sol em tempo real. Também fez-se um comparativo, em tempo real, das nossas imagens com a sonda *Solar and Heliospheric Observatory* (SOHO). 
 
 Esta atividade foi muito interessante pois, as manchas solares foram um dos principais assuntos abordados durante a  palestra e os alunos tiveram a oportunidade de vê-las em tempo real com  nosso telescópio. 
 
