@@ -23,7 +23,7 @@ O tempo de cada etapa varia entre 15 e 25 minutos, dependendo do número de pess
 Existem duas formas de participação no evento:
 
 - Pequenos grupos de pessoas como grupos de amigos e familiares. Nesse caso não há necessidade de agendamento prévio. Basta comparecer nos [dias e horários do evento]({{< var loc:calendario >}}/calendario.qmd).
-- Escolas. Grupos com bastante pessoas que normalmente vem para o evento em ônibus ou vans. Nesse caso é necessário fazer o agendamento prévio através de formulário específico disponível no [calendário de eventos]({{< var loc:calendario >}}/calendario.qmd).
+- Escolas. Grupos com muitas pessoas que normalmente vem para o evento em ônibus ou vans. Nesse caso é necessário fazer o agendamento prévio através de formulário específico disponível no [calendário de eventos]({{< var loc:calendario >}}/calendario.qmd).
 
 O evento Jornada das Estrelas é gratuito.
 
