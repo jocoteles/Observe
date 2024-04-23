@@ -7,12 +7,15 @@ about:
   links:
     - text: "{{< ai lattes size=lg >}} Lattes"
       href: http://lattes.cnpq.br/5495322642019035
+    - text: "{{< ai orcid size=lg >}} ORCID"
+      href: https://orcid.org/0000-0001-5179-6182
     - icon: github
       text: Github
       href: https://github.com/vitorcoluci
 ---
 
-Descrição do Prof Vitor. Coordenador do espaço [ExpLORa](https://wordpress.ft.unicamp.br/explora/){.external}.
+Tem experiência em Simulação Computacional de Materiais. Atua também em Ensino de Física, no desenvolvimento de montagens, demonstrações e [animações](https://www.youtube.com/channel/UCzag-DfragRY081pw4QgZZg){.external} para facilitar a aprendizagem.
+Coordena o espaço de Ensino e Aprendizagem [ExpLORa](https://wordpress.ft.unicamp.br/explora/){.external} da [Faculdade de Tecnologia/UNICAMP](https://wwwft.unicamp.br){.external}.
 
 **Formação**
 
@@ -21,4 +24,4 @@ Doutor em Física pela Unicamp
 
 **Atuação profissional**
 
-Professor | Unicamp | 20XX - presente
+Professor | Unicamp | 2009 - presente 
