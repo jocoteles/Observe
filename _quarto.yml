@@ -14,7 +14,7 @@ website:
     left:
       - href: "{{< var loc.atividades >}}/atividades.qmd"
         text: Atividades 
-      - href: "{{< var loc.atividades >}}/projetos.qmd"
+      - href: "{{< var loc.projetos >}}/projetos.qmd"
         text: Projetos
       - href: "{{< var loc.calendario >}}/calendario.qmd"
         text: Calendário
