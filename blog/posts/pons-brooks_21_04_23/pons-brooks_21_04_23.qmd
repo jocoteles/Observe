@@ -6,4 +6,4 @@ categories: [Evento]
 author: A definir
 ---
 
-Em bre incluiremos a descrição do evento ocorrido.
+Em breve incluiremos a descrição do evento ocorrido.
