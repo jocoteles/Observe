@@ -1,6 +1,6 @@
 ---
 title: Escola Maria Rosa - nov/2023
-date: 11/09/2023
+date: 09 11 2023
 image: turma_maria_rosa.jpg
 categories: [Evento, "Jornada do Sol"]
 author: Vivian Lara Silva

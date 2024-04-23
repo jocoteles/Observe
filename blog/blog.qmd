@@ -8,4 +8,5 @@ listing:
     field-display-names:
         title: Título
         category: Categoria
+        date: Data
 ---
