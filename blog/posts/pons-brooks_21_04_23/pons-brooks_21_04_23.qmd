@@ -1,9 +1,48 @@
 ---
 title: Observação do cometa Pons-Brooks
 date: 21 04 2024
-image: pons-brooks.jpg
+image: pons-brooks-observacao.jpg
 categories: [Evento]
-author: A definir
+author: João Teles
 ---
 
-Em breve incluiremos a descrição do evento ocorrido.
+## Descrição do evento
+
+Nos reunimos a partir das 17h45 na [praça do Observatório]({{< var loc.localizacao >}}) para iniciar a nossa busca pelo fugidio [Pons-Brooks](https://pt.wikipedia.org/wiki/12P/Pons-Brooks){.external}. O bacana desse cometa é que ele possui um período orbital de 71 anos, que é semelhante ao do [cometa Halley](https://pt.wikipedia.org/wiki/Cometa_Halley){.external} (76 anos). Cometas são objetos que fascinam a humanidade há milênios. Mas foi somente com [Edmond Halley](https://pt.wikipedia.org/wiki/Edmond_Halley){.external}, usando a Física de [Newton](https://pt.wikipedia.org/wiki/Isaac_Newton){.external}, que se compreendeu que não se tratam de fenômenos atmosféricos, mas que são corpos que executam órbitas em torno do Sol como os planetas.
+
+No caso dos cometas, as órbitas são elipses bem achatadas com o Sol próximo a uma das extremidades. A maior parte do tempo eles estão longe do Sol, geladões. Mas durante alguns meses aproximam-se dele, aquecendo-se e produzindo gás e detritos em sua volta -- o que vai produzir sua coma e cauda e talvez por isso tenham feito os antigos pensarem que os cometas estavam na atmosfera da Terra.
+
+Nesta mesma data, ainda tivemos a oportunidade de apreciar o evento de conjunção entre Júpiter e Urano, que é o momento em que os dois planetas encontram-se mais próximos um do outro a partir da nossa visão da Terra. Júpiter, facilmente visível a olho nu e Urano, somente com telescópio.
+
+E para completar nossa seção de observação, observamos a -- sempre espetacular -- Lua quase cheia com nossos telescópios.
+
+Neste evento usamos os telescópios [C6-S](/acervo/itens/c6-s/c6s.qmd) e [NexStar-4SE](/acervo/itens/nexstar4se/nexstar4se.qmd).
+
+Participaram das observações em torno de 20 pessoas. A @fig-noite mostra um dos momentos das pessoas interagindo e observando o céu.
+
+![Pessoas no Observatório observando, com telescópios e à vista desarmada, Júpiter e suas luas, Urano, a Lua e as constelações de Órion, Cão Maior, Cruzeiro do Sul, entre outras.](pessoas_noite.jpeg){#fig-noite}
+
+## Observações
+
+
+### Lua
+
+Começamos a observar a Lua, compartilhando ainda o resto do dia com o Sol. Muito bonita como sempre.
+
+![Crianças fazendo suas primeiras observações.](criancas_telescopio.jpeg)
+
+![Lua sendo observada no horizonte Leste](observacao_lua_dia.jpeg)
+
+### Júpiter e Urano
+
+Pouco tempo após o por do Sol, começamos a ver Júpiter, o gigante gasoso, com suas [quatro maiores luas](https://pt.wikipedia.org/wiki/Luas_de_Galileu) descobertas por [Galileu Galilei](https://pt.wikipedia.org/wiki/Galileu_Galilei) e, com o avanço da noite, observamos Urano, seu pai (ao menos na mitologia grega). Infelizmente, não conseguimos tirar uma foto dessa observação e mostramos na @fig-jupiter uma simulação bastante próxima do que vimos no céu construída com o [Stellarium](https://stellarium.org/pt/){.external}
+
+![Simulação, via Stellarium, da observação simultânea de seis astros do sistema solar: Júpiter, Ganimedes, Io, Europa, Calisto e Urano.](jupiter_luas_urano.jpg){#fig-jupiter}
+
+### Cometa Pons-Brooks
+
+Após as excelentes observações acima, estávamos quase desistindo de tentar encontrar o cometa. Mas, usando algumas estrelas da constelação do Touro como referência, finalmente conseguimos fechar a noite com chave de ouro. A @fig-cometa mostra uma simulação bastante fiel do que conseguimos observar.
+
+![Simulação, via Stellarium, da nossa observação do cometa Pons-Brooks realizada às 18h40 do dia 21/04/2024.](pons-brooks-observacao.jpg){#fig-cometa}
+
+

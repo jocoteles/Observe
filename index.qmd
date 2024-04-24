@@ -21,19 +21,19 @@ O {{< var tipo.observe >}} é um grupo de estudos voltado à divulgação e ensi
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Atividades]({{< var loc.atividades >}}/atividades.svg)]({{< var loc.atividades >}}/atividades.qmd)
+[![Atividades](atividades/atividades.svg)](atividades/atividades.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Projetos]({{< var loc.projetos >}}/projetos.svg)]({{< var loc.projetos >}}/projetos.qmd)
+[![Projetos](projetos/projetos.svg)](projetos/projetos.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Calendário de eventos]({{< var loc.calendario >}}/calendario.svg)]({{< var loc.calendario >}}/calendario.qmd)
+[![Calendário de eventos](calendario/calendario.svg)](/calendario/calendario.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Blog]({{< var loc.blog >}}/blog.svg)]({{< var loc.blog >}}/blog.qmd)
+[![Blog](blog/blog.svg)](blog/blog.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
@@ -50,19 +50,19 @@ Um dos nossos enfoques tem sido no estudo e desenvolvimento de instrumentação 
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Equipe]({{< var loc.equipe >}}/equipe.svg)]({{< var loc.equipe >}}/equipe.qmd)
+[![Equipe](equipe/equipe.svg)](equipe/equipe.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Acervo]({{< var loc.acervo >}}/acervo.svg)]({{< var loc.acervo >}}/acervo.qmd)
+[![Acervo](acervo/acervo.svg)](acervo/acervo.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Sobre o Observe]({{< var loc.sobre >}}/sobre.svg)]({{< var loc.sobre >}}/sobre.qmd)
+[![Sobre o Observe](sobre/sobre.svg)](sobre/sobre.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}
-[![Como chegar]({{< var loc.localizacao >}}/localizacao.svg)]({{< var loc.localizacao >}}/localizacao.qmd)
+[![Como chegar](localizacao/localizacao.svg)](localizacao/localizacao.qmd)
 :::
 
 ::: {.g-col-sm-2 .g-col-12}

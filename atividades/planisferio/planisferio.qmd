@@ -27,7 +27,7 @@ Qualquer pessoa a partir de 6 anos de idade. Crianças devem estar acompanhadas 
 
 ### Localização
 
-[CCA-UFSCar, *campus* Araras]({{< var loc.localizacao >}}/localizacao.qmd)
+[CCA-UFSCar, *campus* Araras]({{< var loc.localizacao >}})
 {{< var observe-endereco >}}
 
 O local específico dentro do *campus* é informado no calendário ou por email no caso de agendamento das escolas.

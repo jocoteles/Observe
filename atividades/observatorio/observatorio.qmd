@@ -44,5 +44,5 @@ Todas as pessoas de todas as idades. Crianças devem estar acompanhadas pelos pa
 
 ### Localização
 
-[Praça do Observatório a Olho NU, CCA-UFSCar]({{< var loc.localizacao >}}/localizacao.qmd)
+[Praça do Observatório a Olho NU, CCA-UFSCar]({{< var loc.localizacao >}})
 {{< var observe-endereco >}}

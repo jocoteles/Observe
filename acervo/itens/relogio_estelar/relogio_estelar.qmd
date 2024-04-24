@@ -13,7 +13,7 @@ category: Instalação
 
 O relógio estelar é um instrumento no qual podemos observar o movimento aparente da esfera celeste e determinar o tempo que se passou entre sucessivas observações. 
 
-Há registros que o relógio estelar é usado há mais de 500 anos pelos árabes. O relógio estelar é um tipo de relógio noturno. No Observatório a Olho Nu do CCA-UFSCar há um relógio estelar na placa Sul.
+O relógio estelar é um tipo de relógio noturno -- uma categoria de instrumentos que datam do [século IX d.C.](https://en.m.wikipedia.org/wiki/Nocturnal_(instrument)#History){.external}. No Observatório a Olho Nu do CCA-UFSCar há um relógio estelar na placa Sul.
 
 ### Como funciona o nosso relógio estelar
 
@@ -35,7 +35,7 @@ Serão dadas em breve.
 
 ## Localização
 
-Placa Sul da [Praça do Observatório a Olho NU, CCA-UFSCar]({{< var loc.localizacao >}}/localizacao.qmd). Permanentemente exposto e aberto à visitação.
+Placa Sul da [Praça do Observatório a Olho NU, CCA-UFSCar]({{< var loc.localizacao >}}). Permanentemente exposto e aberto à visitação.
 
 :::
 

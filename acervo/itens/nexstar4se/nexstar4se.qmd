@@ -15,6 +15,8 @@ O sistema Maksutov-Cassegrain consiste em um corretor de placas, um espelho prim
 
 Devido à sua grande relação focal e pequena abertura é mais voltado para a observação dos planetas e da Lua.
 
+![](nexstar4se.webp)
+
 ## Instruções
 
 ### Instalação do telescópio

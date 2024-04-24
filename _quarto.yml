@@ -12,19 +12,19 @@ website:
   site-url: https://www.observe.ufscar.br
   navbar:
     left:
-      - href: "{{< var loc.atividades >}}/atividades.qmd"
+      - href: atividades/atividades.qmd
         text: Atividades 
-      - href: "{{< var loc.projetos >}}/projetos.qmd"
+      - href: projetos/projetos.qmd
         text: Projetos
-      - href: "{{< var loc.calendario >}}/calendario.qmd"
+      - href: calendario/calendario.qmd
         text: Calendário
-      - href: "{{< var loc.blog >}}/blog.qmd"
+      - href: blog/blog.qmd
         text: Blog
-      - href: "{{< var loc.equipe >}}/equipe.qmd"
+      - href: equipe/equipe.qmd
         text: Equipe     
-      - href: "{{< var loc.acervo >}}/acervo.qmd"
+      - href: acervo/acervo.qmd
         text: Acervo
-      - href: "{{< var loc.localizacao >}}/localizacao.qmd"
+      - href: localizacao/localizacao.qmd
         text: Localização  
       - href: sobre/sobre.qmd
         text: Sobre

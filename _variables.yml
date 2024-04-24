@@ -12,9 +12,7 @@ loc:
   sobre: "/sobre"
   acervo: "/acervo"
   calendario: "/calendario"
-  localizacao: "/localizacao"
-  observatorio: "/atividades/observatorio"
-  palestras: "/atividades/palestras"
+  localizacao: "/localizacao/localizacao.qmd"  
 
 #Gerais:
 observe-endereco:
