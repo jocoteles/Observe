@@ -3,7 +3,7 @@ title: "Vivian Lara Silva"
 subtitle: "Estudante do grupo {{< var tipo.observe >}}"
 about:
   template: jolla
-  image: vivian_silva.gif
+  image: vivian_silva.jpeg
   links:
     - text: "{{< ai lattes size=lg >}} Lattes"
       href: http://lattes.cnpq.br/4618900039572169
