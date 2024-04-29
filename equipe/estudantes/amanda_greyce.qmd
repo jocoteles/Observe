@@ -6,7 +6,7 @@ about:
   image: amanda_greyce.jpg
 ---
 
-Participo do projeto [ExpLORa](https://wordpress.ft.unicamp.br/explora/) e tenho grande interesse em Tecnologia.
+Participa do projeto [ExpLORa](https://wordpress.ft.unicamp.br/explora/) e tem grande interesse em Tecnologia.
 
 **Formação**
 
