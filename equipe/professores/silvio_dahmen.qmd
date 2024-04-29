@@ -1,0 +1,24 @@
+---
+title: "Sílvio R. Dahmen"
+subtitle: "Colaborador do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: silvio-dahmen.png
+  links:
+    - text: "{{< ai lattes size=lg >}} Lattes"
+      href:  http://lattes.cnpq.br/5748143552026383
+---
+
+
+Tem formação em Física e trabalha na interface entre Física Matemática e Mecânica Estatística. Tem também trabalhos publicados em História da Ciência, em aplicações de Física nas Humanidades e traduções de textos clássicos da Física do alemão para o português.
+
+**Formação**
+
+Bacharel e Mestre em Física pela UFSCar
+Doutor em Física pela Universidade de Bonn, na Alemanha
+Pós-doutorado pela Yale University nos EUA
+
+**Atuação profissional**
+
+Professor | UFRGS| 1999 - 2023
+Professor | UFSCar | 2023 - presente
