@@ -1,0 +1,21 @@
+---
+title: "Jhasmani Tito Cruz"
+subtitle: "Estudante do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: jhasmani_tito_cruz.jpg
+  links:
+    - text: "{{< ai orcid size=lg >}} ORCID"
+      href: https://orcid.org/0000-0003-0639-797X
+    
+---
+
+Tem experiência no ensino médio nas áreas STEM (Science, Technology, Engineering, and Mathematics). Atua como pesquisador e desenvolvedor de jogos sérios utilizando Realidade Virtual e Aumentada para o ensino de STEM. CEO da Kusillo Game Studio.
+
+**Formação**
+
+Graduado em Engenharia Eletrônica pela UNA, Peru
+
+Mestre em Tecnologia pela UNICAMP
+
+Doutorando em Tecnologia pela UNICAMP | 2023-Presente
