@@ -35,7 +35,7 @@ Começamos a observar a Lua, compartilhando ainda o resto do dia com o Sol. Muit
 
 ### Júpiter e Urano
 
-Pouco tempo após o por do Sol, começamos a ver Júpiter, o gigante gasoso, com suas [quatro maiores luas](https://pt.wikipedia.org/wiki/Luas_de_Galileu) descobertas por [Galileu Galilei](https://pt.wikipedia.org/wiki/Galileu_Galilei) e, com o avanço da noite, observamos Urano, seu pai (ao menos na mitologia grega). Infelizmente, não conseguimos tirar uma foto dessa observação e mostramos na @fig-jupiter uma simulação bastante próxima do que vimos no céu construída com o [Stellarium](https://stellarium.org/pt/){.external}
+Pouco tempo após o por do Sol, começamos a ver Júpiter, o gigante gasoso, com suas [quatro maiores luas](https://pt.wikipedia.org/wiki/Luas_de_Galileu) descobertas por [Galileu Galilei](https://pt.wikipedia.org/wiki/Galileu_Galilei) e, com o avanço da noite, observamos Urano, seu avô (ao menos na mitologia grega). Infelizmente, não conseguimos tirar uma foto dessa observação e mostramos na @fig-jupiter uma simulação bastante próxima do que vimos no céu construída com o [Stellarium](https://stellarium.org/pt/){.external}
 
 ![Simulação, via Stellarium, da observação simultânea de seis astros do sistema solar: Júpiter, Ganimedes, Io, Europa, Calisto e Urano.](jupiter_luas_urano.jpg){#fig-jupiter}
 
