@@ -1,6 +1,14 @@
+
 ---
 title: "Projetos"
 description: "Projetos desenvolvidos no obseRVe."
+listing:
+    type: grid
+    fields: [image, title, subtitle]
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    table-hover: true
+    contents:
+        - "foucault_proj/foucault_proj.qmd"
 ---
-
-Em construção.
