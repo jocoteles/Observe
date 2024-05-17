@@ -12,7 +12,7 @@ Nos reunimos a partir das 17h45 na [praça do Observatório]({{< var loc.localiz
 
 Neste evento usamos os telescópios [C6-S](/acervo/itens/c6-s/c6s.qmd) e [NexStar-4SE](/acervo/itens/nexstar4se/nexstar4se.qmd).
 
-Participaram das observações em torno de 20 pessoas. A @fig-noite mostra um dos momentos das pessoas interagindo e observando o céu.
+Participaram das observações em torno de 20 pessoas.
 
 
 
