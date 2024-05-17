@@ -1,0 +1,51 @@
+---
+title: SV305 - SVBONY
+image: SV305.webp
+description: "Câmera de Astronomia para Fotografia Planetária"
+category: Câmera
+---
+
+::: {.panel-tabset}
+
+## Descrição
+
+As câmeras para astrofotografia ampliam a capacidade de observação do céu noturno proporcionada pelos telescópios. Pois permitem um maior ganho de luminosidade pela sensibilidade do seu sensor CMOS e pelo prolongamento do tempo de exposição da aquisição da imagem. Outra vantagem importante está na possibilidade de projeção da imagem em tempo real via tela de computador ou via projeção em telão, permitindo que várias pessoas observem simultaneamente o objeto ou fenômeno astronômico de interesse.
+
+A maior parte das imagens de objetos astronômicos fracos ou difusos, como nebulosas, aglomerados globulares, galáxias, entre outros, que são divulgadas com formas e cores vivas, só são possíveis via o uso das câmeras para astrofotografia.
+
+Objetos do sistema solar como a Lua e os planetas também se beneficiam do uso dessas câmeras ao possibilitarem a observação de alguns detalhes em suas superfícies dificilmente visíveis através da observação direta pela ocular do telescópio. Como alguns exemplos, podemos citar as fases de Vênus, a calota polar marciana, as faixas atmosféricas de Júpiter e o eclipse solar de suas maiores luas, os raros trânsitos de Mercúrio e Vênus pelo Sol, entre outros. Por sinal, esta câmera modelo SV305, é mais indicada justamente para observação planetária.
+
+![](SV305.webp)
+
+## Instruções
+
+A instalação e uso da SV305 são bastante fáceis. Em sistemas Linux, o [software AstroDMx](https://www.astrodmx-capture.org.uk/){.external} reconhece prontamente a câmera SV305 ao plugá-la via cabo usb no computador.
+
+Os ajustes de ganho, tempo de exposição, zoom digital, entre outros parâmetros, são diretamente acessíveis pela interface do software. Através da janela de visualização de imagens é possível mostrar em tempo real as imagens sendo adquiridas, bem como o registro de snapshots para futuro pós-processamento.
+
+## Especificações
+
+*Extraídas do site da SVBONY Brasil*
+
+- Modelo: SV305
+- Sensor: 1/2.8″ CMOS SONY IMX290
+- Tamanho do pixel: 2.9X2.9μm
+- Resolução: 2 Mega Pixels 1920X1080
+- Obturador: Obturador Eletrônico
+- FPS máximo: 130 fps (320*240)
+- Formato de codificação de vídeo: CRU
+- ADC: 12 bits
+- Suporte ao ROI: ROI de qualquer área
+- No buffer de imagem da câmera: 128M de buffer DDR
+- Janela óptica: vidro IR650
+- Interface: USB 2.0
+- Material: Liga de alumínio
+- SO compatível: Windows, Linux, Raspberry Pi & Mac OS
+- Consumo de energia: 200mA@5V
+- Temperatura de trabalho: -0°C~45°C
+- Temperatura de armazenamento: -10°C~60°C
+- Umidade Relativa de Trabalho: 20%~80%
+- Umidade Relativa de Armazenamento: 20%~95%
+
+:::
+

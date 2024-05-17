@@ -2,11 +2,11 @@
 title: Sistema Solar em realidade aumentada na escola INSA
 date: 13 05 2024
 image: sistema_solar_vr_INSA_1.jpeg
-categories: [Exposição, "Realidade Virtual"]
+categories: [Atividade, "Realidade Aumentada"]
 author: João Teles
 ---
 
-## Descrição do evento
+## Descrição da Atividade
 
 Nos reunimos a partir das 17h45 na [praça do Observatório]({{< var loc.localizacao >}}) para iniciar a nossa busca pelo fugidio [Pons-Brooks](https://pt.wikipedia.org/wiki/12P/Pons-Brooks){.external}.
 
@@ -14,5 +14,11 @@ Neste evento usamos os telescópios [C6-S](/acervo/itens/c6-s/c6s.qmd) e [NexSta
 
 Participaram das observações em torno de 20 pessoas.
 
+## Público atingido
 
+## Resultados observados
+
+## Desafios técnicos
+
+## Desafios pedagógicos
 
