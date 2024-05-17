@@ -9,7 +9,7 @@ project:
 
 website:
   title: "*obseRVe*"
-  site-url: https://www.observe.ufscar.br
+  site-url: https://jocoteles.github.io/Observe/
   navbar:
     left:
       - href: atividades/atividades.qmd
