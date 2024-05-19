@@ -7,58 +7,45 @@ categories: [Projeto]
 author: Vitor Coluci
 ---
 
+## Introdução
 
-Em 26 de março de 1851, o cientista francês Jean-Bernard-León Foucault (1819-1868) demonstrou o movimento de um pêndulo que estava pendurado na cúpula do [Panthéon](https://pt.wikipedia.org/wiki/Pante%C3%A3o_(Paris)) em Paris (@fig-cupula). 
+Em 26 de março de 1851, o cientista francês Jean-Bernard-León Foucault (1819-1868) demonstrou o movimento de um pêndulo que estava pendurado na cúpula do [Panthéon](https://pt.wikipedia.org/wiki/Pante%C3%A3o_(Paris)){.external} em Paris (@fig-cupula). 
 
 O pêndulo constava de um corpo de chumbo de 28 kg preso a um arame de aço de 67 m de comprimento e de 1.4 mm de diâmetro.
 
 ::: {#fig-cupula layout-ncol=2}
 
-![](cupula-1.jpg){width=40%}
+![](cupula-1.jpg)
 
-![](cupula-2.jpg){width=36%}
+![](cupula-2.jpg)
 
-Cúpula do Panthéon onde o pêndulo está pendurado. Na foto da esquerda é possível ver o fio do pêndulo, preso no topo
-da cúpula. A foto da direita mostra uma aglomeração em torno do local onde está o corpo do pêndulo. Fotos: Vitor Coluci (Janeiro/2024)
+Cúpula do Panthéon onde o pêndulo está pendurado. Na primeira foto é possível ver o fio do pêndulo, preso no topo da cúpula. A segunda foto mostra uma aglomeração em torno do local onde está o corpo do pêndulo. Fotos: Vitor Coluci (Janeiro/2024)
 :::
 
-À medida que o pêndulo oscilava, seu plano de oscilação avançava cerca de um grau a cada cinco minutos, levando cerca de 32 horas para
-completar uma volta. O movimento do pêndulo de Foucault que está instalado atualmente no Panthéon pode ser visto na @fig-foucault.
+À medida que o pêndulo oscilava, seu plano de oscilação avançava cerca de um grau a cada cinco minutos, levando cerca de 32 horas para completar uma volta. O movimento do pêndulo de Foucault que está instalado atualmente no Panthéon pode ser visto na @fig-foucault.
 
 ::: {#fig-foucault}
 
-{{< video video-foucault.mp4  width="260" height="580">}}
+{{< video video-foucault.mp4 >}}
 
 Movimento do pêndulo de Foucault no Panthéon. Gravação: Vitor Coluci (Janeiro/2024).
 
 :::
 
-O experimento de Foucault foi considerado por Robert P. Crease em seu livro 
-["The Prism and the Pendulum: The Ten Most Beautiful Experiments in Science"](https://www.amazon.com/Prism-Pendulum-Beautiful-Experiments-Science/dp/0812970624) como um dos 10 mais belos experimentos científicos.
-No livro, Crease escreve:
+O experimento de Foucault foi considerado por Robert P. Crease em seu livro ["The Prism and the Pendulum: The Ten Most Beautiful Experiments in Science"](https://www.amazon.com/Prism-Pendulum-Beautiful-Experiments-Science/dp/0812970624){.external} como um dos 10 mais belos experimentos científicos. No livro, Crease escreve:
 
-> "O pêndulo de Foucault exibe o sublime na ciência. Ele tem pouco em comum
-> com o experimento de Eratóstenes, que mede um comprimento (a circunferência
-> da Terra), do qual já se sabia que tinha alguma magnitude; ou com o experimento
-> do plano inclinado de Galileu, que comprova uma lei matemática; ou com os
-> experimentos de Newton com prismas, que desvendaram um novo aspecto da
-> natureza. E todos os experimentos científicos têm um toque de sublimidade,
-> porque revelam que a natureza é infinitamente mais rica do que os conceitos e
-> procedimentos com os quais a abordamos. Mas o pêndulo de Foucault enfatiza o
-> sublime pelo modo dramático com que expõe a inadequação – ou antes, o
-> desajuste – entre a percepção humana e o funcionamento da natureza."
+> "O pêndulo de Foucault exibe o sublime na ciência. Ele tem pouco em comum com o experimento de Eratóstenes, que mede um comprimento (a circunferência da Terra), do qual já se sabia que tinha alguma magnitude; ou com o experimento do plano inclinado de Galileu, que comprova uma lei matemática; ou com os experimentos de Newton com prismas, que desvendaram um novo aspecto da natureza. E todos os experimentos científicos têm um toque de sublimidade, porque revelam que a natureza é infinitamente mais rica do que os conceitos e procedimentos com os quais a abordamos. Mas o pêndulo de Foucault enfatiza o sublime pelo modo dramático com que expõe a inadequação – ou antes, o desajuste – entre a percepção humana e o funcionamento da natureza."
 
 O {{< var tipo.observe >}} está construindo duas réplicas do [pêndulo de Foucault](/atividades/pendulo_de_foucault/pendulo_de_foucault.qmd). Uma delas será instalada
 na UFSCar (Campus Araras) e a outra na UNICAMP (Faculdade de Tecnologia).
 
-Este projeto visa implementar um sistema para capturar o movimento do pêndulo e transmití-lo em tempo real na internet (*streaming*).
-Pretende-se também mostrar a evolução das coordenadas $x$ e $y$ do pêndulo para se determinar a velocidade angular 
-do plano de oscilação.
+## Transmissão do movimento do pêndulo
 
-O sistema será uma adaptação do [sistema](https://github.com/FrancescoScandiffio/Foucault-pendulum-tracking-system/blob/master/documentation/article.pdf) 
-desenvolvido por Francesco Scandiffio e Claudia Raffaelli (Università degli Studi di Firenze) 
-disponível [aqui](https://github.com/FrancescoScandiffio/Foucault-pendulum-tracking-system). Usaremos uma [Pi camera](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/) (Modulo Câmera Raspberry Pi Rev 1.3 5mp P5v04a) acoplada 
-a um [Raspiberry Pi 3](https://raspberrypi-guide.github.io/) e a linguagem Python para coletar e processar os dados do movimento do pêndulo. 
+Este projeto visa implementar um sistema para capturar o movimento do pêndulo e transmiti-lo em tempo real na internet (*streaming*).
+
+Pretende-se também mostrar a evolução das coordenadas $x$ e $y$ do pêndulo para se determinar a velocidade angular do plano de oscilação.
+
+O sistema será uma adaptação do [sistema](https://github.com/FrancescoScandiffio/Foucault-pendulum-tracking-system/blob/master/documentation/article.pdf){.external} desenvolvido por Francesco Scandiffio e Claudia Raffaelli (Università degli Studi di Firenze) disponível [aqui](https://github.com/FrancescoScandiffio/Foucault-pendulum-tracking-system){.external}. Usaremos uma [Pi camera](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/){.external} (Modulo Câmera Raspberry Pi Rev 1.3 5mp P5v04a) acoplada a um [Raspiberry Pi 3](https://raspberrypi-guide.github.io/){.external} e a linguagem Python para coletar e processar os dados do movimento do pêndulo. 
 
 <!-- Uma explicação de Eudes Fileti sobre o pêndulo de Foucault pode ser vista a seguir-->
 <!--{{< video https://www.youtube.com/watch?v=_ASUQwYELOI width="400" height="300" >}} -->

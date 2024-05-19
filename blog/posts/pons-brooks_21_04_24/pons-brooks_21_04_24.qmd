@@ -1,7 +1,7 @@
 ---
 title: Observação do cometa Pons-Brooks
 date: 21 04 2024
-image: pons-brooks-observacao.jpg
+image: Foto_Pons-Brooks1.jpeg
 categories: [Evento]
 author: João Teles
 ---
@@ -45,4 +45,12 @@ Após as excelentes observações acima, estávamos quase desistindo de tentar e
 
 ![Simulação, via Stellarium, da nossa observação do cometa Pons-Brooks realizada às 18h40 do dia 21/04/2024.](pons-brooks-observacao.jpg){#fig-cometa}
 
+### Fotos em 07/05/24
 
+Como não conseguimos tirar fotos no nosso encontro do dia 21, eu (João Teles), Sílvio Dahmen, Fernando Apolinário e meu estimado egresso do curso de Física, Fernando Pedersen (que estava nos visitando nessa ocasião), nos reunimos em torno das 18h no [Observatório](/localizacao/localizacao.qmd) e montamos novamente o telescópio [C6-S](/acervo/itens/c6-s/c6s.qmd).
+
+Com a câmera [SV305](/acervo/itens/svbony305/svbony305.qmd) acoplada à saída da ocular do telescópio, fizemos as fotos abaixo.
+
+![Foto do cometa Pons-Brooks em 07/05/2024 em torno das 18h30 a partir do [Observatório do CCA-UFSCar](/localizacao/localizacao.qmd). Tempo de exposição de 10 s.](Foto_Pons-Brooks1.jpeg)
+
+![Foto do cometa Pons-Brooks em 07/05/2024 em torno das 18h30 a partir do [Observatório do CCA-UFSCar](/localizacao/localizacao.qmd). Tempo de exposição de 30 s.](Foto_Pons-Brooks2.jpeg)

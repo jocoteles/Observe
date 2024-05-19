@@ -13,7 +13,7 @@ As câmeras para astrofotografia ampliam a capacidade de observação do céu no
 
 A maior parte das imagens de objetos astronômicos fracos ou difusos, como nebulosas, aglomerados globulares, galáxias, entre outros, que são divulgadas com formas e cores vivas, só são possíveis via o uso das câmeras para astrofotografia.
 
-Objetos do sistema solar como a Lua e os planetas também se beneficiam do uso dessas câmeras ao possibilitarem a observação de alguns detalhes em suas superfícies dificilmente visíveis através da observação direta pela ocular do telescópio. Como alguns exemplos, podemos citar as fases de Vênus, a calota polar marciana, as faixas atmosféricas de Júpiter e o eclipse solar de suas maiores luas, os raros trânsitos de Mercúrio e Vênus pelo Sol, entre outros. Por sinal, esta câmera modelo SV305, é mais indicada justamente para observação planetária.
+Objetos do sistema solar como a Lua e os planetas também se beneficiam do uso dessas câmeras ao possibilitarem a observação de alguns detalhes em suas superfícies dificilmente visíveis através da observação direta pela ocular do telescópio. Como alguns exemplos, podemos citar as divisões nos anéis de Saturno, a calota polar marciana, as faixas atmosféricas de Júpiter e o eclipse solar de suas maiores luas, os raros trânsitos de Mercúrio e Vênus pelo Sol, entre outros. Por sinal, esta câmera, modelo SV305, é mais indicada justamente para observação planetária.
 
 ![](SV305.webp)
 
@@ -41,7 +41,7 @@ Os ajustes de ganho, tempo de exposição, zoom digital, entre outros parâmetro
 - Interface: USB 2.0
 - Material: Liga de alumínio
 - SO compatível: Windows, Linux, Raspberry Pi & Mac OS
-- Consumo de energia: 200mA@5V
+- Consumo de energia: 200mA em 5V
 - Temperatura de trabalho: -0°C~45°C
 - Temperatura de armazenamento: -10°C~60°C
 - Umidade Relativa de Trabalho: 20%~80%
