@@ -1,20 +1,47 @@
 ---
 title: Quest 2 - Meta
 image: quest2.jpg
-description: "Oculus de realidade virtual."
-category: Oculus RV/RA
+description: "Óculos de realidade virtual."
+category: Óculos RV/RA
 ---
 
 ::: {.panel-tabset}
 
 ## Descrição
 
-![](quest2.jpg)
+A tecnologia dos óculos de realidade virtual evoluiu bastante nos últimos tempos. Com várias câmeras e sensores de localização/orientação cujos dados são analisados praticamente em tempo real por processadores de alto desempenho, elas permitem que imagens virtuais sejam desenhadas e atualizadas no campo de visão do usuário dando a sensação de realmente corresponderem a objetos sólidos que existem no mundo físico.
 
-## Instruções
+Existem duas categorias principais de interação em realidade virtual: (i) a imersão completa em um ambiente virtual totalmente desvinculado do mundo real -- a esse modo usamos o próprio termo Realidade Virtual (RV) ou VR de *Virtual Reality* e (ii) a imersão parcial, em que elementos virtuais são sobrepostos e dividem espaço com o mundo real -- modo chamado de Realidade Aumentada (RA) ou AR de *Augmented Reality*. Para se referir à realidade virtual de forma genérica, de forma a incorporar os dois modos, usa-se a sigla XR.
+
+Como a astronomia lida com dimensões, escalas, quantidades e relações espaciais normalmente muito grandes, o ambiente virtual é uma ótima alternativa para propiciar experiências impactantes na aprendizagem de conceitos centrais dessa ciência que é tão visual por natureza. Com os óculos de realidade virtual podemos, entre outras coisas, desenvolver as seguintes atividades e ambientes:
+
+- Dimensões e dinâmicas do Sistema Solar em escala com interação em um ambiente não formal de aprendizagem com interações sociais potencializadas pela realidade aumentada.
+- Atividades interativas de manipulação do sistema Sol-Terra-Lua de forma a explorar, utilizando metodologias ativas de ensino, conceitos básicos de astronomia envolvendo as fases da Lua, os eclipses solar e lunar e as estações do ano.
+- Um planetário ou observatório astronômico virtual em que as mais variadas formas de representação dos objetos celestes podem ser exploradas em um ambiente totalmente virtual que propicie uma grande imersão na vastidão e encantamento do céu noturno.
+
+Esses são apenas alguns exemplos dentre as infinitas possibilidades ao alcance da nossa imaginação e conhecimento.
+
+![](quest2.jpg)
 
 ## Especificações
 
+Dispomos de 10 unidades do modelo Meta Quest 2 cujas [especificações](https://en.wikipedia.org/wiki/Quest_2){.external} são as seguintes:
+
+- Sistema operacional: Meta Horizon OS, baseado no código-fonte do Android
+- Processador: Qualcomm Snapdragon XR2
+- Memória: 6 GB LPDDR4X
+- Armazenamento: 128 GB
+- Tela: LCD RGB 1832 x 1920 por olho a 72 -- 120 Hz
+- Gráficos: Adreno 650, até 1,32 TFLOPS
+- Som: 2 alto-falantes embutidos / 2 microfones embutidos / entrada para fone de ouvido de 3,5 mm
+- Entrada: Rastreamento 6DOF inside-out através de 4 câmeras integradas e 2 controladores com acelerômetros e giroscópios
+- Entrada do controlador: Oculus Touch
+- Câmera: 4 câmeras infravermelhas
+- Conectividade:
+    - USB-C
+    - Bluetooth 5
+    - Wi-Fi 6
+- Massa: 503 g
 
 :::
 
