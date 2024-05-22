@@ -1,7 +1,7 @@
 ---
 title: Quest 2 - Meta
 image: quest2.jpg
-description: "Oculus de realidade virtual"
+description: "Oculus de realidade virtual."
 category: Oculus RV/RA
 ---
 
