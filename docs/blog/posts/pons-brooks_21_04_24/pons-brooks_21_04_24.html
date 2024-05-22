@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -147,7 +147,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#lua" id="toc-lua" class="nav-link" data-scroll-target="#lua">Lua</a></li>
   <li><a href="#júpiter-e-urano" id="toc-júpiter-e-urano" class="nav-link" data-scroll-target="#júpiter-e-urano">Júpiter e Urano</a></li>
   <li><a href="#cometa-pons-brooks" id="toc-cometa-pons-brooks" class="nav-link" data-scroll-target="#cometa-pons-brooks">Cometa Pons-Brooks</a></li>
-  <li><a href="#fotos-em-070524" id="toc-fotos-em-070524" class="nav-link" data-scroll-target="#fotos-em-070524">Fotos em 07/05/24</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -160,6 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Observação do cometa Pons-Brooks</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Evento</div>
+    <div class="quarto-category">Observação</div>
   </div>
   </div>
 
@@ -251,23 +251,6 @@ Figura&nbsp;2: Simulação, via Stellarium, da observação simultânea de seis 
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cometa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;3: Simulação, via Stellarium, da nossa observação do cometa Pons-Brooks realizada às 18h40 do dia 21/04/2024.
 </figcaption>
-</figure>
-</div>
-</section>
-<section id="fotos-em-070524" class="level3">
-<h3 class="anchored" data-anchor-id="fotos-em-070524">Fotos em 07/05/24</h3>
-<p>Como não conseguimos tirar fotos no nosso encontro do dia 21, eu (João Teles), Sílvio Dahmen, Fernando Apolinário e meu estimado egresso do curso de Física, Fernando Pedersen (que estava nos visitando nessa ocasião), nos reunimos em tornos das 18h no <a href="../../../localizacao/localizacao.html">Observatório</a> e montamos novamente o telescópio <a href="../../../acervo/itens/c6-s/c6s.html">C6-S</a>.</p>
-<p>Com a câmera <a href="../../../acervo/itens/svbony305/svbony305.html">SV305</a> acoplada à saída da ocular do telescópio, fizemos as fotos abaixo.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="Foto_Pons-Brooks1.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Foto do cometa Pons-Brooks em 07/05/2024 em torno das 18h30 a partir do <a href="../../../localizacao/localizacao.html">Observatório do CCA-UFSCar</a>. Tempo de exposição de 10 s.</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="Foto_Pons-Brooks2.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Foto do cometa Pons-Brooks em 07/05/2024 em torno das 18h30 a partir do <a href="../../../localizacao/localizacao.html">Observatório do CCA-UFSCar</a>. Tempo de exposição de 30 s.</figcaption>
 </figure>
 </div>
 
@@ -499,6 +482,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/jocoteles\.github\.io\/Observe\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -533,7 +534,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
