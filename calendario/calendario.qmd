@@ -7,7 +7,9 @@ description: " "
 
 ## Próximos eventos
 
-Nenhum evento agendado no momento.
+### Jornada das Estrelas de 18 a 20/06/24
+
+Entre os dias 18/06/24 e 20/06/24 ocorrerá a XX edição do evento Jornada das Estrelas. Informações sobre o evento incluindo as formas de participação encontram-se [nesta página](/atividades/jornada_das_estrelas/jornada_das_estrelas.qmd).
 
 ## Encerrados
 

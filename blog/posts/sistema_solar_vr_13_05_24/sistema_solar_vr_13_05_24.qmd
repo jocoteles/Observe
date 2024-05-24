@@ -8,11 +8,7 @@ author: João Teles
 
 ## Descrição da Atividade
 
-Nos reunimos a partir das 17h45 na [praça do Observatório]({{< var loc.localizacao >}}) para iniciar a nossa busca pelo fugidio [Pons-Brooks](https://pt.wikipedia.org/wiki/12P/Pons-Brooks){.external}.
-
-Neste evento usamos os telescópios [C6-S](/acervo/itens/c6-s/c6s.qmd) e [NexStar-4SE](/acervo/itens/nexstar4se/nexstar4se.qmd).
-
-Participaram das observações em torno de 20 pessoas.
+Em breve faremos a descrição desta atividade.
 
 ## Público atingido
 
