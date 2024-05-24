@@ -9,7 +9,96 @@ description: " "
 
 ### Jornada das Estrelas de 18 a 20/06/24
 
-Entre os dias 18/06/24 e 20/06/24 ocorrerá a XX edição do evento Jornada das Estrelas. Informações sobre o evento incluindo as formas de participação encontram-se [nesta página](/atividades/jornada_das_estrelas/jornada_das_estrelas.qmd).
+Entre os dias 18/06/24 e 20/06/24 ocorrerá a XX edição do evento [Jornada das Estrelas](/atividades/jornada_das_estrelas/jornada_das_estrelas.qmd).
+
+- Local: [Praça do Observatório a Olho Nu do CCA-UFSCar](/localizacao/localizacao.qmd)
+- Data: 18 a 20/06/24
+- Horários: 18h30 às 19h30, 19h30 às 20h30 e 20h30 às 21h30 
+
+Nesta edição teremos:
+
+- Observação do céu com telescópios.
+- Visitação ao Observatório a Olho Nu.
+- Passeio pelos planetas do Sistema Solar em escala de tamanhos e distâncias.
+
+O evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as **escolas precisam fazer a solicitação de agendamento** preenchendo o formulário abaixo e enviando a resposta para o email observe@ufscar.br. Os agendamentos serão confirmados pela organização do evento por email.
+
+```{python}
+#| echo: false
+import ipywidgets as widgets
+
+opcoes = [
+    '---',
+    '18/06 - 18h30 às 19h30',
+    '18/06 - 19h30 às 20h30',
+    '18/06 - 20h30 às 21h30',
+    '19/06 - 18h30 às 19h30',
+    '19/06 - 19h30 às 20h30',
+    '19/06 - 20h30 às 21h30',
+    '20/06 - 18h30 às 19h30',
+    '20/06 - 19h30 às 20h30',
+    '20/06 - 20h30 às 21h30',
+]
+escola = widgets.Text(description = 'Escola', placeholder = 'Insira o nome da escola')
+display(escola)
+```
+
+:::{type="button" data-bs-toggle="collapse" href="#grupo1"}
+Grupo 1
+:::
+
+:::{.collapse #grupo1}
+```{python}
+#| echo: false
+professor1 = widgets.Text(description = 'Professor(a)', placeholder = 'Professor(a) responsável por acompanhar os estudantes')
+alunos1 = widgets.IntSlider(description = 'Alunos', min = 0, max = 40, value = 0)
+opcao11 = widgets.Dropdown(description = '1ª Opção', options = opcoes)
+opcao12 = widgets.Dropdown(description = '2ª Opção', options = opcoes)
+opcao13 = widgets.Dropdown(description = '3ª Opção', options = opcoes)
+display(professor1)
+display(alunos1)
+display(opcao11)
+display(opcao12)
+display(opcao13)
+```
+:::
+
+:::{type="button" data-bs-toggle="collapse" href="#grupo2"}
+Grupo 2
+:::
+
+:::{.collapse #grupo2}
+```{python}
+#| echo: false
+professor2 = widgets.Text(description = 'Professor(a)', placeholder = 'Professor(a) responsável por acompanhar os estudantes')
+alunos2 = widgets.IntSlider(description = 'Alunos', min = 0, max = 40, value = 0)
+opcao21 = widgets.Dropdown(description = '1ª Opção', options = opcoes)
+opcao22 = widgets.Dropdown(description = '2ª Opção', options = opcoes)
+opcao23 = widgets.Dropdown(description = '3ª Opção', options = opcoes)
+display(professor2)
+display(alunos2)
+display(opcao21)
+display(opcao22)
+display(opcao23)
+```
+:::
+
+:::{.btn .btn-primary data-bs-toggle="collapse" href="#grupo3"}
+Grupo 3
+:::
+
+:::{.btn .btn-primary data-bs-toggle="collapse" href="#grupo4"}
+Grupo 4
+:::
+
+:::{.btn .btn-primary data-bs-toggle="collapse" href="#grupo5"}
+Grupo 5
+:::
+
+:::{.btn .btn-primary data-bs-toggle="collapse" href="#grupo6"}
+Grupo 6
+:::
+
 
 ## Encerrados
 

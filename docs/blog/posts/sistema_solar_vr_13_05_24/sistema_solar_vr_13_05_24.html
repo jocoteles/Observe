@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -189,9 +189,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="descrição-da-atividade" class="level2">
 <h2 class="anchored" data-anchor-id="descrição-da-atividade">Descrição da Atividade</h2>
-<p>Nos reunimos a partir das 17h45 na <a href="../../../localizacao/localizacao.html">praça do Observatório</a> para iniciar a nossa busca pelo fugidio <a href="https://pt.wikipedia.org/wiki/12P/Pons-Brooks" class="external">Pons-Brooks</a>.</p>
-<p>Neste evento usamos os telescópios <a href="../../../acervo/itens/c6-s/c6s.html">C6-S</a> e <a href="../../../acervo/itens/nexstar4se/nexstar4se.html">NexStar-4SE</a>.</p>
-<p>Participaram das observações em torno de 20 pessoas.</p>
+<p>Em breve faremos a descrição desta atividade.</p>
 </section>
 <section id="público-atingido" class="level2">
 <h2 class="anchored" data-anchor-id="público-atingido">Público atingido</h2>
@@ -432,6 +430,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/jocoteles\.github\.io\/Observe\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -466,7 +482,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
