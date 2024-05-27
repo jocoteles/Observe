@@ -7,13 +7,13 @@ description: " "
 
 ## Próximos eventos
 
-### Jornada das Estrelas de 18 a 20/06/24
+### XVII Jornada das Estrelas
 
-Entre os dias 18/06/24 e 20/06/24 ocorrerá a XX edição do evento [Jornada das Estrelas](/atividades/jornada_das_estrelas/jornada_das_estrelas.qmd).
+Entre os dias 18/06/24 e 20/06/24 ocorrerá a XVII edição do evento [Jornada das Estrelas](/atividades/jornada_das_estrelas/jornada_das_estrelas.qmd).
 
 - Local: [Praça do Observatório a Olho Nu do CCA-UFSCar](/localizacao/localizacao.qmd)
 - Data: 18 a 20/06/24
-- Horários: 18h30 às 19h30, 19h30 às 20h30 e 20h30 às 21h30 
+- Horários: 19h às 20h, 20h às 21h e 21h às 22h 
 
 Nesta edição teremos:
 
@@ -21,84 +21,232 @@ Nesta edição teremos:
 - Visitação ao Observatório a Olho Nu.
 - Passeio pelos planetas do Sistema Solar em escala de tamanhos e distâncias.
 
-O evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as **escolas precisam fazer a solicitação de agendamento** preenchendo o formulário abaixo e enviando a resposta para o email observe@ufscar.br. Os agendamentos serão confirmados pela organização do evento por email.
+Cada uma das três atividades terá duração entre 20 e 25 minutos, fazendo com que o circuito completo seja realizado em até 1 hora e 10 minutos.
 
-```{python}
-#| echo: false
-import ipywidgets as widgets
+O evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as **escolas precisam fazer a solicitação de agendamento** conforme instruções abaixo. preenchendo o formulário abaixo e enviando a solicitação gerada para o email observe@ufscar.br. Os agendamentos serão confirmados pela organização do evento por email.
 
-opcoes = [
-    '---',
-    '18/06 - 18h30 às 19h30',
-    '18/06 - 19h30 às 20h30',
-    '18/06 - 20h30 às 21h30',
-    '19/06 - 18h30 às 19h30',
-    '19/06 - 19h30 às 20h30',
-    '19/06 - 20h30 às 21h30',
-    '20/06 - 18h30 às 19h30',
-    '20/06 - 19h30 às 20h30',
-    '20/06 - 20h30 às 21h30',
+#### Informações para as escolas
+
+- Escolas que queiram trazer seus alunos deverão, obrigatoriamente, fazer o agendamento do dia e horário de visitação preenchendo o formulário abaixo e enviando a solicitação gerada para o email observe@ufscar.br.
+- O agendamento poderá ser feito até o dia 14 de junho. As escolas que não puderem vir deverão cancelar o agendamento com antecedência para liberar horário para outras escolas.
+- Serão aceitos no máximo 3 grupos de 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo, desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.
+- As escolas que vierem com grupos que não tiverem sido agendados e confirmados, não poderão participar do evento. Todas as escolas serão contatadas por e-mail ou telefone para confirmação do agendamento. Ou seja, não basta fazer o agendamento, é necessário que a escola receba a confirmação por email para poder participar.
+- Escolas que chegarem atrasadas em relação ao horário agendado poderão perder alguma das atividades acima, sendo direcionadas para a atividade seguinte desde que dentro do período agendado.	
+- Para a UFSCar, é uma grande satisfação receber as escolas no evento, trazendo uma grande motivação para que ele ocorra anualmente. Entretanto, as escolas que descumprirem com as informações aqui descritas não poderão participar do evento. Isso é necessário para que as atividades ocorram de forma proveitosa para todos.	
+
+#### Formulário para as escolas
+
+```{ojs}
+//| echo: false
+nulo = '---';
+horario1 = '19h às 20h';
+horario2 = '20h às 21h';
+horario3 = '21h às 22h';
+datas = [
+    nulo,
+    '18/06 - ' + horario1,
+    '18/06 - ' + horario2,
+    '18/06 - ' + horario3,
+    '19/06 - ' + horario1,
+    '19/06 - ' + horario2,
+    '19/06 - ' + horario3,
+    '20/06 - ' + horario1,
+    '20/06 - ' + horario2,
+    '20/06 - ' + horario3,
+];
+alunos = [
+    nulo,
+    'menos que 15',
+    'entre 15 e 30',
+    'entre 30 e 50'
 ]
-escola = widgets.Text(description = 'Escola', placeholder = 'Insira o nome da escola')
-display(escola)
+escolaridade = [
+    '---',
+    'Infantil',
+    'Fundamental 1',
+    'Fundamental 2',
+    'Ensino Médio',
+    'EJA',
+    'Superior',
+    'Misto'
+]
+evento = 'XVII Jornada das Estrelas';
+viewof escola = Inputs.text({label: "Escola", placeholder: "Insira o nome da escola"});
+viewof municipio = Inputs.text({label: "Município", placeholder: "Insira o nome do município da escola"});
 ```
 
-:::{type="button" data-bs-toggle="collapse" href="#grupo1"}
-Grupo 1
-:::
-
+<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo1">Grupo 1</button>
 :::{.collapse #grupo1}
-```{python}
-#| echo: false
-professor1 = widgets.Text(description = 'Professor(a)', placeholder = 'Professor(a) responsável por acompanhar os estudantes')
-alunos1 = widgets.IntSlider(description = 'Alunos', min = 0, max = 40, value = 0)
-opcao11 = widgets.Dropdown(description = '1ª Opção', options = opcoes)
-opcao12 = widgets.Dropdown(description = '2ª Opção', options = opcoes)
-opcao13 = widgets.Dropdown(description = '3ª Opção', options = opcoes)
-display(professor1)
-display(alunos1)
-display(opcao11)
-display(opcao12)
-display(opcao13)
+```{ojs}
+//| echo: false
+viewof professor1 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
+viewof telefone1 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
+viewof alunos1 = Inputs.select(alunos, {label: "Alunos"});
+viewof escolaridade1 = Inputs.select(escolaridade, {label: "Escolaridade"});
+viewof opcao11 = Inputs.select(datas, {label: "1ª opção"});
+viewof opcao12 = Inputs.select(datas, {label: "2ª opção"});
 ```
 :::
+</p>
 
-:::{type="button" data-bs-toggle="collapse" href="#grupo2"}
-Grupo 2
-:::
-
+<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo2">Grupo 2</button>
 :::{.collapse #grupo2}
-```{python}
-#| echo: false
-professor2 = widgets.Text(description = 'Professor(a)', placeholder = 'Professor(a) responsável por acompanhar os estudantes')
-alunos2 = widgets.IntSlider(description = 'Alunos', min = 0, max = 40, value = 0)
-opcao21 = widgets.Dropdown(description = '1ª Opção', options = opcoes)
-opcao22 = widgets.Dropdown(description = '2ª Opção', options = opcoes)
-opcao23 = widgets.Dropdown(description = '3ª Opção', options = opcoes)
-display(professor2)
-display(alunos2)
-display(opcao21)
-display(opcao22)
-display(opcao23)
+```{ojs}
+//| echo: false
+viewof professor2 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
+viewof telefone2 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
+viewof alunos2 = Inputs.select(alunos, {label: "Alunos"});
+viewof escolaridade2 = Inputs.select(escolaridade, {label: "Escolaridade"});
+viewof opcao21 = Inputs.select(datas, {label: "1ª opção"});
+viewof opcao22 = Inputs.select(datas, {label: "2ª opção"});
 ```
 :::
+</p>
 
-:::{.btn .btn-primary data-bs-toggle="collapse" href="#grupo3"}
-Grupo 3
+<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo3">Grupo 3</button>
+:::{.collapse #grupo3}
+```{ojs}
+//| echo: false
+viewof professor3 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
+viewof telefone3 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
+viewof alunos3 = Inputs.select(alunos, {label: "Alunos"});
+viewof escolaridade3 = Inputs.select(escolaridade, {label: "Escolaridade"});
+viewof opcao31 = Inputs.select(datas, {label: "1ª opção"});
+viewof opcao32 = Inputs.select(datas, {label: "2ª opção"});
+```
 :::
+</p>
 
-:::{.btn .btn-primary data-bs-toggle="collapse" href="#grupo4"}
-Grupo 4
+<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo2">Grupo 4</button>
+:::{.collapse #grupo4}
+```{ojs}
+//| echo: false
+viewof professor4 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
+viewof telefone4 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
+viewof alunos4 = Inputs.select(alunos, {label: "Alunos"});
+viewof escolaridade4 = Inputs.select(escolaridade, {label: "Escolaridade"});
+viewof opcao41 = Inputs.select(datas, {label: "1ª opção"});
+viewof opcao42 = Inputs.select(datas, {label: "2ª opção"});
+```
 :::
+</p>
 
-:::{.btn .btn-primary data-bs-toggle="collapse" href="#grupo5"}
-Grupo 5
+<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo2">Grupo 5</button>
+:::{.collapse #grupo5}
+```{ojs}
+//| echo: false
+viewof professor5 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
+viewof telefone5 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
+viewof alunos5 = Inputs.select(alunos, {label: "Alunos"});
+viewof escolaridade5 = Inputs.select(escolaridade, {label: "Escolaridade"});
+viewof opcao51 = Inputs.select(datas, {label: "1ª opção"});
+viewof opcao52 = Inputs.select(datas, {label: "2ª opção"});
+```
 :::
+</p>
 
-:::{.btn .btn-primary data-bs-toggle="collapse" href="#grupo6"}
-Grupo 6
+<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo2">Grupo 6</button>
+:::{.collapse #grupo6}
+```{ojs}
+//| echo: false
+viewof professor6 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
+viewof telefone6 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
+viewof alunos6 = Inputs.select(alunos, {label: "Alunos"});
+viewof escolaridade6 = Inputs.select(escolaridade, {label: "Escolaridade"});
+viewof opcao61 = Inputs.select(datas, {label: "1ª opção"});
+viewof opcao62 = Inputs.select(datas, {label: "2ª opção"});
+```
 :::
+</p>
 
+<p>
+```{ojs}
+//| echo: false
+viewof botaoGerar = Inputs.button("Gerar solicitação de agendamento", {reduce: gerarSolicitacao});
+```
+</p>
+
+<p>
+```{ojs}
+//| echo: false
+solicitacao = Inputs.textarea({label: "Solicitação", rows: 200, readonly: true});
+
+function gerarSolicitacao ()
+{
+    let x0 = ``;
+    let x = ``;
+    if (escola == "") return alert("Insira o nome da Escola.");
+    else {
+    x0 = `Prezados organizadores da ${evento},
+
+Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:`};    
+    if (professor1 != "" && telefone1 != "" && alunos1 != nulo && escolaridade1 != nulo && opcao11 != nulo) {
+        x += `
+        
+        Grupo 1:
+        - Professor responsável: ${professor1}
+        - Número de alunos: ${alunos1}
+        - 1ª opção: ${opcao11}
+        - 2ª opção: ${opcao12}`;
+    }
+    if (professor2 != "" && telefone2 != "" && alunos2 != nulo && escolaridade2 != nulo && opcao21 != nulo) {
+        x += `
+        
+        Grupo 2:
+        - Professor responsável: ${professor2}
+        - Número de alunos: ${alunos2}
+        - 1ª opção: ${opcao21}
+        - 2ª opção: ${opcao22}`;
+    }
+    if (professor3 != "" && telefone3 != "" && alunos3 != nulo && escolaridade3 != nulo && opcao31 != nulo) {
+        x += `
+        
+        Grupo 3:
+        - Professor responsável: ${professor3}
+        - Número de alunos: ${alunos3}
+        - 1ª opção: ${opcao31}
+        - 2ª opção: ${opcao32}`;
+    }
+    if (professor4 != "" && telefone2 != "" && alunos2 != nulo && escolaridade2 != nulo && opcao41 != nulo) {
+        x += `
+        
+        Grupo 4:
+        - Professor responsável: ${professor4}
+        - Número de alunos: ${alunos4}
+        - 1ª opção: ${opcao41}
+        - 2ª opção: ${opcao42}`;
+    }
+    if (professor5 != "" && telefone2 != "" && alunos2 != nulo && escolaridade2 != nulo && opcao51 != nulo) {
+        x += `
+        
+        Grupo 5:
+        - Professor responsável: ${professor5}
+        - Número de alunos: ${alunos5}
+        - 1ª opção: ${opcao51}
+        - 2ª opção: ${opcao52}`;
+    }
+    if (professor6 != "" && telefone2 != "" && alunos2 != nulo && escolaridade2 != nulo && opcao61 != nulo) {
+        x += `
+        
+        Grupo 6:
+        - Professor responsável: ${professor6}
+        - Número de alunos: ${alunos6}
+        - 1ª opção: ${opcao61}
+        - 2ª opção: ${opcao62}`;
+    }
+    if (x == "") return alert("Informe os dados de pelo menos um grupo de alunos.");
+    else {
+        solicitacao.value = x0 + x;
+        navigator.clipboard.writeText(solicitacao.value);  
+        alert("A solicitação foi copiada para a área de transferência. Cole-a no corpo do email e envie para oberve@ufscar.br");
+    }
+};
+```
+</p>
+
+::: {.callout-note}
+Atenção. A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email observe@ufscar.br
+:::
 
 ## Encerrados
 
