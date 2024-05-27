@@ -1,0 +1,68 @@
+
+<form>
+    <div class="form-group">
+        <label for="escola">Escola</label>
+        <input type="text" class="form-control" id="escola" placeholder="Insira o nome da escola">
+    </div>
+    <div class="form-group">
+        <label for="municipio">Município</label>
+        <input type="text" class="form-control" id="municipio" placeholder="Insira o nome do município da escola">
+    </div>
+    <div id="grupos"></div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script>
+
+    const horarios = [ 
+        '19h às 20h',
+        '20h às 21h',
+        '21h às 22h',
+    ];
+    const datas = [
+        nulo,
+        '18/06 - ' + horarios[0],
+        '18/06 - ' + horarios[1],
+        '18/06 - ' + horarios[2],
+        '19/06 - ' + horarios[0],
+        '19/06 - ' + horarios[1],
+        '19/06 - ' + horarios[2],
+        '20/06 - ' + horarios[0],
+        '20/06 - ' + horarios[1],
+        '20/06 - ' + horarios[2],
+    ];
+    const alunos = [
+        nulo,
+        'menos que 15',
+        'entre 15 e 30',
+        'entre 30 e 50'
+    ];
+    const escolaridade = [
+        '---',
+        'Infantil',
+        'Fundamental 1',
+        'Fundamental 2',
+        'Ensino Médio',
+        'EJA',
+        'Superior',
+        'Misto'
+    ];
+    const evento = 'XVII Jornada das Estrelas';
+
+    const Ngrupos = 6;
+
+    let grupos = document.getElementById("grupos");
+/*     for (let i = 0; i < Ngrupos; i++) {
+       let bgrupo = document.createElement("button");
+       bgrupo.setAttribute("type", "button");
+       bgrupo.setAttribute("class", "btn btn-primary");
+       bgrupo.setAttribute("data-bs-toggle", "collapse");
+       bgrupo.setAttribute("href", `#grupo${i}`);
+    } */
+    let bgrupo = '';
+    for (let i = 0; i < Ngrupos; i++) {
+        bgrupo += `<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo${i}">Grupo ${i}</button></p>`
+    };
+    grupos.appendChild(document.createTextNode(bgrupo));
+
+</script>
