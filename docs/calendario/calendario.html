@@ -818,6 +818,7 @@ Nota
         <label for="municipio">Município</label>
         <input type="text" class="form-control" id="municipio" placeholder="Insira o nome do município da escola">
     </div><p></p> 
+    <div id="grupos"></div>
    <p><button type="submit" class="btn btn-primary">Gerar solicitação</button></p> 
 </form>
 
@@ -862,23 +863,39 @@ Nota
     const Ngrupos = 6;
 
     let grupos = document.getElementById("grupos");
-    for (let i = 0; i < Ngrupos; i++) {
+/*    for (let i = 0; i < Ngrupos; i++) {
        let bgrupo = document.createElement("button");
        bgrupo.setAttribute("type", "button");
        bgrupo.setAttribute("class", "btn btn-primary");
        bgrupo.setAttribute("data-bs-toggle", "collapse");
        bgrupo.setAttribute("href", `#grupo${i}`);
-       bgrupo.setAttribute("innerHTML", `Grupo ${i+1}`);
+       bgrupo.setAttribute("innerHTML", `Grupo ${i+1}`;
         grupos.appendChild(bgrupo);
-    } 
-    //let bgrupo = '';
-/*     for (let i = 0; i < Ngrupos; i++) {
-        bgrupo += `<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo${i}">Grupo ${i}</button></p>`
-    };  */
+    }*/ 
+     for (let i = 0; i < Ngrupos; i++) {
+        let bgrupo = `<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo${i+1}">Grupo ${i+1}</button></p>`
+        let grupoHTML = fromHTML(bgrupo);
+        grupos.append(grupoHTML);
+    };  
     //grupos.appendChild(document.createTextNode(bgrupo));
 //    grupos.innerHTML = "Teste";
-    console.log(grupos.innerHTML);
-    document.getElementById("escola").value = "INSA";
+   // console.log(grupos.innerHTML);
+    //document.getElementById("escola").value = "INSA";
+    function fromHTML(html, trim = false) {
+        // Process the HTML string.
+        html = trim ? html.trim() : html;
+        if (!html) return null;
+
+        // Then set up a new template element.
+        const template = document.createElement('template');
+        template.innerHTML = html;
+        const result = template.content.children;
+
+        // Then return either an HTMLElement or HTMLCollection,
+        // based on whether the input HTML had one or more roots.
+        if (result.length === 1) return result[0];
+        return result;
+    }
 
 </script>
 <script type="ojs-module-contents">

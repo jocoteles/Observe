@@ -8,6 +8,7 @@
         <label for="municipio">Município</label>
         <input type="text" class="form-control" id="municipio" placeholder="Insira o nome do município da escola">
     </div></p> 
+    <div id="grupos"></div>
    <p><button type="submit" class="btn btn-primary">Gerar solicitação</button></p> 
 </form>
 
@@ -31,43 +32,90 @@
         '20/06 - ' + horarios[1],
         '20/06 - ' + horarios[2],
     ];
-    const alunos = [
-        nulo,
-        'menos que 15',
-        'entre 15 e 30',
-        'entre 30 e 50'
-    ];
-    const escolaridade = [
-        '---',
-        'Infantil',
-        'Fundamental 1',
-        'Fundamental 2',
-        'Ensino Médio',
-        'EJA',
-        'Superior',
-        'Misto'
-    ];
+    const alunos = {
+        label: "Alunos",
+        options: [
+            nulo,
+            'menos que 15',
+            'entre 15 e 30',
+            'entre 30 e 50'
+        ]
+    };
+    const escolaridade = {
+        label: "Escolaridade",
+        options: [
+            nulos,
+            'Infantil',
+            'Fundamental 1',
+            'Fundamental 2',
+            'Ensino Médio',
+            'EJA',
+            'Superior',
+            'Misto'
+        ]   
+    };
     const evento = 'XVII Jornada das Estrelas';
-
-    const Ngrupos = 6;
+    const professor = {
+        label: "Professor(a)",
+        placeholder: "Professor(a) responsável por acompanhar os estudantes"
+    }
+    const telefone = {
+        label: "Telefone",
+        placeholder: "Telefone para contato em caso de necessidade"
+    }
+    const Ngrtgiupos = 6;
 
     let grupos = document.getElementById("grupos");
-    for (let i = 0; i < Ngrupos; i++) {
-       let bgrupo = document.createElement("button");
-       bgrupo.setAttribute("type", "button");
-       bgrupo.setAttribute("class", "btn btn-primary");
-       bgrupo.setAttribute("data-bs-toggle", "collapse");
-       bgrupo.setAttribute("href", `#grupo${i}`);
-       bgrupo.setAttribute("innerHTML", `Grupo ${i+1}`;
-        grupos.appendChild(bgrupo);
-    } 
-    //let bgrupo = '';
-/*     for (let i = 0; i < Ngrupos; i++) {
-        bgrupo += `<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo${i}">Grupo ${i}</button></p>`
-    };  */
-    //grupos.appendChild(document.createTextNode(bgrupo));
-//    grupos.innerHTML = "Teste";
-    console.log(grupos.innerHTML);
-    document.getElementById("escola").value = "INSA";
+    for (let i = 1; i < Ngrupos+1; i++) {
+        let bgrupo = `<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo${i}">Grupo ${i}</button></p>`
+        let botaoHTML = fromHTML(bgrupo);
+        grupos.append(botaoHTML);
+        let divHTML = fromHTML(`<div id="#grupo${i}></div>"`);
+        let professorLabel = fromHTML(`<label for="professor${i}">Professor(a)</label>`);
+        let professorHTML = fromHTML(`<input type="text" class="form-control" id="professor${i}" placeholder="Professor(a) responsável por acompanhar os estudantes">`);
+        let telefoneLabel = fromHTML(`<label for="telefone${i}">Telefone</label>`);
+        let telefoneHTML = fromHTML(`<input type="text" class="form-control" id="telefone${i}" placeholder="Telefone para contato em caso de necessidade">`);
+        let alunosLabel = fromHTML(`<label for="alunos${i}">Alunos</label>`);
+        let alunosHTML = genSelect(`alunos${i}`, alunos);
+        let escolaridadeLabel = fromHTML(`<label for="escolaridade${i}">Escolaridade</label>`);
+        let escolaridadeHTML = genSelect(`escolaridade${i}`, alunos);
+        let opcao1HTML = genSelect(`opcao${i}1`, datas);
+        let opcao2HTML = genSelect(`opcao${i}2`, datas);
+        divHTML
+
+    };  
+
+    function genSelect(id, parentHTML, optionsList, label = "") {
+        let selectHTML = fromHTML(`<select class="form-select" id="${id}"></select>`);
+        for (option of optionsList) {
+            let optHTML = fromHTML(`<option>${option}</option>`);
+            selectHTML.append(optHTML);
+        }
+        if (label != "") {
+            let labelHTML = fromHTML(`<label for="${id}">${label}</label>`);
+            parentHTML.append(labelHTML);
+        }
+        parentHTML.append(selectHTML);
+    }
+
+    function genInput(id, parentHTML, type, label = "", placeholder = "") {
+        let inputHTML = fromHTML(`<input type="${type}" class="form-control" id="${id}" placeholder="${placeholder}">`);
+        if (label != "") {
+            let labelHTML = fromHTML(`<label for="${id}">${label}</label>`);
+            parentHTML.append(labelHTML);
+        }
+        parentHTML.append(inputHTML);
+    }
+    function fromHTML(html, trim = false) {
+        html = trim ? html.trim() : html;
+        if (!html) return null;
+
+        const template = document.createElement('template');
+        template.innerHTML = html;
+        const result = template.content.children;
+
+        if (result.length === 1) return result[0];
+        return result;
+    }
 
 </script>
