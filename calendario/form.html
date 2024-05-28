@@ -1,19 +1,19 @@
 
 <form>
-    <div class="form-group">
+   <p><div class="form-group">
         <label for="escola">Escola</label>
         <input type="text" class="form-control" id="escola" placeholder="Insira o nome da escola">
-    </div>
-    <div class="form-group">
+    </div></p> 
+   <p><div class="form-group">
         <label for="municipio">Município</label>
         <input type="text" class="form-control" id="municipio" placeholder="Insira o nome do município da escola">
-    </div>
-    <div id="grupos"></div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    </div></p> 
+   <p><button type="submit" class="btn btn-primary">Gerar solicitação</button></p> 
 </form>
 
-<script>
+<script defer>
 
+    const nulo = '---';
     const horarios = [ 
         '19h às 20h',
         '20h às 21h',
@@ -52,17 +52,22 @@
     const Ngrupos = 6;
 
     let grupos = document.getElementById("grupos");
-/*     for (let i = 0; i < Ngrupos; i++) {
+    for (let i = 0; i < Ngrupos; i++) {
        let bgrupo = document.createElement("button");
        bgrupo.setAttribute("type", "button");
        bgrupo.setAttribute("class", "btn btn-primary");
        bgrupo.setAttribute("data-bs-toggle", "collapse");
        bgrupo.setAttribute("href", `#grupo${i}`);
-    } */
-    let bgrupo = '';
-    for (let i = 0; i < Ngrupos; i++) {
+       bgrupo.setAttribute("innerHTML", `Grupo ${i+1}`;
+        grupos.appendChild(bgrupo);
+    } 
+    //let bgrupo = '';
+/*     for (let i = 0; i < Ngrupos; i++) {
         bgrupo += `<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo${i}">Grupo ${i}</button></p>`
-    };
-    grupos.appendChild(document.createTextNode(bgrupo));
+    };  */
+    //grupos.appendChild(document.createTextNode(bgrupo));
+//    grupos.innerHTML = "Teste";
+    console.log(grupos.innerHTML);
+    document.getElementById("escola").value = "INSA";
 
 </script>
