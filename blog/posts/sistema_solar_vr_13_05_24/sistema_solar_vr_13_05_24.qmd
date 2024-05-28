@@ -1,5 +1,5 @@
 ---
-title: Sistema Solar em realidade aumentada na escola INSA
+title: Sistema Solar em realidade aumentada no colégio INSA
 date: 13 05 2024
 image: sistema_solar_vr_INSA_1.jpeg
 categories: [Atividade, "Realidade Aumentada"]

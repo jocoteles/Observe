@@ -1,271 +1,38 @@
 ---
 title: Calendário de eventos
 description: " "
-format:
-  html:
-    include-in-header:
-      text: |
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    include-after-body: form.html
+listing:
+    -   id: proximos
+        feed: true
+        type: table
+        filter-ui: false 
+        sort-ui: false
+        sort: "date desc"
+        include:
+            category: "Próximo"
+        field-display-names:
+            title: Próximos eventos
+            category: Categoria
+            date: Data
+        fields: [title]
+    -   id: encerrados
+        type: table
+        filter-ui: [date, title]
+        sort-ui: [date, title]
+        sort: "date desc"
+        include:
+            category: "Encerrado"
+        field-display-names:
+            title: Encerrados
+            category: Categoria
+            date: Data
+        fields: [title, date]
 ---
 
-
-
-
-
-
-
-::: {.panel-tabset}
-
-## Próximos eventos
-
-### XVII Jornada das Estrelas
-
-Entre os dias 18/06/24 e 20/06/24 ocorrerá a XVII edição do evento [Jornada das Estrelas](/atividades/jornada_das_estrelas/jornada_das_estrelas.qmd).
-
-- Local: [Praça do Observatório a Olho Nu do CCA-UFSCar](/localizacao/localizacao.qmd)
-- Data: 18 a 20/06/24
-- Horários: 19h às 20h, 20h às 21h e 21h às 22h 
-
-Nesta edição teremos:
-
-- Observação do céu com telescópios.
-- Visitação ao Observatório a Olho Nu.
-- Passeio pelos planetas do Sistema Solar em escala de tamanhos e distâncias.
-
-Cada uma das três atividades terá duração entre 20 e 25 minutos, fazendo com que o circuito completo seja realizado em até 1 hora e 10 minutos.
-
-O evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as **escolas precisam fazer a solicitação de agendamento** conforme instruções abaixo.
-
-#### Instruções para as escolas
-
-- Escolas que queiram trazer seus alunos deverão, obrigatoriamente, fazer o agendamento do dia e horário de visitação preenchendo o formulário abaixo e enviando a solicitação gerada para o email observe@ufscar.br.
-- O agendamento poderá ser feito até o dia 14 de junho. As escolas que não puderem vir deverão cancelar o agendamento com antecedência para liberar horário para outras escolas.
-- Serão aceitos no máximo 3 grupos de 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo, desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.
-- As escolas que vierem com grupos que não tiverem sido agendados e confirmados, não poderão participar do evento. Todas as escolas serão contatadas por e-mail ou telefone para confirmação do agendamento. Ou seja, não basta fazer o agendamento, é necessário que a escola receba a confirmação por email para poder participar.
-- Escolas que chegarem atrasadas em relação ao horário agendado poderão perder alguma das atividades acima, sendo direcionadas para a atividade seguinte desde que dentro do período agendado.	
-- Para a UFSCar, é uma grande satisfação receber as escolas no evento, trazendo uma grande motivação para que ele ocorra anualmente. Entretanto, as escolas que descumprirem com as informações aqui descritas não poderão participar do evento. Isso é necessário para que as atividades ocorram de forma proveitosa para todos.	
-
-#### Formulário para as escolas
-
-
-
-```{ojs}
-//| echo: false
-nulo = '---';
-horario1 = '19h às 20h';
-horario2 = '20h às 21h';
-horario3 = '21h às 22h';
-datas = [
-    nulo,
-    '18/06 - ' + horario1,
-    '18/06 - ' + horario2,
-    '18/06 - ' + horario3,
-    '19/06 - ' + horario1,
-    '19/06 - ' + horario2,
-    '19/06 - ' + horario3,
-    '20/06 - ' + horario1,
-    '20/06 - ' + horario2,
-    '20/06 - ' + horario3,
-];
-alunos = [
-    nulo,
-    'menos que 15',
-    'entre 15 e 30',
-    'entre 30 e 50'
-]
-escolaridade = [
-    '---',
-    'Infantil',
-    'Fundamental 1',
-    'Fundamental 2',
-    'Ensino Médio',
-    'EJA',
-    'Superior',
-    'Misto'
-]
-evento = 'XVII Jornada das Estrelas';
-viewof escola = Inputs.text({label: "Escola", placeholder: "Insira o nome da escola"});
-viewof municipio = Inputs.text({label: "Município", placeholder: "Insira o nome do município da escola"});
-```
-
-<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo1">Grupo 1</button>
-:::{.collapse #grupo1}
-```{ojs}
-//| echo: false
-viewof professor1 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
-viewof telefone1 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
-viewof alunos1 = Inputs.select(alunos, {label: "Alunos"});
-viewof escolaridade1 = Inputs.select(escolaridade, {label: "Escolaridade"});
-viewof opcao11 = Inputs.select(datas, {label: "1ª opção"});
-viewof opcao12 = Inputs.select(datas, {label: "2ª opção"});
-```
-:::
-</p>
-
-<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo2">Grupo 2</button>
-:::{.collapse #grupo2}
-```{ojs}
-//| echo: false
-viewof professor2 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
-viewof telefone2 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
-viewof alunos2 = Inputs.select(alunos, {label: "Alunos"});
-viewof escolaridade2 = Inputs.select(escolaridade, {label: "Escolaridade"});
-viewof opcao21 = Inputs.select(datas, {label: "1ª opção"});
-viewof opcao22 = Inputs.select(datas, {label: "2ª opção"});
-```
-:::
-</p>
-
-<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo3">Grupo 3</button>
-:::{.collapse #grupo3}
-```{ojs}
-//| echo: false
-viewof professor3 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
-viewof telefone3 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
-viewof alunos3 = Inputs.select(alunos, {label: "Alunos"});
-viewof escolaridade3 = Inputs.select(escolaridade, {label: "Escolaridade"});
-viewof opcao31 = Inputs.select(datas, {label: "1ª opção"});
-viewof opcao32 = Inputs.select(datas, {label: "2ª opção"});
-```
-:::
-</p>
-
-<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo2">Grupo 4</button>
-:::{.collapse #grupo4}
-```{ojs}
-//| echo: false
-viewof professor4 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
-viewof telefone4 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
-viewof alunos4 = Inputs.select(alunos, {label: "Alunos"});
-viewof escolaridade4 = Inputs.select(escolaridade, {label: "Escolaridade"});
-viewof opcao41 = Inputs.select(datas, {label: "1ª opção"});
-viewof opcao42 = Inputs.select(datas, {label: "2ª opção"});
-```
-:::
-</p>
-
-<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo2">Grupo 5</button>
-:::{.collapse #grupo5}
-```{ojs}
-//| echo: false
-viewof professor5 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
-viewof telefone5 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
-viewof alunos5 = Inputs.select(alunos, {label: "Alunos"});
-viewof escolaridade5 = Inputs.select(escolaridade, {label: "Escolaridade"});
-viewof opcao51 = Inputs.select(datas, {label: "1ª opção"});
-viewof opcao52 = Inputs.select(datas, {label: "2ª opção"});
-```
-:::
-</p>
-
-<p><button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#grupo2">Grupo 6</button>
-:::{.collapse #grupo6}
-```{ojs}
-//| echo: false
-viewof professor6 = Inputs.text({label: "Professor", placeholder: "Professor(a) responsável por acompanhar os estudantes"});
-viewof telefone6 = Inputs.text({label: "Telefone", placeholder: "Telefone para contato em caso de necessidade"});
-viewof alunos6 = Inputs.select(alunos, {label: "Alunos"});
-viewof escolaridade6 = Inputs.select(escolaridade, {label: "Escolaridade"});
-viewof opcao61 = Inputs.select(datas, {label: "1ª opção"});
-viewof opcao62 = Inputs.select(datas, {label: "2ª opção"});
-```
-:::
-</p>
-
-<p>
-```{ojs}
-//| echo: false
-viewof botaoGerar = Inputs.button("Gerar solicitação de agendamento", {reduce: gerarSolicitacao});
-```
-</p>
-
-<p>
-```{ojs}
-//| echo: false
-solicitacao = Inputs.textarea({label: "Solicitação", rows: 200, readonly: true});
-
-function gerarSolicitacao ()
-{
-    let x0 = ``;
-    let x = ``;
-    if (escola == "") return alert("Insira o nome da Escola.");
-    else {
-    x0 = `Prezados organizadores da ${evento},
-
-Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:`};    
-    if (professor1 != "" && telefone1 != "" && alunos1 != nulo && escolaridade1 != nulo && opcao11 != nulo) {
-        x += `
-        
-        Grupo 1:
-        - Professor responsável: ${professor1}
-        - Número de alunos: ${alunos1}
-        - 1ª opção: ${opcao11}
-        - 2ª opção: ${opcao12}`;
-    }
-    if (professor2 != "" && telefone2 != "" && alunos2 != nulo && escolaridade2 != nulo && opcao21 != nulo) {
-        x += `
-        
-        Grupo 2:
-        - Professor responsável: ${professor2}
-        - Número de alunos: ${alunos2}
-        - 1ª opção: ${opcao21}
-        - 2ª opção: ${opcao22}`;
-    }
-    if (professor3 != "" && telefone3 != "" && alunos3 != nulo && escolaridade3 != nulo && opcao31 != nulo) {
-        x += `
-        
-        Grupo 3:
-        - Professor responsável: ${professor3}
-        - Número de alunos: ${alunos3}
-        - 1ª opção: ${opcao31}
-        - 2ª opção: ${opcao32}`;
-    }
-    if (professor4 != "" && telefone2 != "" && alunos2 != nulo && escolaridade2 != nulo && opcao41 != nulo) {
-        x += `
-        
-        Grupo 4:
-        - Professor responsável: ${professor4}
-        - Número de alunos: ${alunos4}
-        - 1ª opção: ${opcao41}
-        - 2ª opção: ${opcao42}`;
-    }
-    if (professor5 != "" && telefone2 != "" && alunos2 != nulo && escolaridade2 != nulo && opcao51 != nulo) {
-        x += `
-        
-        Grupo 5:
-        - Professor responsável: ${professor5}
-        - Número de alunos: ${alunos5}
-        - 1ª opção: ${opcao51}
-        - 2ª opção: ${opcao52}`;
-    }
-    if (professor6 != "" && telefone2 != "" && alunos2 != nulo && escolaridade2 != nulo && opcao61 != nulo) {
-        x += `
-        
-        Grupo 6:
-        - Professor responsável: ${professor6}
-        - Número de alunos: ${alunos6}
-        - 1ª opção: ${opcao61}
-        - 2ª opção: ${opcao62}`;
-    }
-    if (x == "") return alert("Informe os dados de pelo menos um grupo de alunos.");
-    else {
-        solicitacao.value = x0 + x;
-        navigator.clipboard.writeText(solicitacao.value);  
-        alert("A solicitação foi copiada para a área de transferência. Cole-a no corpo do email e envie para oberve@ufscar.br");
-    }
-};
-```
-</p>
-
-::: {.callout-note}
-Atenção. A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email observe@ufscar.br
+::: {#proximos}
 :::
 
-## Encerrados
+---
 
-### [Observação do cometa Pons-Brooks em 21/04/24](/blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.qmd)
-
-No final da tarde deste domingo (21/04) nos reuniremos na praça do Observatório a Olho Nu do CCA-UFSCar a partir das 17h45 (horário do pôr do Sol) para tentarmos observer o cometa Pons-Brooks. Dificilmente o cometa será visível a olho nu, por isso utilizaremos um dos nossos telescópios. Esperamos conseguir observá-lo no máximo até às 18h40, quando estará quase se pondo. Coincidentemente, na mesma região do céu, Urano estará em conjunção com Júpiter e poderemos tentar testemunhar esse evento também (apesar de ser improvável conseguirmos identificar Urano com o céu ainda levemente claro). Por fim, fecharemos o encontro observando a Lua -- nossa única garantia -- quase cheia no horizonte oposto.
-
+::: {#encerrados}
 :::

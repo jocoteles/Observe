@@ -10,7 +10,8 @@ project:
 
 website:
   title: "*obseRVe*"
-  site-url: https://jocoteles.github.io/Observe/
+  site-url: https://observe.ufscar.br
+  description: "Do céu real ao céu virtual - ensino e divulgação de astronomia"
   navbar:
     left:
       - href: atividades/atividades.qmd
@@ -29,6 +30,9 @@ website:
         text: Localização  
       - href: sobre/sobre.qmd
         text: Sobre
+    right:
+      - icon: rss
+        href: index.html
     tools:
       - icon: instagram
         href: https://www.instagram.com/observe_ufscar 
