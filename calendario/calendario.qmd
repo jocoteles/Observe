@@ -185,7 +185,9 @@ Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para p
         
         Grupo 1:
         - Professor responsável: ${professor1}
+        - Telefone: ${telefone1}
         - Número de alunos: ${alunos1}
+        - Escolaridade: ${escolaridade1}
         - 1ª opção: ${opcao11}
         - 2ª opção: ${opcao12}`;
     }
@@ -194,7 +196,9 @@ Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para p
         
         Grupo 2:
         - Professor responsável: ${professor2}
+        - Telefone: ${telefone2}
         - Número de alunos: ${alunos2}
+        - Escolaridade: ${escolaridade2}
         - 1ª opção: ${opcao21}
         - 2ª opção: ${opcao22}`;
     }
@@ -203,7 +207,9 @@ Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para p
         
         Grupo 3:
         - Professor responsável: ${professor3}
+        - Telefone: ${telefone3}
         - Número de alunos: ${alunos3}
+        - Escolaridade: ${escolaridade3}
         - 1ª opção: ${opcao31}
         - 2ª opção: ${opcao32}`;
     }
@@ -212,7 +218,9 @@ Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para p
         
         Grupo 4:
         - Professor responsável: ${professor4}
+        - Telefone: ${telefone4}
         - Número de alunos: ${alunos4}
+        - Escolaridade: ${escolaridade4}
         - 1ª opção: ${opcao41}
         - 2ª opção: ${opcao42}`;
     }
@@ -221,7 +229,9 @@ Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para p
         
         Grupo 5:
         - Professor responsável: ${professor5}
+        - Telefone: ${telefone5}
         - Número de alunos: ${alunos5}
+        - Escolaridade: ${escolaridade5}
         - 1ª opção: ${opcao51}
         - 2ª opção: ${opcao52}`;
     }
@@ -230,7 +240,9 @@ Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para p
         
         Grupo 6:
         - Professor responsável: ${professor6}
+        - Telefone: ${telefone6}
         - Número de alunos: ${alunos6}
+        - Escolaridade: ${escolaridade6}
         - 1ª opção: ${opcao61}
         - 2ª opção: ${opcao62}`;
     }
@@ -245,7 +257,7 @@ Nós, da instituição ${escola}, gostaríamos de solicitar o agendamento para p
 </p>
 
 ::: {.callout-note}
-Atenção. A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email observe@ufscar.br
+A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email observe@ufscar.br
 :::
 
 ## Encerrados
