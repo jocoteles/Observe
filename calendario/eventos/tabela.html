@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/gridjs@6.2.0/dist/gridjs.production.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridjs@6.2.0/dist/theme/mermaid.min.css">
+    </head>
+    <body>
+        <div id="wrapper"></div>
+        <script>
+            new gridjs.Grid({
+  data: [
+    ['Mike', 33, 'mike@murphy.com'],
+    ['John', 82, 'john@conway.com'],
+    ['Sara', 26, 'sara@keegan.com']
+  ],
+  columns: ['Name', 'Age', 'Email']
+}).render(document.getElementById('wrapper'));
+        </script>
+    </body>
+</html>

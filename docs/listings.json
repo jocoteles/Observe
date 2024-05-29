@@ -65,6 +65,7 @@
     "listing": "/calendario/calendario.html",
     "items": [
       "/calendario/eventos/xvii_jornada_das_estrelas.html",
+      "/calendario/eventos/xvii_jornada_das_estrelas_table.html",
       "/calendario/eventos/pons_brooks.html"
     ]
   }

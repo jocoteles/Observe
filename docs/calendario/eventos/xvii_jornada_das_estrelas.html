@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -150,6 +150,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#instruções-para-as-escolas" id="toc-instruções-para-as-escolas" class="nav-link active" data-scroll-target="#instruções-para-as-escolas">Instruções para as escolas</a></li>
   <li><a href="#form_escolas" id="toc-form_escolas" class="nav-link" data-scroll-target="#form_escolas">Formulário para as escolas</a></li>
+  <li><a href="#agendamentos-confirmados" id="toc-agendamentos-confirmados" class="nav-link" data-scroll-target="#agendamentos-confirmados">Agendamentos confirmados</a></li>
   </ul>
 </nav>
     </div>
@@ -225,52 +226,14 @@ ul.task-list li input[type="checkbox"] {
    </p> 
 </form>
 
-<div id="example-table"></div>
-
 <script defer="">
-
-    //define some sample data
-    var tabledata = [
-        {id:1, name:"Oli Bob", age:"12", col:"red", dob:""},
-        {id:2, name:"Mary May", age:"1", col:"blue", dob:"14/05/1982"},
-        {id:3, name:"Christine Lobowski", age:"42", col:"green", dob:"22/05/1982"},
-        {id:4, name:"Brendon Philips", age:"125", col:"orange", dob:"01/08/1980"},
-        {id:5, name:"Margret Marmajuke", age:"16", col:"yellow", dob:"31/01/1999"},
-        {id:6, name:"Margret Marmajuke", age:"18", col:"yellow", dob:"31/02/1999"},
-    ];
-
-    //create Tabulator on DOM element with id "example-table"
-    var table = new Tabulator("#example-table", {
-        height:205, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
-        data:tabledata, //assign data to table
-        layout:"fitColumns", //fit columns to width of table (optional)
-        groupBy: "name",
-        columns:[ //Define Table Columns
-            //{title:"Name", field:"name", width:150},
-            {title:"Age", field:"age", hozAlign:"left", formatter:"progress"},
-            {title:"Favourite Color", field:"col"},
-            {title:"Date Of Birth", field:"dob", sorter:"date", hozAlign:"center"},
-        ],
-    });
-
     const nulo = '---';
     const horarios = [ 
         '19h às 20h',
         '20h às 21h',
         '21h às 22h',
     ];
-    const datas = [
-        nulo,
-        '18/06 - ' + horarios[0],
-        '18/06 - ' + horarios[1],
-        '18/06 - ' + horarios[2],
-        '19/06 - ' + horarios[0],
-        '19/06 - ' + horarios[1],
-        '19/06 - ' + horarios[2],
-        '20/06 - ' + horarios[0],
-        '20/06 - ' + horarios[1],
-        '20/06 - ' + horarios[2],
-    ];
+    const dias = ['18/06','19/06','20/06'];
     const alunos = {
         label: "Quantidade de alunos",
         options: [
@@ -293,6 +256,14 @@ ul.task-list li input[type="checkbox"] {
             'Misto'
         ]   
     };
+    const agendamentos = [
+        {escola:'INSA', professor:'Cintia Dezotti', dia:dias[0], horario: horarios[0], escolaridade: escolaridade.options[1], alunos: alunos.options[3]},
+        {escola:'INSA', professor:'Rodolfo Milares', dia:dias[0], horario: horarios[0], escolaridade: escolaridade.options[1], alunos: alunos.options[3]},
+        {escola:'INSA', professor:'Karine Diena', dia:dias[0], horario: horarios[0], escolaridade: escolaridade.options[1], alunos: alunos.options[3]},
+    ];
+
+    const datas = genDatasDisponiveisLista(agendamentos, dias, horarios);
+
     const evento = 'XVII Jornada das Estrelas';
     const professor = {
         label: "Professor(a)",
@@ -317,6 +288,19 @@ ul.task-list li input[type="checkbox"] {
         let opcao2HTML = genSelect(`opcao${i}2`, divHTML, datas, 'Opção 2'); 
         grupos.append(divHTML);
     };  
+
+    function genDatasDisponiveisLista(agendamentos, dias, horarios, maxGrupos = 3) {
+        let datas = {};
+        for (let d of dias) {
+            let h = {};
+            for (let hx of horarios) h[hx] = 0;
+            datas[d] = h;
+        }
+        for (let a of agendamentos) datas[a.dia][a.horario]++;
+        let datasDispo = [nulo];
+        for (let d of dias) for (let hx of horarios) if (datas[d][hx] < maxGrupos) datasDispo.push(d + ' - ' + hx);
+        return datasDispo;
+    }
 
     function formSubmit(event) {
         event.preventDefault();
@@ -416,6 +400,25 @@ Atenção
 <p>A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email observe@ufscar.br</p>
 </div>
 </div>
+</section>
+<section id="agendamentos-confirmados" class="level2">
+<h2 class="anchored" data-anchor-id="agendamentos-confirmados">Agendamentos confirmados</h2>
+<div id="tabelaAgendamentos"></div>
+
+<script>
+    var table = new Tabulator("#tabelaAgendamentos", {
+        layout:"fitColumns",
+        //movableRows:true,
+        groupBy:["dia","horario"],
+        data: agendamentos,
+        columns:[
+            {field:'escola', title:'Escola'},
+            {field:'alunos', title:'Alunos'},
+            {field:'escolaridade', title:'Nível'},
+            {field:'professor', title:'Prof.'},
+        ],
+    });
+</script>
 
 
 </section>
@@ -644,24 +647,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/observe\.ufscar\.br");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -696,11 +681,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
