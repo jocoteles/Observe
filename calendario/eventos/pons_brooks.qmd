@@ -1,0 +1,14 @@
+
+---
+title: Observação do cometa Pons-Brook 
+date: 21 04 24
+category: "Encerrado" 
+format: html
+---
+
+::: {.callout-tip}
+## Este evento está encerrado
+Leia sobre o seu relato em [Observação do cometa Pons-Brooks em 21/04/24](/blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.qmd)
+:::
+
+No final da tarde deste domingo (21/04) nos reuniremos na praça do Observatório a Olho Nu do CCA-UFSCar a partir das 17h45 (horário do pôr do Sol) para tentarmos observer o cometa Pons-Brooks. Dificilmente o cometa será visível a olho nu, por isso utilizaremos um dos nossos telescópios. Esperamos conseguir observá-lo no máximo até às 18h40, quando estará quase se pondo. Coincidentemente, na mesma região do céu, Urano estará em conjunção com Júpiter e poderemos tentar testemunhar esse evento também (apesar de ser improvável conseguirmos identificar Urano com o céu ainda levemente claro). Por fim, fecharemos o encontro observando a Lua -- nossa única garantia -- quase cheia no horizonte oposto.
