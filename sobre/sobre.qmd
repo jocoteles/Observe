@@ -6,9 +6,25 @@ O {{< var tipo.observe >}} foi formado no ano de 2023 a partir da união de vár
 
 ## Breve histórico
 
-- 2009 - Inaugurado o evento Jornada das Estrelas pelo Prof. Alexandre Colato.
-- 2010 - Prof. João Teles se une ao Prof. Alexandre na Jornada das Estrelas.
-- 2011 - São adquiridos os dois primeiros telescópios.
+- 2009 -- Inaugurado o evento Jornada das Estrelas pelo [Prof. Alexandre Colato](/equipe/professores/alexandre_colato.qmd). Desde o início o astrônomo [Dr. Gustavo Rojas](http://lattes.cnpq.br/8950200416337192){.external} apoia o evento com palestras, orientações e trazendo sua equipe e telescópios de São Carlos.
+- 2010 -- [Prof. João Teles](/equipe/professores/joao_teles.qmd) se une ao Prof. Alexandre na Jornada das Estrelas.
+- 2011 -- São adquiridos os dois primeiros telescópios: (Maksutov [Nextar 4SE](/acervo/itens/nexstar4se/nexstar4se.qmd) e Dobsoniano) com recursos do CCA/UFSCar.
+- 2012 -- É aprovado o projeto (edital PROEXT/MEC) "Universo em movimento – diferentes abordagens no ensino e divulgação da astronomia" em parceria com o [Prof. Adilson de Oliveira](https://www.df.ufscar.br/adilson){.external}.
+- 2012 e 2013 -- São realizadas diversas ações dentro do projeto "Universo em movimento": 
+    - Curso de formação inicial e formação continuada em "Astronomia voltada para a Educação Básica".
+    - Eventos da "Jornada das Estrelas" e "Exposição interativa Estrelas".
+    - Exposições de Astronomia na Biblioteca Municipal de Araras.
+    - Exposições de Astronomia nas Escolas de Ensino Fundamental e Médio de Araras.
+    - Participações no Programa *International Astronomical Search Collaboration* (IASC).
+    - Observações remotas com o Observatório Astronômico da UFSCar.
+- 2014 -- É aprovado o projeto PROEXT/MEC "Sementes - Integração de estratégias e metodologias voltadas à consolidação da cultura científica visando a inclusão social" novamente em parceria com o Prof. Adilson, agora como coordenador principal, e envolvendo ações e parcerias com todos os *campi* da UFSCar.
+- 2014 e 2015 -- As ações do projeto "Sementes" mais especificamente voltadas à cidade de Araras são:
+    - Parceria universidade-escola com o [Prof. Alexandre Barai](http://lattes.cnpq.br/5585999713845606){.external} envolvendo "Divulgação de conhecimentos de Astronomia no contexto da Olimpíada Brasileira de Astronomia".
+    - Ofertas das [ACIEPEs](https://www.prograd.ufscar.br/docentes/aciepes){.external} “Divulgação de conhecimento de Astronomia e Astronáutica” voltadas a professores em formação e em exercício.
+    - Eventos da "Jornada das Estrelas".
+    - Aquisição do telescópio Schmidt-Cassegrain equatorial [C6S](/acervo/itens/c6-s/c6s.qmd).
+- 2015 -- É inaugurado o [Observatório a Olho Nu do CCA/UFSCar](/atividades/observatorio/observatorio.qmd).
+
 
 ## Logotipo
 
@@ -28,5 +44,5 @@ Por fim, temos as letras maiúsculas "*R*" e "*V*" diferenciando-se das demais e
 
 ## Financiamento
 
-O projeto é financiado pelo CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 ``Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais'' (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.
+Atualmente o grupo {{< var tipo.observe >}} é financiado pelo CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 "Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais" (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.
 
