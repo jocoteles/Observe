@@ -15,9 +15,9 @@ O {{< var tipo.observe >}} foi formado no ano de 2023 a partir da união de vár
     - Eventos da "Jornada das Estrelas" e "Exposição interativa Estrelas".
     - Exposições de Astronomia na Biblioteca Municipal de Araras.
     - Exposições de Astronomia nas Escolas de Ensino Fundamental e Médio de Araras.
-    - Participações no Programa *International Astronomical Search Collaboration* (IASC).
+    - Participações no Programa [International Astronomical Search Collaboration (IASC)](http://iasc.cosmosearch.org/){.external}.
     - Observações remotas com o Observatório Astronômico da UFSCar.
-    - Parceria com o PIBID para a aplicação do projeto *Globe at Night* na EMEF Joel Job 
+    - Participação no programa Parfceria com a Profa Lilia C. P. Thomaz na E.M.E.F. Profº Joel Job Fachini PIBID para a aplicação do projeto [Globe at Night](https://globeatnight.org/){.external} na [E.M.E.F. Profº Joel Job Fachini](https://maps.app.goo.gl/1HePwTkakHLuQS1D8){.external}
 - 2014 -- É aprovado o projeto PROEXT/MEC "Sementes - Integração de estratégias e metodologias voltadas à consolidação da cultura científica visando a inclusão social" novamente em parceria com o Prof. Adilson, agora como coordenador principal, e envolvendo ações e parcerias com todos os *campi* da UFSCar.
 - 2014 e 2015 -- As ações do projeto "Sementes" mais especificamente voltadas à cidade de Araras são:
     - Parceria universidade-escola com o [Prof. Alexandre Barai](http://lattes.cnpq.br/5585999713845606){.external} envolvendo "Divulgação de conhecimentos de Astronomia no contexto da Olimpíada Brasileira de Astronomia".
