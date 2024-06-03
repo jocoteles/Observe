@@ -1,0 +1,13 @@
+---
+title: "Daiane Ribeiro Degan"
+subtitle: "Estudante do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: daiane_degan.jpg
+---
+
+Estudante de licenciatura em física, apaixonada pelos astros e pelos mistérios do universo.
+
+**Formação**
+
+Graduanda em Física pela UFSCar | 2019 - presente

@@ -1,0 +1,13 @@
+---
+title: "Maria Eduarda Silvestrini Dantas"
+subtitle: "Estudante do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: maria_dantas.jpg
+---
+
+É entusiasta e fascinada por astronomia, quântica e química, o que a levou a participar do projeto {{< var tipo.observe >}} e desmistificar os mistérios do universo para que todos se apaixonem pelos atros e galáxias tanto quanto ela.
+
+**Formação**
+
+Graduanda em Química pela UFSCar | 2024 - presente

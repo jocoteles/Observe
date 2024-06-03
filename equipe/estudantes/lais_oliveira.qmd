@@ -1,0 +1,13 @@
+---
+title: "Laís Florencio de Oliveira"
+subtitle: "Estudante do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: lais_oliveira.jpg
+---
+
+Estudante de Licenciatura em Física apaixonada por astronomia.
+
+**Formação**
+
+Graduanda em Licenciatura em Física pela UFSCar | 2022 - presente

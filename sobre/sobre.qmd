@@ -4,28 +4,55 @@ title: "Sobre o {{< var tipo.observe >}}"
 
 O {{< var tipo.observe >}} foi formado no ano de 2023 a partir da união de várias ações envolvendo o ensino e a divulgação de astronomia que vem ocorrendo no [*campus* de Araras da UFSCar](https://www.cca.ufscar.br/pt-br/pagina-inicial){.external} desde a fundação do [Curso de Licenciatura em Física](https://www.fisicaararas.ufscar.br/pt-br){.external} no ano de 2009.
 
-## Breve histórico
+## Histórico
 
-- 2009 -- Inaugurado o evento Jornada das Estrelas pelo [Prof. Alexandre Colato](/equipe/professores/alexandre_colato.qmd). Desde o início o astrônomo [Dr. Gustavo Rojas](http://lattes.cnpq.br/8950200416337192){.external} apoia o evento com palestras, orientações e trazendo sua equipe e telescópios de São Carlos.
-- 2010 -- [Prof. João Teles](/equipe/professores/joao_teles.qmd) se une ao Prof. Alexandre na Jornada das Estrelas.
-- 2011 -- São adquiridos os dois primeiros telescópios: (Maksutov [Nextar 4SE](/acervo/itens/nexstar4se/nexstar4se.qmd) e Dobsoniano) com recursos do CCA/UFSCar.
-- 2012 -- É aprovado o projeto (edital PROEXT/MEC) "Universo em movimento – diferentes abordagens no ensino e divulgação da astronomia" em parceria com o [Prof. Adilson de Oliveira](https://www.df.ufscar.br/adilson){.external}.
-- 2012 e 2013 -- São realizadas diversas ações dentro do projeto "Universo em movimento": 
+- 2009: 
+    - Inaugurado o evento Jornada das Estrelas pelo [Prof. Alexandre Colato](/equipe/professores/alexandre_colato.qmd). Desde o início o astrônomo [Dr. Gustavo Rojas](http://lattes.cnpq.br/8950200416337192){.external} apoia o evento com palestras, orientações e trazendo sua equipe e telescópios de São Carlos.
+    - Realização da II Jornada das Estrelas no 2º semestre.
+- 2010:
+    - Realização da III Jornada das Estrelas.
+    - [Prof. João Teles](/equipe/professores/joao_teles.qmd) se une ao Prof. Alexandre a partir da IV Jornada das Estrelas.
+- 2011:
+    - São adquiridos os dois primeiros telescópios: [Maksutov Nextar 4SE](/acervo/itens/nexstar4se/nexstar4se.qmd) e Dobsoniano com recursos do CCA/UFSCar.
+    - Realização da V Jornada das Estrelas.
+- 2012:
+    - É aprovado o projeto (edital PROEXT/MEC) "Universo em movimento – diferentes abordagens no ensino e divulgação da astronomia" em parceria com o [Prof. Adilson de Oliveira](https://www.df.ufscar.br/adilson){.external}.
+    - Realização da VI Jornada das Estrelas.
+- 2012 e 2013 -- Foram realizadas diversas ações dentro do projeto "Universo em movimento": 
     - Curso de formação inicial e formação continuada em "Astronomia voltada para a Educação Básica".
-    - Eventos da "Jornada das Estrelas" e "Exposição interativa Estrelas".
+    - Realização da VIII e IX Jornada das Estrelas em 2013.
     - Exposições de Astronomia na Biblioteca Municipal de Araras.
     - Exposições de Astronomia nas Escolas de Ensino Fundamental e Médio de Araras.
     - Participações no Programa [International Astronomical Search Collaboration (IASC)](http://iasc.cosmosearch.org/){.external}.
-    - Observações remotas com o Observatório Astronômico da UFSCar.
-    - Participação no programa Parfceria com a Profa Lilia C. P. Thomaz na E.M.E.F. Profº Joel Job Fachini PIBID para a aplicação do projeto [Globe at Night](https://globeatnight.org/){.external} na [E.M.E.F. Profº Joel Job Fachini](https://maps.app.goo.gl/1HePwTkakHLuQS1D8){.external}
-- 2014 -- É aprovado o projeto PROEXT/MEC "Sementes - Integração de estratégias e metodologias voltadas à consolidação da cultura científica visando a inclusão social" novamente em parceria com o Prof. Adilson, agora como coordenador principal, e envolvendo ações e parcerias com todos os *campi* da UFSCar.
-- 2014 e 2015 -- As ações do projeto "Sementes" mais especificamente voltadas à cidade de Araras são:
+    - Participação no programa [Globe at Night](https://globeatnight.org/){.external} em parceria com a [Profa. Lilia C. P. Thomaz na E.M.E.F. Prof. Joel Job Fachini pelo PIBID](https://araras.sp.gov.br/noticias/11134){.external}.
+- 2014:
+    - É desenvolvida a atividade [Medindo a distância da Terra à Lua](https://www.researchgate.net/profile/Joao-Teles-De-Carvalho-Neto/publication/359802120_MEDINDO_A_DISTANCIA_DA_TERRA_A_LUA_UMA_PROPOSTA_FACTIVEL_PARA_O_ENSINO_MEDIO/links/624f21dad726197cfd43b681/MEDINDO-A-DISTANCIA-DA-TERRA-A-LUA-UMA-PROPOSTA-FACTIVEL-PARA-O-ENSINO-MEDIO.pdf){.external} dentro do projeto "Diversificação curricular: possibilidade de aperfeiçoamento e valorização da formação de futuros professores de física" pelo Programa Licenciaturas Internacionais coordenado pelo [Prof. Paulo C. de Faria](http://lattes.cnpq.br/3630521378837174){.external} em parceria com a Universidade de Aveiro, Portugal.
+    - É aprovado o projeto PROEXT/MEC "Sementes - Integração de estratégias e metodologias voltadas à consolidação da cultura científica visando a inclusão social" novamente em parceria com o Prof. Adilson, agora como coordenador principal, e envolvendo ações e parcerias com todos os *campi* da UFSCar.
+- 2014 e 2015 -- As ações realizadas dentro do projeto "Sementes" mais especificamente voltadas à cidade de Araras foram:
     - Parceria universidade-escola com o [Prof. Alexandre Barai](http://lattes.cnpq.br/5585999713845606){.external} envolvendo "Divulgação de conhecimentos de Astronomia no contexto da Olimpíada Brasileira de Astronomia".
     - Ofertas das [ACIEPEs](https://www.prograd.ufscar.br/docentes/aciepes){.external} “Divulgação de conhecimento de Astronomia e Astronáutica” voltadas a professores em formação e em exercício.
     - Eventos da "Jornada das Estrelas".
-    - Aquisição do telescópio Schmidt-Cassegrain equatorial [C6S](/acervo/itens/c6-s/c6s.qmd).
-- 2015 -- É inaugurado o [Observatório a Olho Nu do CCA/UFSCar](/atividades/observatorio/observatorio.qmd).
-- 2016 -- 
+    - Aquisição do telescópio [Schmidt-Cassegrain equatorial C6S](/acervo/itens/c6-s/c6s.qmd).
+    - Realização da X e XI Jornada das Estrelas.
+- 2015 :
+    - É inaugurado o [Observatório a Olho Nu do CCA/UFSCar](/atividades/observatorio/observatorio.qmd).
+    - São construídos os globos celeste e terrestre de 75 cm de diâmetro.
+    - Realização da XII Jornada das Estrelas.
+- 2016:
+    - Realização da ACIEPE "Ensino de astronomia através da participação no *International Astronomical Search Collaboration (IASC)*" que contou com a participação de estudantes do Ensino Médio de Araras e outras localidades do estado de SP.
+    - É adquirida a câmera para astrofotografia ZWO ASI290MC.
+    - Realização da XIII Jornada das Estrelas.
+- 2017: Realização da XIV Jornada das Estrelas.
+- 2018: Início do desenvolvimento do [Projetor Estelar](https://repositorio.ufscar.br/handle/ufscar/14067){.external}.
+- 2019: Realização da XV Jornada das Estrelas.
+- 2020: Oferta do curso de extensão "Astronomia voltada para a Educação Básica" de forma remota durante a pandemia de Covid-19 que recebeu mais de 100 inscrições de várias cidades do Brasil.
+- 2022:
+    - Conclusão do *hardware* e *software* do Projetor Estelar e finalização de [pesquisa de mestrado envolvendo sua utilização no ensino de astronomia](https://repositorio.ufscar.br/handle/ufscar/15728){.external}.
+    - Realização da XVI Jornada das Estrelas.
+- 2023: 
+    - É iniciado o projeto CNPq "Astronomia e cultura astronômica: do céu real ao céu virtual" em parceria com o [Prof. Vitor R. Coluci](/equipe/professores/vitor_coluci.qmd) da FT-Unicamp.
+    - Realização da XVII Jornada das Estrelas.
+    - Criação do grupo {{< var tipo.observe >}}.
 
 ## Logotipo
 
