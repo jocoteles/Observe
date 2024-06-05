@@ -11,6 +11,7 @@ project:
 website:
   title: "*obseRVe*"
   site-url: https://observe.ufscar.br
+  favicon: assets/observe_whatsapp.png
   description: "Do céu real ao céu virtual - ensino e divulgação de astronomia"
   navbar:
     left:

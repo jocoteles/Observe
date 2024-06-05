@@ -90,8 +90,8 @@ O evento é gratuito e o público geral pode comparecer sem agendamento. Entreta
         {escola:'INSA', professor:'Karine', dia:'18/06', horario:'19h às 20h', escolaridade:'Misto', alunos: 'entre 30 e 50'},
         {escola:'Maria Rosa', professor:'Edenilze', dia:'20/06', horario:'19h às 20h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
         {escola:'Maria Rosa', professor:'Guilherme', dia:'20/06', horario:'19h às 20h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
-        {escola:'Maria Rosa', professor:'Valdezir', dia:'20/06', horario:'19h às 20h', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
-        {escola:'Maria Rosa', professor:'Daniele', dia:'20/06', horario:'20h às 21h', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'Maria Rosa', professor:'Valdezir', dia:'20/06', horario:'19h às 20h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'Maria Rosa', professor:'Daniele', dia:'20/06', horario:'20h às 21h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
     ];
 
     const Ngrupos = 6;
@@ -146,8 +146,7 @@ O evento é gratuito e o público geral pode comparecer sem agendamento. Entreta
             x0 = 
 `Prezados organizadores da ${evento},
 
-Nós, da instituição ${el.escola.value}, localizada no município de ${el.municipio.value}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:
-`
+Nós, da instituição ${el.escola.value}, localizada no município de ${el.municipio.value}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:`
         }; 
         for (let i = 1; i < Ngrupos+1; i++) {
             if (el[`professor${i}`].value != "" &&
@@ -157,6 +156,7 @@ Nós, da instituição ${el.escola.value}, localizada no município de ${el.muni
             {
                 x += 
 `
+
 Grupo ${i}:
 - Professor responsável: ${el[`professor${i}`].value}
 - Telefone: ${el[`telefone${i}`].value}
