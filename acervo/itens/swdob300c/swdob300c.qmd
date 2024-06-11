@@ -1,0 +1,48 @@
+---
+title: SWDOB300C - Sky-Watcher
+image: swdob300c.webp
+description: "Dobsoniano 300 mm f/5, retrátil, altazimutal manual."
+category: Telescópio
+---
+
+::: {.panel-tabset}
+
+## Descrição
+
+Os telescópios do tipo dobsoniano recebem esse nome devido à sua montagem prática criada pelo astrônomo amador John Dobson. Nela, o espelho primário -- e mais pesado -- fica apoiado próximo ao solo, o que permite uma configuração de posicionamento altazimutal estável, simples e robusta. Adicionalmente, o nosso modelo possui uma configuração retrátil do tubo óptico, o que facilita o seu transporte.
+
+O desenho óptico dos dobsonianos costuma ser do tipo newtoniano. A óptica newtoniana é composta somente por um espelho refletor parabólico na composição da objetiva, diferentemente dos telescópios catadióptricos (nossos [Schmidt-Cassegrain](/acervo/itens/c6-s/c6s.qmd) e [Maksutov-Cassegrain](/acervo/itens/nexstar4se/nexstar4se.qmd)) que possuem uma sofisticada óptica que combina elementos refletores com refratores.
+
+Com uma abertura de 305 mm, é o que propicia o maior ganho de luminosidade entre os telescópios do nosso acervo, sendo indicado para a obervação de objetos difusos como cometas e nebulosas.
+
+Um ponto negativo da montagem que possuímos é o fato dela não ser motorizada/computadorizada o que requer que tenhamos que fazer tanto a busca dos objetos celestes quanto o seu acompanhamento devido à rotação da Terra, de forma manual.
+
+![](swdob300c.webp)
+
+## Instruções
+
+### Instalação do telescópio
+
+Texto em construção.
+
+
+## Especificações
+
+*Extraídas do site da Sky-Watcher*
+
+- Desenho Óptico: Newtoniano (espelho primário parabólico)
+- Abertura: 305mm (12″)
+- Comprimento Focal: 1500mm
+- Razão Focal: f/4.9
+- Diâmetro do Espelho Secundário: 69mm
+- Obstrução do Espelho Secundário: 22.7%
+- Poder de Resolução: 0.39″
+- Magnitude Limite: 15.4
+- Máxima Ampliação: 610X
+- Capacidade de Coleta de Luz (comparado ao olho nu): 1898X
+- Buscadora: Crayford de 2″ com adaptador de 1.25″
+- Comprimento do Tubo Óptico: 923mm – 1390mm
+- Altura do Telescópio: 1620mm
+- Diâmetro da Base: 646mm
+
+:::

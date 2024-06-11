@@ -29,17 +29,46 @@ Texto em construção.
 
 ## Especificações
 
+*Extraídas do site da Celestron*
+
 ### Informações do tubo óptico
 
-A ser extraído do manual.
+- Design Óptico: Schmidt-Cassegrain
+- Abertura: 150 mm (6")
+- Comprimento Focal: 1500 mm (59")
+- Razão Focal: f/10
+- Buscadora: 6x30
+- Tubo Óptico: Alumínio
+- Maior Aumento Útil: 354x
+- Menor Aumento Útil: 21x
+- Magnitude Estelar Limite: 13,4
+- Resolução (Rayleigh): 0,93 segundos de arco
+- Resolução (Dawes): 0,77 segundos de arco
+- Ganho de luminosidade (comparado ao olho humano): 459x
+- Obstrução do Espelho Secundário por Área: 14%
+- Comprimento do Tubo Óptico: 406 mm (16")
+- Peso do Tubo Óptico: 4,54 kg
 
 ### Informações da montagem
 
-A ser extraído do manual.
-
-### Itens inclusos
-
-A ser extraído do manual.
+- Tipo de Montagem: Equatorial Computadorizada
+- Capacidade de Carga do Instrumento: 13,6 kg
+- Faixa de Ajuste de Altura (inclui montagem e tripé): 1118 mm - 1626 mm
+- Diâmetro da Perna do Tripé: 50,8 mm (2") Aço Inoxidável
+- Faixa de Ajuste de Latitude: 7° - 77°
+- Peso da Cabeça da Montagem: 7,71 kg
+- Bandeja de Acessórios: Sim
+- Peso do Tripé: 8,16 kg
+- Peso dos Contrapesos: 1 x 5,44 kg
+- Velocidades de Movimentação: 9 velocidades de movimentação - velocidade máxima 4° por segundo
+- Taxas de Rastreamento: Sideral, Solar e Lunar
+- Modos de Rastreamento: EQ Norte e EQ Sul
+- GPS: N/A
+- Requisitos de Energia: 12V DC 3.5A (ponta positiva)
+- Motor de Acionamento: Motores servo DC
+- Procedimentos de Alinhamento: 2-Star Align, 1-Star Align, Solar System Align, Last Alignment, Quick Align
+- Controle Manual Computadorizado: Display de Cristal Líquido retroiluminado de 2 linhas x 18 caracteres, 19 botões retroiluminados por LED
+- Base de Dados NexStar+: Mais de 40.000 objetos
 
 :::
 

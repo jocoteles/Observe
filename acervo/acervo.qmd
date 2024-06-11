@@ -5,7 +5,7 @@ listing:
     type: default
     fields: [image, title, description, category]    
     filter-ui: [title, category, description]
-    sort-ui: [title, category, description]
+    sort-ui: [category, title, description]
     field-display-names:
         title: Item
         category: Categoria
