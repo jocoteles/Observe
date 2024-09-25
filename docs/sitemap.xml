@@ -318,6 +318,34 @@
   </url>
   <url>
     <loc>https://observe.ufscar.br/calendario/eventos/WorkshopVR.html</loc>
-    <lastmod>2024-09-25T17:13:52.932Z</lastmod>
+    <lastmod>2024-09-25T18:18:07.179Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/soupsieve-2.6.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:01.209Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/httpcore-1.0.5.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:05.231Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/numpy/random/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:42:47.134Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:01.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/cffi/recompiler.html</loc>
+    <lastmod>2024-09-25T17:38:05.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:03.458Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/httpx-0.27.2.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:05.770Z</lastmod>
   </url>
 </urlset>

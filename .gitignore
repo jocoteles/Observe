@@ -4,3 +4,4 @@ docs
 .quarto
 .vscode
 /.quarto/
+observe-env
