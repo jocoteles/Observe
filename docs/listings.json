@@ -48,27 +48,28 @@
   {
     "listing": "/equipe/equipe.html",
     "items": [
-      "/equipe/professores/joao_teles.html",
       "/equipe/professores/silvio_dahmen.html",
-      "/equipe/professores/vitor_coluci.html",
       "/equipe/professores/alexandre_colato.html",
+      "/equipe/professores/joao_teles.html",
+      "/equipe/professores/vitor_coluci.html",
       "/equipe/tecnicos/fernando_apolinario.html",
       "/equipe/tecnicos/aline_soares.html",
-      "/equipe/estudantes/daiane_degan.html",
       "/equipe/estudantes/lais_oliveira.html",
       "/equipe/estudantes/maria_gomes.html",
       "/equipe/estudantes/guilherme_bonaldo.html",
-      "/equipe/estudantes/lucas_ribeiro.html",
-      "/equipe/estudantes/amanda_greyce.html",
       "/equipe/estudantes/jhasmani_tito_cruz.html",
-      "/equipe/estudantes/maria_dantas.html",
+      "/equipe/estudantes/daiane_degan.html",
+      "/equipe/estudantes/lucas_ribeiro.html",
       "/equipe/estudantes/daniel_oliveira.html",
-      "/equipe/estudantes/vivian_silva.html"
+      "/equipe/estudantes/vivian_silva.html",
+      "/equipe/estudantes/maria_dantas.html",
+      "/equipe/estudantes/amanda_greyce.html"
     ]
   },
   {
     "listing": "/calendario/calendario.html",
     "items": [
+      "/calendario/eventos/WorkshopVR.html",
       "/calendario/eventos/xvii_jornada_das_estrelas.html",
       "/calendario/eventos/pons_brooks.html"
     ]

@@ -9,8 +9,62 @@
 <link>https://observe.ufscar.br/calendario/calendario.html</link>
 <atom:link href="https://observe.ufscar.br/calendario/calendario.xml" rel="self" type="application/rss+xml"/>
 <description> </description>
-<generator>quarto-1.4.549</generator>
-<lastBuildDate>Mon, 27 May 2024 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Wed, 25 Sep 2024 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia</title>
+  <link>https://observe.ufscar.br/calendario/eventos/WorkshopVR.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<ul>
+<li>Datas: 15, 16 e 17 de outubro de 2024</li>
+<li>Horário: 13h40 às 18h</li>
+<li>Local: Laboratório de Informática da Graduação 1 (LIG 1), <a href="../../localizacao/localizacao.html">UFSCar - Campus Araras</a></li>
+<li>Público Alvo: Estudantes de ensino superior, professores e egressos de cursos de graduação.</li>
+<li>Pré-inscrição: De 25/09/2024 a 11/10/2024 via formulário online e confirmação no dia do curso.</li>
+<li>Vagas: 50 vagas em cada dia, sendo metade reservadas para estudantes do CCA/UFSCar.</li>
+</ul>
+<section id="programação" class="level2">
+<h2 class="anchored" data-anchor-id="programação">Programação</h2>
+<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unreal-engine" class="level3">
+<h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unreal-engine">15/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unreal Engine</h3>
+<p><em>Ministrante</em>: Me. Jhasmani Tito Cruz (doutorando FT-UNICAMP)</p>
+</section>
+</section>
+<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity" class="level2">
+<h2 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity">16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity</h2>
+<p><em>Ministrantes</em>: Me. Jhasmani Tito Cruz (doutorando FT-UNICAMP)</p>
+</section>
+<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame" class="level2">
+<h2 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame">17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame</h2>
+<p>Descrição:</p>
+<p>Explore o potencial da Realidade Virtual (RV) no ensino de Física e Astronomia. [11-13] Aprenda a criar aplicações imersivas e interativas com plataformas como Unreal Engine, Unity e A-Frame. [11, 14] Desenvolva habilidades em programação (HTML/Javascript, C# e C++) e criação de conteúdo interativo. [14, 15] Benefícios:</p>
+<p>Experiência prática e interativa. [16] Certificado de participação de 12 horas. [7] Oportunidade de aprendizado de tecnologias inovadoras para o ensino. [17, 18] Acesso a softwares e tecnologias geralmente inacessíveis em contextos formais de educação. [18] Organização:</p>
+<p>Departamento de Ciências da Natureza, Matemática e Educação (DCNME-Ar), UFSCar [1, 2] Em parceria com ORACULUS XR, FT - UNICAMP e Universidad Nacional de Ingeniería (Peru) [4] Informações: observe@ufscar.br / observe.ufscar.br/calendario/calendario.html [12]</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Atenção
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Obrigatória a apresentação de documento contendo o número de identificação conforme registrado no formulário de pré-inscrição.</p>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://observe.ufscar.br/calendario/eventos/WorkshopVR.html</guid>
+  <pubDate>Wed, 25 Sep 2024 03:00:00 GMT</pubDate>
+</item>
 <item>
   <title>XVII Jornada das Estrelas</title>
   <link>https://observe.ufscar.br/calendario/eventos/xvii_jornada_das_estrelas.html</link>
@@ -31,14 +85,15 @@
 <li>Visitação ao Observatório a Olho Nu.</li>
 <li>Passeio pelos planetas do Sistema Solar em escala de tamanhos e distâncias.</li>
 </ul>
-<p>Cada uma das três atividades terá duração entre 20 e 25 minutos, fazendo com que o circuito completo seja realizado em até 1 hora e 10 minutos.</p>
+<p>Cada uma das três atividades terá duração entre 20 e 25 minutos, fazendo com que o circuito completo seja realizado em até 1 hora e 10 minutos. Como as atividades são realizadas à noite e a céu aberto, recomendamos que os visitantes venham agasalhados.</p>
 <p>O evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as <strong>escolas precisam fazer a solicitação de agendamento</strong> conforme instruções abaixo.</p>
+<p>Recebemos a informação do TCA que, nos dias do evento, a linha de ônibus <a href="https://www.smtca.sp.gov.br/wp-content/uploads/2023/01/LINHAS-E-HORARIOS-DE-ONIBUS-SITE-2023-01-30.pdf">Linha 0403 - Parque das Arvores / Jardim Alvorada - Carro 820</a> estará operando.</p>
 <section id="instruções-para-as-escolas" class="level2">
 <h2 class="anchored" data-anchor-id="instruções-para-as-escolas">Instruções para as escolas</h2>
 <ul>
 <li>Escolas que queiram trazer seus alunos deverão, obrigatoriamente, fazer o agendamento do dia e horário de visitação preenchendo o formulário abaixo e enviando a solicitação gerada para o email observe@ufscar.br.</li>
 <li>O agendamento poderá ser feito até o dia 14 de junho. As escolas que não puderem vir deverão cancelar o agendamento com antecedência para liberar horário para outras escolas.</li>
-<li>Serão aceitos no máximo 3 grupos de 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.</li>
+<li>Serão aceitos no máximo 4 grupos de 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.</li>
 <li>As escolas que vierem com grupos que não tiverem sido agendados e confirmados não poderão participar do evento. Todas as escolas serão contatadas por e-mail ou telefone para confirmação do agendamento. Ou seja, não basta fazer o agendamento, é necessário que a escola receba a confirmação por email para poder participar.</li>
 <li>Escolas que chegarem atrasadas em relação ao horário agendado poderão perder alguma das atividades acima, sendo direcionadas para a atividade seguinte desde que dentro do período agendado.<br>
 </li>
@@ -94,9 +149,16 @@
         ]   
     };
     const agendamentos = [
-        {escola:'INSA', professor:'Cintia Dezotti', dia:'18/06', horario:'19h às 20h', escolaridade:'Misto', alunos: 'entre 30 e 50'},
-        {escola:'INSA', professor:'Rodolfo Milares', dia:'18/06', horario:'19h às 20h', escolaridade:'Misto', alunos: 'entre 30 e 50'},
-        {escola:'INSA', professor:'Karine Diena', dia:'18/06', horario:'19h às 20h', escolaridade:'Misto', alunos: 'entre 30 e 50'},
+        {escola:'INSA', professor:'Cintia', dia:'19/06', horario:'19h às 20h', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'INSA', professor:'Karine', dia:'19/06', horario:'19h às 20h', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'INSA', professor:'Márcia', dia:'19/06', horario:'19h às 20h', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'UFSCar', professor:'Samantha', dia:'19/06', horario:'20h às 21h', escolaridade:'Misto', alunos: 'menos que 15'},
+        {escola:'Maria Rosa', professor:'Edenilze', dia:'20/06', horario:'19h às 20h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'Maria Rosa', professor:'Guilherme', dia:'20/06', horario:'19h às 20h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'Maria Rosa', professor:'Valdezir', dia:'20/06', horario:'20h às 21h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'Maria Rosa', professor:'Daniele', dia:'20/06', horario:'20h às 21h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'C.E. Sagrada Família', professor:'Jonathan', dia:'20/06', horario:'20h às 21h', escolaridade:'Ensino Médio', alunos: 'menos que 15'},
+        {escola:'NFP/UFSCar', professor:'Victor', dia:'20/06', horario:'20h às 21h', escolaridade:'Superior', alunos: 'menos que 15'},
     ];
 
     const Ngrupos = 6;
@@ -151,8 +213,7 @@
             x0 = 
 `Prezados organizadores da ${evento},
 
-Nós, da instituição ${el.escola.value}, localizada no município de ${el.municipio.value}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:
-`
+Nós, da instituição ${el.escola.value}, localizada no município de ${el.municipio.value}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:`
         }; 
         for (let i = 1; i < Ngrupos+1; i++) {
             if (el[`professor${i}`].value != "" &&
@@ -162,6 +223,7 @@ Nós, da instituição ${el.escola.value}, localizada no município de ${el.muni
             {
                 x += 
 `
+
 Grupo ${i}:
 - Professor responsável: ${el[`professor${i}`].value}
 - Telefone: ${el[`telefone${i}`].value}
@@ -245,7 +307,7 @@ Atenção
 <div id="tabelaAgendamentos"></div>
 
 <script>
-    var table = new Tabulator("#tabelaAgendamentos", {
+    var tableAgen = new Tabulator("#tabelaAgendamentos", {
         layout:"fitColumns",
         groupBy:["dia","horario"],
         data: agendamentos,
@@ -253,7 +315,7 @@ Atenção
             {field:'escola', title:'Escola'},
             {field:'alunos', title:'Alunos'},
             {field:'escolaridade', title:'Nível'},
-            {field:'professor', title:'Prof.'},
+            {field:'professor', title:'Prof(a)'},
         ],
     });
 </script>

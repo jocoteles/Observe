@@ -1,7 +1,7 @@
 ---
 title: XVII Jornada das Estrelas
 date: 27 05 24
-category: "Próximo" 
+category: "Encerrado" 
 format:
     html:
         include-in-header:
