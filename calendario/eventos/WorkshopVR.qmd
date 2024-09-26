@@ -7,7 +7,7 @@ format: html
 
 ![](workshoVR.webp)
 
-Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a [Oraculus XR](https://oraculusxr.com/). O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como Unreal Engine, Unity e A-Frame e orientando os participantes a construírem ambientes 3D e desenvolver aplicações educacionais em realidade virtual.
+Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a [Oraculus XR](https://oraculusxr.com/). O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como Unreal Engine, Unity e A-Frame e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual.
 
 ## Minicursos
 
