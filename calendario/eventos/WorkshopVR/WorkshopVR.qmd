@@ -5,6 +5,7 @@ category: "Próximo"
 format: html
 ---
 
+![](workshoVR.webp)
 
 Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a [Oraculus XR](https://oraculusxr.com/). O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como Unreal Engine, Unity e A-Frame e orientando os participantes a construírem ambientes 3D e desenvolver aplicações educacionais em realidade virtual.
 
@@ -14,7 +15,7 @@ Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de
 
 *Objetivos*: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a Unreal Engine, com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.
 
-**Ministrante**: [Me. Jhasmani Tito Cruz (doutorando FT-UNICAMP)](/equipe/estudantes/jhasmani_tito_cruz.qmd)
+**Ministrante**: [Jhasmani Tito Cruz (FT-UNICAMP)](/equipe/estudantes/jhasmani_tito_cruz.qmd)
 
 ### 16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity
 
@@ -35,7 +36,7 @@ Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de
     - Manipulação de objetos 3D com e sem restrições.
     - Interface de usuário de realidade virtual (tela, botões, texto)
 
-**Ministrantes**: Me. Viky Cecilia Camarena Quispe, Eng. Julio César Cubas Aguinaga e Iversen Arroyo Unchupaico (Universidad Nacional de Ingeniería, Oraculus XR)
+**Ministrantes**: [Viky Cecilia Camarena Quispe, Julio César Cubas Aguinaga e Iversen Arroyo Unchupaico (Universidad Nacional de Ingeniería, Oraculus XR)](https://oraculusxr.com/)
 
 ### 17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame
 
@@ -52,7 +53,7 @@ Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de
     - Simulação de conceitos de Física (como gravidade, movimento de corpos).
     - Representação de corpos celestes em RV.
 
-**Ministrante**: [Prof. Dr. João Teles de Carvalho Neto (CCA-UFSCar)](/equipe/professores/joao_teles.qmd)
+**Ministrante**: [João Teles de Carvalho Neto (CCA-UFSCar)](/equipe/professores/joao_teles.qmd)
 
 ## Forma de participação
 
