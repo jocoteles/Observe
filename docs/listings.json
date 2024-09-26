@@ -6,24 +6,6 @@
     ]
   },
   {
-    "listing": "/acervo/acervo.html",
-    "items": [
-      "/acervo/itens/c6-s/c6s.html",
-      "/acervo/itens/nexstar4se/nexstar4se.html",
-      "/acervo/itens/quest2/quest2.html",
-      "/acervo/itens/relogio_estelar/relogio_estelar.html",
-      "/acervo/itens/svbony305/svbony305.html",
-      "/acervo/itens/swdob300c/swdob300c.html"
-    ]
-  },
-  {
-    "listing": "/atividades/desafios_online/desafios_online.html",
-    "items": [
-      "/atividades/desafios_online/h5p-atividades/h5p-instrumentos.html",
-      "/atividades/desafios_online/h5p-atividades/h5p-planeta-mercurio.html"
-    ]
-  },
-  {
     "listing": "/blog/blog.html",
     "items": [
       "/blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html",
@@ -33,16 +15,14 @@
     ]
   },
   {
-    "listing": "/atividades/atividades.html",
+    "listing": "/acervo/acervo.html",
     "items": [
-      "/atividades/jornada_das_estrelas/jornada_das_estrelas.html",
-      "/atividades/jornada_do_sol/jornada_do_sol.html",
-      "/atividades/observatorio/observatorio.html",
-      "/atividades/planisferio/planisferio.html",
-      "/atividades/observacao_do_ceu/observacao_do_ceu.html",
-      "/atividades/passeio_dos_planetas/passeio_dos_planetas.html",
-      "/atividades/pendulo_de_foucault/pendulo_de_foucault.html",
-      "/atividades/desafios_online/desafios_online.html"
+      "/acervo/itens/c6-s/c6s.html",
+      "/acervo/itens/nexstar4se/nexstar4se.html",
+      "/acervo/itens/quest2/quest2.html",
+      "/acervo/itens/relogio_estelar/relogio_estelar.html",
+      "/acervo/itens/svbony305/svbony305.html",
+      "/acervo/itens/swdob300c/swdob300c.html"
     ]
   },
   {
@@ -72,6 +52,26 @@
       "/calendario/eventos/WorkshopVR.html",
       "/calendario/eventos/xvii_jornada_das_estrelas.html",
       "/calendario/eventos/pons_brooks.html"
+    ]
+  },
+  {
+    "listing": "/atividades/desafios_online/desafios_online.html",
+    "items": [
+      "/atividades/desafios_online/h5p-atividades/h5p-instrumentos.html",
+      "/atividades/desafios_online/h5p-atividades/h5p-planeta-mercurio.html"
+    ]
+  },
+  {
+    "listing": "/atividades/atividades.html",
+    "items": [
+      "/atividades/jornada_das_estrelas/jornada_das_estrelas.html",
+      "/atividades/jornada_do_sol/jornada_do_sol.html",
+      "/atividades/observatorio/observatorio.html",
+      "/atividades/planisferio/planisferio.html",
+      "/atividades/observacao_do_ceu/observacao_do_ceu.html",
+      "/atividades/passeio_dos_planetas/passeio_dos_planetas.html",
+      "/atividades/pendulo_de_foucault/pendulo_de_foucault.html",
+      "/atividades/desafios_online/desafios_online.html"
     ]
   }
 ]

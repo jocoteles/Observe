@@ -19,31 +19,102 @@
 
 
 
-<ul>
-<li>Datas: 15, 16 e 17 de outubro de 2024</li>
-<li>Horário: 13h40 às 18h</li>
-<li>Local: Laboratório de Informática da Graduação 1 (LIG 1), <a href="../../localizacao/localizacao.html">UFSCar - Campus Araras</a></li>
-<li>Público Alvo: Estudantes de ensino superior, professores e egressos de cursos de graduação.</li>
-<li>Pré-inscrição: De 25/09/2024 a 11/10/2024 via formulário online e confirmação no dia do curso.</li>
-<li>Vagas: 50 vagas em cada dia, sendo metade reservadas para estudantes do CCA/UFSCar.</li>
-</ul>
-<section id="programação" class="level2">
-<h2 class="anchored" data-anchor-id="programação">Programação</h2>
+<p><img src="https://observe.ufscar.br/calendario/eventos/workshoVR.webp" class="img-fluid"></p>
+<p>Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a <a href="https://oraculusxr.com/">Oraculus XR</a>. O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como Unreal Engine, Unity e A-Frame e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual.</p>
+<section id="minicursos" class="level2">
+<h2 class="anchored" data-anchor-id="minicursos">Minicursos</h2>
 <section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unreal-engine" class="level3">
 <h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unreal-engine">15/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unreal Engine</h3>
-<p><em>Ministrante</em>: Me. Jhasmani Tito Cruz (doutorando FT-UNICAMP)</p>
+<p><em>Objetivos</em>: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a Unreal Engine, com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.</p>
+<p><strong>Ministrante</strong>: <a href="../../equipe/estudantes/jhasmani_tito_cruz.html">Jhasmani Tito Cruz (FT-UNICAMP)</a></p>
+</section>
+<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity" class="level3">
+<h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity">16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity</h3>
+<p><em>Objetivos</em>: introduzir os participantes à criação de atividades interativas em realidade virtual utilizando a plataforma Unity.</p>
+<ul>
+<li>Introdução à RV e Unity
+<ul>
+<li>Noções básicas de VR</li>
+<li>Configuração do ambiente de desenvolvimento Unity</li>
+<li>Introdução ao Meta SDK</li>
+<li>Criação de um novo projeto RV</li>
+</ul></li>
+<li>Cenas em RV
+<ul>
+<li>Configurações da câmera RV</li>
+<li>Criação de objetos e materiais 3D</li>
+<li>Interação com objetos (raycasting, colisões)</li>
+<li>Programação básica e animações para Realidade Virtual</li>
+</ul></li>
+<li>Interação Avançada
+<ul>
+<li>Rastreamento e configuração manual</li>
+<li>Manipulação de objetos 3D com e sem restrições.</li>
+<li>Interface de usuário de realidade virtual (tela, botões, texto)</li>
+</ul></li>
+</ul>
+<p><strong>Ministrantes</strong>: <a href="https://oraculusxr.com/">Viky Cecilia Camarena Quispe, Julio César Cubas Aguinaga e Iversen Arroyo Unchupaico (Universidad Nacional de Ingeniería, Oraculus XR)</a></p>
+</section>
+<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame" class="level3">
+<h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame">17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame</h3>
+<p><em>Objetivos</em>: introduzir os participantes ao desenvolvimento de atividades interativas de Realidade Virtual (RV) utilizando a plataforma web A-Frame, com foco em aplicações voltadas para o ensino de Física e Astronomia. Ao final do minicurso, os participantes terão criado um ambiente VR simples e compreendido os conceitos básicos do A-Frame.</p>
+<ul>
+<li>Introdução ao A-Frame
+<ul>
+<li>O que é A-Frame: Conceitos e arquitetura.</li>
+<li>Estrutura básica de um projeto em A-Frame: HTML, entidades e componentes.</li>
+</ul></li>
+<li>Hands-on: Construção de um ambiente RV simples
+<ul>
+<li>Configuração de ambiente e ferramentas</li>
+<li>Criação de cenas básicas em RV: Céu, objetos 3D e movimentação no espaço.</li>
+<li>Integração de JavaScript para interatividade: controle de câmera e manipulação de objetos.</li>
+</ul></li>
+<li>Exploração de atividades educacionais em Física e Astronomia:
+<ul>
+<li>Simulação de conceitos de Física (como gravidade, movimento de corpos).</li>
+<li>Representação de corpos celestes em RV.</li>
+</ul></li>
+</ul>
+<p><strong>Ministrante</strong>: <a href="../../equipe/professores/joao_teles.html">João Teles de Carvalho Neto (CCA-UFSCar)</a></p>
 </section>
 </section>
-<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity" class="level2">
-<h2 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity">16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity</h2>
-<p><em>Ministrantes</em>: Me. Jhasmani Tito Cruz (doutorando FT-UNICAMP)</p>
+<section id="forma-de-participação" class="level2">
+<h2 class="anchored" data-anchor-id="forma-de-participação">Forma de participação</h2>
+<ul>
+<li><p><strong>Público interno</strong> da UFSCar não precisará trazer material algum para participar dos minicursos.</p></li>
+<li><p><strong>Público externo</strong> precisará, obrigatoriamente, trazer um notebook pessoal. Além disso, quem for participar do minicurso com o Unity, deverá vir com o <a href="https://unity.com/pt/download">Unity</a> já instalado em seu notebook.</p></li>
+</ul>
 </section>
-<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame" class="level2">
-<h2 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame">17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame</h2>
-<p>Descrição:</p>
-<p>Explore o potencial da Realidade Virtual (RV) no ensino de Física e Astronomia. [11-13] Aprenda a criar aplicações imersivas e interativas com plataformas como Unreal Engine, Unity e A-Frame. [11, 14] Desenvolva habilidades em programação (HTML/Javascript, C# e C++) e criação de conteúdo interativo. [14, 15] Benefícios:</p>
-<p>Experiência prática e interativa. [16] Certificado de participação de 12 horas. [7] Oportunidade de aprendizado de tecnologias inovadoras para o ensino. [17, 18] Acesso a softwares e tecnologias geralmente inacessíveis em contextos formais de educação. [18] Organização:</p>
-<p>Departamento de Ciências da Natureza, Matemática e Educação (DCNME-Ar), UFSCar [1, 2] Em parceria com ORACULUS XR, FT - UNICAMP e Universidad Nacional de Ingeniería (Peru) [4] Informações: observe@ufscar.br / observe.ufscar.br/calendario/calendario.html [12]</p>
+<section id="processo-de-inscrição" class="level2">
+<h2 class="anchored" data-anchor-id="processo-de-inscrição">Processo de inscrição</h2>
+<p>O processo de inscrição será da seguinte forma:</p>
+<ul>
+<li>Etapa 1 - Pré-inscrição online via <a href="https://forms.gle/RU8US7j6KKTJ2wwh6">formulário online</a>.</li>
+<li>Etapa 2 - Efetivação da inscrição presencialmente no LIG 1 às 13h40 no dia do respectivo minicurso.</li>
+</ul>
+<p>Para cada minicurso serão chamados até 10 pré-inscritos a mais do que o limite de vagas para compor a fila de espera. As vagas não preenchidas na etapa 2, serão preenchidas pelas pessoas em fila de espera que estiverem presentes na etapa 2.</p>
+</section>
+<section id="emissão-de-certificados" class="level2">
+<h2 class="anchored" data-anchor-id="emissão-de-certificados">Emissão de certificados</h2>
+<p>Será emitido um certificado para cada minicurso cursado, desde que cumpridos os seguintes quesitos:</p>
+<ul>
+<li>O participante tenha sua inscrição efetivada na Etapa 2 de inscrições.</li>
+<li>A participação ocorra do início ao fim do minicurso (14h às 18h).</li>
+<li>O participante entregue as tarefas online que serão propostas.</li>
+</ul>
+</section>
+<section id="informações-gerais" class="level2">
+<h2 class="anchored" data-anchor-id="informações-gerais">Informações gerais</h2>
+<ul>
+<li><p><strong>Datas</strong>: 15, 16 e 17 de outubro de 2024</p></li>
+<li><p><strong>Horário</strong>: 13h40 às 18h</p></li>
+<li><p><strong>Local</strong>: Laboratório de Informática da Graduação (LIG 1),localizado no prédio principal (bloco A) do <a href="../../localizacao/localizacao.html">CCA-UFSCar</a></p></li>
+<li><p><strong>Público Alvo</strong>: Estudantes de ensino superior, professores e egressos de cursos de graduação.</p></li>
+<li><p><strong>Vagas</strong>: 50 vagas em cada dia, sendo metade reservadas para estudantes do CCA/UFSCar.</p></li>
+<li><p><strong>Pré-inscrição</strong>: de 25/09/2024 a 10/10/2024 via <a href="https://forms.gle/RU8US7j6KKTJ2wwh6">formulário online</a> e confirmação no dia do curso.</p></li>
+<li><p><strong>Confirmação de pré-inscrição</strong>: será enviada por e-mail em 11/10/2024.</p></li>
+</ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -54,9 +125,13 @@ Atenção
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Obrigatória a apresentação de documento contendo o número de identificação conforme registrado no formulário de pré-inscrição.</p>
+<ul>
+<li>Só poderá participar do minicurso quem receber o email de confirmação de pré-inscrição.</li>
+<li>Nos dias dos minicursos será obrigatória a apresentação de documento contendo o número de identificação conforme registrado no formulário de pré-inscrição.</li>
+</ul>
 </div>
 </div>
+<p>Este evento possui apoio do CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 “Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais” (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.</p>
 
 
 </section>
