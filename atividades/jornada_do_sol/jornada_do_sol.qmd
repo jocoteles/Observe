@@ -4,6 +4,8 @@ subtitle: Evento dedicado à observação do Sol usando telescópios com os devi
 image: jornada_do_sol.jpg
 ---
 
+![](manchas_solares.jpg)
+
 Com seus quase 4 trilhões de trilhões de megawatts constantemente "fritando" Mercúrio e tornando o céu de Plutão "enluarado", o Sol é um espetáculo à parte. Longe de ser um mar de aparente estabilidade, guarda em seu interior o movimento frenético das partículas que o compõe.
 
 Galileu Galilei foi o primeiro a testemunhar isso, observando o Sol com seu telescópio e relatando a existência das manchas solares. Hoje sabemos que são regiões mais frias na superfície solar devido ao confinamento do plasma em imensas linhas de campo magnético, impedindo assim a convecção que renova sua temperatura.

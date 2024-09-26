@@ -4,4 +4,6 @@ subtitle: Um dos mais belos experimentos que demonstra que a rotação da Terra 
 image: pendulo_de_foucault.jpg
 ---
 
+![](pendulo_de_foucault.jpg)
+
 No momento, esta atividade encontra-se em construção e assim que estiver pronta disponibilizaremos aqui os detalhes da sua localização e forma de visitação.

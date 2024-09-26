@@ -4,6 +4,8 @@ subtitle: Oficina dedicada à construção de um planisfério e à aprendizagem 
 image: planisferio.jpg
 ---
 
+![](planisferio.jpg)
+
 Planisférios são mapas contendo as principais estrelas e constelações. Normalmente são acondicionados dentro de uma "máscara" que serve para destacar a região do mapa visível na data e horário escolhidos para observação do céu.
 
 Existem muitas propostas interessantes de confecção de planisférios. Nesta oficina ensinamos a construção de um modelo adaptado por nós. Além da sua construção, ensinamos os primeiros passos na forma de uso.

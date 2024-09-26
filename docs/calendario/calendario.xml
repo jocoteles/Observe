@@ -10,7 +10,43 @@
 <atom:link href="https://observe.ufscar.br/calendario/calendario.xml" rel="self" type="application/rss+xml"/>
 <description> </description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 25 Sep 2024 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Sep 2024 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>XVIII Jornada das Estrelas</title>
+  <link>https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas_divulgacao.jpeg" class="img-fluid"></p>
+<section id="a-próxima-jornada-das-estrelas-está-com-data-marcada" class="level3">
+<h3 class="anchored" data-anchor-id="a-próxima-jornada-das-estrelas-está-com-data-marcada"><em>A próxima Jornada das Estrelas está com data marcada!</em></h3>
+<p>Nos dias 8 e 10 de outubro (terça e quinta-feira), ocorrerá a XVIII edição do nosso evento <a href="../../../atividades/jornada_das_estrelas/jornada_das_estrelas.html">Jornada das Estrelas</a>.</p>
+<ul>
+<li>Local: <a href="../../../localizacao/localizacao.html">Praça do Observatório a Olho Nu do CCA-UFSCar</a></li>
+<li>Datas: 8 e 10/10/24</li>
+<li>Horários: 19h às 22h</li>
+</ul>
+<p>Nesta edição teremos:</p>
+<ol type="1">
+<li>Observação da Lua e de Saturno com os nossos <a href="../../../acervo/itens/c6-s/c6s.html">telescópios</a>.</li>
+<li>Passeio pelo <a href="../../../atividades/observatorio/observatorio.html">Observatório a Olho Nu</a>.</li>
+<li>Apresentação do Sistema Solar em Realidade Aumentada com nossos <a href="../../../acervo/itens/quest2/quest2.html">óculos de realidade virtual</a>.</li>
+</ol>
+<p>O evento é GRATUITO e aberto ao público. Não há necessidade de agendamento. Basta comparecer nos dias e horários do evento.</p>
+<p>A atividade 3 é a única que irá ocorrer mesmo que esteja nublado ou com (a tão esperada) chuva.</p>
+<p><strong>ESCOLAS</strong>, nesta Jornada não faremos agendamento de turmas, porém a próxima Jornada do Sol está por vir e nela vocês poderão vir com suas turmas! Fiquem de olho.</p>
+<p>Não percam essa oportunidade, chamem a família e os amigos!</p>
+<p>Divulguem <a href="https://www.instagram.com/p/DAW0IgOSeJC/?igsh=MTg5YzNvamt6c3k0MQ=="><i class="bi bi-instagram"></i></a>!</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html</guid>
+  <pubDate>Thu, 26 Sep 2024 03:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia</title>
   <link>https://observe.ufscar.br/calendario/eventos/WorkshopVR.html</link>

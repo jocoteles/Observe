@@ -4,6 +4,8 @@ subtitle: Praça contendo relógios solar e estelar, além de totens informativo
 image: observatorio.jpg
 ---
 
+![](observatorio.jpg)
+
 O Observatório a Olho Nu do CCA/UFSCar possui uma série de informações interessantes que podem ser apreciadas à vista desarmada, convidando os visitantes a descobrirem aspectos do céu que são acessíveis a todos, apesar de muitas vezes desconhecidos.
 
 ## Atividades permanentes

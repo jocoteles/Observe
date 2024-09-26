@@ -4,6 +4,8 @@ subtitle: Encontros semanais ou quinzenais que ocorrem principalmente no períod
 image: observacao_do_ceu.jpg
 ---
 
+![](observacao_do_ceu.jpg)
+
 Encontros de curta duração, normalmente realizados no intervalo das aulas do período noturno do CCA-UFSCar.
 
 Possui a finalidade de aumentar o conhecimento das pessoas sobre o céu noturno visível a olho nu, dando noções de localização no céu das principais estrelas e constelações, bem como seus movimentos e épocas do ano em que são visíveis.
