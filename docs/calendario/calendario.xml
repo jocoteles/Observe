@@ -56,17 +56,17 @@
 
 
 <p><img src="https://observe.ufscar.br/calendario/eventos/workshoVR.webp" class="img-fluid"></p>
-<p>Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a <a href="https://oraculusxr.com/">Oraculus XR</a>. O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como Unreal Engine, Unity e A-Frame e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual.</p>
+<p>Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a <a href="https://oraculusxr.com/">Oraculus XR</a>. O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como <a href="https://www.unrealengine.com/pt-BR">Unreal Engine</a>, <a href="https://unity.com/pt">Unity</a> e <a href="https://aframe.io/">A-Frame</a> e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual.</p>
 <section id="minicursos" class="level2">
 <h2 class="anchored" data-anchor-id="minicursos">Minicursos</h2>
 <section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unreal-engine" class="level3">
 <h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unreal-engine">15/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unreal Engine</h3>
-<p><em>Objetivos</em>: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a Unreal Engine, com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.</p>
+<p><em>Objetivos</em>: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a <a href="https://www.unrealengine.com/pt-BR">Unreal Engine</a>, com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.</p>
 <p><strong>Ministrante</strong>: <a href="../../equipe/estudantes/jhasmani_tito_cruz.html">Jhasmani Tito Cruz (FT-UNICAMP)</a></p>
 </section>
 <section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity" class="level3">
 <h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity">16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity</h3>
-<p><em>Objetivos</em>: introduzir os participantes à criação de atividades interativas em realidade virtual utilizando a plataforma Unity.</p>
+<p><em>Objetivos</em>: introduzir os participantes à criação de atividades interativas em realidade virtual utilizando a plataforma <a href="https://unity.com/pt">Unity</a>.</p>
 <ul>
 <li>Introdução à RV e Unity
 <ul>
@@ -93,7 +93,7 @@
 </section>
 <section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame" class="level3">
 <h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame">17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame</h3>
-<p><em>Objetivos</em>: introduzir os participantes ao desenvolvimento de atividades interativas de Realidade Virtual (RV) utilizando a plataforma web A-Frame, com foco em aplicações voltadas para o ensino de Física e Astronomia. Ao final do minicurso, os participantes terão criado um ambiente VR simples e compreendido os conceitos básicos do A-Frame.</p>
+<p><em>Objetivos</em>: introduzir os participantes ao desenvolvimento de atividades interativas de Realidade Virtual (RV) utilizando a plataforma web <a href="https://aframe.io/">A-Frame</a>, com foco em aplicações voltadas para o ensino de Física e Astronomia. Ao final do minicurso, os participantes terão criado um ambiente VR simples e compreendido os conceitos básicos do A-Frame.</p>
 <ul>
 <li>Introdução ao A-Frame
 <ul>
@@ -119,7 +119,7 @@
 <h2 class="anchored" data-anchor-id="forma-de-participação">Forma de participação</h2>
 <ul>
 <li><p><strong>Público interno</strong> da UFSCar não precisará trazer material algum para participar dos minicursos.</p></li>
-<li><p><strong>Público externo</strong> precisará, obrigatoriamente, trazer um notebook pessoal. Além disso, quem for participar do minicurso com o Unity, deverá vir com o <a href="https://unity.com/pt/download">Unity</a> já instalado em seu notebook.</p></li>
+<li><p><strong>Público externo</strong> precisará, obrigatoriamente, trazer um notebook pessoal. Além disso, quem for participar do minicurso com o Unity, deverá vir com o <a href="https://unity.com/pt/download">Unity já instalado</a> em seu notebook.</p></li>
 </ul>
 </section>
 <section id="processo-de-inscrição" class="level2">

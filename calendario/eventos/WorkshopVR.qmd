@@ -7,19 +7,19 @@ format: html
 
 ![](workshoVR.webp)
 
-Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a [Oraculus XR](https://oraculusxr.com/). O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como Unreal Engine, Unity e A-Frame e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual.
+Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a [Oraculus XR](https://oraculusxr.com/). O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como [Unreal Engine](https://www.unrealengine.com/pt-BR), [Unity](https://unity.com/pt) e [A-Frame](https://aframe.io/) e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual.
 
 ## Minicursos
 
 ### 15/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unreal Engine
 
-*Objetivos*: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a Unreal Engine, com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.
+*Objetivos*: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a [Unreal Engine](https://www.unrealengine.com/pt-BR), com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.
 
 **Ministrante**: [Jhasmani Tito Cruz (FT-UNICAMP)](/equipe/estudantes/jhasmani_tito_cruz.qmd)
 
 ### 16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity
 
-*Objetivos*: introduzir os participantes à criação de atividades interativas em realidade virtual utilizando a plataforma Unity.
+*Objetivos*: introduzir os participantes à criação de atividades interativas em realidade virtual utilizando a plataforma [Unity](https://unity.com/pt).
 
 + Introdução à RV e Unity
     - Noções básicas de VR
@@ -40,7 +40,7 @@ Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de
 
 ### 17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame
 
-*Objetivos*: introduzir os participantes ao desenvolvimento de atividades interativas de Realidade Virtual (RV) utilizando a plataforma web A-Frame, com foco em aplicações voltadas para o ensino de Física e Astronomia. Ao final do minicurso, os participantes terão criado um ambiente VR simples e compreendido os conceitos básicos do A-Frame.
+*Objetivos*: introduzir os participantes ao desenvolvimento de atividades interativas de Realidade Virtual (RV) utilizando a plataforma web [A-Frame](https://aframe.io/), com foco em aplicações voltadas para o ensino de Física e Astronomia. Ao final do minicurso, os participantes terão criado um ambiente VR simples e compreendido os conceitos básicos do A-Frame.
 
 - Introdução ao A-Frame
     - O que é A-Frame: Conceitos e arquitetura.
@@ -59,7 +59,7 @@ Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de
 
 - **Público interno** da UFSCar não precisará trazer material algum para participar dos minicursos.
 
-- **Público externo** precisará, obrigatoriamente, trazer um notebook pessoal. Além disso, quem for participar do minicurso com o Unity, deverá vir com o [Unity](https://unity.com/pt/download) já instalado em seu notebook.
+- **Público externo** precisará, obrigatoriamente, trazer um notebook pessoal. Além disso, quem for participar do minicurso com o Unity, deverá vir com o [Unity já instalado](https://unity.com/pt/download) em seu notebook.
 
 ## Processo de inscrição
 
