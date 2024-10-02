@@ -224,33 +224,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="d934c524" class="cell" data-execution_count="1">
+<div id="09681ea2" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">"""Cálculo da área do disco solar eclipsado conforme</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">estimativa da imagem extraída do Stellarium.</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">Medidas feitas todas na mesma unidade arbitrária (ua)."""</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>rd <span class="op">=</span> <span class="dv">15</span>  <span class="co"># raio médio da Lua e do Sol [ua]</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>ca <span class="op">=</span> <span class="dv">17</span>  <span class="co"># comprimento da corda do arco de circunferência eclipsado no auge do eclipse [ua]</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">#Cálculos para a área do paralelogramo formado entre os centros dos dois astros e as extremidades da corda do eclipse:</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>d1p <span class="op">=</span> ca  <span class="co"># comprimento da primeira diagonal (corda)</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>d2p <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>(rd<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> (d1p<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>)<span class="op">**</span><span class="fl">0.5</span> <span class="co"># comprimento da segunda diagonal (centro a centro)</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>ap <span class="op">=</span> d1p<span class="op">*</span>d2p<span class="op">/</span><span class="dv">2</span> <span class="co"># área do paralelogramo</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>ang <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>math.atan(d1p<span class="op">/</span>d2p) <span class="co"># ângulo do arco de circunferência do eclipse [rad]</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>aa <span class="op">=</span> (math.pi<span class="op">*</span>rd<span class="op">**</span><span class="dv">2</span>)<span class="op">*</span>ang<span class="op">/</span>(<span class="dv">2</span><span class="op">*</span>math.pi) <span class="co"># área do arco de circunferência [ua^2]</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># A área eclipsada (ae) é dada por ap = 2*aa - ae</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>ae <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>aa <span class="op">-</span> ap  <span class="co"># [ua^2]</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Percentual de área eclipsada:</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>pe <span class="op">=</span> <span class="dv">100</span><span class="op">*</span>ae<span class="op">/</span>(math.pi<span class="op">*</span>rd<span class="op">**</span><span class="dv">2</span>)</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>peS <span class="op">=</span> <span class="bu">str</span>(<span class="bu">round</span>(pe,<span class="dv">1</span>)).replace(<span class="st">'.'</span>, <span class="st">','</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">estimativa da imagem extraída do Stellarium para a cidade de Araras-SP</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">em 02/10/2024 às 17h45.</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">Medidas feitas todas na mesma unidade arbitrária (ua)."""</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>rd <span class="op">=</span> <span class="dv">15</span>  <span class="co"># raio médio da Lua e do Sol [ua]</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ca <span class="op">=</span> <span class="dv">17</span>  <span class="co"># comprimento da corda do arco de circunferência eclipsado no auge do eclipse [ua]</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Cálculos para a área do paralelogramo formado entre os centros dos dois astros e as extremidades da corda do eclipse:</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>d1p <span class="op">=</span> ca  <span class="co"># comprimento da primeira diagonal (corda)</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>d2p <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>(rd<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> (d1p<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>)<span class="op">**</span><span class="fl">0.5</span> <span class="co"># comprimento da segunda diagonal (centro a centro)</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>ap <span class="op">=</span> d1p<span class="op">*</span>d2p<span class="op">/</span><span class="dv">2</span> <span class="co"># área do paralelogramo</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>ang <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>math.atan(d1p<span class="op">/</span>d2p) <span class="co"># ângulo do arco de circunferência do eclipse [rad]</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>aa <span class="op">=</span> (math.pi<span class="op">*</span>rd<span class="op">**</span><span class="dv">2</span>)<span class="op">*</span>ang<span class="op">/</span>(<span class="dv">2</span><span class="op">*</span>math.pi) <span class="co"># área do arco de circunferência [ua^2]</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># A área eclipsada (ae) é dada por ap = 2*aa - ae</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>ae <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>aa <span class="op">-</span> ap  <span class="co"># [ua^2]</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Percentual de área eclipsada:</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>pe <span class="op">=</span> <span class="dv">100</span><span class="op">*</span>ae<span class="op">/</span>(math.pi<span class="op">*</span>rd<span class="op">**</span><span class="dv">2</span>)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>peS <span class="op">=</span> <span class="bu">str</span>(<span class="bu">round</span>(pe,<span class="dv">1</span>)).replace(<span class="st">'.'</span>, <span class="st">','</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -260,7 +261,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 <p>Hoje, 02/10/2024, teremos um eclipse solar que poderá ser visto parcialmente no sul e sudeste do Brasil. Na região de Araras, apenas uma pequena parte do disco solar será encoberta: 8,6 % da sua área.</p>
-<p>Apesar disso, vale a pena apreciá-lo. Além de ser um fenômeno incrível e relativamente raro (pesquise sobre o <a href="https://en.wikipedia.org/wiki/Saros_(astronomy)">ciclo de Saros</a>) em que a o Sol é encoberto pela Lua em plena luz do dia, este eclipse, em particular na cidade de Araras-SP, terá início às 17h e permanecerá visível até o pôr do Sol. Como nesse horário o Sol estará próximo ao horizonte, seu brilho estará mais fraco (ainda mais com a poluição das queimadas que infelizmente assola o território brasileiro atualmente), o que possivelmente facilitará a contemplação do fenômeno.</p>
+<p>Apesar disso, valerá a pena apreciá-lo.</p>
+<p>Os eclipses solares, além de serem um fenômeno incrível e relativamente raro (pesquise sobre o <a href="https://en.wikipedia.org/wiki/Saros_(astronomy)">ciclo de Saros</a>) em que a o Sol é encoberto pela Lua em plena luz do dia, este eclipse, em particular na cidade de Araras-SP, terá início às 17h e permanecerá visível até o pôr do Sol.</p>
+<p>Como nesse horário o Sol estará próximo ao horizonte, seu brilho estará mais fraco e avermelhado (ainda mais com a poluição das queimadas que infelizmente assolam o território brasileiro atualmente) o que possivelmente facilitará a contemplação do fenômeno. Além disso, como todo astro próximo ao horizonte, suas dimensões parecerão maiores pela ilusão de óptica promovida pela <a href="https://en.wikipedia.org/wiki/Ponzo_illusion">ilusão de Ponzo</a>.</p>
 <p>Portanto, para observá-lo, procure um local aberto no horizonte oeste. Mesmo com uma brilho mais fraco, é recomendado utilizar proteção adequada para os olhos (filtros solares).</p>
 <section id="dados-do-eclipse-para-araras-sp" class="level2">
 <h2 class="anchored" data-anchor-id="dados-do-eclipse-para-araras-sp">Dados do eclipse para Araras-SP</h2>
@@ -269,6 +272,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Início</strong>: 17:00</li>
 <li><strong>Máximo</strong>: 17:45</li>
 <li><strong>Área do Sol encoberta</strong>: 8,6 %</li>
+<li><strong>Sugestões de locais de observação a olho nu</strong>:
+<ul>
+<li><a href="../../../localizacao/localizacao.html">Observatório a olho nu do CCA-UFSCar</a></li>
+<li><a href="https://aeroclubedeararas.wixsite.com/aeroclubedeararas">Aeroporto Municipal de Araras</a></li>
+</ul></li>
 </ul>
 
 

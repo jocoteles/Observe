@@ -9,7 +9,8 @@ author: João Teles
 ```{python} 
 #| code-fold: true
 """Cálculo da área do disco solar eclipsado conforme
-estimativa da imagem extraída do Stellarium.
+estimativa da imagem extraída do Stellarium para a cidade de Araras-SP
+em 02/10/2024 às 17h45.
 Medidas feitas todas na mesma unidade arbitrária (ua)."""
 
 import math
@@ -39,7 +40,11 @@ peS = str(round(pe,1)).replace('.', ',')
 
 Hoje, 02/10/2024, teremos um eclipse solar que poderá ser visto parcialmente no sul e sudeste do Brasil. Na região de Araras, apenas uma pequena parte do disco solar será encoberta: `{python} peS` % da sua área.
 
-Apesar disso, vale a pena apreciá-lo. Além de ser um fenômeno incrível e relativamente raro (pesquise sobre o [ciclo de Saros](https://en.wikipedia.org/wiki/Saros_(astronomy))) em que a o Sol é encoberto pela Lua em plena luz do dia, este eclipse, em particular na cidade de Araras-SP, terá início às 17h e permanecerá visível até o pôr do Sol. Como nesse horário o Sol estará próximo ao horizonte, seu brilho estará mais fraco (ainda mais com a poluição das queimadas que infelizmente assola o território brasileiro atualmente), o que possivelmente facilitará a contemplação do fenômeno.
+Apesar disso, valerá a pena apreciá-lo.
+
+Os eclipses solares, além de serem um fenômeno incrível e relativamente raro (pesquise sobre o [ciclo de Saros](https://en.wikipedia.org/wiki/Saros_(astronomy))) em que a o Sol é encoberto pela Lua em plena luz do dia, este eclipse, em particular na cidade de Araras-SP, terá início às 17h e permanecerá visível até o pôr do Sol.
+
+Como nesse horário o Sol estará próximo ao horizonte, seu brilho estará mais fraco e avermelhado (ainda mais com a poluição das queimadas que infelizmente assolam o território brasileiro atualmente) o que possivelmente facilitará a contemplação do fenômeno. Além disso, como todo astro próximo ao horizonte, suas dimensões parecerão maiores pela ilusão de óptica promovida pela [ilusão de Ponzo](https://en.wikipedia.org/wiki/Ponzo_illusion).
 
 Portanto, para observá-lo, procure um local aberto no horizonte oeste. Mesmo com uma brilho mais fraco, é recomendado utilizar proteção adequada para os olhos (filtros solares).
 
@@ -49,3 +54,6 @@ Portanto, para observá-lo, procure um local aberto no horizonte oeste. Mesmo co
 - **Início**: 17:00
 - **Máximo**: 17:45
 - **Área do Sol encoberta**: `{python} peS` %
+- **Sugestões de locais de observação a olho nu**:
+    - [Observatório a olho nu do CCA-UFSCar](/localizacao/localizacao.qmd)
+    - [Aeroporto Municipal de Araras](https://aeroclubedeararas.wixsite.com/aeroclubedeararas)
