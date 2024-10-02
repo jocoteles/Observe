@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="João Teles">
 
-<title>Blog – obseRVe</title>
+<title>Eclipse solar de outubro de 2024 – obseRVe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,30 +21,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../assets/observe_whatsapp.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/observe_whatsapp.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,67 +104,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-category','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-category","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -141,7 +116,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title"><em>obseRVe</em></span>
     </a>
   </div>
@@ -152,41 +127,41 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../atividades/atividades.html"> 
+    <a class="nav-link" href="../../../atividades/atividades.html"> 
 <span class="menu-text">Atividades</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projetos/projetos.html"> 
+    <a class="nav-link" href="../../../projetos/projetos.html"> 
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../calendario/calendario.html"> 
+    <a class="nav-link" href="../../../calendario/calendario.html"> 
 <span class="menu-text">Calendário</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../../blog/blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../equipe/equipe.html"> 
+    <a class="nav-link" href="../../../equipe/equipe.html"> 
 <span class="menu-text">Equipe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../acervo/acervo.html"> 
+    <a class="nav-link" href="../../../acervo/acervo.html"> 
 <span class="menu-text">Acervo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../localizacao/localizacao.html"> 
+    <a class="nav-link" href="../../../localizacao/localizacao.html"> 
 <span class="menu-text">Localização</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../sobre/sobre.html"> 
+    <a class="nav-link" href="../../../sobre/sobre.html"> 
 <span class="menu-text">Sobre</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../index.html"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../../index.html"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -203,22 +178,43 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#dados-do-eclipse-para-araras-sp" id="toc-dados-do-eclipse-para-araras-sp" class="nav-link active" data-scroll-target="#dados-do-eclipse-para-araras-sp">Dados do eclipse para Araras-SP</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Eclipse solar de outubro de 2024</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Fenômeno celeste</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>João Teles </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">10 de fevereiro de 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -228,170 +224,57 @@ window.Quarto = {
 </header>
 
 
+<div id="d934c524" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">"""Cálculo da área do disco solar eclipsado conforme</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">estimativa da imagem extraída do Stellarium.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">Medidas feitas todas na mesma unidade arbitrária (ua)."""</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>rd <span class="op">=</span> <span class="dv">15</span>  <span class="co"># raio médio da Lua e do Sol [ua]</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>ca <span class="op">=</span> <span class="dv">17</span>  <span class="co"># comprimento da corda do arco de circunferência eclipsado no auge do eclipse [ua]</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">#Cálculos para a área do paralelogramo formado entre os centros dos dois astros e as extremidades da corda do eclipse:</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>d1p <span class="op">=</span> ca  <span class="co"># comprimento da primeira diagonal (corda)</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>d2p <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>(rd<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> (d1p<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>)<span class="op">**</span><span class="fl">0.5</span> <span class="co"># comprimento da segunda diagonal (centro a centro)</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>ap <span class="op">=</span> d1p<span class="op">*</span>d2p<span class="op">/</span><span class="dv">2</span> <span class="co"># área do paralelogramo</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>ang <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>math.atan(d1p<span class="op">/</span>d2p) <span class="co"># ângulo do arco de circunferência do eclipse [rad]</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>aa <span class="op">=</span> (math.pi<span class="op">*</span>rd<span class="op">**</span><span class="dv">2</span>)<span class="op">*</span>ang<span class="op">/</span>(<span class="dv">2</span><span class="op">*</span>math.pi) <span class="co"># área do arco de circunferência [ua^2]</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># A área eclipsada (ae) é dada por ap = 2*aa - ae</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>ae <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>aa <span class="op">-</span> ap  <span class="co"># [ua^2]</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Percentual de área eclipsada:</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>pe <span class="op">=</span> <span class="dv">100</span><span class="op">*</span>ae<span class="op">/</span>(math.pi<span class="op">*</span>rd<span class="op">**</span><span class="dv">2</span>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>peS <span class="op">=</span> <span class="bu">str</span>(<span class="bu">round</span>(pe,<span class="dv">1</span>)).replace(<span class="st">'.'</span>, <span class="st">','</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="eclipse_stellarium.png" class="img-fluid figure-img"></p>
+<figcaption>Eclipse solar simulado pelo Stellarium na cidade de Araras-SP às 17h45</figcaption>
+</figure>
+</div>
+<p>Hoje, 02/10/2024, teremos um eclipse solar que poderá ser visto parcialmente no sul e sudeste do Brasil. Na região de Araras, apenas uma pequena parte do disco solar será encoberta: 8,6 % da sua área.</p>
+<p>Apesar disso, vale a pena apreciá-lo. Além de ser um fenômeno incrível e relativamente raro (pesquise sobre o <a href="https://en.wikipedia.org/wiki/Saros_(astronomy)">ciclo de Saros</a>) em que a o Sol é encoberto pela Lua em plena luz do dia, este eclipse, em particular na cidade de Araras-SP, terá início às 17h e permanecerá visível até o pôr do Sol. Como nesse horário o Sol estará próximo ao horizonte, seu brilho estará mais fraco (ainda mais com a poluição das queimadas que infelizmente assola o território brasileiro atualmente), o que possivelmente facilitará a contemplação do fenômeno.</p>
+<p>Portanto, para observá-lo, procure um local aberto no horizonte oeste. Mesmo com uma brilho mais fraco, é recomendado utilizar proteção adequada para os olhos (filtros solares).</p>
+<section id="dados-do-eclipse-para-araras-sp" class="level2">
+<h2 class="anchored" data-anchor-id="dados-do-eclipse-para-araras-sp">Dados do eclipse para Araras-SP</h2>
+<ul>
+<li><strong>Data</strong>: 02/10/2024</li>
+<li><strong>Início</strong>: 17:00</li>
+<li><strong>Máximo</strong>: 17:45</li>
+<li><strong>Área do Sol encoberta</strong>: 8,6 %</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Pré-selecionado</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Data - Mais velho
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Data - O mais novo
-        </option>
-         <option value="listing-title" data-direction="asc">
-          Título
-        </option>
-         <option value="listing-category" data-direction="asc">
-          Categoria
-        </option>
-         <option value="listing-description" data-direction="asc">
-          Descrição
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Atividade,Realidade Aumentada" data-listing-date-sort="1715569200000" data-listing-file-modified-sort="1727273303019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
-<div class="thumbnail">
-<p><a href="../blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html" class="no-external"></a></p><a href="../blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html" class="no-external">
-<p><img loading="lazy" src="../blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_INSA_1.jpeg" class="thumbnail-image"></p>
-</a><p><a href="../blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html" class="no-external">Sistema Solar em realidade aumentada no colégio INSA</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html" class="no-external">Em breve faremos a descrição desta atividade.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html" class="no-external">
-<div class="listing-date">
-13 de mai. de 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Observação,Fotos" data-listing-date-sort="1715050800000" data-listing-file-modified-sort="1727273303015" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
-<div class="thumbnail">
-<p><a href="../blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html" class="no-external"></a></p><a href="../blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html" class="no-external">
-<p><img loading="lazy" src="../blog/posts/pons-brooks_07_05_24/Foto_Pons-Brooks1.jpeg" class="thumbnail-image"></p>
-</a><p><a href="../blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html" class="no-external">Fotos do cometa Pons-Brooks</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html" class="no-external">O cometa Pons-Brooks esteve no periélio (ponto de maior proximidade do Sol) ao final de abril. Mas isso não implica que deixou de ser visível com telescópios por várias…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html" class="no-external">
-<div class="listing-date">
-7 de mai. de 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Evento,Observação" data-listing-date-sort="1713668400000" data-listing-file-modified-sort="1727273303018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="448">
-<div class="thumbnail">
-<p><a href="../blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html" class="no-external"></a></p><a href="../blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html" class="no-external">
-<p><img loading="lazy" src="../blog/posts/pons-brooks_21_04_24/pessoas_noite.jpeg" class="thumbnail-image"></p>
-</a><p><a href="../blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html" class="no-external">Observação do cometa Pons-Brooks</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html" class="no-external">Nos reunimos a partir das 17h45 na praça do Observatório para iniciar a nossa busca pelo fugidio Pons-Brooks. O bacana desse cometa é que ele possui um período orbital de 71…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html" class="no-external">
-<div class="listing-date">
-21 de abr. de 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Fenômeno celeste" data-listing-date-sort="1707534000000" data-listing-file-modified-sort="1727875722610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="313">
-<div class="thumbnail">
-<p><a href="../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html" class="no-external"></a></p><a href="../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html" class="no-external">
-<p><img loading="lazy" src="../blog/posts/eclipse_solar_02_10_24/eclipse_stellarium.png" class="thumbnail-image"></p>
-</a><p><a href="../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html" class="no-external">Eclipse solar de outubro de 2024</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html" class="no-external">Hoje, 02/10/2024, teremos um eclipse solar que poderá ser visto parcialmente no sul e sudeste do Brasil. Na região de Araras, apenas uma pequena parte do disco solar será…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html" class="no-external">
-<div class="listing-date">
-10 de fev. de 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Evento,Jornada do Sol" data-listing-date-sort="1699498800000" data-listing-file-modified-sort="1713896455000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="730">
-<div class="thumbnail">
-<p><a href="../blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html" class="no-external"></a></p><a href="../blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html" class="no-external">
-<p><img loading="lazy" src="../blog/posts/jornada_do_sol_09_11_23/turma_maria_rosa.jpg" class="thumbnail-image"></p>
-</a><p><a href="../blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html" class="no-external">Escola Maria Rosa - nov/2023</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html" class="no-external">O evento Jornada do Sol ocorreu no dia 09 de novembro de 2023 no CCA-UFSCar e teve duração de, aproximadamente, duas horas. A Jornada foi organizada pelos bolsistas do…<em></em></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html" class="no-external">
-<div class="listing-date">
-9 de nov. de 2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Nenhum item correspondente
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

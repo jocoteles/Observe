@@ -1,0 +1,51 @@
+---
+title: Eclipse solar de outubro de 2024
+date: 10 02 2024
+image: eclipse_stellarium.png
+categories: [Fenômeno celeste]
+author: João Teles
+---
+
+```{python} 
+#| code-fold: true
+"""Cálculo da área do disco solar eclipsado conforme
+estimativa da imagem extraída do Stellarium.
+Medidas feitas todas na mesma unidade arbitrária (ua)."""
+
+import math
+
+rd = 15  # raio médio da Lua e do Sol [ua]
+ca = 17  # comprimento da corda do arco de circunferência eclipsado no auge do eclipse [ua]
+
+#Cálculos para a área do paralelogramo formado entre os centros dos dois astros e as extremidades da corda do eclipse:
+d1p = ca  # comprimento da primeira diagonal (corda)
+d2p = 2*(rd**2 - (d1p/2)**2)**0.5 # comprimento da segunda diagonal (centro a centro)
+ap = d1p*d2p/2 # área do paralelogramo
+
+ang = 2*math.atan(d1p/d2p) # ângulo do arco de circunferência do eclipse [rad]
+
+aa = (math.pi*rd**2)*ang/(2*math.pi) # área do arco de circunferência [ua^2]
+
+# A área eclipsada (ae) é dada por ap = 2*aa - ae
+ae = 2*aa - ap  # [ua^2]
+
+# Percentual de área eclipsada:
+pe = 100*ae/(math.pi*rd**2)
+peS = str(round(pe,1)).replace('.', ',')
+
+```
+
+![Eclipse solar simulado pelo Stellarium na cidade de Araras-SP às 17h45](eclipse_stellarium.png)
+
+Hoje, 02/10/2024, teremos um eclipse solar que poderá ser visto parcialmente no sul e sudeste do Brasil. Na região de Araras, apenas uma pequena parte do disco solar será encoberta: `{python} peS` % da sua área.
+
+Apesar disso, vale a pena apreciá-lo. Além de ser um fenômeno incrível e relativamente raro (pesquise sobre o [ciclo de Saros](https://en.wikipedia.org/wiki/Saros_(astronomy))) em que a o Sol é encoberto pela Lua em plena luz do dia, este eclipse, em particular na cidade de Araras-SP, terá início às 17h e permanecerá visível até o pôr do Sol. Como nesse horário o Sol estará próximo ao horizonte, seu brilho estará mais fraco (ainda mais com a poluição das queimadas que infelizmente assola o território brasileiro atualmente), o que possivelmente facilitará a contemplação do fenômeno.
+
+Portanto, para observá-lo, procure um local aberto no horizonte oeste. Mesmo com uma brilho mais fraco, é recomendado utilizar proteção adequada para os olhos (filtros solares).
+
+## Dados do eclipse para Araras-SP
+
+- **Data**: 02/10/2024
+- **Início**: 17:00
+- **Máximo**: 17:45
+- **Área do Sol encoberta**: `{python} peS` %
