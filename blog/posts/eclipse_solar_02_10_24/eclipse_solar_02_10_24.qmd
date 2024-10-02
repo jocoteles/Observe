@@ -1,6 +1,6 @@
 ---
 title: Eclipse solar de outubro de 2024
-date: 10 02 2024
+date: 02 10 2024
 image: eclipse_stellarium.png
 categories: [Fenômeno celeste]
 author: João Teles
