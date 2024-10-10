@@ -3,4 +3,4 @@ renderObserveWebsite.sh
 .vscode
 /.quarto/
 observe-env
-/docs/CNAME
+docs/CNAME

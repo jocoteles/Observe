@@ -91,9 +91,9 @@ Será emitido um certificado para cada minicurso cursado, desde que cumpridos os
 
 - **Vagas**: 50 vagas em cada dia, sendo metade reservadas para estudantes do CCA/UFSCar.
 
-- **Pré-inscrição**: de 25/09/2024 a 10/10/2024 via [formulário online](https://forms.gle/RU8US7j6KKTJ2wwh6) e confirmação no dia do curso.
+- **Pré-inscrição**: de 25/09/2024 a 14/10/2024 às 13h (foi prorrogada) via [formulário online](https://forms.gle/RU8US7j6KKTJ2wwh6) e confirmação no dia do curso.
 
-- **Confirmação de pré-inscrição**: será enviada por e-mail em 11/10/2024.
+- **Confirmação de pré-inscrição**: será enviada por e-mail em 14/10/2024.
 
 
 ::: {.callout-note}
