@@ -1,7 +1,7 @@
 ---
 title: Minicurso Realidade Virtual para o Ensino com Unreal Engine
 date: 15 10 2024
-image: eclipse_stellarium.png
+image: introducao.jpeg
 categories: [Minicurso]
 author: João Teles
 ---
