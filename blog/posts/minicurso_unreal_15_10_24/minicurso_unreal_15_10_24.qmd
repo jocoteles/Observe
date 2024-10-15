@@ -1,0 +1,23 @@
+---
+title: Minicurso Realidade Virtual para o Ensino com Unreal Engine
+date: 15 10 2024
+image: eclipse_stellarium.png
+categories: [Minicurso]
+author: João Teles
+---
+
+Hoje tivemos o primeiro minicurso do [Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia](/calendario/eventos/WorkshopVR.qmd) em que o Me. Jhasmani Cruz apresentou na primeira parte as bases conceituais do uso da Realidade Virtual e de todo o espectro do Contínuo de Virtualidade. Além dessa base bastante abrangente e agnóstica quanto a plataformas específicas, foram realizadas atividades que exploraram ilusões de corporalidade como a Ilusão da Mão de Borracha e a Ilusão do Nariz de Pinóquio. Essas ilusões foram usadas para mostrar como a percepção de "realidade" pode ser alterada e manipulada por estímulos sensoriais.
+
+Na segunda parte do minicurso foi apresentado o motor de desenvolvimento de jogos digitais Unreal Engine. Apesar dos participantes não terem tido acesso ao editor da plataforma devido a dificuldades de instalação nos computadores do LIG, foi possível entender o *workflow* de desenvolvimento de uma aplicação em Realidade Virtual usando modelos prontos e a linguagem de programação Blue Print usada pelo Unreal.
+
+Ao longo do minicurso, os participantes também tiveram a oportunidade de trocar suas experiências e impressões sobre a Realidade Virtual e compartilhar ideias sobre usos de interesse educacional.
+
+Neste minicurso estiveram presentes 19 pessoas.
+
+![Introdução ao Workshop e ao Minicurso proferido pelo Me. Jhasmani Cruz](introducao.jpeg)
+
+![Atividade "Nariz de Pinóquio" em que uma pessoa é estimulada a sentir que o próprio nariz cresceu, criando uma distorção da percepção do próprio corpo.](nariz_de_pinoquio.jpeg)
+
+![Atividade "Braço de borracha" em que a pessoa sentada vê uma mão que não é dela sendo acariciada ao mesmo tempo que a própria mão também recebe toques sincronizados, de forma que o cérebro pode começar a sentir que a mão falsa é parte do corpo.](mao_de_borracha.jpeg)
+
+![Segunda parte do Minicurso em que foi apresentada a Plataforma Unreal Engine.](unreal_engine.jpeg)
