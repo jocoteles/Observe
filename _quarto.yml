@@ -50,4 +50,3 @@ format:
       dark: [darkly, dark_mode.scss]
     css: styles.css
     toc: true
-
