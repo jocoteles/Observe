@@ -76,5 +76,9 @@ Um dos nossos enfoques tem sido no estudo e desenvolvimento de instrumentação 
 :::
 :::
 
+::: {.centerText}
+[Minicurso: Realidade Virtual com A-Frame para Ensino de Física e Astronomia](https://jocoteles.github.io/Minicurso-A-Frame-VR/)
+:::
 
 :::
+
