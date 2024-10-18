@@ -1,11 +1,9 @@
 ---
 title: Realidade Virtual com A-Frame para Ensino de Física e Astronomia
-subtitle: Oficina dedicada à construção de um planisfério e à aprendizagem da forma correta do seu uso. *Ele será um guia precioso na sua jornada de apreciação dos céus estrelados*.
+subtitle: Este minicurso visa introduzir os participantes ao desenvolvimento de aplicações de RV para o ensino de astronomia utilizando a plataforma A-Frame, com base na linguagem HTML/Javascript.
 image: aframe.jpeg
 ---
 
-![](aframe.jpeg)
-
-Este minicurso visa introduzir os participantes ao desenvolvimento de aplicações de RV para o ensino de astronomia utilizando a plataforma A-Frame, com base na linguagem HTML/Javascript. Ao final do curso, os participantes construirão um sistema solar virtual simplificado, com o Sol, a Terra e a Lua, incluindo movimento orbital e de rotação. O curso aborda os conceitos básicos de modelagem 3D, animação, iluminação e interação no ambiente A-Frame. Devido ao tempo limitado, o curso não explora programação avançada em Javascript, a criação de componentes personalizados nem a integração com a biblioteca Three.js, tópicos que podem ser aprofundados em estudos posteriores.
-
 [Acesse aqui o minicurso completo](https://jocoteles.github.io/Minicurso-A-Frame-VR/)
+
+![](aframe.jpeg) 
