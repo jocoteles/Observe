@@ -1,0 +1,15 @@
+---
+title: Cursos e oficinas
+subtitle: Cursos, oficinas e minicursos para você conhecer e aprender novas formas de explorar e ensinar a Astronomia.
+image: cursos.jpeg
+listing:
+    type: grid
+    fields: [image, title, subtitle]
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    table-hover: true
+    contents:
+        - "aframe/aframe.qmd"
+        - "planisferio/planisferio.qmd"        
+---

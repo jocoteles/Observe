@@ -1,0 +1,9 @@
+---
+title: Minicurso Realidade Virtual com A-Frame para Ensino de Física e Astronomia
+date: 18 10 2024
+image: introducao.jpeg
+categories: [Minicurso]
+author: João Teles
+---
+
+Descrição em breve.
