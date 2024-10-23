@@ -1,7 +1,7 @@
 ---
 title: XVIII Jornada das Estrelas
 date: 26 09 24
-category: "Próximo" 
+category: "Encerrado" 
 format: html
 ---
 

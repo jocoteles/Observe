@@ -1,7 +1,7 @@
 ---
 title: Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia
 date: 25 09 24
-category: "Próximo" 
+category: "Encerrado" 
 format: html
 ---
 
