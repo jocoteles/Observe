@@ -4,6 +4,8 @@ subtitle: Este minicurso visa introduzir os participantes ao desenvolvimento de 
 image: aframe.jpeg
 ---
 
-[Acesse aqui o minicurso completo](https://jocoteles.github.io/Minicurso-A-Frame-VR/)
+### [Acesse aqui o minicurso completo](https://jocoteles.github.io/Minicurso-A-Frame-VR/)
+
+<br>
 
 ![](aframe.jpeg) 
