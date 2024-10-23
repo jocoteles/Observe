@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://observe.ufscar.br/localizacao/localizacao.html</loc>
-<<<<<<< HEAD
-    <lastmod>2024-10-03T10:26:29.071Z</lastmod>
-=======
     <lastmod>2024-04-24T19:11:44.000Z</lastmod>
   </url>
   <url>
@@ -97,7 +94,7 @@
   </url>
   <url>
     <loc>https://observe.ufscar.br/blog/posts/minicurso_aframe_17_10_24/minicurso_aframe_17_10_24.html</loc>
-    <lastmod>2024-10-18T20:26:10.326Z</lastmod>
+    <lastmod>2024-10-23T13:00:33.986Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/blog/posts/minicurso_unity_16_10_24/minicurso_unity_16_10_24.html</loc>
@@ -137,7 +134,7 @@
   </url>
   <url>
     <loc>https://observe.ufscar.br/index.html</loc>
-    <lastmod>2024-10-18T20:31:35.165Z</lastmod>
+    <lastmod>2024-10-23T13:00:34.005Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/cffi/recompiler.html</loc>
@@ -181,7 +178,7 @@
   </url>
   <url>
     <loc>https://observe.ufscar.br/blog/posts/jornada_das_estrelas_06_24/jornada_das_estrelas_06_24.html</loc>
-    <lastmod>2024-10-23T12:13:12.719Z</lastmod>
+    <lastmod>2024-10-23T13:00:34.070Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/blog/blog.html</loc>
@@ -226,234 +223,45 @@
   <url>
     <loc>https://observe.ufscar.br/projetos/projetos.html</loc>
     <lastmod>2024-09-25T14:08:23.221Z</lastmod>
->>>>>>> 6980c82 (blog Jornada)
   </url>
   <url>
     <loc>https://observe.ufscar.br/calendario/eventos/xvii_jornada_das_estrelas.html</loc>
-    <lastmod>2024-10-03T10:26:28.922Z</lastmod>
+    <lastmod>2024-09-25T14:17:36.747Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/calendario/eventos/pons_brooks.html</loc>
-    <lastmod>2024-10-03T10:26:28.922Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/index.html</loc>
-    <lastmod>2024-10-18T23:22:25.927Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/acervo/itens/nexstar4se/nexstar4se.html</loc>
-    <lastmod>2024-10-03T10:26:28.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/acervo/itens/swdob300c/swdob300c.html</loc>
-    <lastmod>2024-10-03T10:26:28.740Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/acervo/itens/svbony305/svbony305.html</loc>
-    <lastmod>2024-10-03T10:26:28.740Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/equipe.html</loc>
-    <lastmod>2024-10-03T10:26:29.053Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/tecnicos/fernando_apolinario.html</loc>
-    <lastmod>2024-10-03T10:26:29.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/professores/vitor_coluci.html</loc>
-    <lastmod>2024-10-03T10:26:29.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/professores/silvio_dahmen.html</loc>
-    <lastmod>2024-10-03T10:26:29.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/daiane_degan.html</loc>
-    <lastmod>2024-10-03T10:26:29.055Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/daniel_oliveira.html</loc>
-    <lastmod>2024-10-03T10:26:29.055Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/maria_gomes.html</loc>
-    <lastmod>2024-10-03T10:26:29.067Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/lucas_ribeiro.html</loc>
-    <lastmod>2024-10-03T10:26:29.062Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/lais_oliveira.html</loc>
-    <lastmod>2024-10-03T10:26:29.057Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/minicurso_aframe_17_10_24/minicurso_aframe_17_10_24.html</loc>
-    <lastmod>2024-10-18T23:37:41.479Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html</loc>
-    <lastmod>2024-10-17T12:31:19.230Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html</loc>
-    <lastmod>2024-10-03T10:26:28.916Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html</loc>
-    <lastmod>2024-10-03T10:26:28.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/atividades/pendulo_de_foucault/pendulo_de_foucault.html</loc>
-    <lastmod>2024-10-03T10:26:28.835Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/atividades/observatorio/observatorio.html</loc>
-    <lastmod>2024-10-03T10:26:28.834Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/atividades/cursos/planisferio/planisferio.html</loc>
-    <lastmod>2024-10-18T23:22:10.483Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/atividades/cursos/cursos.html</loc>
-    <lastmod>2024-10-18T23:22:10.480Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/atividades/atividades.html</loc>
-    <lastmod>2024-10-18T23:22:10.470Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/atividades/desafios_online/h5p-atividades/h5p-instrumentos.html</loc>
-    <lastmod>2024-10-03T10:26:28.802Z</lastmod>
+    <lastmod>2024-09-25T14:14:27.903Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/atividades/desafios_online/desafios_online.html</loc>
-    <lastmod>2024-10-03T10:26:28.802Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/projetos/observatorio_proj/observatorio_proj.html</loc>
-    <lastmod>2024-10-03T10:26:29.120Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/projetos/foucault_proj/foucault_proj.html</loc>
-    <lastmod>2024-10-03T10:26:29.073Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/README.html</loc>
-    <lastmod>2024-10-03T10:26:28.727Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/projetos/projetos.html</loc>
-    <lastmod>2024-10-03T10:26:29.120Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/sobre/sobre.html</loc>
-    <lastmod>2024-10-03T10:26:29.120Z</lastmod>
+    <lastmod>2024-04-17T20:06:04.000Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/atividades/desafios_online/h5p-atividades/h5p-planeta-mercurio.html</loc>
-    <lastmod>2024-10-03T10:26:28.816Z</lastmod>
+    <lastmod>2024-04-17T18:09:52.000Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/atividades/passeio_dos_planetas/passeio_dos_planetas.html</loc>
-    <lastmod>2024-10-03T10:26:28.834Z</lastmod>
+    <loc>https://observe.ufscar.br/atividades/pendulo_de_foucault/pendulo_de_foucault.html</loc>
+    <lastmod>2024-09-26T18:35:48.257Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/atividades/jornada_do_sol/jornada_do_sol.html</loc>
-    <lastmod>2024-10-03T10:26:28.830Z</lastmod>
+    <loc>https://observe.ufscar.br/atividades/cursos/planisferio/planisferio.html</loc>
+    <lastmod>2024-10-18T20:26:10.325Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/atividades/cursos/aframe/aframe.html</loc>
-    <lastmod>2024-10-18T23:22:10.473Z</lastmod>
+    <lastmod>2024-10-18T20:27:42.134Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/atividades/observacao_do_ceu/observacao_do_ceu.html</loc>
-    <lastmod>2024-10-03T10:26:28.833Z</lastmod>
+    <loc>https://observe.ufscar.br/atividades/observatorio/observatorio.html</loc>
+    <lastmod>2024-09-26T18:37:46.158Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/atividades/jornada_das_estrelas/jornada_das_estrelas.html</loc>
-    <lastmod>2024-10-03T10:26:28.829Z</lastmod>
+    <loc>https://observe.ufscar.br/atividades/passeio_dos_planetas/passeio_dos_planetas.html</loc>
+    <lastmod>2024-09-26T18:35:29.017Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/blog/blog.html</loc>
-    <lastmod>2024-10-03T10:26:28.836Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html</loc>
-    <lastmod>2024-10-03T10:26:28.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/minicurso_unity_16_10_24/minicurso_unity_16_10_24.html</loc>
-    <lastmod>2024-10-18T23:22:10.488Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html</loc>
-    <lastmod>2024-10-03T10:26:28.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/minicurso_unreal_15_10_24/minicurso_unreal_15_10_24.html</loc>
-    <lastmod>2024-10-17T12:31:19.231Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/guilherme_bonaldo.html</loc>
-    <lastmod>2024-10-03T10:26:29.055Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/vivian_silva.html</loc>
-    <lastmod>2024-10-03T10:26:29.068Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/jhasmani_tito_cruz.html</loc>
-    <lastmod>2024-10-03T10:26:29.056Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/amanda_greyce.html</loc>
-    <lastmod>2024-10-03T10:26:29.054Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/estudantes/maria_dantas.html</loc>
-    <lastmod>2024-10-03T10:26:29.067Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/professores/joao_teles.html</loc>
-    <lastmod>2024-10-03T10:26:29.068Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/professores/alexandre_colato.html</loc>
-    <lastmod>2024-10-03T10:26:29.068Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/equipe/tecnicos/aline_soares.html</loc>
-    <lastmod>2024-10-03T10:26:29.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/acervo/acervo.html</loc>
-    <lastmod>2024-10-03T10:26:28.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/acervo/itens/quest2/quest2.html</loc>
-    <lastmod>2024-10-03T10:26:28.737Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/acervo/itens/c6-s/c6s.html</loc>
-    <lastmod>2024-10-03T10:26:28.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/acervo/itens/relogio_estelar/relogio_estelar.html</loc>
-    <lastmod>2024-10-03T10:26:28.737Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/calendario/calendario.html</loc>
-    <lastmod>2024-10-03T10:26:28.922Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/calendario/eventos/WorkshopVR.html</loc>
-    <lastmod>2024-10-17T12:31:19.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html</loc>
-    <lastmod>2024-10-03T10:26:28.922Z</lastmod>
+    <loc>https://observe.ufscar.br/README.html</loc>
+    <lastmod>2024-04-19T19:15:31.000Z</lastmod>
   </url>
 </urlset>
