@@ -1,0 +1,13 @@
+---
+title: Questões da OBA
+subtitle: Exercite seus conhecimentos em Astronomia com questões da Olimpíada Brasileira de Astronomia.
+image: h5p_oba_logo.jpeg
+listing:
+    type: table
+    fields: [title, subtitle]
+    table-hover: true
+    contents: h5p_oba/*.qmd
+    field-display-names:
+        title: Atividade
+        subtitle: Tipo
+---

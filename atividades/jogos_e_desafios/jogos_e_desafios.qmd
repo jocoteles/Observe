@@ -1,0 +1,15 @@
+---
+title: Jogos e desafios
+subtitle: Aprenda e teste seus conhecimentos astronômicos brincando.
+image: jogos_e_desafios.jpeg
+listing:
+    type: grid
+    fields: [image, title, subtitle]
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    table-hover: true
+    contents:
+        - "questoes_oba/questoes_oba.qmd"    
+        - "astronocartas/astronocartas.qmd"  
+---

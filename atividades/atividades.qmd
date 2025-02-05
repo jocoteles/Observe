@@ -15,7 +15,7 @@ listing:
         - "observacao_do_ceu/observacao_do_ceu.qmd"
         - "passeio_dos_planetas/passeio_dos_planetas.qmd"
         - "pendulo_de_foucault/pendulo_de_foucault.qmd"
-        - "desafios_online/desafios_online.qmd"
+        - "jogos_e_desafios/jogos_e_desafios.qmd"
 ---
 
 Nesta página reunimos todas as atividades que desenvolvemos rotineiramente que envolvem cursos, eventos, exposições, oficinas e sessões de observação do céu.
