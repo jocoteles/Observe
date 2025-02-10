@@ -2,7 +2,7 @@
 title: "*SisSolXR* - Sistema Solar em Realidade Mista"
 subtitle: Exploração Imersiva e Interativa do Sistema Solar em Realidade Mista para Educação em Astronomia
 image: sissolxr.png
-date: 02 10 2025
+date: 10 02 2025
 categories: [Projeto]
 author: João Teles
 ---
