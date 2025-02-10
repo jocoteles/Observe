@@ -1,0 +1,101 @@
+---
+title: "*SisSolXR* - Sistema Solar em Realidade Mista"
+subtitle: Exploração Imersiva e Interativa do Sistema Solar em Realidade Mista para Educação em Astronomia
+image: sissolxr.png
+date: 02 10 2025
+categories: [Projeto]
+author: João Teles
+---
+
+![](sissolxr.png)
+
+## *SisSolXR* - Sistema Solar em Realidade Mista
+
+*Exploração Imersiva e Interativa do Sistema Solar em Realidade Mista para Educação em Astronomia*
+
+O SisSolXR foi projetado para proporcionar uma experiência imersiva e interativa de aprendizado sobre o Sistema Solar dentro de um ambiente de Realidade Mista.  Utilizando óculos de Realidade Virtual (RV) compatíveis com rastreamento de mãos, a aplicação permite que estudantes e educadores explorem o Sistema Solar em escala, dentro do espaço físico de uma sala de aula ou laboratório de ensino. Para uma descrição mais completa do uso no ambiente educacional, incluiremos em breve um artigo científico.
+
+O SisSolXR é uma aplicação de código aberto disponível sob a licença MIT podendo ser obtido em:
+
+- Versão atualizada no [GitHub](https://github.com/jocoteles/SisSolXR)
+- Versão publicada: [![DOI](https://zenodo.org/badge/930331951.svg)](https://doi.org/10.5281/zenodo.14845124)
+
+
+### Objetivos Educacionais
+
+*   Visualizar e compreender as **escalas de tamanho e distância** no Sistema Solar.
+*   Explorar as **órbitas e movimentos** dos planetas ao redor do Sol.
+*   Comparar os **diâmetros planetários** em escala.
+*   Compreender a **dimensão do Sol** em relação aos planetas.
+*   Promover a **interação e colaboração** entre estudantes no ambiente de aprendizado.
+
+### O Ambiente de Realidade Mista
+
+Ao iniciar o SisSolXR em óculos de RV, os participantes são colocados em um ambiente de Realidade Mista que integra o espaço físico real da sala de aula com elementos virtuais:
+
+*   **Espaço Real Integrado:** Os estudantes continuam vendo o ambiente físico da sala de aula através dos óculos de RV, permitindo a interação com colegas e o professor, e a movimentação livre no espaço.
+*   **Janela para o Espaço Sideral:** Paredes virtuais são sobrepostas nas paredes da sala, criando a ilusão de um espaço aberto acima do teto, como uma "janela para o espaço sideral" (o "espaço superior"). O espaço da sala ao nível do chão é chamado de "espaço inferior".
+*   **Objetos Virtuais Interativos:**  O Sol e os planetas do Sistema Solar são renderizados como objetos 3D virtuais dentro deste ambiente misto.
+
+### Interação com o Aplicativo
+
+A interação no SisSolXR é feita principalmente através do **rastreamento das mãos**:
+
+*   **Mãos Virtuais:** As mãos dos usuários são rastreadas e representadas virtualmente como "luvas virtuais" no ambiente misto.
+*   **Apertar Botões:**  Botões virtuais podem ser pressionados com as mãos virtuais para iniciar ações e navegar na aplicação.
+*   **Painel de Controle:** Um painel de controle virtual é invocado por um botão inicial no centro da sala. Este painel, visível apenas para quem o invocou (geralmente o professor), permite controlar as etapas da atividade e selecionar planetas.
+
+### Etapas da Atividade Educacional SisSolXR
+
+O SisSolXR é estruturado em quatro etapas principais, cada uma focada em diferentes aspectos do Sistema Solar:
+
+**Etapa 1: Raios Orbitais em Escala no Espaço Superior**
+
+*   **Objetivo:** Visualizar as distâncias relativas dos planetas ao Sol (raios orbitais) em escala.
+*   **Descrição:** Os planetas são posicionados no "espaço superior" (acima do teto virtual), em planos orbitais a cerca de 10 metros do solo. Os raios orbitais são transformados (Transformação Constante - TC) para caber no espaço virtual, com Mercúrio mais próximo do Sol e Netuno mais distante. Os diâmetros e velocidades de translação dos planetas são ajustados (Transformação Não-Linear - TNL) para serem visíveis e perceptíveis a essa distância. As velocidades de rotação são menos relevantes nesta etapa.
+*   **Conteúdo Educacional:** Escala do Sistema Solar, distâncias planetárias, órbitas planetárias.
+
+**Etapa 2: Apreciação Individual dos Planetas no Espaço Inferior**
+
+*   **Objetivo:** Explorar cada planeta individualmente, focando em suas características visuais e movimentos.
+*   **Descrição:** Os planetas são trazidos um a um para o "espaço inferior" (nível da sala). Seus diâmetros e velocidades de translação são ajustados (TNL) para que tenham um tamanho apreciável (30-40cm de diâmetro) e órbitas menores (2m de raio) ao redor do Sol, a cerca de 1,5m do solo. A inclinação dos eixos de rotação planetária é representada fielmente. O Sol também é renderizado no "espaço inferior", mas com um diâmetro reduzido (20cm) para focar nos planetas.
+*   **Conteúdo Educacional:** Características dos planetas (superfície, atmosfera), período orbital, período de rotação, inclinação axial.
+
+**Etapa 3: Diâmetros Planetários em Escala no Espaço Inferior**
+
+*   **Objetivo:** Comparar os tamanhos dos planetas em escala relativa.
+*   **Descrição:** Os planetas permanecem no "espaço inferior". Os diâmetros dos planetas são ajustados usando uma Transformação Constante (TC) para representar a escala de tamanho entre eles. Os raios orbitais e velocidades de translação são novamente ajustados (TNL) para visualização. O Sol permanece com o mesmo tamanho e posição da Etapa 2 (não está em escala nesta etapa).
+*   **Conteúdo Educacional:** Tamanho relativo dos planetas, comparação de dimensões planetárias.
+
+**Etapa 4: Sol em Escala no Espaço Superior**
+
+*   **Objetivo:** Demonstrar o tamanho real do Sol em escala com os planetas (da Etapa 3).
+*   **Descrição:** Apenas o Sol é transformado nesta etapa. Seu diâmetro é ajustado usando a mesma Transformação Constante (TC) da Etapa 3, resultando em um Sol enorme (12 metros de diâmetro). O Sol é então elevado lentamente para o "espaço superior" até que sua superfície fique a cerca de 2 metros do solo, mostrando sua imensidão em relação ao espaço da sala e aos tamanhos planetários da Etapa 3.
+*   **Conteúdo Educacional:** Tamanho do Sol em escala com os planetas, a magnitude do Sol no Sistema Solar.
+
+### Dinâmica da Atividade Educacional
+
+Uma possível dinâmica para conduzir uma atividade educacional com SisSolXR é a seguinte:
+
+1.  **Preparação Inicial:** Reúna os estudantes em círculo no centro da sala. Explique brevemente sobre a atividade e o uso dos óculos de RV. Dê instruções sobre como interagir e o que evitar fazer com as mãos para não sair da aplicação acidentalmente.
+2.  **Distribuição e Ajuste dos Óculos:** Distribua os óculos de RV aos estudantes, auxiliando no ajuste correto e confortável em seus rostos.
+3.  **Início da Etapa 1 (Raios Orbitais):** Peça aos estudantes para olharem para cima (espaço superior). Inicie a Etapa 1 no painel de controle. Conduza uma discussão sobre o que eles observam no "céu virtual", fazendo perguntas sobre o que representam os objetos e suas posições. Explore os conteúdos relacionados à Etapa 1 (escalas de distância, órbitas, movimento orbital).
+4.  **Etapa 2 (Planetas Individuais):** Inicie a Etapa 2 e traga os planetas um a um para o "espaço inferior".  Conduza a exploração de cada planeta, incentivando os estudantes a observar suas características, aparência da atmosfera, inclinações dos eixos de rotação, e a interagir (se aproximar, "tocar"). Discuta os conteúdos da Etapa 2 (características planetárias, rotação, translação). Adicionalmente, pode-se explorar as causas das estações do ano devido à inclinação do eixo de rotação planetário.
+5.  **Etapa 3 (Diâmetros Planetários):** Inicie a Etapa 3. Incentive os estudantes a se movimentarem livremente na sala para comparar os tamanhos dos diferentes planetas em escala. Explore os conteúdos da Etapa 3 (tamanhos relativos dos planetas).
+6.  **Etapa 4 (Sol em Escala):** Finalize a atividade com a Etapa 4. Prepare os estudantes para a visualização do Sol em escala. Inicie a Etapa 4 e observem juntos a ascensão do Sol gigante no "espaço superior". Conclua a discussão com os conteúdos da Etapa 4 (tamanho do Sol e sua importância).
+7.  **Encerramento e Discussão Final:** Após a Etapa 4, retire os óculos dos estudantes. Promova uma discussão final sobre o que aprenderam, suas impressões e dúvidas.
+
+### Materiais Necessários
+
+*   **Notebook Servidor:** Um notebook com capacidade de configurar um hotspot Wi-Fi e rodar o servidor web SisSolXR.
+*   **Óculos de Realidade Virtual (Meta Quest 2 ou similares):**  Óculos de RV com capacidade de rastreamento de mãos e navegador web integrado. Idealmente, um conjunto de óculos para os estudantes e um para o professor (já testamos de forma bem sucedida com até 11 óculos de RV).
+*   **Espaço Físico Adequado:** Uma sala ou laboratório com área entre 30 e 50 m² para permitir a adequada acomodação dos planetas e a movimentação dos estudantes.
+
+### Considerações Finais
+
+*   **Adaptação ao Nível Escolar:** Adapte a linguagem e o vocabulário da discussão aos diferentes níveis de escolaridade dos estudantes.
+*   **Interação e Perguntas:** Incentive a interação dos estudantes entre si e com o professor, e estimule perguntas ao longo da atividade.
+*   **Observação e Registro:** Durante a atividade, observe as reações e interações dos estudantes para enriquecer o relato da experiência e aprimorar futuras aplicações.
+
+Ao utilizar o SisSolXR seguindo estas orientações, educadores podem proporcionar aos estudantes uma experiência de aprendizado imersiva, interativa e memorável sobre o Sistema Solar, explorando conceitos complexos de escala, movimento e características planetárias de uma forma inovadora e engajadora.
+
