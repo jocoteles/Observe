@@ -1,0 +1,13 @@
+---
+title: "Letícia Silva de Souza"
+subtitle: "Estudante do grupo {{< var tipo.observe >}}"
+about:
+  template: jolla
+  image: leticia_de_souza.jpeg
+---
+
+"Eu poderia mostrar tudo se você parar de ter medo do que você não entende." (Doctor Who)
+
+**Formação**
+
+Graduanda em Licenciatura em Física pela UFSCar | 2020 - presente

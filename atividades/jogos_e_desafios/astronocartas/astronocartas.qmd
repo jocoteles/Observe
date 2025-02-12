@@ -84,5 +84,5 @@ Quando todas as cartas forem usadas, some os pontos de todas as rodadas. O jogad
 
 ---
 ::: {.column-body style="text-align:right"}
-Jogo desenvolvido por [Lucas Caprio Ribeiro](/equipe/estudantes/lucas_ribeiro.qmd) 
+Jogo desenvolvido por [Letícia de Souza](/equipe/estudantes/leticia_de_souza.qmd) e [Lucas Caprio Ribeiro](/equipe/estudantes/lucas_ribeiro.qmd) 
 :::

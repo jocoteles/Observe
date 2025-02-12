@@ -16,17 +16,25 @@
     ]
   },
   {
-    "listing": "/blog/blog.html",
+    "listing": "/equipe/equipe.html",
     "items": [
-      "/blog/posts/minicurso_unity_16_10_24/minicurso_unity_16_10_24.html",
-      "/blog/posts/minicurso_aframe_17_10_24/minicurso_aframe_17_10_24.html",
-      "/blog/posts/minicurso_unreal_15_10_24/minicurso_unreal_15_10_24.html",
-      "/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html",
-      "/blog/posts/jornada_das_estrelas_06_24/jornada_das_estrelas_06_24.html",
-      "/blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html",
-      "/blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html",
-      "/blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html",
-      "/blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html"
+      "/equipe/professores/silvio_dahmen.html",
+      "/equipe/professores/alexandre_colato.html",
+      "/equipe/professores/joao_teles.html",
+      "/equipe/professores/vitor_coluci.html",
+      "/equipe/tecnicos/fernando_apolinario.html",
+      "/equipe/tecnicos/aline_soares.html",
+      "/equipe/estudantes/lais_oliveira.html",
+      "/equipe/estudantes/maria_gomes.html",
+      "/equipe/estudantes/guilherme_bonaldo.html",
+      "/equipe/estudantes/jhasmani_tito_cruz.html",
+      "/equipe/estudantes/leticia_de_souza.html",
+      "/equipe/estudantes/daiane_degan.html",
+      "/equipe/estudantes/lucas_ribeiro.html",
+      "/equipe/estudantes/daniel_oliveira.html",
+      "/equipe/estudantes/vivian_silva.html",
+      "/equipe/estudantes/maria_dantas.html",
+      "/equipe/estudantes/amanda_greyce.html"
     ]
   },
   {
@@ -41,24 +49,17 @@
     ]
   },
   {
-    "listing": "/equipe/equipe.html",
+    "listing": "/blog/blog.html",
     "items": [
-      "/equipe/professores/silvio_dahmen.html",
-      "/equipe/professores/alexandre_colato.html",
-      "/equipe/professores/joao_teles.html",
-      "/equipe/professores/vitor_coluci.html",
-      "/equipe/tecnicos/fernando_apolinario.html",
-      "/equipe/tecnicos/aline_soares.html",
-      "/equipe/estudantes/lais_oliveira.html",
-      "/equipe/estudantes/maria_gomes.html",
-      "/equipe/estudantes/guilherme_bonaldo.html",
-      "/equipe/estudantes/jhasmani_tito_cruz.html",
-      "/equipe/estudantes/daiane_degan.html",
-      "/equipe/estudantes/lucas_ribeiro.html",
-      "/equipe/estudantes/daniel_oliveira.html",
-      "/equipe/estudantes/vivian_silva.html",
-      "/equipe/estudantes/maria_dantas.html",
-      "/equipe/estudantes/amanda_greyce.html"
+      "/blog/posts/minicurso_unity_16_10_24/minicurso_unity_16_10_24.html",
+      "/blog/posts/minicurso_aframe_17_10_24/minicurso_aframe_17_10_24.html",
+      "/blog/posts/minicurso_unreal_15_10_24/minicurso_unreal_15_10_24.html",
+      "/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html",
+      "/blog/posts/jornada_das_estrelas_06_24/jornada_das_estrelas_06_24.html",
+      "/blog/posts/sistema_solar_vr_13_05_24/sistema_solar_vr_13_05_24.html",
+      "/blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html",
+      "/blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html",
+      "/blog/posts/jornada_do_sol_09_11_23/jornada_do_sol_09_11_23.html"
     ]
   },
   {
