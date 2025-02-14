@@ -10,7 +10,268 @@
 <atom:link href="https://observe.ufscar.br/calendario/calendario.xml" rel="self" type="application/rss+xml"/>
 <description> </description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Thu, 26 Sep 2024 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 14 Feb 2025 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>XIX Jornada das Estrelas</title>
+  <link>https://observe.ufscar.br/calendario/eventos/xix_jornada_das_estrelas copy.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Entre os dias 18/03/25 e 20/03/25 ocorrerá a XIX edição do evento <a href="../../atividades/jornada_das_estrelas/jornada_das_estrelas.html">Jornada das Estrelas</a>.</p>
+<p><em>Esta é a primeira vez que a Jornada das Estrelas ocorrerá à tarde e à noite!</em></p>
+<ul>
+<li>Local: <a href="../../localizacao/localizacao.html">Praça do Observatório a Olho Nu do CCA-UFSCar</a></li>
+<li>Data: 18 a 20/03/25</li>
+<li>Horários:
+<ul>
+<li>Tarde: 14h às 15h30 e 16h às 17h30</li>
+<li>Noite: 19h às 20h30 e 21h às 22h30</li>
+</ul></li>
+</ul>
+<p>Nesta edição teremos:</p>
+<ul>
+<li>Observação do céu com telescópios (Sol à tarde e planetas à noite, caso o céu esteja limpo).</li>
+<li>Coreografia dos planetas (em qualquer condição climática).</li>
+<li>Modelagem das estações do ano (em qualquer condição climática).</li>
+<li>Visitação ao Observatório a Olho Nu (caso não chova).</li>
+<li>Caminhada pelos planetas (caso não chova).</li>
+<li>Jogo AstronoCartas (caso chova).</li>
+</ul>
+<p>O circuito completo de atividades terá duração em torno 1 hora e 30 minutos. Como várias atividades são realizadas à céu aberto, recomendamos que os visitantes venham protegidos para as intempéries.</p>
+<p>O evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as <strong>escolas precisam fazer a solicitação de agendamento</strong> conforme instruções abaixo.</p>
+<!-- Recebemos a informação do TCA que, nos dias do evento, a linha de ônibus [Linha 0403 - Parque das Arvores / Jardim Alvorada - Carro 820](https://www.smtca.sp.gov.br/wp-content/uploads/2023/01/LINHAS-E-HORARIOS-DE-ONIBUS-SITE-2023-01-30.pdf) estará operando. -->
+<section id="instruções-para-as-escolas" class="level2">
+<h2 class="anchored" data-anchor-id="instruções-para-as-escolas">Instruções para as escolas</h2>
+<ul>
+<li>Escolas que queiram trazer seus alunos deverão, obrigatoriamente, fazer o agendamento do dia e horário de visitação preenchendo o formulário abaixo e enviando a solicitação gerada para o email <code>observe@ufscar.br</code>.</li>
+<li>O agendamento poderá ser feito até o dia 14 de março. As escolas que não puderem vir deverão cancelar o agendamento com antecedência para liberar horário para outras escolas.</li>
+<li>Serão aceitos no máximo 4 grupos de até 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.</li>
+<li>As escolas que vierem com grupos que não tiverem sido agendados e confirmados não poderão participar do evento. Todas as escolas serão contatadas por e-mail ou telefone para confirmação do agendamento. Ou seja, não basta fazer o agendamento, é necessário que a escola receba a confirmação por email para poder participar.</li>
+<li>Escolas que chegarem atrasadas em relação ao horário agendado poderão perder algumas das atividades acima, sendo direcionadas para a atividade seguinte desde que dentro do período agendado.</li>
+<li>Para a UFSCar é uma grande satisfação receber as escolas no evento, trazendo uma grande motivação para que ele ocorra anualmente. Entretanto, as escolas que descumprirem com as informações aqui descritas não poderão participar do evento. Isso é necessário para que as atividades ocorram de forma proveitosa para todos.</li>
+</ul>
+</section>
+<section id="form_escolas" class="level2">
+<h2 class="anchored" data-anchor-id="form_escolas">Formulário para as escolas</h2>
+<form id="formulario">
+   <p></p><div class="form-group">
+        <label for="escola">Escola</label>
+        <input type="text" class="form-control" id="escola" placeholder="Insira o nome da escola">
+    </div><p></p> 
+   <p></p><div class="form-group">
+        <label for="municipio">Município</label>
+        <input type="text" class="form-control" id="municipio" placeholder="Insira o nome do município da escola">
+    </div><p></p> 
+    <div id="grupos"></div>
+   <p><button type="submit" class="btn btn-warning">Gerar solicitação</button></p>
+   <p><label for="solicitacao">Solicitação</label>
+        <textarea class="form-control" id="solicitacao" rows="3" readonly=""></textarea>
+   </p> 
+</form>
+
+<script defer="">
+    const nulo = '---';
+    const horarios = [ 
+        '14h às 15h30',
+        '16h às 17h30',
+        '19h às 20h30',
+        '21h às 22h30',
+    ];
+    const dias = ['18/03','19/03','20/03'];
+    const alunos = {
+        label: "Quantidade de alunos",
+        options: [
+            nulo,
+            'menos que 15',
+            'entre 15 e 30',
+            'entre 30 e 50'
+        ]
+    };
+    const escolaridade = {
+        label: "Escolaridade",
+        options: [
+            nulo,
+            'Infantil',
+            'Fundamental 1',
+            'Fundamental 2',
+            'Ensino Médio',
+            'EJA',
+            'Superior',
+            'Misto'
+        ]   
+    };
+    const agendamentos = [
+        // {escola:'', professor:'', dia:'', horario:'', escolaridade:'', alunos: ''},
+    ];
+
+    const Ngrupos = 6;
+
+    const evento = 'XIX Jornada das Estrelas';
+
+    const professor = {
+        label: "Professor(a)",
+        placeholder: "Professor(a) responsável por acompanhar os estudantes"
+    }
+    const telefone = {
+        label: "Telefone",
+        placeholder: "Telefone para contato em caso de necessidade"
+    }
+
+    const datas = genDatasDisponiveisLista(agendamentos, dias, horarios);
+
+    let grupos = document.getElementById("grupos");
+    for (let i = 1; i < Ngrupos+1; i++) {
+        let botaoHTML = fromHTML(`<p><button type="button" class="btn btn-primary btn-block" data-bs-toggle="collapse" href="#grupo${i}">Grupo ${i}</button></p>`);
+        grupos.append(botaoHTML);
+        let divHTML = fromHTML(`<div id="grupo${i}" class="collapse"></div>"`);
+        let professorHTML = genInput(`professor${i}`, divHTML, 'text', professor.label, professor.placeholder);
+        let telefoneHTML = genInput(`telefone${i}`, divHTML, 'text', telefone.label, telefone.placeholder);
+        let alunosHTML = genSelect(`alunos${i}`, divHTML, alunos.options, alunos.label); 
+        let escolaridadeHTML = genSelect(`escolaridade${i}`, divHTML, escolaridade.options, escolaridade.label); 
+        let opcao1HTML = genSelect(`opcao${i}1`, divHTML, datas, 'Opção 1'); 
+        let opcao2HTML = genSelect(`opcao${i}2`, divHTML, datas, 'Opção 2'); 
+        grupos.append(divHTML);
+    };  
+
+    function genDatasDisponiveisLista(agendamentos, dias, horarios, maxGrupos = 3) {
+        let datas = {};
+        for (let d of dias) {
+            let h = {};
+            for (let hx of horarios) h[hx] = 0;
+            datas[d] = h;
+        }
+        for (let a of agendamentos) datas[a.dia][a.horario]++;
+        let datasDispo = [nulo];
+        for (let d of dias) for (let hx of horarios) if (datas[d][hx] < maxGrupos) datasDispo.push(d + ' - ' + hx);
+        return datasDispo;
+    }
+
+    function formSubmit(event) {
+        event.preventDefault();
+        let el = event.target.elements;
+        let x0 = ``;
+        let x = ``;
+        if (el.escola.value == "") return alert("Insira o nome da Escola.");
+        else {
+            x0 = 
+`Prezados organizadores da ${evento},
+
+Nós, da instituição ${el.escola.value}, localizada no município de ${el.municipio.value}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:`
+        }; 
+        for (let i = 1; i < Ngrupos+1; i++) {
+            if (el[`professor${i}`].value != "" &&
+                el[`telefone${i}`].value != "" &&
+                el[`alunos${i}`].value != nulo &&
+                el[`opcao${i}1`].value != nulo) 
+            {
+                x += 
+`
+
+Grupo ${i}:
+- Professor responsável: ${el[`professor${i}`].value}
+- Telefone: ${el[`telefone${i}`].value}
+- Número de alunos: ${el[`alunos${i}`].value}
+- Escolaridade: ${el[`escolaridade${i}`].value}
+- 1ª opção: ${el[`opcao${i}1`].value}
+- 2ª opção: ${el[`opcao${i}2`].value}`;
+            }
+        }
+        if (x == "") return alert("Informe os dados de pelo menos um grupo de alunos.");
+        else {
+            el.solicitacao.value = x0 + x;
+            navigator.clipboard.writeText(x0+x);
+            document.getElementById('solicitacao').setAttribute('rows', '20');  
+            return alert("A solicitação foi copiada para a área de transferência. Cole-a no corpo do email e envie para oberve@ufscar.br");
+        }
+    }
+    document.getElementById("formulario").addEventListener("submit", formSubmit);
+
+    function genSelect(id, parentHTML, optionsList, label = "", paragraph = true) {
+        let selectHTML = fromHTML(`<select class="form-select" id="${id}"></select>`);
+        for (option of optionsList) {
+            let optHTML = fromHTML(`<option>${option}</option>`);
+            selectHTML.append(optHTML);
+        }
+        if (label != "") {
+            let labelHTML = fromHTML(`<label for="${id}">${label}</label>`);
+            parentHTML.append(labelHTML);
+        }
+        if (paragraph) {
+            let parHTML = fromHTML('<p></p>');
+            parHTML.append(selectHTML);
+            parentHTML.append(parHTML);
+        }
+        else parentHTML.append(selectHTML);
+    }
+
+    function genInput(id, parentHTML, type, label = "", placeholder = "", paragraph = true) {
+        let inputHTML = fromHTML(`<input type="${type}" class="form-control" id="${id}" placeholder="${placeholder}">`);
+        if (label != "") {
+            let labelHTML = fromHTML(`<label for="${id}">${label}</label>`);
+            parentHTML.append(labelHTML);
+        }
+        if (paragraph) {
+            let parHTML = fromHTML('<p></p>');
+            parHTML.append(inputHTML);
+            parentHTML.append(parHTML);
+        }
+        else parentHTML.append(inputHTML);
+    }
+
+    function fromHTML(html, trim = false) {
+        html = trim ? html.trim() : html;
+        if (!html) return null;
+
+        const template = document.createElement('template');
+        template.innerHTML = html;
+        const result = template.content.children;
+
+        if (result.length === 1) return result[0];
+        return result;
+    }
+
+</script>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Atenção
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email <code>observe@ufscar.br</code></p>
+</div>
+</div>
+</section>
+<section id="agendamentos-confirmados" class="level2">
+<h2 class="anchored" data-anchor-id="agendamentos-confirmados">Agendamentos confirmados</h2>
+<div id="tabelaAgendamentos"></div>
+
+<script>
+    var tableAgen = new Tabulator("#tabelaAgendamentos", {
+        layout:"fitColumns",
+        groupBy:["dia","horario"],
+        data: agendamentos,
+        columns:[
+            {field:'escola', title:'Escola'},
+            {field:'alunos', title:'Alunos'},
+            {field:'escolaridade', title:'Nível'},
+            {field:'professor', title:'Prof(a)'},
+        ],
+    });
+</script>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://observe.ufscar.br/calendario/eventos/xix_jornada_das_estrelas copy.html</guid>
+  <pubDate>Fri, 14 Feb 2025 03:00:00 GMT</pubDate>
+</item>
 <item>
   <title>XVIII Jornada das Estrelas</title>
   <link>https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html</link>

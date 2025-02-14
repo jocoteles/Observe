@@ -1,5 +1,5 @@
 ---
-title: "Letícia Silva de Souza"
+title: "Letícia Camila Silva de Souza"
 subtitle: "Estudante do grupo {{< var tipo.observe >}}"
 about:
   template: jolla

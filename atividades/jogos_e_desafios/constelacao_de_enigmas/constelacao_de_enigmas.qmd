@@ -6,7 +6,7 @@ image: constelacao_de_enigmas.jpg
 
 ![](constelacao_de_enigmas.jpg){width=50% fig-align="center"}
 
-Se você acredita que a física é apenas teoria ou sem relação com a astronomia, prepare-se para ser confrontado com a realidade dos desafios práticos. Cada enigma é uma estrela em nossa constelação, esperando para ser desvendada por mentes curiosas e tenazes. Prove que você tem a massa crítica de conhecimento para iluminar a escuridão da dúvida!
+Se você acredita que a física é apenas teoria ou sem relação com a astronomia, prepare-se para um confronto com a realidade dos desafios práticos. Cada enigma é uma estrela em nossa constelação, esperando para ser desvendada por mentes curiosas e tenazes. Prove que você tem a massa crítica de conhecimento para iluminar a escuridão da dúvida!
 
 ::: {.callout-tip collapse="false"}
 ## Desafio: Leste em 30 segundos
