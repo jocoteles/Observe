@@ -84,53 +84,39 @@
     "text": "Nesta página reunimos todas as atividades que desenvolvemos rotineiramente que envolvem cursos, eventos, exposições, oficinas e sessões de observação do céu.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJornada das Estrelas\n\n\nEvento dedicado à observação do céu noturno com telescópios e a olho nu e à divulgação de astronomia com palestras e exposições.\n\n\n\n\n\n\n\n\n\n\n\n\n\nJornada do Sol\n\n\nEvento dedicado à observação do Sol usando telescópios com os devidos filtros solares.\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservatório a Olho Nu\n\n\nPraça contendo relógios solar e estelar, além de totens informativos sobre as estações, os astrônomos e os planetas.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCursos e oficinas\n\n\nCursos, oficinas e minicursos para você conhecer e aprender novas formas de explorar e ensinar a Astronomia.\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservação do céu\n\n\nEncontros semanais ou quinzenais que ocorrem principalmente no período de estiagem para a observação do céu a olho nu e identificação das principais constelações e estrelas.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPasseio dos Planetas\n\n\nExposição fixa com os planetas do sistema solar em escala reduzida. Viaje pelo Sistema Solar em velocidades superluminais!\n\n\n\n\n\n\n\n\n\n\n\n\n\nPêndulo de Foucault\n\n\nUm dos mais belos experimentos que demonstra que a rotação da Terra é absoluta. Venha conhecer o nosso exemplar!\n\n\n\n\n\n\n\n\n\n\n\n\n\nJogos e desafios\n\n\nAprenda e teste seus conhecimentos astronômicos brincando.\n\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "calendario/eventos/WorkshopVR.html",
-    "href": "calendario/eventos/WorkshopVR.html",
-    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
+    "objectID": "calendario/eventos/pons_brooks.html",
+    "href": "calendario/eventos/pons_brooks.html",
+    "title": "Observação do cometa Pons-Brook",
     "section": "",
-    "text": "Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a Oraculus XR. O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como Unreal Engine, Unity e A-Frame e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual."
+    "text": "Este evento está encerrado\n\n\n\nLeia sobre o seu relato em Observação do cometa Pons-Brooks em 21/04/24\n\n\nNo final da tarde deste domingo (21/04) nos reuniremos na praça do Observatório a Olho Nu do CCA-UFSCar a partir das 17h45 (horário do pôr do Sol) para tentarmos observer o cometa Pons-Brooks. Dificilmente o cometa será visível a olho nu, por isso utilizaremos um dos nossos telescópios. Esperamos conseguir observá-lo no máximo até às 18h40, quando estará quase se pondo. Coincidentemente, na mesma região do céu, Urano estará em conjunção com Júpiter e poderemos tentar testemunhar esse evento também (apesar de ser improvável conseguirmos identificar Urano com o céu ainda levemente claro). Por fim, fecharemos o encontro observando a Lua – nossa única garantia – quase cheia no horizonte oposto."
   },
   {
-    "objectID": "calendario/eventos/WorkshopVR.html#minicursos",
-    "href": "calendario/eventos/WorkshopVR.html#minicursos",
-    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
-    "section": "Minicursos",
-    "text": "Minicursos\n\n15/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unreal Engine\nObjetivos: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a Unreal Engine, com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.\nMinistrante: Jhasmani Tito Cruz (FT-UNICAMP)\n\n\n16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity\nObjetivos: introduzir os participantes à criação de atividades interativas em realidade virtual utilizando a plataforma Unity.\n\nIntrodução à RV e Unity\n\nNoções básicas de VR\nConfiguração do ambiente de desenvolvimento Unity\nIntrodução ao Meta SDK\nCriação de um novo projeto RV\n\nCenas em RV\n\nConfigurações da câmera RV\nCriação de objetos e materiais 3D\nInteração com objetos (raycasting, colisões)\nProgramação básica e animações para Realidade Virtual\n\nInteração Avançada\n\nRastreamento e configuração manual\nManipulação de objetos 3D com e sem restrições.\nInterface de usuário de realidade virtual (tela, botões, texto)\n\n\nMinistrantes: Viky Cecilia Camarena Quispe, Julio César Cubas Aguinaga e Iversen Arroyo Unchupaico (Universidad Nacional de Ingeniería, Oraculus XR)\n\n\n17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame\nObjetivos: introduzir os participantes ao desenvolvimento de atividades interativas de Realidade Virtual (RV) utilizando a plataforma web A-Frame, com foco em aplicações voltadas para o ensino de Física e Astronomia. Ao final do minicurso, os participantes terão criado um ambiente VR simples e compreendido os conceitos básicos do A-Frame.\n\nIntrodução ao A-Frame\n\nO que é A-Frame: Conceitos e arquitetura.\nEstrutura básica de um projeto em A-Frame: HTML, entidades e componentes.\n\nHands-on: Construção de um ambiente RV simples\n\nConfiguração de ambiente e ferramentas\nCriação de cenas básicas em RV: Céu, objetos 3D e movimentação no espaço.\nIntegração de JavaScript para interatividade: controle de câmera e manipulação de objetos.\n\nExploração de atividades educacionais em Física e Astronomia:\n\nSimulação de conceitos de Física (como gravidade, movimento de corpos).\nRepresentação de corpos celestes em RV.\n\n\nMinistrante: João Teles de Carvalho Neto (CCA-UFSCar)"
-  },
-  {
-    "objectID": "calendario/eventos/WorkshopVR.html#forma-de-participação",
-    "href": "calendario/eventos/WorkshopVR.html#forma-de-participação",
-    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
-    "section": "Forma de participação",
-    "text": "Forma de participação\n\nPúblico interno da UFSCar não precisará trazer material algum para participar dos minicursos.\nPúblico externo precisará, obrigatoriamente, trazer um notebook pessoal. Além disso, quem for participar do minicurso com o Unity, deverá vir com o Unity já instalado em seu notebook."
-  },
-  {
-    "objectID": "calendario/eventos/WorkshopVR.html#processo-de-inscrição",
-    "href": "calendario/eventos/WorkshopVR.html#processo-de-inscrição",
-    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
-    "section": "Processo de inscrição",
-    "text": "Processo de inscrição\nO processo de inscrição será da seguinte forma:\n\nEtapa 1 - Pré-inscrição online via formulário online.\nEtapa 2 - Efetivação da inscrição presencialmente no LIG 1 às 13h40 no dia do respectivo minicurso.\n\nPara cada minicurso serão chamados até 10 pré-inscritos a mais do que o limite de vagas para compor a fila de espera. As vagas não preenchidas na etapa 2, serão preenchidas pelas pessoas em fila de espera que estiverem presentes na etapa 2."
-  },
-  {
-    "objectID": "calendario/eventos/WorkshopVR.html#emissão-de-certificados",
-    "href": "calendario/eventos/WorkshopVR.html#emissão-de-certificados",
-    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
-    "section": "Emissão de certificados",
-    "text": "Emissão de certificados\nSerá emitido um certificado para cada minicurso cursado, desde que cumpridos os seguintes quesitos:\n\nO participante tenha sua inscrição efetivada na Etapa 2 de inscrições.\nA participação ocorra do início ao fim do minicurso (14h às 18h).\nO participante entregue as tarefas online que serão propostas."
-  },
-  {
-    "objectID": "calendario/eventos/WorkshopVR.html#informações-gerais",
-    "href": "calendario/eventos/WorkshopVR.html#informações-gerais",
-    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
-    "section": "Informações gerais",
-    "text": "Informações gerais\n\nDatas: 15, 16 e 17 de outubro de 2024\nHorário: 13h40 às 18h\nLocal: Laboratório de Informática da Graduação (LIG 1),localizado no prédio principal (bloco A) do CCA-UFSCar\nPúblico Alvo: Estudantes de ensino superior, professores e egressos de cursos de graduação.\nVagas: 50 vagas em cada dia, sendo metade reservadas para estudantes do CCA/UFSCar.\nPré-inscrição: de 25/09/2024 a 14/10/2024 às 13h (foi prorrogada) via formulário online e confirmação no dia do curso.\nConfirmação de pré-inscrição: será enviada por e-mail em 14/10/2024.\n\n\n\n\n\n\n\nAtenção\n\n\n\n\nSó poderá participar do minicurso quem receber o email de confirmação de pré-inscrição.\nNos dias dos minicursos será obrigatória a apresentação de documento contendo o número de identificação conforme registrado no formulário de pré-inscrição.\n\n\n\nEste evento possui apoio do CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 “Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais” (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal."
-  },
-  {
-    "objectID": "calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html",
-    "href": "calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html",
-    "title": "XVIII Jornada das Estrelas",
+    "objectID": "calendario/eventos/xix_jornada_das_estrelas.html",
+    "href": "calendario/eventos/xix_jornada_das_estrelas.html",
+    "title": "XIX Jornada das Estrelas",
     "section": "",
-    "text": "A próxima Jornada das Estrelas está com data marcada!\nNos dias 8 e 10 de outubro (terça e quinta-feira), ocorrerá a XVIII edição do nosso evento Jornada das Estrelas.\n\nLocal: Praça do Observatório a Olho Nu do CCA-UFSCar\nDatas: 8 e 10/10/24\nHorários: 19h às 22h\n\nNesta edição teremos:\n\nObservação da Lua e de Saturno com os nossos telescópios.\nPasseio pelo Observatório a Olho Nu.\nApresentação do Sistema Solar em Realidade Aumentada com nossos óculos de realidade virtual.\n\nO evento é GRATUITO e aberto ao público. Não há necessidade de agendamento. Basta comparecer nos dias e horários do evento.\nA atividade 3 é a única que irá ocorrer mesmo que esteja nublado ou com (a tão esperada) chuva.\nESCOLAS, nesta Jornada não faremos agendamento de turmas, porém a próxima Jornada do Sol está por vir e nela vocês poderão vir com suas turmas! Fiquem de olho.\nNão percam essa oportunidade, chamem a família e os amigos!\nDivulguem !"
+    "text": "Entre os dias 18/03/25 e 20/03/25 ocorrerá a XIX edição do evento Jornada das Estrelas.\nEsta é a primeira vez que a Jornada das Estrelas ocorrerá à tarde e à noite!\nNesta edição teremos:\nO circuito completo de atividades terá duração em torno 1 hora e 30 minutos. Como várias atividades são realizadas à céu aberto, recomendamos que os visitantes venham protegidos para as intempéries.\nO evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as escolas precisam fazer a solicitação de agendamento conforme instruções abaixo."
+  },
+  {
+    "objectID": "calendario/eventos/xix_jornada_das_estrelas.html#instruções-para-as-escolas",
+    "href": "calendario/eventos/xix_jornada_das_estrelas.html#instruções-para-as-escolas",
+    "title": "XIX Jornada das Estrelas",
+    "section": "Instruções para as escolas",
+    "text": "Instruções para as escolas\n\nEscolas que queiram trazer seus alunos deverão, obrigatoriamente, fazer o agendamento do dia e horário de visitação preenchendo o formulário abaixo e enviando a solicitação gerada para o email observe@ufscar.br.\nO agendamento poderá ser feito até o dia 14 de março. As escolas que não puderem vir deverão cancelar o agendamento com antecedência para liberar horário para outras escolas.\nSerão aceitos no máximo 4 grupos de até 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.\nAs escolas que vierem com grupos que não tiverem sido agendados e confirmados não poderão participar do evento. Todas as escolas serão contatadas por e-mail ou telefone para confirmação do agendamento. Ou seja, não basta fazer o agendamento, é necessário que a escola receba a confirmação por email para poder participar.\nEscolas que chegarem atrasadas em relação ao horário agendado poderão perder algumas das atividades acima, sendo direcionadas para a atividade seguinte desde que dentro do período agendado.\nPara a UFSCar é uma grande satisfação receber as escolas no evento, trazendo uma grande motivação para que ele ocorra anualmente. Entretanto, as escolas que descumprirem com as informações aqui descritas não poderão participar do evento. Isso é necessário para que as atividades ocorram de forma proveitosa para todos."
+  },
+  {
+    "objectID": "calendario/eventos/xix_jornada_das_estrelas.html#form_escolas",
+    "href": "calendario/eventos/xix_jornada_das_estrelas.html#form_escolas",
+    "title": "XIX Jornada das Estrelas",
+    "section": "Formulário para as escolas",
+    "text": "Formulário para as escolas\n\n   \n        Escola\n        \n     \n   \n        Município\n        \n     \n    \n   Gerar solicitação\n   Solicitação\n        \n    \n\n\n\n\n\n\n\n\n\nAtenção\n\n\n\nA solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email observe@ufscar.br"
+  },
+  {
+    "objectID": "calendario/eventos/xix_jornada_das_estrelas.html#agendamentos-confirmados",
+    "href": "calendario/eventos/xix_jornada_das_estrelas.html#agendamentos-confirmados",
+    "title": "XIX Jornada das Estrelas",
+    "section": "Agendamentos confirmados",
+    "text": "Agendamentos confirmados"
   },
   {
     "objectID": "calendario/calendario.html",
@@ -609,39 +595,53 @@
     "text": "Agendamentos confirmados"
   },
   {
-    "objectID": "calendario/eventos/pons_brooks.html",
-    "href": "calendario/eventos/pons_brooks.html",
-    "title": "Observação do cometa Pons-Brook",
+    "objectID": "calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html",
+    "href": "calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html",
+    "title": "XVIII Jornada das Estrelas",
     "section": "",
-    "text": "Este evento está encerrado\n\n\n\nLeia sobre o seu relato em Observação do cometa Pons-Brooks em 21/04/24\n\n\nNo final da tarde deste domingo (21/04) nos reuniremos na praça do Observatório a Olho Nu do CCA-UFSCar a partir das 17h45 (horário do pôr do Sol) para tentarmos observer o cometa Pons-Brooks. Dificilmente o cometa será visível a olho nu, por isso utilizaremos um dos nossos telescópios. Esperamos conseguir observá-lo no máximo até às 18h40, quando estará quase se pondo. Coincidentemente, na mesma região do céu, Urano estará em conjunção com Júpiter e poderemos tentar testemunhar esse evento também (apesar de ser improvável conseguirmos identificar Urano com o céu ainda levemente claro). Por fim, fecharemos o encontro observando a Lua – nossa única garantia – quase cheia no horizonte oposto."
+    "text": "A próxima Jornada das Estrelas está com data marcada!\nNos dias 8 e 10 de outubro (terça e quinta-feira), ocorrerá a XVIII edição do nosso evento Jornada das Estrelas.\n\nLocal: Praça do Observatório a Olho Nu do CCA-UFSCar\nDatas: 8 e 10/10/24\nHorários: 19h às 22h\n\nNesta edição teremos:\n\nObservação da Lua e de Saturno com os nossos telescópios.\nPasseio pelo Observatório a Olho Nu.\nApresentação do Sistema Solar em Realidade Aumentada com nossos óculos de realidade virtual.\n\nO evento é GRATUITO e aberto ao público. Não há necessidade de agendamento. Basta comparecer nos dias e horários do evento.\nA atividade 3 é a única que irá ocorrer mesmo que esteja nublado ou com (a tão esperada) chuva.\nESCOLAS, nesta Jornada não faremos agendamento de turmas, porém a próxima Jornada do Sol está por vir e nela vocês poderão vir com suas turmas! Fiquem de olho.\nNão percam essa oportunidade, chamem a família e os amigos!\nDivulguem !"
   },
   {
-    "objectID": "calendario/eventos/xix_jornada_das_estrelas copy.html",
-    "href": "calendario/eventos/xix_jornada_das_estrelas copy.html",
-    "title": "XIX Jornada das Estrelas",
+    "objectID": "calendario/eventos/WorkshopVR.html",
+    "href": "calendario/eventos/WorkshopVR.html",
+    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
     "section": "",
-    "text": "Entre os dias 18/03/25 e 20/03/25 ocorrerá a XIX edição do evento Jornada das Estrelas.\nEsta é a primeira vez que a Jornada das Estrelas ocorrerá à tarde e à noite!\nNesta edição teremos:\nO circuito completo de atividades terá duração em torno 1 hora e 30 minutos. Como várias atividades são realizadas à céu aberto, recomendamos que os visitantes venham protegidos para as intempéries.\nO evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as escolas precisam fazer a solicitação de agendamento conforme instruções abaixo."
+    "text": "Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a Oraculus XR. O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como Unreal Engine, Unity e A-Frame e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual."
   },
   {
-    "objectID": "calendario/eventos/xix_jornada_das_estrelas copy.html#instruções-para-as-escolas",
-    "href": "calendario/eventos/xix_jornada_das_estrelas copy.html#instruções-para-as-escolas",
-    "title": "XIX Jornada das Estrelas",
-    "section": "Instruções para as escolas",
-    "text": "Instruções para as escolas\n\nEscolas que queiram trazer seus alunos deverão, obrigatoriamente, fazer o agendamento do dia e horário de visitação preenchendo o formulário abaixo e enviando a solicitação gerada para o email observe@ufscar.br.\nO agendamento poderá ser feito até o dia 14 de março. As escolas que não puderem vir deverão cancelar o agendamento com antecedência para liberar horário para outras escolas.\nSerão aceitos no máximo 4 grupos de até 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.\nAs escolas que vierem com grupos que não tiverem sido agendados e confirmados não poderão participar do evento. Todas as escolas serão contatadas por e-mail ou telefone para confirmação do agendamento. Ou seja, não basta fazer o agendamento, é necessário que a escola receba a confirmação por email para poder participar.\nEscolas que chegarem atrasadas em relação ao horário agendado poderão perder algumas das atividades acima, sendo direcionadas para a atividade seguinte desde que dentro do período agendado.\nPara a UFSCar é uma grande satisfação receber as escolas no evento, trazendo uma grande motivação para que ele ocorra anualmente. Entretanto, as escolas que descumprirem com as informações aqui descritas não poderão participar do evento. Isso é necessário para que as atividades ocorram de forma proveitosa para todos."
+    "objectID": "calendario/eventos/WorkshopVR.html#minicursos",
+    "href": "calendario/eventos/WorkshopVR.html#minicursos",
+    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
+    "section": "Minicursos",
+    "text": "Minicursos\n\n15/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unreal Engine\nObjetivos: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a Unreal Engine, com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.\nMinistrante: Jhasmani Tito Cruz (FT-UNICAMP)\n\n\n16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity\nObjetivos: introduzir os participantes à criação de atividades interativas em realidade virtual utilizando a plataforma Unity.\n\nIntrodução à RV e Unity\n\nNoções básicas de VR\nConfiguração do ambiente de desenvolvimento Unity\nIntrodução ao Meta SDK\nCriação de um novo projeto RV\n\nCenas em RV\n\nConfigurações da câmera RV\nCriação de objetos e materiais 3D\nInteração com objetos (raycasting, colisões)\nProgramação básica e animações para Realidade Virtual\n\nInteração Avançada\n\nRastreamento e configuração manual\nManipulação de objetos 3D com e sem restrições.\nInterface de usuário de realidade virtual (tela, botões, texto)\n\n\nMinistrantes: Viky Cecilia Camarena Quispe, Julio César Cubas Aguinaga e Iversen Arroyo Unchupaico (Universidad Nacional de Ingeniería, Oraculus XR)\n\n\n17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame\nObjetivos: introduzir os participantes ao desenvolvimento de atividades interativas de Realidade Virtual (RV) utilizando a plataforma web A-Frame, com foco em aplicações voltadas para o ensino de Física e Astronomia. Ao final do minicurso, os participantes terão criado um ambiente VR simples e compreendido os conceitos básicos do A-Frame.\n\nIntrodução ao A-Frame\n\nO que é A-Frame: Conceitos e arquitetura.\nEstrutura básica de um projeto em A-Frame: HTML, entidades e componentes.\n\nHands-on: Construção de um ambiente RV simples\n\nConfiguração de ambiente e ferramentas\nCriação de cenas básicas em RV: Céu, objetos 3D e movimentação no espaço.\nIntegração de JavaScript para interatividade: controle de câmera e manipulação de objetos.\n\nExploração de atividades educacionais em Física e Astronomia:\n\nSimulação de conceitos de Física (como gravidade, movimento de corpos).\nRepresentação de corpos celestes em RV.\n\n\nMinistrante: João Teles de Carvalho Neto (CCA-UFSCar)"
   },
   {
-    "objectID": "calendario/eventos/xix_jornada_das_estrelas copy.html#form_escolas",
-    "href": "calendario/eventos/xix_jornada_das_estrelas copy.html#form_escolas",
-    "title": "XIX Jornada das Estrelas",
-    "section": "Formulário para as escolas",
-    "text": "Formulário para as escolas\n\n   \n        Escola\n        \n     \n   \n        Município\n        \n     \n    \n   Gerar solicitação\n   Solicitação\n        \n    \n\n\n\n\n\n\n\n\n\nAtenção\n\n\n\nA solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email observe@ufscar.br"
+    "objectID": "calendario/eventos/WorkshopVR.html#forma-de-participação",
+    "href": "calendario/eventos/WorkshopVR.html#forma-de-participação",
+    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
+    "section": "Forma de participação",
+    "text": "Forma de participação\n\nPúblico interno da UFSCar não precisará trazer material algum para participar dos minicursos.\nPúblico externo precisará, obrigatoriamente, trazer um notebook pessoal. Além disso, quem for participar do minicurso com o Unity, deverá vir com o Unity já instalado em seu notebook."
   },
   {
-    "objectID": "calendario/eventos/xix_jornada_das_estrelas copy.html#agendamentos-confirmados",
-    "href": "calendario/eventos/xix_jornada_das_estrelas copy.html#agendamentos-confirmados",
-    "title": "XIX Jornada das Estrelas",
-    "section": "Agendamentos confirmados",
-    "text": "Agendamentos confirmados"
+    "objectID": "calendario/eventos/WorkshopVR.html#processo-de-inscrição",
+    "href": "calendario/eventos/WorkshopVR.html#processo-de-inscrição",
+    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
+    "section": "Processo de inscrição",
+    "text": "Processo de inscrição\nO processo de inscrição será da seguinte forma:\n\nEtapa 1 - Pré-inscrição online via formulário online.\nEtapa 2 - Efetivação da inscrição presencialmente no LIG 1 às 13h40 no dia do respectivo minicurso.\n\nPara cada minicurso serão chamados até 10 pré-inscritos a mais do que o limite de vagas para compor a fila de espera. As vagas não preenchidas na etapa 2, serão preenchidas pelas pessoas em fila de espera que estiverem presentes na etapa 2."
+  },
+  {
+    "objectID": "calendario/eventos/WorkshopVR.html#emissão-de-certificados",
+    "href": "calendario/eventos/WorkshopVR.html#emissão-de-certificados",
+    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
+    "section": "Emissão de certificados",
+    "text": "Emissão de certificados\nSerá emitido um certificado para cada minicurso cursado, desde que cumpridos os seguintes quesitos:\n\nO participante tenha sua inscrição efetivada na Etapa 2 de inscrições.\nA participação ocorra do início ao fim do minicurso (14h às 18h).\nO participante entregue as tarefas online que serão propostas."
+  },
+  {
+    "objectID": "calendario/eventos/WorkshopVR.html#informações-gerais",
+    "href": "calendario/eventos/WorkshopVR.html#informações-gerais",
+    "title": "Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia",
+    "section": "Informações gerais",
+    "text": "Informações gerais\n\nDatas: 15, 16 e 17 de outubro de 2024\nHorário: 13h40 às 18h\nLocal: Laboratório de Informática da Graduação (LIG 1),localizado no prédio principal (bloco A) do CCA-UFSCar\nPúblico Alvo: Estudantes de ensino superior, professores e egressos de cursos de graduação.\nVagas: 50 vagas em cada dia, sendo metade reservadas para estudantes do CCA/UFSCar.\nPré-inscrição: de 25/09/2024 a 14/10/2024 às 13h (foi prorrogada) via formulário online e confirmação no dia do curso.\nConfirmação de pré-inscrição: será enviada por e-mail em 14/10/2024.\n\n\n\n\n\n\n\nAtenção\n\n\n\n\nSó poderá participar do minicurso quem receber o email de confirmação de pré-inscrição.\nNos dias dos minicursos será obrigatória a apresentação de documento contendo o número de identificação conforme registrado no formulário de pré-inscrição.\n\n\n\nEste evento possui apoio do CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 “Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais” (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal."
   },
   {
     "objectID": "atividades/pendulo_de_foucault/pendulo_de_foucault.html",
