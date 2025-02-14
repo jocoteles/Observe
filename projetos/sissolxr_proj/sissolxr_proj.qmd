@@ -9,10 +9,6 @@ author: João Teles
 
 ![](sissolxr.png)
 
-## *SisSolXR* - Sistema Solar em Realidade Mista
-
-*Exploração Imersiva e Interativa do Sistema Solar em Realidade Mista para Educação em Astronomia*
-
 O SisSolXR foi projetado para proporcionar uma experiência imersiva e interativa de aprendizado sobre o Sistema Solar dentro de um ambiente de Realidade Mista.  Utilizando óculos de Realidade Virtual (RV) compatíveis com rastreamento de mãos, a aplicação permite que estudantes e educadores explorem o Sistema Solar em escala, dentro do espaço físico de uma sala de aula ou laboratório de ensino. Para uma descrição mais completa do uso no ambiente educacional, incluiremos em breve um artigo científico.
 
 O SisSolXR é uma aplicação de código aberto disponível sob a licença MIT podendo ser obtido em:

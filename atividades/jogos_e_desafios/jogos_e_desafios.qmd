@@ -12,4 +12,5 @@ listing:
     contents:
         - "questoes_oba/questoes_oba.qmd"    
         - "astronocartas/astronocartas.qmd"  
+        - "constelacao_de_enigmas/constelacao_de_enigmas.qmd"
 ---

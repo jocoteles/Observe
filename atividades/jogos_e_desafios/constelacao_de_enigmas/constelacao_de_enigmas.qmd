@@ -1,0 +1,15 @@
+---
+title: Constelação de Enigmas
+subtitle: Um campo de provas para o seu intelecto.
+image: constelacao_de_enigmas.jpg
+---
+
+![](constelacao_de_enigmas.jpg){width=50% fig-align="center"}
+
+Se você acredita que a física é apenas teoria ou sem relação com a astronomia, prepare-se para ser confrontado com a realidade dos desafios práticos. Cada enigma é uma estrela em nossa constelação, esperando para ser desvendada por mentes curiosas e tenazes. Prove que você tem a massa crítica de conhecimento para iluminar a escuridão da dúvida!
+
+::: {.callout-tip collapse="false"}
+## Desafio: Leste em 30 segundos
+
+Newtinho, um estudante de física confiante em sua capacidade de resolver problemas práticos, estava de bermuda e chinelo curtindo as férias com amigos em uma cidade litorânea completamente desconhecida para ele. Em meio a risadas e o som das ondas, Newtinho, no auge de sua autoconfiança, se vangloriou de que conseguiria se orientar rapidamente em qualquer lugar do mundo, mesmo sem bússola, mapa ou qualquer tecnologia moderna, utilizando apenas seus conhecimentos de física e astronomia. Seus amigos, céticos e com um brilho de desafio nos olhos, não perderam a oportunidade. Vendaram seus olhos, o guiaram por ruas e vielas desconhecidas e o deixaram sob a sombra fresca de um quiosque redondo à beira-mar, o sol a pino e implacável sobre ele. Com um cronômetro marcando apenas 30 segundos, lançaram o ultimato: "Prove sua física, Newtinho! Aponte para o leste e vença a aposta. Se acertar, jantar chique por nossa conta. Se falhar... bem, prepare o bolso para rodadas e rodadas de sorvete para todos nós durante o resto das férias!". Newtinho, agora sozinho no quiosque circular, sem absolutamente nenhum objeto ou ferramenta à sua disposição, encara o desafio. Como Newtinho pode usar seus conhecimentos de física e astronomia para determinar a direção leste em meros 30 segundos e escapar da avalanche de sorvetes?
+:::
