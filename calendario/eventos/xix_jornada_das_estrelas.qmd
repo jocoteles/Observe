@@ -100,6 +100,8 @@ O evento é gratuito e o público geral pode comparecer sem agendamento. Entreta
 
     const Ngrupos = 6;
 
+    const max_grupos_por_horario = 4;
+
     const evento = 'XIX Jornada das Estrelas';
 
     const professor = {
@@ -111,7 +113,7 @@ O evento é gratuito e o público geral pode comparecer sem agendamento. Entreta
         placeholder: "Telefone para contato em caso de necessidade"
     }
 
-    const datas = genDatasDisponiveisLista(agendamentos, dias, horarios);
+    const datas = genDatasDisponiveisLista(agendamentos, dias, horarios, max_grupos_por_horario);
 
     let grupos = document.getElementById("grupos");
     for (let i = 1; i < Ngrupos+1; i++) {
@@ -127,7 +129,7 @@ O evento é gratuito e o público geral pode comparecer sem agendamento. Entreta
         grupos.append(divHTML);
     };  
 
-    function genDatasDisponiveisLista(agendamentos, dias, horarios, maxGrupos = 3) {
+    function genDatasDisponiveisLista(agendamentos, dias, horarios, maxGrupos) {
         let datas = {};
         for (let d of dias) {
             let h = {};

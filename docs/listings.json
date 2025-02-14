@@ -1,32 +1,5 @@
 [
   {
-    "listing": "/atividades/jogos_e_desafios/questoes_oba/questoes_oba.html",
-    "items": [
-      "/atividades/jogos_e_desafios/questoes_oba/h5p_oba/h5p-instrumentos.html",
-      "/atividades/jogos_e_desafios/questoes_oba/h5p_oba/h5p-planeta-mercurio.html"
-    ]
-  },
-  {
-    "listing": "/atividades/cursos/cursos.html",
-    "items": [
-      "/atividades/cursos/aframe/aframe.html",
-      "/atividades/cursos/planisferio/planisferio.html"
-    ]
-  },
-  {
-    "listing": "/atividades/atividades.html",
-    "items": [
-      "/atividades/jornada_das_estrelas/jornada_das_estrelas.html",
-      "/atividades/jornada_do_sol/jornada_do_sol.html",
-      "/atividades/observatorio/observatorio.html",
-      "/atividades/cursos/cursos.html",
-      "/atividades/observacao_do_ceu/observacao_do_ceu.html",
-      "/atividades/passeio_dos_planetas/passeio_dos_planetas.html",
-      "/atividades/pendulo_de_foucault/pendulo_de_foucault.html",
-      "/atividades/jogos_e_desafios/jogos_e_desafios.html"
-    ]
-  },
-  {
     "listing": "/calendario/calendario.html",
     "items": [
       "/calendario/eventos/xix_jornada_das_estrelas.html",
@@ -34,28 +7,6 @@
       "/calendario/eventos/WorkshopVR.html",
       "/calendario/eventos/xvii_jornada_das_estrelas.html",
       "/calendario/eventos/pons_brooks.html"
-    ]
-  },
-  {
-    "listing": "/equipe/equipe.html",
-    "items": [
-      "/equipe/professores/silvio_dahmen.html",
-      "/equipe/professores/alexandre_colato.html",
-      "/equipe/professores/joao_teles.html",
-      "/equipe/professores/vitor_coluci.html",
-      "/equipe/tecnicos/fernando_apolinario.html",
-      "/equipe/tecnicos/aline_soares.html",
-      "/equipe/estudantes/lais_oliveira.html",
-      "/equipe/estudantes/maria_gomes.html",
-      "/equipe/estudantes/guilherme_bonaldo.html",
-      "/equipe/estudantes/jhasmani_tito_cruz.html",
-      "/equipe/estudantes/leticia_de_souza.html",
-      "/equipe/estudantes/daiane_degan.html",
-      "/equipe/estudantes/lucas_ribeiro.html",
-      "/equipe/estudantes/daniel_oliveira.html",
-      "/equipe/estudantes/vivian_silva.html",
-      "/equipe/estudantes/maria_dantas.html",
-      "/equipe/estudantes/amanda_greyce.html"
     ]
   },
   {
@@ -84,10 +35,10 @@
     ]
   },
   {
-    "listing": "/projetos/projetos.html",
+    "listing": "/atividades/jogos_e_desafios/questoes_oba/questoes_oba.html",
     "items": [
-      "/projetos/foucault_proj/foucault_proj.html",
-      "/projetos/sissolxr_proj/sissolxr_proj.html"
+      "/atividades/jogos_e_desafios/questoes_oba/h5p_oba/h5p-instrumentos.html",
+      "/atividades/jogos_e_desafios/questoes_oba/h5p_oba/h5p-planeta-mercurio.html"
     ]
   },
   {
@@ -96,6 +47,55 @@
       "/atividades/jogos_e_desafios/questoes_oba/questoes_oba.html",
       "/atividades/jogos_e_desafios/astronocartas/astronocartas.html",
       "/atividades/jogos_e_desafios/constelacao_de_enigmas/constelacao_de_enigmas.html"
+    ]
+  },
+  {
+    "listing": "/projetos/projetos.html",
+    "items": [
+      "/projetos/foucault_proj/foucault_proj.html",
+      "/projetos/sissolxr_proj/sissolxr_proj.html"
+    ]
+  },
+  {
+    "listing": "/atividades/atividades.html",
+    "items": [
+      "/atividades/jornada_das_estrelas/jornada_das_estrelas.html",
+      "/atividades/jornada_do_sol/jornada_do_sol.html",
+      "/atividades/observatorio/observatorio.html",
+      "/atividades/cursos/cursos.html",
+      "/atividades/observacao_do_ceu/observacao_do_ceu.html",
+      "/atividades/passeio_dos_planetas/passeio_dos_planetas.html",
+      "/atividades/pendulo_de_foucault/pendulo_de_foucault.html",
+      "/atividades/jogos_e_desafios/jogos_e_desafios.html"
+    ]
+  },
+  {
+    "listing": "/atividades/cursos/cursos.html",
+    "items": [
+      "/atividades/cursos/aframe/aframe.html",
+      "/atividades/cursos/planisferio/planisferio.html"
+    ]
+  },
+  {
+    "listing": "/equipe/equipe.html",
+    "items": [
+      "/equipe/professores/silvio_dahmen.html",
+      "/equipe/professores/joao_teles.html",
+      "/equipe/professores/vitor_coluci.html",
+      "/equipe/professores/alexandre_colato.html",
+      "/equipe/tecnicos/fernando_apolinario.html",
+      "/equipe/tecnicos/aline_soares.html",
+      "/equipe/estudantes/lais_oliveira.html",
+      "/equipe/estudantes/guilherme_bonaldo.html",
+      "/equipe/estudantes/lucas_ribeiro.html",
+      "/equipe/estudantes/vivian_silva.html",
+      "/equipe/estudantes/leticia_de_souza.html",
+      "/equipe/estudantes/maria_gomes.html",
+      "/equipe/estudantes/jhasmani_tito_cruz.html",
+      "/equipe/estudantes/daniel_oliveira.html",
+      "/equipe/estudantes/amanda_greyce.html",
+      "/equipe/estudantes/daiane_degan.html",
+      "/equipe/estudantes/maria_dantas.html"
     ]
   }
 ]
