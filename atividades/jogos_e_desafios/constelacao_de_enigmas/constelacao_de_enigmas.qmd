@@ -8,8 +8,47 @@ image: constelacao_de_enigmas.jpg
 
 Se você acredita que a física é apenas teoria ou sem relação com a astronomia, prepare-se para um confronto com a realidade dos desafios práticos. Cada enigma é uma estrela em nossa constelação, esperando para ser desvendada por mentes curiosas e tenazes. Prove que você tem a massa crítica de conhecimento para iluminar a escuridão da dúvida!
 
-::: {.callout-tip collapse="false"}
-## Desafio: Leste em 30 segundos
+#### Leste urgente!
+::: {.callout-tip collapse="true"}
+# Abra o desafio
 
 Newtinho, um estudante de física confiante em sua capacidade de resolver problemas práticos, estava de bermuda e chinelo curtindo as férias com amigos em uma cidade litorânea completamente desconhecida para ele. Em meio a risadas e o som das ondas, Newtinho, no auge de sua autoconfiança, se vangloriou de que conseguiria se orientar rapidamente em qualquer lugar do mundo, mesmo sem bússola, mapa ou qualquer tecnologia moderna, utilizando apenas seus conhecimentos de física e astronomia. Seus amigos, céticos e com um brilho de desafio nos olhos, não perderam a oportunidade. Vendaram seus olhos, o guiaram por ruas e vielas desconhecidas e o deixaram sob a sombra fresca de um quiosque redondo à beira-mar, o sol a pino e implacável sobre ele. Com um cronômetro marcando apenas 30 segundos, lançaram o ultimato: "Prove sua física, Newtinho! Aponte para o leste e vença a aposta. Se acertar, jantar chique por nossa conta. Se falhar... bem, prepare o bolso para rodadas e rodadas de sorvete para todos nós durante o resto das férias!". Newtinho, agora sozinho no quiosque circular, sem absolutamente nenhum objeto ou ferramenta à sua disposição, encara o desafio. Como Newtinho pode usar seus conhecimentos de física e astronomia para determinar a direção leste em meros 30 segundos e escapar da avalanche de sorvetes?
 :::
+
+#### O Enigma da Bexiga de Outro Mundo - Desafio de Trappist-1e
+::: {.callout-tip collapse="true"}
+# Abra o desafio
+
+O ano é 2347. A humanidade não está mais restrita à Terra. Colônias florescem em diversos sistemas estelares, e um dos mais promissores é Trappist-1e, um exoplaneta rochoso orbitando uma estrela anã vermelha a anos-luz de distância. Elara, uma menina curiosa de 10 anos, vivia em uma das primeiras bio-cúpulas de Trappist-1e, um lar aconchegante sob um céu sempre crepuscular, banhado pela luz avermelhada de sua estrela-mãe.
+
+Em uma tarde tranquila, Elara explorava o sótão da bio-cúpula, um espaço quase museológico repleto de relíquias da "Velha Terra". Seus olhos brilharam ao encontrar um livro de ciências empoeirado, com capa desbotada e páginas amareladas. Era um livro de física básica de um autor chamado Tatarahalliday e que outrora pertencia a seu avô, de uma época em que a Terra era o único planeta habitado por humanos.
+
+Folheando as páginas, Elara se deparou com um capítulo intrigante: "O Ar Tem Massa!". O livro explicava como, apesar de ser invisível e aparentemente "leve", o ar era matéria e, portanto, possuía massa. Para provar isso, o livro descrevia um experimento simples:
+
+"Pegue uma bexiga de borracha vazia e pese-a em uma balança. Em seguida, encha a mesma bexiga com ar, amarre-a bem e pese-a novamente. Você verá que a balança indicará um peso maior na segunda medição, comprovando que o ar dentro da bexiga adicionou massa!"
+
+Elara, fascinada pela ideia, decidiu reproduzir o experimento. No laboratório doméstico da bio-cúpula, ela encontrou uma balança digital muito precisa, tecnologia muito superior às balanças da época do seu avô. Mas havia um problema: bexigas de borracha pareciam ser itens obsoletos em Trappist-1e. "Aniversários em bio-cúpulas são comemorados com projeções holográficas e bolhas de sabão pressurizadas, não bexigas!", pensou Elara, com um sorriso.
+
+Sem bexigas à disposição, Elara teve uma ideia. Ela encontrou um rolo de saquinhos plásticos finos, muito semelhantes aos "saquinhos de lixo" que sua avó terrestre mencionava em suas histórias da Velha Terra. "Elasticidade quase zero, perfeitos!", pensou Elara, com um toque de ironia.
+
+Seguindo as instruções do livro, Elara realizou o experimento com um saquinho plástico:
+
+- Medição do Saquinho Vazio: Com cuidado, colocou um saquinho plástico vazio sobre a balança e registrou a leitura.
+
+- Medição do Saquinho Cheio de Ar de Trappist-1e: Encheu um novo saquinho plástico com ar da bio-cúpula (ar de Trappist-1e, ajustado para ser respirável para humanos), amarrou a ponta com um nó firme e colocou o saquinho cheio na balança. Para sua total frustração, a balança indicou exatamente a mesma leitura!
+
+Elara repetiu o experimento várias vezes, verificou a calibração da balança, usou diferentes saquinhos, mas o resultado era sempre o mesmo: nenhum aumento de massa detectável ao encher o saquinho plástico com ar de Trappist-1e.
+
+"Mas... o livro dizia que o ar tem massa! Será que o livro do meu avô estava errado? Ou será que o ar de Trappist-1e é diferente? Será que a pressão aqui na bio-cúpula, ou a composição do ar, tornam o experimento diferente?", Elara se perguntava, confusa e intrigada. "O que aconteceu com o experimento da bexiga... quer dizer, do saquinho plástico, que não deu certo?"
+
+O Desafio para Você:
+
+Elara precisa da sua ajuda para desvendar esse enigma!
+
+Explique, usando seus conhecimentos de física, por que o experimento de Elara com o saquinho plástico não mostrou o aumento de massa esperado, enquanto o experimento original do livro (com uma bexiga) funcionava.
+
+Ajude Elara a entender o "enigma da bexiga" de outro mundo e a provar que a física funciona até mesmo em Trappist-1e!
+
+:::
+
+_Acha que conseguiu encontrar alguma resposta convincente para algum dos desafios? Compartilhe conosco escrevendo para `observe@ufscar.br` e nós daremos um retorno._
