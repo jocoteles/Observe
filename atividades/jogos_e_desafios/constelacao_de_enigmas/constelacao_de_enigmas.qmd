@@ -14,6 +14,8 @@ _Caso ache que conseguiu encontrar alguma resposta convincente para algum dos de
 ::: {.callout-tip collapse="true"}
 # Abra o desafio
 
+![](leste_urgente.jpg){.img-left}
+
 Newtinho, um estudante de física confiante em sua capacidade de resolver problemas práticos, estava de bermuda e chinelo curtindo as férias com amigos em uma cidade litorânea completamente desconhecida para ele. Em meio a risadas e o som das ondas, Newtinho, no auge de sua autoconfiança, se vangloriou de que conseguiria se orientar rapidamente em qualquer lugar do mundo, mesmo sem bússola, mapa ou qualquer tecnologia moderna, utilizando apenas seus conhecimentos de física e astronomia. Seus amigos, céticos e com um brilho de desafio nos olhos, não perderam a oportunidade. Vendaram seus olhos, o guiaram por ruas e vielas desconhecidas e o deixaram sob a sombra fresca de um quiosque redondo à beira-mar, o sol a pino e implacável sobre ele. Com um cronômetro marcando apenas 30 segundos, retiraram a venda dos olhos de Newtinho e lançaram o ultimato: "Prove sua física, Newtinho! Aponte para o leste e vença a aposta. Se acertar, jantar chique por nossa conta. Se falhar... bem, prepare o bolso para rodadas e rodadas de sorvete para todos nós durante o resto das férias!". Newtinho, agora sozinho no quiosque circular, sem absolutamente nenhum objeto ou ferramenta à sua disposição, encara o desafio. Como Newtinho pode usar seus conhecimentos de física e astronomia para determinar a direção leste em meros 30 segundos e escapar da avalanche de sorvetes?
 
 ---
@@ -26,6 +28,8 @@ Newtinho, um estudante de física confiante em sua capacidade de resolver proble
 #### O Enigma da Bexiga de Outro Mundo - Desafio de Trappist-1e
 ::: {.callout-tip collapse="true"}
 # Abra o desafio
+
+![](bexiga_de_outro_mundo.jpg){.img-left}
 
 O ano é 2347. A humanidade não está mais restrita à Terra. Colônias florescem em diversos sistemas estelares, e um dos mais promissores é Trappist-1e, um exoplaneta rochoso orbitando uma estrela anã vermelha a anos-luz de distância. Elara, uma menina curiosa de 10 anos, vivia em uma das primeiras bio-cúpulas de Trappist-1e, um lar aconchegante sob um céu sempre crepuscular, banhado pela luz avermelhada de sua estrela-mãe.
 
@@ -69,7 +73,6 @@ Ajude Elara a entender o "enigma da bexiga" de outro mundo e a provar que a fís
 ::: {.callout-tip collapse="true"}
 # Abra o desafio
 
-
 Em Kepler-1571, um planeta distante banhado pela pálida e avermelhada luz de sua estrela anã, florescia a engenhosa civilização dos Somnians. Seres ligados à terra, os Somnians ergueram suas cidades na superfície de Kepler-1571, um mundo rochoso colossal, cuja generosa gravidade, superior à da Terra, permitia reter uma atmosfera densa e vasta, mesmo sendo composta predominantemente pelo gás mais leve do universo: o gás hidrogênio (H~2~). A vida em Kepler-1571 havia trilhado um caminho evolutivo único, respirando a leveza do hidrogênio, a essência primordial do cosmos. Em comparação com mundos menores e mais quentes, como a Terra, onde o hidrogênio se dissipa para o espaço, Kepler-1571 abraçava seus habitantes com um oceano de hidrogênio gasoso vital. Suas cidades intrincadas, obras de arte em pedra e metal, adornavam as encostas elevadas e os planaltos acima do imponente Lago Celeste, um corpo d'água de beleza ímpar. Suas águas profundas e misteriosas exibiam um reflexo safira de tirar o fôlego, uma joia líquida cintilante sob a luz crepuscular, um fenômeno visual único, paradoxalmente possível graças aos altos níveis de dióxido de carbono (CO~2~) dissolvido em suas profundezas. Este excesso natural de CO~2~ dissolvido na água, armazenado lentamente no leito vulcânico do lago ao longo do último século, criava essa beleza singular e não inspirava receio por ser atóxico para os Somnians. A vida Somnian era tecida com a engenhosidade da terra e a imensidão do céu de hidrogênio, uma sinfonia de existência em Kepler-1571, com o Lago Celeste como sua joia mais preciosa.
 
 A Catástrofe do Vale da Sombra, como ficou conhecida, começou não com um impacto bruto, mas com uma perturbação na dança celeste. Kepler-1571, em sua órbita notavelmente elíptica ao redor de sua estrela, sentiu a influência gravitacional de Harmonia, sua lua companheira. Em um raro "alinhamento cósmico", uma ressonância gravitacional, como um acorde dissonante na sinfonia celeste, intensificou as forças de maré sobre Kepler-1571 durante seu periélio, culminando em um tremor planetário que abalou as cidades Somnians. Na aurora seguinte, sob um céu agora tingido de presságios, o explorador Lyra, com o coração apertado, partiu rumo às planícies próximas ao Lago Celeste, outrora um mosaico vibrante de comunidades Somnians e centros de saber. O que Lyra encontrou, porém, foi um sepulcro planetário.
@@ -90,8 +93,8 @@ Mestra Rudolfina e os cientistas de Kepler-1571, agora diante do Vale da Sombra 
 
 
 ---
-_Para enriquecer a experiência e explorar novas possibilidades criativas, alguns dos desafios aqui apresentados foram desenvolvidos com o apoio de algum modelo de Inteligência Artificial. Essa colaboração com IA contribuiu para a criação de narrativas envolventes e para a elaboração dos problemas propostos._
+_Para enriquecer a experiência e explorar novas possibilidades criativas, alguns dos desafios aqui apresentados foram desenvolvidos com o apoio de algum modelo de Inteligência Artificial. Essa colaboração com IA contribuiu para a criação de narrativas envolventes._
 
-_É importante saber que, embora a IA tenha sido uma ferramenta valiosa no processo de desenvolvimento, **a ideia original, a formulação do problema físico central, sua solução e a motivação subjacente de cada desafio foram integralmente definidos por criadores humanos.**_
+_É importante salientar que, embora a IA tenha sido uma ferramenta valiosa no processo de desenvolvimento, **a ideia original, a formulação do problema físico central, sua solução e a motivação subjacente de cada desafio foram integralmente definidos por criadores humanos.**_
 
 _Para detalhes sobre a contribuição específica em cada desafio, consulte o parágrafo de créditos localizado ao final de cada desafio._
