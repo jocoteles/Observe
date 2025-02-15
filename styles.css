@@ -36,3 +36,14 @@
     display: block;
   }
 }
+
+.responsive-img {
+  width: 50%;
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  .responsive-img {
+    width: 100%;
+  }
+}

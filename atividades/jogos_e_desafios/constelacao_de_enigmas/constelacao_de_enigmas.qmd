@@ -4,15 +4,23 @@ subtitle: Um campo de provas para o seu intelecto.
 image: constelacao_de_enigmas.jpg
 ---
 
-![](constelacao_de_enigmas.jpg){width=50% fig-align="center"}
+![](constelacao_de_enigmas.jpg){fig-align="center" .responsive-img}
 
 Se você acredita que a física é apenas teoria ou sem relação com a astronomia, prepare-se para um confronto com a realidade dos desafios práticos. Cada enigma é uma estrela em nossa constelação, esperando para ser desvendada por mentes curiosas e tenazes. Prove que você tem a massa crítica de conhecimento para iluminar a escuridão da dúvida!
+
+_Caso ache que conseguiu encontrar alguma resposta convincente para algum dos desafios, compartilhe conosco escrevendo para `observe@ufscar.br` e nós daremos um retorno._
 
 #### Leste urgente!
 ::: {.callout-tip collapse="true"}
 # Abra o desafio
 
-Newtinho, um estudante de física confiante em sua capacidade de resolver problemas práticos, estava de bermuda e chinelo curtindo as férias com amigos em uma cidade litorânea completamente desconhecida para ele. Em meio a risadas e o som das ondas, Newtinho, no auge de sua autoconfiança, se vangloriou de que conseguiria se orientar rapidamente em qualquer lugar do mundo, mesmo sem bússola, mapa ou qualquer tecnologia moderna, utilizando apenas seus conhecimentos de física e astronomia. Seus amigos, céticos e com um brilho de desafio nos olhos, não perderam a oportunidade. Vendaram seus olhos, o guiaram por ruas e vielas desconhecidas e o deixaram sob a sombra fresca de um quiosque redondo à beira-mar, o sol a pino e implacável sobre ele. Com um cronômetro marcando apenas 30 segundos, lançaram o ultimato: "Prove sua física, Newtinho! Aponte para o leste e vença a aposta. Se acertar, jantar chique por nossa conta. Se falhar... bem, prepare o bolso para rodadas e rodadas de sorvete para todos nós durante o resto das férias!". Newtinho, agora sozinho no quiosque circular, sem absolutamente nenhum objeto ou ferramenta à sua disposição, encara o desafio. Como Newtinho pode usar seus conhecimentos de física e astronomia para determinar a direção leste em meros 30 segundos e escapar da avalanche de sorvetes?
+Newtinho, um estudante de física confiante em sua capacidade de resolver problemas práticos, estava de bermuda e chinelo curtindo as férias com amigos em uma cidade litorânea completamente desconhecida para ele. Em meio a risadas e o som das ondas, Newtinho, no auge de sua autoconfiança, se vangloriou de que conseguiria se orientar rapidamente em qualquer lugar do mundo, mesmo sem bússola, mapa ou qualquer tecnologia moderna, utilizando apenas seus conhecimentos de física e astronomia. Seus amigos, céticos e com um brilho de desafio nos olhos, não perderam a oportunidade. Vendaram seus olhos, o guiaram por ruas e vielas desconhecidas e o deixaram sob a sombra fresca de um quiosque redondo à beira-mar, o sol a pino e implacável sobre ele. Com um cronômetro marcando apenas 30 segundos, retiraram a venda dos olhos de Newtinho e lançaram o ultimato: "Prove sua física, Newtinho! Aponte para o leste e vença a aposta. Se acertar, jantar chique por nossa conta. Se falhar... bem, prepare o bolso para rodadas e rodadas de sorvete para todos nós durante o resto das férias!". Newtinho, agora sozinho no quiosque circular, sem absolutamente nenhum objeto ou ferramenta à sua disposição, encara o desafio. Como Newtinho pode usar seus conhecimentos de física e astronomia para determinar a direção leste em meros 30 segundos e escapar da avalanche de sorvetes?
+
+---
+
+|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd).
+|   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
+
 :::
 
 #### O Enigma da Bexiga de Outro Mundo - Desafio de Trappist-1e
@@ -45,10 +53,45 @@ O Desafio para Você:
 
 Elara precisa da sua ajuda para desvendar esse enigma!
 
-Explique, usando seus conhecimentos de física, por que o experimento de Elara com o saquinho plástico não mostrou o aumento de massa esperado, enquanto o experimento original do livro (com uma bexiga) funcionava.
+Explique, usando seus conhecimentos de física, por que o experimento de Elara com o saquinho plástico não mostrou o aumento de massa esperado, enquanto o experimento original do livro (com uma bexiga) funcionava (ao menos na Terra).
 
 Ajude Elara a entender o "enigma da bexiga" de outro mundo e a provar que a física funciona até mesmo em Trappist-1e!
 
+---
+
+|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd).
+|   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
+
 :::
 
-_Acha que conseguiu encontrar alguma resposta convincente para algum dos desafios? Compartilhe conosco escrevendo para `observe@ufscar.br` e nós daremos um retorno._
+
+#### O Pesadelo dos Somnians
+::: {.callout-tip collapse="true"}
+# Abra o desafio
+
+
+Em Kepler-1571, um planeta distante banhado pela pálida e avermelhada luz de sua estrela anã, florescia a engenhosa civilização dos Somnians. Seres ligados à terra, os Somnians ergueram suas cidades na superfície de Kepler-1571, um mundo rochoso colossal, cuja generosa gravidade, superior à da Terra, permitia reter uma atmosfera densa e vasta, mesmo sendo composta predominantemente pelo gás mais leve do universo: o gás hidrogênio (H~2~). A vida em Kepler-1571 havia trilhado um caminho evolutivo único, respirando a leveza do hidrogênio, a essência primordial do cosmos. Em comparação com mundos menores e mais quentes, como a Terra, onde o hidrogênio se dissipa para o espaço, Kepler-1571 abraçava seus habitantes com um oceano de hidrogênio gasoso vital. Suas cidades intrincadas, obras de arte em pedra e metal, adornavam as encostas elevadas e os planaltos acima do imponente Lago Celeste, um corpo d'água de beleza ímpar. Suas águas profundas e misteriosas exibiam um reflexo safira de tirar o fôlego, uma joia líquida cintilante sob a luz crepuscular, um fenômeno visual único, paradoxalmente possível graças aos altos níveis de dióxido de carbono (CO~2~) dissolvido em suas profundezas. Este excesso natural de CO~2~ dissolvido na água, armazenado lentamente no leito vulcânico do lago ao longo do último século, criava essa beleza singular e não inspirava receio por ser atóxico para os Somnians. A vida Somnian era tecida com a engenhosidade da terra e a imensidão do céu de hidrogênio, uma sinfonia de existência em Kepler-1571, com o Lago Celeste como sua joia mais preciosa.
+
+A Catástrofe do Vale da Sombra, como ficou conhecida, começou não com um impacto bruto, mas com uma perturbação na dança celeste. Kepler-1571, em sua órbita notavelmente elíptica ao redor de sua estrela, sentiu a influência gravitacional de Harmonia, sua lua companheira. Em um raro "alinhamento cósmico", uma ressonância gravitacional, como um acorde dissonante na sinfonia celeste, intensificou as forças de maré sobre Kepler-1571 durante seu periélio, culminando em um tremor planetário que abalou as cidades Somnians. Na aurora seguinte, sob um céu agora tingido de presságios, o explorador Lyra, com o coração apertado, partiu rumo às planícies próximas ao Lago Celeste, outrora um mosaico vibrante de comunidades Somnians e centros de saber. O que Lyra encontrou, porém, foi um sepulcro planetário.
+
+Sobre o Vale da Sombra, Lyra pairou em silêncio espectral. As cidades do vale, antes pulsantes centros de vida, agora permaneciam inertes, como epitáfios de pedra sob o céu avermelhado. Ao se aproximar, a cena era um retrato da desolação: milhares de Somnians, seres outrora vibrantes e cheios de vida, jaziam caídos em suas moradias e centros comunitários, em meio a ruas e praças, juntamente com suas criaturas domésticas e animais selvagens, todos vítimas da mesma força invisível. A vida, em sua dança e movimento, havia se extinguido no Vale da Sombra, deixando um vazio gelado e amedrontador.
+
+Lyra retornou às cidades elevadas, o alarme de sua nave soando como um grito de agonia no silêncio da manhã. Enquanto as metrópoles celestes acima do Lago Celeste permaneciam intocadas, o Vale da Sombra, em sua localização inferior, fora consumido por uma calamidade silenciosa e seletiva. A renomada física atmosférica, Mestra Rudolfina, liderou uma investigação planetária urgente, seus olhos fixos no Lago Celeste, que agora, estranhamente, havia perdido seu esplendor safira, tornando-se um corpo d'água vulgar que parecia carregar um segredo sombrio e fatal.
+
+Mestra Rudolfina e os cientistas de Kepler-1571, agora diante do Vale da Sombra silenciado para sempre, do Lago Celeste que perdeu seu brilho safira, e de um mistério que paira como uma névoa letal sobre o futuro dos Somnians, lançam um apelo desesperado a você, explorador da ciência e desvendador de enigmas cósmicos. As pistas são fragmentadas, as respostas escorregadias como as lágrimas de safira que já não adornam o lago. Mas a esperança reside na luz da razão e na sua capacidade de decifrar os códigos ocultos da natureza. Aceite o desafio de Kepler-1571 e ajude Mestra Rudolfina a trazer a verdade à tona.
+
+---
+
+|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd) que adaptou-o de um caso real acontecido na Terra.
+|   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
+
+
+:::
+
+
+---
+_Para enriquecer a experiência e explorar novas possibilidades criativas, alguns dos desafios aqui apresentados foram desenvolvidos com o apoio de algum modelo de Inteligência Artificial. Essa colaboração com IA contribuiu para a criação de narrativas envolventes e para a elaboração dos problemas propostos._
+
+_É importante saber que, embora a IA tenha sido uma ferramenta valiosa no processo de desenvolvimento, **a ideia original, a formulação do problema físico central, sua solução e a motivação subjacente de cada desafio foram integralmente definidos por criadores humanos.**_
+
+_Para detalhes sobre a contribuição específica em cada desafio, consulte o parágrafo de créditos localizado ao final de cada desafio._
