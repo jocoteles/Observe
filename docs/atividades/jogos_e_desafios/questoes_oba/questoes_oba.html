@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
 <link href="../../../assets/observe_whatsapp.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,65 +69,132 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
+<style>
+    /* Estilos Globais */
+    body {
+    background: #f4f7f6;
+    color: #333;
     }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
+    /* Estilo do card do quiz */
+    .quiz-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
     }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
+    .quiz-card-header {
+    background: #fafafa;
+    padding: 15px;
+    cursor: pointer;
+    //font-size: 1.2rem;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
     }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
+    .quiz-card-header:hover {
+    background: #f0f0f0;
     }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+    .quiz-card-body {
+    padding: 20px;
+    display: none;
+    }
+    .quiz-card-body.active {
+    display: block;
+    }
+    /* Estilos da interface do quiz */
+    .quiz-container {
+    max-width: 800px;
+    margin: auto;
+    }
+    .question-container {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+    .alternativa {
+    margin-bottom: 15px;
+    }
+    .btn-action {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    //font-size: 1rem;
+    }
+    .btn-action:hover {
+    transform: scale(1.05);
+    }
+    .btn-primary {
+    background-color: #5a67d8;
+    color: #fff;
+    }
+    .btn-info {
+    background-color: #48bb78;
+    color: #fff;
+    }
+    .btn-secondary {
+    background-color: #ccc;
+    color: #333;
+    }
+    .score-container {
+    text-align: center;
+    margin-top: 20px;
+    //font-size: 1.2rem;
+    }
+    .transition-question {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+    .slide-left {
+    transform: translateX(-100%);
+    opacity: 0;
+    }
+    .slide-right {
+    transform: translateX(100%);
+    opacity: 0;
+    }
+    .current-question {
+    transform: translateX(0);
+    opacity: 1;
+    }
+    .hidden {
+    display: none !important;
+    }
+    .correct-bg { background-color: #e6ffed; }
+    .show-answer-bg { background-color: #fff9e6; }
+    .incorrect-bg { background-color: #ffe6e6; }
+    .progress {
+    height: 10px;
+    background: #e2e8f0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    }
+    .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #5a67d8, #48bb78);
+    width: 0%;
+    transition: width 0.3s ease;
+    }
+    /* Responsividade para os botões Verificar e Mostrar Resposta */
+    @media (max-width: 800px) {
+    .btn-group-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .btn-group-responsive .btn-action {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    }
+</style>
+
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -229,63 +294,420 @@ window.Quarto = {
 </header>
 
 
+<!-- Container para os questionários -->
+  <div id="quizzes"></div>
+
+  <script>
+    // Função para alternar a exibição do conteúdo (collapse)
+    function toggleCollapse(event) {
+      const header = event.currentTarget;
+      const cardBody = header.nextElementSibling;
+      cardBody.classList.toggle('active');
+    }
+
+    // Função que gera um novo questionário
+    function gen_questionario(arquivoQuestoes, titulo) {
+      // Gera um ID único para este quiz
+      const quizId = "quiz" + Date.now() + Math.floor(Math.random() * 1000);
+      const containerHTML = `
+        <div class="quiz-card">
+          <div class="quiz-card-header">${titulo}</div>
+          <div class="quiz-card-body" id="${quizId}_body">
+            <div class="quiz-container" id="${quizId}">
+              <h3 style="text-align: center; margin-bottom: 20px;">${titulo}</h3>
+              <div style="text-align: center; margin-bottom: 20px;">
+                <label>
+                  <input type="radio" name="${quizId}_quizMode" value="random" checked> Modo Aleatório
+                </label>
+                <label style="margin-left: 15px;">
+                  <input type="radio" name="${quizId}_quizMode" value="sequential"> Modo Sequencial
+                </label>
+              </div>
+              <div id="${quizId}_questionArea" class="question-container transition-question current-question">
+                <!-- Questão será carregada aqui -->
+              </div>
+              <div style="text-align: center; margin-bottom: 10px;">
+                <span id="${quizId}_questionNavigation">Questão 1 de 10</span>
+              </div>
+              <div style="margin-bottom: 20px;">
+                <div class="progress">
+                  <div id="${quizId}_questionProgress" class="progress-bar" role="progressbar"></div>
+                </div>
+                <div style="text-align: center;" id="${quizId}_progressText">0 questões amostradas</div>
+              </div>
+              <div class="score-container">
+                Pontuação: <span id="${quizId}_currentScore">0</span> / <span id="${quizId}_maxScore">0</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+                <button id="${quizId}_prevBtn" class="btn-action btn-secondary" disabled>Questão Anterior</button>
+                <div class="btn-group-responsive">
+                  <button id="${quizId}_verifyBtn" class="btn-action btn-primary">Verificar</button>
+                  <button id="${quizId}_showAnswerBtn" class="btn-action btn-info">Mostrar Resposta</button>
+                </div>
+                <button id="${quizId}_nextBtn" class="btn-action btn-secondary">Próxima Questão</button>
+              </div>
+              <div id="${quizId}_finalResult" class="hidden" style="margin-top: 20px; padding: 10px; background: #e6ffe6; border: 1px solid #b2d8b2; border-radius: 5px; text-align: center;">
+                Parabéns! Você completou o quiz. Sua pontuação final é: <span id="${quizId}_finalScoreValue"></span> / <span id="${quizId}_finalMaxScoreValue"></span>
+                <button id="${quizId}_tryAgainBtn" class="btn-action btn-primary" style="margin-left: 10px; padding: 5px 10px;">Tentar Novamente</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      document.getElementById("quizzes").insertAdjacentHTML("beforeend", containerHTML);
+
+      // Adiciona o evento de clique para o header (colapso)
+      const cardHeaders = document.querySelectorAll('.quiz-card-header');
+      cardHeaders.forEach(header => {
+        header.addEventListener('click', toggleCollapse);
+      });
+
+      // Referência ao container específico do quiz
+      const quizContainer = document.getElementById(quizId);
+
+      // Variáveis e estado do quiz (escopo local para cada instância)
+      let questions = [];
+      let currentQuestionIndex = -1;
+      let userAnswers = {};
+      let score = 0;
+      let maxPossibleScore = 0;
+      let questionOrder = [];
+      let quizMode = 'random';
+      let answeredQuestions = {};
+      let sampledQuestionCount = 0;
+      let totalQuestions = 0;
+
+      // Seleciona os elementos dentro deste quiz
+      const questionArea = quizContainer.querySelector(`#${quizId}_questionArea`);
+      const questionNavigationDisplay = quizContainer.querySelector(`#${quizId}_questionNavigation`);
+      const progressTextDisplay = quizContainer.querySelector(`#${quizId}_progressText`);
+      const questionProgress = quizContainer.querySelector(`#${quizId}_questionProgress`);
+      const currentScoreDisplay = quizContainer.querySelector(`#${quizId}_currentScore`);
+      const maxScoreDisplay = quizContainer.querySelector(`#${quizId}_maxScore`);
+      const prevBtn = quizContainer.querySelector(`#${quizId}_prevBtn`);
+      const nextBtn = quizContainer.querySelector(`#${quizId}_nextBtn`);
+      const verifyBtn = quizContainer.querySelector(`#${quizId}_verifyBtn`);
+      const showAnswerBtn = quizContainer.querySelector(`#${quizId}_showAnswerBtn`);
+      const finalResultDiv = quizContainer.querySelector(`#${quizId}_finalResult`);
+      const finalScoreValueDisplay = quizContainer.querySelector(`#${quizId}_finalScoreValue`);
+      const finalMaxScoreValueDisplay = quizContainer.querySelector(`#${quizId}_finalMaxScoreValue`);
+      const tryAgainBtn = quizContainer.querySelector(`#${quizId}_tryAgainBtn`);
+      const quizModeRadios = quizContainer.querySelectorAll(`input[name="${quizId}_quizMode"]`);
+
+      // Função para carregar as questões do arquivo
+      async function loadQuestions() {
+        try {
+          const response = await fetch(arquivoQuestoes);
+          const text = await response.text();
+          const questionBlocks = text.trim().split('---');
+          questions = questionBlocks.map(block => {
+            const lines = block.trim().split('\n').map(line => line.trim());
+            let question = {};
+            let alternativas = [];
+            let readingAlternativas = false;
+            for (const line of lines) {
+              if (line.startsWith('tipo:')) {
+                question.tipo = line.split(':')[1].trim();
+              } else if (line.startsWith('enunciado:')) {
+                question.enunciado = line.split(':')[1].trim();
+              } else if (line.startsWith('caminhofig:')) {
+                question.caminhofig = line.split(':')[1].trim();
+              } else if (line.startsWith('- ')) {
+                readingAlternativas = true;
+                let alternativaText = line.substring(2).trim();
+                let correta = false;
+                if (alternativaText.startsWith('X ')) {
+                  correta = true;
+                  alternativaText = alternativaText.substring(2).trim();
+                }
+                alternativas.push({ texto: alternativaText, correta: correta });
+              } else if (readingAlternativas) {
+                let alternativaText = line.trim();
+                let correta = false;
+                if (alternativaText.startsWith('- X ')) {
+                  correta = true;
+                  alternativaText = alternativaText.substring(4).trim();
+                } else if (alternativaText.startsWith('- ')) {
+                  alternativaText = alternativaText.substring(2).trim();
+                } else if (alternativaText !== '') {
+                  alternativas[alternativas.length - 1].texto += '\n' + alternativaText;
+                }
+              }
+            }
+            question.alternativas = alternativas;
+            return question;
+          });
+          totalQuestions = questions.length;
+          initializeQuiz();
+        } catch (error) {
+          console.error('Erro ao carregar o arquivo de questões:', error);
+        }
+      }
+
+      // Inicializa o quiz
+      function initializeQuiz() {
+        currentQuestionIndex = -1;
+        userAnswers = {};
+        score = 0;
+        maxPossibleScore = totalQuestions;
+        questionOrder = [...Array(questions.length).keys()];
+        answeredQuestions = {};
+        sampledQuestionCount = 0;
+        finalResultDiv.classList.add('hidden');
+        currentScoreDisplay.textContent = score;
+        maxScoreDisplay.textContent = maxPossibleScore;
+        quizMode = Array.from(quizModeRadios).find(r => r.checked).value;
+        if (quizMode === 'random') {
+          shuffleArray(questionOrder);
+        }
+        updateProgress();
+        nextQuestion();
+      }
+
+      function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+      }
+
+      function displayQuestion(index, transitionDirection = null) {
+        if (index < 0 || index >= questions.length) return;
+        const question = questions[questionOrder[index]];
+        const currentQuestionAnsweredState = answeredQuestions[questionOrder[index]] ? answeredQuestions[questionOrder[index]].state : null;
+        questionArea.className = 'question-container transition-question current-question';
+        if (currentQuestionAnsweredState === 'correct') {
+          questionArea.classList.add('correct-bg');
+        } else if (currentQuestionAnsweredState === 'shown') {
+          questionArea.classList.add('show-answer-bg');
+        } else if (currentQuestionAnsweredState === 'incorrect') {
+          questionArea.classList.add('incorrect-bg');
+        }
+        const questionHTML = `
+          <h5 style="margin-bottom: 15px;">${question.enunciado}</h5>
+          ${question.caminhofig ? `<img src="${question.caminhofig}" style="max-width: 100%; border-radius: 8px; margin-bottom: 15px;" alt="Imagem da questão">` : ''}
+        `;
+        let shuffledAlternativesIndices = [...Array(question.alternativas.length).keys()];
+        shuffleArray(shuffledAlternativesIndices);
+        let alternativesHTML = '';
+        for (let i = 0; i < shuffledAlternativesIndices.length; i++) {
+          const originalIndex = shuffledAlternativesIndices[i];
+          const alternativa = question.alternativas[originalIndex];
+          alternativesHTML += `
+            <div class="alternativa">
+              <label>
+                <input type="${question.tipo === 'multichoice' ? 'checkbox' : 'radio'}" name="${quizId}_answer" value="${originalIndex}" ${currentQuestionAnsweredState ? 'disabled' : ''}>
+                ${alternativa.texto}
+              </label>
+            </div>
+          `;
+        }
+        questionArea.innerHTML = questionHTML + alternativesHTML;
+        questionNavigationDisplay.textContent = `Questão ${currentQuestionIndex + 1} de ${totalQuestions}`;
+        if (userAnswers[questionOrder[index]]) {
+          userAnswers[questionOrder[index]].forEach(answerIndex => {
+            const inputElement = questionArea.querySelector(`input[name="${quizId}_answer"][value="${answerIndex}"]`);
+            if (inputElement) {
+              inputElement.checked = true;
+            }
+          });
+        }
+        if (currentQuestionAnsweredState === 'shown') {
+          question.alternativas.forEach((alternativa, originalIndex) => {
+            if (alternativa.correta) {
+              const inputElement = questionArea.querySelector(`input[name="${quizId}_answer"][value="${originalIndex}"]`);
+              if (inputElement) {
+                inputElement.checked = true;
+              }
+            }
+          });
+        }
+        if (answeredQuestions[questionOrder[index]]) {
+          verifyBtn.disabled = true;
+          showAnswerBtn.disabled = true;
+        } else {
+          verifyBtn.disabled = false;
+          showAnswerBtn.disabled = false;
+        }
+        questionArea.querySelectorAll(`input[name="${quizId}_answer"]`).forEach(input => {
+          input.addEventListener('change', function() {
+            saveCurrentAnswers();
+          });
+        });
+        prevBtn.disabled = index <= 0;
+        nextBtn.disabled = index >= questions.length - 1;
+        questionArea.classList.remove('current-question', 'slide-left', 'slide-right');
+        if (transitionDirection === 'left') {
+          questionArea.classList.add('slide-right');
+          setTimeout(() => {
+            questionArea.classList.remove('slide-right');
+            questionArea.classList.add('current-question');
+          }, 100);
+        } else if (transitionDirection === 'right') {
+          questionArea.classList.add('slide-left');
+          setTimeout(() => {
+            questionArea.classList.remove('slide-left');
+            questionArea.classList.add('current-question');
+          }, 100);
+        } else {
+          questionArea.classList.add('current-question');
+        }
+      }
+
+      function saveCurrentAnswers() {
+        const selectedIndices = getSelectedAnswers();
+        userAnswers[questionOrder[currentQuestionIndex]] = selectedIndices;
+      }
+
+      function getSelectedAnswers() {
+        const selectedIndices = [];
+        questionArea.querySelectorAll(`input[name="${quizId}_answer"]:checked`).forEach(input => {
+          selectedIndices.push(parseInt(input.value));
+        });
+        return selectedIndices;
+      }
+
+      function checkAnswer() {
+        const currentQuestion = questions[questionOrder[currentQuestionIndex]];
+        const selectedAnswerIndices = getSelectedAnswers();
+        const isCorrect = verifyCorrectness(currentQuestion, selectedAnswerIndices);
+        if (!answeredQuestions[questionOrder[currentQuestionIndex]]) {
+          answeredQuestions[questionOrder[currentQuestionIndex]] = { state: isCorrect ? 'correct' : 'incorrect', answers: selectedAnswerIndices };
+          sampledQuestionCount++;
+          updateProgress();
+        } else {
+          answeredQuestions[questionOrder[currentQuestionIndex]].state = isCorrect ? 'correct' : 'incorrect';
+        }
+        if (isCorrect) {
+          score++;          
+          questionArea.classList.add('correct-bg');
+        } else {
+          questionArea.classList.add('incorrect-bg');
+        }
+        currentScoreDisplay.textContent = score;
+        verifyBtn.disabled = true;
+        showAnswerBtn.disabled = true;
+        disableAnswerInputs();
+        checkFinalResultCondition();
+      }
+
+      function verifyCorrectness(currentQuestion, selectedAnswerIndices) {
+        let isCorrect = true;
+        let correctCount = 0;
+        let selectedCount = selectedAnswerIndices.length;
+        currentQuestion.alternativas.forEach(alt => { if (alt.correta) correctCount++; });
+        if (correctCount !== selectedCount) {
+          isCorrect = false;
+        } else {
+          selectedAnswerIndices.forEach(selectedIndex => {
+            if (!currentQuestion.alternativas[selectedIndex].correta) {
+              isCorrect = false;
+            }
+          });
+        }
+        return isCorrect;
+      }
+
+      function showSolution() {
+        const currentQuestion = questions[questionOrder[currentQuestionIndex]];
+        questionArea.querySelectorAll(`input[name="${quizId}_answer"]:checked`).forEach(input => {
+          input.checked = false;
+        });
+        if (!answeredQuestions[questionOrder[currentQuestionIndex]]) {
+          answeredQuestions[questionOrder[currentQuestionIndex]] = { state: 'shown', answers: [] };
+          sampledQuestionCount++;
+          updateProgress();
+        } else {
+          answeredQuestions[questionOrder[currentQuestionIndex]].state = 'shown';
+        }
+        questionArea.classList.add('show-answer-bg');
+        currentQuestion.alternativas.forEach((alternativa, index) => {
+          if (alternativa.correta) {
+            const inputElement = questionArea.querySelector(`input[name="${quizId}_answer"][value="${index}"]`);
+            if (inputElement) {
+              inputElement.checked = true;
+            }
+          }
+        });
+        verifyBtn.disabled = true;
+        showAnswerBtn.disabled = true;
+        disableAnswerInputs();
+        checkFinalResultCondition();
+      }
+
+      function disableAnswerInputs() {
+        questionArea.querySelectorAll(`input[name="${quizId}_answer"]`).forEach(input => {
+          input.disabled = true;
+        });
+      }
+
+      function nextQuestion() {
+        if (currentQuestionIndex < questions.length - 1) {
+          currentQuestionIndex++;
+          displayQuestion(currentQuestionIndex, 'right');
+        }
+        prevBtn.disabled = false;
+        nextBtn.disabled = currentQuestionIndex === questions.length - 1;
+        checkFinalResultCondition();
+      }
+
+      function previousQuestion() {
+        if (currentQuestionIndex > 0) {
+          currentQuestionIndex--;
+          displayQuestion(currentQuestionIndex, 'left');
+        }
+        nextBtn.disabled = false;
+        prevBtn.disabled = currentQuestionIndex <= 0;
+      }
+
+      function updateProgress() {
+        const progressPercentage = (sampledQuestionCount / questions.length) * 100;
+        questionProgress.style.width = `${progressPercentage}%`;
+        progressTextDisplay.textContent = `${sampledQuestionCount} de ${questions.length} questões amostradas`;
+      }
+
+      function showFinalResult() {
+        finalScoreValueDisplay.textContent = score;
+        finalMaxScoreValueDisplay.textContent = maxPossibleScore;
+        finalResultDiv.classList.remove('hidden');
+      }
+
+      function tryAgain() {
+        initializeQuiz();
+      }
+
+      function checkFinalResultCondition() {
+        if (sampledQuestionCount === questions.length) {
+          showFinalResult();
+        } else {
+          finalResultDiv.classList.add('hidden');
+        }
+      }
+
+      // Eventos
+      verifyBtn.addEventListener('click', checkAnswer);
+      showAnswerBtn.addEventListener('click', showSolution);
+      nextBtn.addEventListener('click', nextQuestion);
+      prevBtn.addEventListener('click', previousQuestion);
+      tryAgainBtn.addEventListener('click', tryAgain);
+      quizModeRadios.forEach(radio => {
+        radio.addEventListener('change', () => { quizMode = radio.value; initializeQuiz(); });
+      });
+
+      // Carrega as questões do arquivo
+      loadQuestions();
+    }
+
+    // Exemplos de chamadas – cada questionário funciona de forma independente
+    gen_questionario("/h5p/questionario1.txt", "Título 1");
+    gen_questionario("/h5p/questionario2.txt", "Título 2");
+    gen_questionario("/h5p/questionario3.txt", "27ª OBA - Nível 1");
+  </script>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Pré-selecionado</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Atividade
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
-</div>
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Atividade</a>
-</th>
-<th>
-Tipo
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1739571417703" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Instrumentos astronômicos" data-listing-filename-sort="h5p-instrumentos.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="../../../atividades/jogos_e_desafios/questoes_oba/h5p_oba/h5p-instrumentos.html" class="title listing-title">Instrumentos astronômicos</a>
-</td>
-<td>
-<span class="listing-subtitle">Múltipla escolha</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1739571417716" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Planeta Mercúrio" data-listing-filename-sort="h5p-planeta-mercurio.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="../../../atividades/jogos_e_desafios/questoes_oba/h5p_oba/h5p-planeta-mercurio.html" class="title listing-title">Planeta Mercúrio</a>
-</td>
-<td>
-<span class="listing-subtitle">Palavra cruzada</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-Nenhum item correspondente
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
