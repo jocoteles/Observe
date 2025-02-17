@@ -95,7 +95,7 @@ O evento é gratuito e o público geral pode comparecer sem agendamento. Entreta
         ]   
     };
     const agendamentos = [
-        // {escola:'', professor:'', dia:'', horario:'', escolaridade:'', alunos: ''},
+        {escola:'Colégio Delta', professor:'Aniele Dias', dia:'18/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
     ];
 
     const Ngrupos = 6;
