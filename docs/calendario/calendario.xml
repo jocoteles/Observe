@@ -19,7 +19,7 @@
 
 
 
-<p>Entre os dias 18/03/25 e 20/03/25 ocorrerá a XIX edição do evento Jornada das Estrelas.</p>
+<p>Entre os dias 18/03/25 e 20/03/25 ocorrerá a XIX edição especial do evento Jornada das Estrelas.</p>
 <p><em>Esta é a primeira vez que a Jornada das Estrelas ocorrerá <a href="../../atividades/jornada_do_sol/jornada_do_sol.html">à tarde</a> e <a href="../../atividades/jornada_das_estrelas/jornada_das_estrelas.html">à noite</a>!</em></p>
 <ul>
 <li>Local: <a href="../../localizacao/localizacao.html">Praça do Observatório a Olho Nu do CCA-UFSCar</a></li>
@@ -103,7 +103,7 @@
         ]   
     };
     const agendamentos = [
-        // {escola:'', professor:'', dia:'', horario:'', escolaridade:'', alunos: ''},
+        {escola:'Colégio Delta', professor:'Aniele Dias', dia:'18/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
     ];
 
     const Ngrupos = 6;

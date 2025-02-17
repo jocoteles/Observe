@@ -56,22 +56,6 @@ enunciado: Assinale as alternativas corretas.
 ---
 tipo: multichoice
 enunciado: Assinale as alternativas corretas.
-- X O foguete vai mais longe quando lançado a 45 graus do chão.
-- O foguete vai mais longe quando o gatilho é puxado bem rápido.
-- X O foguete vai mais longe se lançado contra o vento.
-- X A base precisa estar bem presa no chão para não se mover no lançamento.
-- O foguete vai mais longe quando o gatilho é puxado bem devagar.
----
-tipo: multichoice
-enunciado: Assinale as alternativas corretas.
-- X Nesta base o foguete do nível 1 voa por impulso de ar comprimido.
-- X Com uma bomba de encher pneu de bicicleta comprimimos o ar na base.
-- X Quanto mais ar comprimido na base, mais longe vai o foguete.
-- A base de lançamento não precisa ficar bem presa no chão.
-- X Na foto, a “mão” coloca uma bolinha de papel dentro da base.
----
-tipo: multichoice
-enunciado: Assinale as alternativas corretas.
 - X Foguetes são mais caros do que carros.
 - Foguetes não fazem barulho quando são lançados.
 - X Sem foguetes não chegamos ao espaço.
