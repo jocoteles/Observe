@@ -40,27 +40,27 @@ enunciado: Suponha que numa viagem espacial um astronauta passou pertinho de um 
 ---
 tipo: multichoice
 enunciado: Assinale as alternativas corretas.
+pontuacao: [XXXX0,1.0],[XXX00,0.8]
 - O Sol aquece a Terra.
 - O Sol ilumina a Terra, a qual gira em torno do Sol.
 - Graças ao Sol parte da água da Terra evapora e depois cai como chuva.
 - A Terra gasta cerca de 365 dias para dar uma volta ao redor do Sol.
 - A Lua e o Sol giram ao redor da Terra todo dia.
-pontuacao: [XXXX0,1.0],[XXX00,0.8]
 ---
 tipo: multichoice
 enunciado: Assinale as alternativas corretas.
+pontuacao: [0XXXX,1.0],[00XX,0.5],[000X,0.1]
 - A Terra não gira ao redor do Sol, logo ela está parada.
 - O ano de Mercúrio é menor do que o da Terra.
 - Plutão, o planeta anão, é mais lento do que qualquer planeta.
 - Mercúrio é o mais rápido dos planetas.
 - Marte gira ao redor do Sol, mas leva mais tempo do que a Terra.
-pontuacao: [0XXXX,1.0],[00XX,0.5],[000X,0.1]
 ---
 tipo: multichoice
 enunciado: Assinale as alternativas corretas.
+pontuacao: [X0XXX,1.0]
 - Foguetes são mais caros do que carros.
 - Foguetes não fazem barulho quando são lançados.
 - Sem foguetes não chegamos ao espaço.
 - Sem foguetes não iremos aos outros planetas.
 - Foguetes são mais caros do que aviões.
-pontuacao: [X0XXX,1.0]
