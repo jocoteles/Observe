@@ -1,0 +1,88 @@
+---
+tipo: singlechoice
+enunciado: 1) Exiba os seus conhecimentos de Astronomia. Assinale a única alternativa onde está tudo certo.
+- A Lua, Marte e Mercúrio já foram visitados por astronautas.
+- A Terra tem 4 Luas.
+- No Sistema Solar temos muitas estrelas e mais de 10 planetas.
+- X No Sistema Solar temos uma estrela e oito planetas.
+- Astronautas estão morando na Lua, mas precisam plantar batatas.
+---
+tipo: singlechoice
+enunciado: 2) Mostre que você sabe muitas coisas sobre Astronomia. Assinale a única alternativa onde está TUDO ERRADO. Atenção!
+- O Sol é a estrela mais próxima da Terra.
+- A Lua é o astro mais próximo da Terra.
+- X Na Lua tem uma cidade chamada Lunar.
+- Só não vemos a Lua quando ela está na fase “Nova”.
+- Na fase “Cheia” é quando a Lua está mais longe do Sol.
+---
+tipo: singlechoice
+enunciado: 3) Os astrônomos sabem que quanto mais distante estiver um planeta do Sol, mais lento é o seu movimento ao redor do Sol. Assinale a única alternativa onde está tudo certo, ok?
+- Todos os planetas do Sistema Solar têm dia de 24 horas e ano de 365 dias.
+- Júpiter é o maior dos planetas, logo, ele é o mais lento dos planetas.
+- Saturno tem os mais lindos anéis do Sistema Solar, logo, é o mais rápido.
+- Plutão, o planeta anão, não se move, porque é muito pequeno.
+- X Mercúrio é o planeta mais rápido do Sistema Solar.
+---
+tipo: singlechoice
+enunciado: 4) Mostre que você já sabe quase tudo de Astronomia. Assinale a única alternativa onde está TUDO ERRADO. Atenção!
+- X Júpiter só tem as 4 luas: Io, Ganimedes, Calisto e Europa.
+- Júpiter é o maior dos planetas, tem anéis, é gasoso, tem mais de 90 luas.
+- No Sistema Solar Júpiter é o maior dos planetas.
+- Quanto mais longe do Sol, maior é a duração do ano do planeta.
+- Vênus é o mais quente dos planetas do Sistema Solar.
+---
+tipo: multichoice
+enunciado: 5) Assinale as alternativas corretas. Leia com atenção!
+- O Sol sempre nasce no lado Leste e sempre se põe do lado Oeste.
+- Quatro são as direções cardeais principais.
+- A Lua nasce no lado Leste e se põe no lado Oeste.
+- As estrelas nascem no lado Leste e se põem no lado Oeste.
+- Algumas estrelas nascem no Norte e se põem no Sul.
+pontuacao: [XXXX0,1.0],[0000X,0.0],[00XX0,0.4],[XXXX,0.2],[XX0X0,0.6]
+---
+tipo: multichoice
+enunciado: 6) Assinale as alternativas corretas.
+- No eclipse solar o Sol fica entre a Terra e a Lua.
+- Se você está na sombra da Lua, para você está ocorrendo um eclipse solar.
+- Se a Lua está na sombra da Terra, está ocorrendo um eclipse lunar.
+- No eclipse lunar a Terra está entre o Sol e a Lua.
+- Se o seu gato está na sua sombra, para ele está ocorrendo um eclipse solar.
+pontuacao: [0XXXX,1.0],[X0000,0.0],[X0XX0,0.4],[0XX0X,0.2],[0X0XX,0.6]
+---
+tipo: multichoice
+enunciado: 7) Assinale as alternativas corretas.
+- A Lua é a principal responsável pelas marés na Terra.
+- Dos quatro planetas rochosos, três têm atmosferas.
+- Todo ano tem 12 meses e fevereiro é sempre o mais curtinho.
+- Fevereiro sempre tem 29 dias, mas no ano bissexto tem 28 dias.
+- Todo mês tem 30 dias, exceto fevereiro que tem sempre 29 dias.
+pontuacao: [XX0X0,0.2],[0000X,0.0],[XX0X0,0.4],[XXX00,1.0],[0XX00,0.6]
+---
+tipo: multichoice
+enunciado: 8) Assinale as alternativas corretas.
+- Todo satélite artificial (feito pelo homem) foi levado ao espaço por um foguete.
+- O Brasil tem dezenas de satélites em órbita da Terra.
+- O Brasil tem foguetes para colocar satélites em órbita da Terra.
+- O Brasil só tem um astronauta, chamado Marcos Pontes.
+- O Brasil colocou o telescópio Hubble em órbita da Terra.
+pontuacao: [00X0X,0.0],[00000,0.2],[XX0X0,0.4],[0X00X,0.6],[XXX00,1.0]
+---
+tipo: multichoice
+fig: fig9.png
+enunciado: 9) A foto mostra a base de lançamento de foguetes usada pelos alunos do quarto e do quinto ano. O foguete voa por um “jato” de ar comprimido que a base libera dentro do foguete quando puxamos a cordinha bem rápido. Assinale as alternativas corretas.
+- O foguete é colocado no tubo que está inclinado para ser lançado.
+- Se a base for de ferro, o foguete vai mais longe.
+- Se puxar a cordinha devagar o foguete não vai longe.
+- O foguete vai mais longe quando a cordinha é puxada bem rápido.
+- As "garras” metálicas (perto da corda) são para fixar a base no solo.
+pontuacao: [X00XX,1.0],[X0000,0.0],[0X0XX,0.4],[X0XXX,0.2],[X0X00,0.6]
+---
+tipo: multichoice
+enunciado: 10) Você sabe que lançar foguetes, mesmo de garrafas PET, ou até mesmo o de papel, envolve algum risco de acidente. Por isso, sempre devemos tomar todos os cuidados necessários para que não ocorram acidentes e devemos fazer muitos testes para aperfeiçoar o foguete e até mesmo a base de lançamento. Veja as afirmações abaixo. Assinale as alternativas corretas.
+- Não pode ter pessoas no local onde os foguetes cairão.
+- É preciso fixar a base no chão para não se mover quando o foguete sair.
+- Lançamentos de foguetes só podem ocorrer com a presença de adultos.
+- Antes de lançar o foguete veja se ninguém entrou no local de queda dele.
+- Os foguetes de garrafa PET são leves e não causam acidentes.
+pontuacao: [XXX0,0.2],[XXXX0,1.0],[00XX0,0.4],[0000X,0.0],[XX00X,0.6]
+---

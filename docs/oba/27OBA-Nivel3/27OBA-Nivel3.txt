@@ -1,0 +1,154 @@
+---
+tipo: singlechoice
+enunciado: 1) Sabemos que a Luminosidade (L) das estrelas (equivalente à Potência das lâmpadas) é dada por:
+
+$$L = (4\pi R^2)\sigma T^4,$$
+
+onde \(\sigma\) (letra grega sigma) é uma constante, como o \(\pi\) (pi), R é o raio da estrela e T a temperatura superficial da estrela. Note que \(4\pi R^2\) representa a área superficial da estrela. Então se duas estrelas têm a mesma temperatura superficial, a de maior luminosidade será:
+
+- A mais próxima da Terra.
+- A que tiver mais massa.
+- A de maior densidade.
+- X A maior delas.
+- A mais brilhante.
+---
+tipo: singlechoice
+enunciado: 2) Os astrônomos chamam a Potência das estrelas de Luminosidade (L) e descobriram que ela depende do Raio (R) e da Temperatura superficial (T) da estrela, da seguinte forma:
+
+$$L = 4\pi \sigma R^2 T^4,$$
+
+onde \(\sigma\) (letra grega sigma) é uma constante, como o \(\pi\) (pi). Por outro lado, o brilho da estrela depende de quanta luz chega aos nossos olhos ou instrumentos, portanto o brilho depende da distância, d, a que estamos dela. A luz da estrela vai se dispersando pelo espaço à medida que se afasta da estrela. Com o que explicamos acima, podemos afirmar que para uma mesma estrela:
+
+- A Luminosidade e o brilho da estrela não dependem da distância dela à Terra.
+- A Luminosidade será maior quanto mais próxima estiver a estrela de nós.
+- O brilho de uma estrela só depende da luminosidade dela.
+- Quanto maior a temperatura da estrela maior será o seu brilho.
+- X O seu brilho é maior quanto mais perto a estrela estiver de nós.
+---
+tipo: singlechoice
+enunciado: 3) Alguns Rovers (pequenos veículos exploradores) exploraram ou estão explorando Marte, o qual quando está mais próximo da Terra está à distância de apenas 55 milhões de quilômetros (só no ano de 2287 ele estará um pouco mais próximo do que isso). Frequentemente é preciso enviar um sinal, ou instrução ao Rover, e este sinal viaja na velocidade da luz, a qual é de, aproximadamente, 300.000 km/s e independe das velocidades da Terra e de Marte. Calcule quantos minutos, aproximadamente, este sinal gasta para ir da Terra ao Rover, quando Marte está em máxima aproximação da Terra.
+
+Dados: \(V = V_0 + at\), \(S = S_0 + V_0t + \frac{1}{2}at^2\), \( \frac{V}{\Delta t} = \frac{\Delta S}{\Delta t}\), \(V^2 = V_0^2 + 2a\Delta S\).
+
+- 1 min.
+- 2 min.
+- X 3 min.
+- 4 min.
+- 5 min.
+---
+tipo: multichoice
+fig: /oba/27OBA-Nivel3/fig4.png
+enunciado: 4) As Leis de Kepler descrevem os movimentos dos planetas, luas, cometas e satélites artificiais em torno dos astros nos quais orbitam. Ela vale para o Sol e seus planetas e para os planetas e seus satélites naturais ou artificiais.
+
+A 1ª Lei de Kepler afirma que:
+
+“Os planetas (inclusive planetas anões) giram em torno do Sol em órbitas elípticas, estando o Sol num dos focos da elipse."
+
+A 2ª Lei de Kepler afirma que:
+
+“Em iguais intervalos de tempos (\(\Delta t_{12} = \Delta t_{34}\)) os planetas “varrem” áreas iguais (Área₁ = Área₂)”.
+
+A 3ª Lei de Kepler afirma que \(T^2 = ka^3\), onde \(k = \frac{4\pi^2}{G(M_{Sol} + M_{Planeta})}\), G é a constante Universal da Gravitação e “a” o semieixo maior da elipse.
+
+Como consequência das três Leis de Kepler podemos afirmar que:
+
+Assinale as alternativas corretas.
+
+- No periélio a velocidade dos planetas é maior do que no afélio. Veja figura.
+- Como a massa dos planetas é desprezível em comparação com a massa do Sol, então o valor da constante “k” é praticamente o mesmo para todos os corpos do Sistema Solar que orbitam o Sol.
+- Nos pontos P1 e P4 as velocidades dos planetas estão aumentando, mas diminuindo nos pontos P2 e P3. Considere que o astro vai passar pelos pontos P1, P2, P3, P4 nesta ordem.
+- Quanto maior o semieixo da elipse do planeta, maior é a duração do seu ano.
+- A Lei da Gravitação Universal de Newton invalidou as três Leis de Kepler.
+pontuacao: [XXXX0,1.0],[XXX00,0.6],[00XX0,0.4],[000X,0.0],[XX00X,0.2]
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel3/fig5.png
+enunciado: 5) A figura abaixo mostra uma parte do céu do dia 17/05/24 às 20h, visto de um certo lugar do Brasil. As linhas fortes delimitam as áreas das constelações. As linhas finas "ligam”, artisticamente as estrelas mais brilhantes de cada constelação. Uma história que os planetaristas da OBA inventaram para mais facilmente os alunos memorizarem um certo conjunto de constelações é a seguinte: Órion (no qual estão as “três marias”) está “lutando (na frente)" com o Touro (o qual tem dois grandes chifres). Órion sempre leva com ele o Cão Maior e o Cão Menor. O Cão Maior está saltando sobre a Lebre que está nos “pés” do Órion. O Cão Menor está sobre o Unicórnio, pois este está prestes a “furar” as costas do Órion com o seu chifre.
+
+Use os números que estão nas constelações da figura e assinale a alternativa que contém, NESTA ORDEM, as seguintes constelações: Órion, Touro, Cão Maior, Cão Menor e Lebre.
+
+- X 1, 9, 3, 4, 2.
+- 1, 9, 5, 8, 2.
+- 2, 3, 4, 5, 6.
+- 3, 4, 5, 6, 7.
+- 1, 9, 4, 2, 3.
+---
+tipo: multichoice
+fig: /oba/27OBA-Nivel3/fig6.png
+enunciado: 6) Abaixo está o globo terrestre representando a Terra em dois diferentes instantes ao redor do Sol, aproximadamente à mesma distância do Sol, porém separados por 6 meses. Entre eles está o Sol (desenhado esquematicamente e fora de escala) e os “raios solares”.
+
+Dado: Na figura HN = Hemisfério Norte e HS = Hemisfério Sul. As linhas tracejadas representam os Trópicos.
+
+Assinale as alternativas corretas.
+
+- No dia 4 de janeiro a Terra passa pelo seu periélio, por isso é verão nos dois Hemisférios.
+- Se o eixo de rotação da Terra estivesse perpendicular ao plano da sua órbita não ocorreriam as estações do ano, pois ambos os Hemisférios ficariam igualmente expostos ao Sol o ano todo.
+- No inverno o Sol não é visível no Polo do Hemisfério no qual é inverno.
+- O eixo de rotação da Terra está inclinado de 23,5 graus em relação ao Equador da Terra.
+- No globo da direita é Verão no Hemisfério Norte e Inverno no Hemisfério Sul.
+pontuacao: [0XX0X,1.0],[0X0X0,0.6],[0X00X,0.2],[0000X,0.0],[000X0,0.4]
+---
+tipo: multichoice
+enunciado: 7) Não basta saber os nomes dos planetas e a sequência de afastamento deles ao Sol. Precisa saber também algumas das suas características. Assim, escreva o nome do planeta na frente das suas características.
+
+Assinale as alternativas corretas.
+
+- MERCÚRIO. O mais veloz dos planetas. Sua órbita é a mais excêntrica de todas. Se parece com a Lua, com crateras de impacto e planícies lisas. Visível só ao amanhecer ou ao entardecer.
+- JÚPITER. Tem menos de um milésimo da massa do Sol. Composto principalmente de hidrogênio. Rotação só de 10 horas. Em geral é o quarto astro mais brilhante do céu, depois do Sol, Lua e Vênus. Tem finos anéis e cerca de 95 satélites naturais.
+- MARTE. O óxido de Ferro predomina em sua superfície. Nele está o Monte Olimpo, a mais alta montanha num planeta. Tem estações do ano, como a Terra. Sobre ele está o “rover” chinês “Zhurong.
+- VÊNUS. O planeta mais brilhante, embora não seja o mais volumoso. Ele possui a mais densa atmosfera entre todos os planetas terrestres. A pressão atmosférica na superfície dele é 92 vezes a da Terra.
+- SATURNO. Composto principalmente de Hidrogênio e Hélio. Menos denso do que a água. Tem cerca de 95 vezes a massa da Terra. Ele irradia cerca de duas vezes mais energia do que recebe do Sol, isto indica que, assim como Júpiter, o planeta possui uma fonte de energia interna.
+pontuacao: [XXXXX, 1.0],[0XXX0,0.6],[0X000,0.0],[00X00,0.2],[000X0,0.4]
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel3/fig8.png
+enunciado: 8) O foguete Starship da SpaceX é composto de dois estágios. O primeiro estágio é formado por 33 motores e o segundo por 6 motores. Na decolagem sua massa é de 5.000.000 kg e o seu comprimento é de 121 metros. Quando estiver operando, o Starship será capaz de colocar 100.000 kg em órbita terrestre. Além de colocar satélites em órbita terrestre, o Starship permitirá viagens à Lua e a Marte.
+
+Perguntas:
+
+8a) Se o 1º estágio tem 71 metros de comprimento, quanto mede o 2º estágio?
+
+8b) Suponha que um satélite colocado em órbita da Terra pelo foguete Starship (vide Figura) leve 1,5 hora para completar um giro (órbita) em torno da Terra. Sabendo que em cada órbita o satélite percorrerá a distância de 42.000 km, calcule a velocidade (V) desse satélite em km/h. Dica: velocidade = distância percorrida / tempo.
+
+Assinale a alternativa que contém as respostas aos itens "8a” e “8b” acima, nesta ordem.
+
+- 50 metros e 25.000 km/h.
+- X 50 metros e 28.000 km/h.
+- 71 metros e 42.000 km/h.
+- 71 metros e 28.000 km/h.
+- 121 metros e 28.000 km/h.
+---
+tipo: singlechoice
+enunciado: 9) Desde o início da Era Espacial em 1957, a humanidade já enviou centenas de espaçonaves não tripuladas para explorar o Sistema Solar. Atualmente, existem duas delas em órbita do Sol: Sonda Parker (americana) e Solar Orbiter (europeia). A Sonda Parker foi lançada ao espaço em 12 de agosto de 2018, pelo foguete americano Delta IV Heavy, ingressando em órbita solar em aproximadamente 12 de janeiro de 2019.
+
+Perguntas:
+
+9a) Quantos meses a Sonda Parker levou para entrar na órbita do Sol?
+
+9b) A Sonda Parker tinha 600 kg de massa e o foguete Delta IV Heavy que a lançou tinha, no instante do lançamento, 750.000 kg de massa (incluindo a Sonda Parker). Qual é o percentual de massa da Sonda Parker em relação à massa total do conjunto foguete Delta IV Heavy e Sonda Parker?
+
+Assinale a alternativa que contém as respostas aos itens “9a” e “9b” acima, nesta ordem.
+
+- 5 meses e 0,01%.
+- 5 meses e 0,04%.
+- 5 meses e 0,07%.
+- X 5 meses e 0,08%.
+- 4 meses e 0,08%.
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel3/fig10.png
+enunciado: 10) O Instituto Nacional de Pesquisas Espaciais (INPE) utiliza imagens de satélites para estimar o desmatamento na Amazônia Legal Brasileira, mostrada na figura abaixo, da qual fazem parte os 9 Estados listados na Tabela abaixo. Entre 1º de agosto de 2022 e 31 julho de 2023 a área total desmatada foi de 9.001 km².
+
+10a) Identifique o Estado que sofreu o maior desmatamento no período acima.
+10b) Identifique o Estado que sofreu o menor desmatamento no período acima.
+10c) Baseado nos dados da Tabela, calcule a área desmatada pelos 3 Estados com maior desmatamento.
+10d) Baseado no resultado do item “10c” e no total desmatado na Amazônia Legal Brasileira, calcule o percentual de desmatamento desses 3 Estados.
+
+Assinale a alternativa que contém as respostas corretas aos itens 10a, 10b, 10c, 10d, nesta ordem.
+
+- X PA, AP, 6.911 km², 76,8%.
+- PA, AM, 6.011 km², 73,8%.
+- AP, PA, 6.911 km², 76,8%.
+- PA, MA, 5.911 km², 76,0%.
+- AP, PA, 3.272 km², 66,8%.
+---

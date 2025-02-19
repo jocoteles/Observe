@@ -1,0 +1,164 @@
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel4/fig1.png
+enunciado: 1) Vistos da Terra (T), o tempo decorrido para que planetas retornem à mesma configuração no céu é conhecido como Período Sinódico (S). No esquema a seguir, fora de escala, temos em t = 0, Marte (M) em oposição. Devido à diferença entre os dois períodos orbitais (o período da Terra é mais curto), uma nova oposição de Marte só acontecerá cerca de 780 dias depois da primeira.
+
+Considere, agora, um asteroide do Cinturão Principal de Asteroides, localizado entre as órbitas de Marte e de Júpiter, cujo período orbital seja de 6 anos.
+
+Assinale a opção que traz o intervalo de tempo entre duas oposições consecutivas deste asteroide.
+
+- 1,0 ano.
+- X 1,2 ano.
+- 2,5 anos.
+- 5,0 anos.
+- 6,0 anos.
+---
+tipo: multichoice
+fig: /oba/27OBA-Nivel4/fig2.png
+enunciado: 2) Buys-Ballot é o nome de uma cratera de impacto no lado oculto da Lua. O nome foi oficialmente adotado pela União Astronômica Internacional (UAI) em 1970, em homenagem ao químico e meteorologista holandês Christoph Hendrik Diederik Buys Ballot (1817-1890). A observação desta cratera foi relatada pela primeira vez em 1965 por uma espaçonave do programa espacial soviético, a Zond 3.
+
+Na imagem (a) vemos a cratera Buys-Ballot, com seu estranho formato oval e sua longa cordilheira central e na imagem (b) temos o gráfico de um perfil topográfico (altamente exagerado) através da cratera, no sentido sudoeste (SO) - nordeste (NE), como destacado na imagem (a).
+
+Assinale as alternativas corretas.
+
+- O piso liso da cratera está a cerca de 2,5 km de profundidade.
+- Esta cratera pode ser observada da Terra através de um telescópio de médio porte.
+- O Sol estava nascendo para a cratera Buys-Ballot, então, poucos dias depois que a imagem foi feita o fundo da cratera ficou completamente na escuridão.
+- No perfil topográfico apresentado a cratera está com cerca de 50 km de largura.
+- No perfil topográfico apresentado podemos ter cerca de 4,5 km de altura entre o piso e a borda da cratera.
+pontuacao: [XXXXX,1.0],[X0X0X,0.2],[X00XX,0.6],[00XXX,0.4],[X000X,0.0]
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel4/fig3.png
+enunciado: 3) Cometas periódicos ou cometas de curto período são geralmente definidos como aqueles que têm períodos orbitais de menos de 200 anos. Eles geralmente orbitam, mais ou menos, no plano da Eclíptica e na mesma direção que os planetas.
+Ao lado temos uma tirinha cômica, com uma “conversa”, ao longo de décadas, entre a nossa Lua e um cometa de curto período.
+
+Baseado nas informações fornecidas na tirinha, assinale a opção que traz o valor do período orbital do cometa.
+
+- 15 anos.
+- X 25 anos.
+- 65 anos.
+- 75 anos.
+- 95 anos.
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel4/fig4.png
+enunciado: 4) Os pequenos corpos do Sistema Solar (asteroides e cometas), em geral, não têm fontes internas de energia, e só são detectáveis por conta da radiação solar que eles refletem ou reemitem termicamente. Uma consequência deste fato é que a energia proveniente do Sol é também responsável, em grande parte, pelas temperaturas destes corpos. Para corpos sem atmosfera e sem fontes internas de calor, sua maior temperatura possível é obtida supondo-se o equilíbrio entre a radiação que eles recebem do Sol e a radiação que eles emitem para o espaço.
+
+O gráfico a seguir traz a maior temperatura que um pequeno corpo teria em função da sua distância ao Sol. As distâncias dos planetas ao Sol foram identificadas apenas como referência de posição, não tendo nada a ver com a temperatura média destes planetas.
+
+A partir das informações do gráfico e considerando que no vácuo o gelo de água sublima (passa do estado sólido para o estado gasoso) a uma temperatura de 150 K, assinale a opção que traz a partir da órbita de qual planeta é possível encontrar gelo de água na superfície de um pequeno corpo sem atmosfera.
+
+- A partir de Netuno.
+- A partir de Urano.
+- A partir de Saturno.
+- X A partir de Júpiter.
+- A partir de Marte.
+---
+tipo: multichoice
+fig: /oba/27OBA-Nivel4/fig5.png
+enunciado: 5) Um Relógio de Sol funciona com base no movimento aparente do Sol pela esfera celeste e no consequente deslocamento da sombra produzida por este quando incide sobre uma haste chamada gnômon. A sombra do gnômon (haste) sobre o mostrador indica as horas, tal qual o ponteiro de um relógio.
+
+Para funcionar adequadamente, é muito importante que o gnômon esteja paralelo com o eixo de rotação da Terra, ou seja, o gnômon precisa apontar para o Polo Celeste visível no hemisfério no qual está o relógio de Sol.
+
+Ao lado temos a imagem de um Relógio de Sol do tipo Equatorial (existem muitos tipos!) projetado para funcionar somente no Hemisfério Norte. Repare que a hora central de seu mostrador, o momento em que a sombra indica a passagem do Sol pelo seu ponto mais alto no céu, chamado de meio-dia solar verdadeiro, está indicada como 1h da tarde.
+
+Assinale as alternativas corretas.
+
+- O gnômon de um relógio de Sol deve apontar para o Equador Celeste.
+- Este relógio também irá funcionar no Hemisfério Sul.
+- Seu mostrador foi corrigido para o Horário de Verão.
+- Seu mostrador indica que são cerca de 9h20 da manhã, no horário local.
+- Em dias nublados é impossível saber a hora por este relógio.
+
+pontuacao: [00XXX,1.0],[00X0X,0.6],[XX000,0.0],[00X00,0.4],[000X0,0.2]
+---
+
+tipo: singlechoice
+fig: /oba/27OBA-Nivel4/fig6.png
+enunciado: 6) Sabemos que a Luminosidade (L) das estrelas é equivalente à potência das lâmpadas e não depende da distância delas até nós. Quando montamos um gráfico entre a Luminosidade (L) e a Temperatura superficial (T) das estrelas temos o que se conhece como o Diagrama de Hertzsprung-Russell, ou simplesmente Diagrama HR. Ele é uma ferramenta fundamental na astronomia para classificar e entender a evolução estelar.
+
+As estrelas são posicionadas no diagrama HR de acordo com sua temperatura superficial (eixo horizontal) e sua luminosidade (eixo vertical), revelando conjuntos estelares conhecidos como Sequência Principal, Anãs Brancas, Gigantes e Supergigantes, como em destaque na imagem.
+O Sol, por ter temperatura superficial T = 6.000 K e luminosidade solar L = 1, foi posicionado nas coordenadas (6.000, 1), sendo classificado, então, como uma estrela da Sequência Principal.
+
+Posicione e classifique, três estrelas imaginárias, E1, E2 e E3, conforme suas características descritas a seguir:
+
+•	E1 é dez mil vezes mais luminosa que o Sol e sua temperatura superficial é cinco vezes maior do que a do Sol;
+•	E2 tem a mesma luminosidade que E1 e sua temperatura superficial é de 4.000 K;
+•	E3 tem a mesma temperatura superficial que E2 e sua luminosidade é cem vezes menor que a do Sol.
+
+Uma vez posicionadas as estrelas E1, E2 e E3 no Diagrama HR, assinale a única opção verdadeira.
+
+- E2 é classificada como uma estrela gigante.
+- E3 é classificada como uma estrela anã branca.
+- E1 e E2 são classificadas como estrelas supergigantes.
+- X E1 e E3 são classificadas como estrelas da Sequência Principal.
+- E1, E2 e E3 são classificadas como estrelas da Sequência Principal.
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel4/fig7.png
+enunciado: 7) A Voyager 1 e sua gêmea, a Voyager 2, lançadas em 1977, são as sondas espaciais em operação há mais tempo na história. Elas continuam funcionando mesmo depois de 47 anos no espaço. Recentemente a Voyager 1 ficou cinco meses sem enviar sinais para a Terra, mas os engenheiros da NASA conseguiram corrigir o problema de comunicação com a espaçonave mais distante da humanidade no espaço.
+
+A velocidade da Voyager 1, em relação ao Sol, é cerca de 17 km/s, o que significa que em apenas 1 dia, a sonda percorre cerca de 1.500.000 km.
+Sendo assim, assinale a opção que contém quantos quilômetros a sonda se afastou do Sol nesses 5 meses em que a NASA perdeu a comunicação com ela. Considere 1 mês = 30 dias.
+
+- 7,5 milhões de quilômetros.
+- 15 milhões de quilômetros.
+- 22,5 milhões de quilômetros.
+- 45 milhões de quilômetros.
+- X 225 milhões de quilômetros.
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel4/fig8.png
+enunciado: 8) O foguete Starship da SpaceX é composto de dois estágios. O primeiro, chamado de Super Heavy, tem massa total de 3.600.000 kg no momento em que seus 33 motores Raptor são acionados. O segundo estágio, possui massa total de 1.400.000 kg (M2) quando inicia a ignição de seus 6 motores Raptor. O Starship pretende transportar 100.000 kg à órbita terrestre e reutilizar seus dois estágios. No voo teste ocorrido em novembro de 2023, os 33 motores do Raptor do primeiro estágio funcionaram por 2 minutos e 41 segundos levando o foguete a 70 km de altitude. Neste instante é iniciado o processo de separação entre o primeiro e o segundo estágio. Nesse voo foi utilizada pela primeira vez a separação a quente, que consiste em se acionar os 6 motores do segundo estágio enquanto este ainda está acoplado ao primeiro estágio. Dessa forma, os gases expelidos pelos motores do segundo estágio "empurram” o primeiro estágio para baixo, conforme ilustrado na Figura ao lado pela força F. A partir de então agirão sobre o segundo estágio a força de Empuxo E2, resultante do acionamento dos 6 motores Raptor, além da força da gravidade. Sobre o primeiro estágio, atuarão, além da força F, a força da gravidade e o empuxo de apenas 3 dos 33 motores Raptor, que continuam a funcionar para controlar o seu retorno à superfície terrestre. Em função da altitude na qual a separação ocorre, as forças aerodinâmicas foram consideradas desprezíveis. Considere g = 10m/s².
+
+Perguntas:
+
+8a) Utilize a Segunda Lei de Newton para calcular a aceleração a2 do segundo estágio no instante da separação. Para tanto, considere que a força empuxo dos 6 motores Raptor seja E2 = 1,4 × 10⁷N.
+
+8b) Calcule a aceleração do primeiro estágio supondo que, no momento da separação, o primeiro estágio tenha uma massa total M₁ = 700.000 kg e 3 motores Raptors ativos, correspondendo a uma força empuxo E₁ = 7,0 × 10⁶N. Considere ainda que a força F dos gases sobre o motor do primeiro estágio é cerca de 80% da força de empuxo do segundo estágio, ou seja F = 1,12 × 10⁷N.
+
+8c) Calcule a aceleração relativa  \(a_{rel} = a_2 – a_1\) no instante do início da separação.
+
+Assinale a alternativa que contém as respostas aos itens "8a”, “8b” e “8c” acima, nesta ordem.
+
+- 10 m/s², 10 m/s², 10 m/s².
+- 5 m/s², -16 m/s², 0 m/s².
+- X 0 m/s², -16 m/s², 16 m/s².
+- 0 m/s², 10 m/s², 16 m/s².
+- -5 m/s², -10 m/s², -10 m/s².
+---
+tipo: singlechoice
+fig: /oba/27OBA-Nivel4/fig9.png
+enunciado: 9) Desde o início da Era Espacial em 1957, a humanidade já enviou centenas de espaçonaves não tripuladas para explorar o sistema solar. Atualmente, existem duas delas em órbita do Sol. A norte-americana Parker e a europeia Solar Orbiter. A Sonda Parker foi lançada ao espaço em 12 de agosto de 2018, pelo foguete Delta 4 Heavy (Ponto 1 da Figura), ingressando em órbita solar em 19 de janeiro de 2019. Ao passar pelo planeta Vênus (Ponto 2 da Figura), a sonda Parker realizou sua primeira manobra assistida por gravidade (“fly by”), tema de uma questão da OBA em 2018. Como resultado dessa manobra, a Parker teve sua velocidade aumentada e seu periélio (distância mínima ao Sol) diminuído. Ao longo de seus 7 anos de operação, a Sonda Parker realizará 24 órbitas ao redor do Sol com 7 passagens próximas de Vênus. Ao final desse processo, seu periélio será reduzido para 6 milhões de quilômetros. Em seu último periélio, a Parker tornar-se-á o objeto mais rápido feito pelo homem. Neste exercício simplificado, calcularemos o valor dessa velocidade. Para tanto, considere uma das órbitas elípticas que a Sonda Parker descreve ao redor do Sol. Nessa órbita, tem-se que vale o princípio da conservação da energia, com a soma da energia cinética \(E_{cin}\) e energia potencial \(E_{pot}\) sendo igual à energia mecânica (\(E_{mec}\)): \(E_{cin} + E_{pot} = E_{mec}\)
+
+Perguntas:
+
+9a) Calcule a energia potencial gravitacional da Sonda Parker no periélio de sua última órbita. Para isso, utilize a fórmula  \(E_{pot} = \frac{-m_s \times M \times G}{d}\), onde ms = 600 kg, correspondente à massa da Parker, M é a massa do Sol e G é a constante da gravitação universal.  d é o menor periélio de todas as órbitas. Para simplificar seus cálculos, considere  \(M \times G = 1,27 \times 10^{20} m³/s²\).
+
+9b) Calcule a velocidade da Sonda Parker no menor periélio de todas as órbitas. Para isso, considere \(E_{mec} = -7 \times 10^{11} J\) e \(E_{pot}\) calculada no item 9a.
+
+Dica: \(E_{cin} = \frac{m_s \times V^2}{2}\), onde V é o módulo da velocidade.
+
+Assinale a alternativa que contém as respostas aos itens “9a” e “9b” acima, nesta ordem.
+
+- 1,00×10¹³ J e 200 km/s.
+- 1,27×10¹³ J e 100 km/s.
+- 2,54×10¹³ J e 300 km/s.
+- X 1,27×10¹³ J e 200 km/s.
+- 1,00×10¹³ J e 100 km/s.
+---
+tipo: multichoice
+fig: /oba/27OBA-Nivel4/fig10.png
+enunciado: 10) O Instituto Nacional de Pesquisas Espaciais (INPE) utiliza imagens de satélites para estimar o desmatamento na Amazônia. A Figura abaixo mostra a evolução do desmatamento nos últimos 6 anos, bem como a quantidade de multas aplicadas pelo Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA). Os levantamentos são realizados entre agosto de um determinado ano e julho do ano seguinte. Sendo assim, entre agosto de 2020 e julho de 2021 foi desmatada uma área de 13.038 km². Nesse mesmo período, foram aplicadas 1964 multas pelo IBAMA.
+
+Assinale as alternativas corretas.
+
+- O período entre agosto de 2019 e julho de 2020 representou o maior período de desmatamento.
+- Em relação ao período anterior, a quantidade de multas emitidas pelo IBAMA mais do que dobrou no período 2022-2023.
+- O Estado de Alagoas possui uma área de 28.000 km², aproximadamente. O total da área desmatada nos 6 últimos anos é equivalente à 3 vezes a área de Alagoas.
+- Em relação ao período anterior, a taxa de desmatamento no período 2022-2023 caiu 22%, aproximadamente.
+- A taxa de desmatamento decresce na medida em que as multas do IBAMA crescem.
+
+pontuacao: [0XX0X,1.0],[0X00X,0.4],[0X0X0,0.6],[000X0,0.2],[00000,0.0]
+---

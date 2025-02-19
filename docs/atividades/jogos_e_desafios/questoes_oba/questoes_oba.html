@@ -69,6 +69,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <style>
     .quiz-container {
       /* Um estilo que lembra um “card” */
@@ -136,11 +137,11 @@ ul.task-list li input[type="checkbox"] {
 
     /* Na tela larga a imagem fica à direita; em telas estreitas, ela ocupa a largura inteira */
     .question-image {
-      max-width: 40%;
+      max-width: 50%;
       float: right;
       margin: 0 0 10px 10px;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
       .question-image {
         float: none;
         display: block;
@@ -369,7 +370,7 @@ ul.task-list li input[type="checkbox"] {
       A função gen_questionario recebe o caminho do arquivo de questões e o título do questionário.
       Cada questionário é gerado dentro de um <details> (colapsável) e opera de forma independente.
     */
-        function gen_questionario(arquivoQuestoes, titulo) {
+    function gen_questionario(arquivoQuestoes, titulo) {
       // Cria o container colapsável usando <details>
       var details = document.createElement("details");
       details.style.marginBottom = "20px";
@@ -477,17 +478,34 @@ ul.task-list li input[type="checkbox"] {
       // Parse do arquivo de questões – agora atribuindo um id para cada alternativa
       function parseQuestions(text) {
         var qs = [];
+        // Separa cada questão (delimitada por ---)
         var parts = text.split('---').map(s => s.trim()).filter(s => s.length > 0);
         parts.forEach(part => {
           var lines = part.split('\n').map(l => l.trim()).filter(l => l.length > 0);
           var q = { alternatives: [] };
-          lines.forEach(line => {
+          // Itera sobre as linhas usando um índice para permitir pulos
+          for (var i = 0; i < lines.length; i++) {
+            var line = lines[i];
             if (line.startsWith("tipo:")) {
               q.tipo = line.substring(5).trim();
             } else if (line.startsWith("fig:")) {
               q.fig = line.substring(4).trim();
             } else if (line.startsWith("enunciado:")) {
-              q.enunciado = line.substring(10).trim();
+              // Começa a extrair o enunciado
+              var enunciado = line.substring(10).trim();
+              // Enquanto as próximas linhas não iniciem com "-" (alternativas) nem com outros campos
+              i++;
+              while (i < lines.length &&
+                    !lines[i].startsWith("-") &&
+                    !lines[i].startsWith("pontuacao:") &&
+                    !lines[i].startsWith("tipo:") &&
+                    !lines[i].startsWith("fig:")) {
+                enunciado += "\n" + lines[i];
+                i++;
+              }
+              // Converte as quebras de linha em <br> para renderização correta em HTML
+              q.enunciado = enunciado.replace(/\n/g, "<br>");
+              i--; // retrocede para reprocessar a linha que quebrou o loop
             } else if (line.startsWith("pontuacao:")) {
               var scoringStr = line.substring(11).trim();
               q.scoring = [];
@@ -497,6 +515,7 @@ ul.task-list li input[type="checkbox"] {
                 q.scoring.push({ pattern: match[1], score: parseFloat(match[2]) });
               }
             } else if (line.startsWith("-")) {
+              // Trata as alternativas – em singlechoice, se iniciar com "X" indica a correta
               var altText = line.substring(1).trim();
               var isCorrect = false;
               if (q.tipo === "singlechoice" && altText.startsWith("X")) {
@@ -506,11 +525,13 @@ ul.task-list li input[type="checkbox"] {
               // Atribui um id com base no número atual de alternativas
               q.alternatives.push({ id: q.alternatives.length, text: altText, isCorrect: isCorrect });
             }
-          });
+          }
           qs.push(q);
         });
         return qs;
       }
+
+
       
       // Função auxiliar para embaralhar um array
       function shuffleArray(array) {
@@ -537,7 +558,7 @@ ul.task-list li input[type="checkbox"] {
         // Exibe o enunciado
         var enunciadoDiv = document.createElement("div");
         enunciadoDiv.className = "enunciado";
-        enunciadoDiv.textContent = q.enunciado;
+        enunciadoDiv.innerHTML = q.enunciado;
         qContainer.appendChild(enunciadoDiv);
         // Imagem, se houver
         if (q.fig) {
@@ -606,6 +627,7 @@ ul.task-list li input[type="checkbox"] {
         } else {
           showCorrectBtn.disabled = true;
         }
+        MathJax.typeset(); // Reprocessa as equações
       }
 
       
@@ -731,15 +753,17 @@ ul.task-list li input[type="checkbox"] {
         if (!state.verified || state.correctShown) return;
         var q = questions[currentQuestionIndex];
         var alternativesDiv = questionDisplay.querySelector(".alternatives");
+        
         if (q.tipo === "singlechoice") {
+          // Itera sobre a ordem embaralhada armazenada no estado.
           Array.from(alternativesDiv.children).forEach((altDiv, idx) => {
-            // Para cada alternativa exibida, buscamos o objeto original com base no texto
-            var altObj = q.alternatives.find(a => a.text === altDiv.textContent);
-            if (altObj && altObj.isCorrect) {
+            var altObj = state.order[idx];
+            if (altObj.isCorrect) {
               altDiv.style.color = "green";
             }
           });
         } else {
+          // Para multichoice, encontramos a regra de pontuação que concede 1 ponto.
           var correctPattern = null;
           if (q.scoring) {
             var fullRule = q.scoring.find(rule => rule.score === 1);
@@ -748,18 +772,24 @@ ul.task-list li input[type="checkbox"] {
             }
           }
           if (correctPattern) {
+            // Obtém a ordem original das alternativas (ordenadas pelo id)
+            var sortedAlts = q.alternatives.slice().sort((a, b) => a.id - b.id);
+            // Para cada alternativa exibida na ordem embaralhada, buscamos sua posição original.
             Array.from(alternativesDiv.children).forEach((altDiv, idx) => {
-              // Aqui, usamos a ordem original dos índices do padrão
-              var sortedAlts = q.alternatives.slice().sort((a, b) => a.id - b.id);
-              if (correctPattern[idx] === "X") {
+              var displayedAlt = state.order[idx];
+              // Encontra o índice original da alternativa
+              var originalIndex = sortedAlts.findIndex(a => a.id === displayedAlt.id);
+              if (originalIndex !== -1 && correctPattern[originalIndex] === "X") {
                 altDiv.style.color = "green";
               }
             });
           }
         }
+        
         state.correctShown = true;
         showCorrectBtn.disabled = true;
       });
+
       
       finalDiv.querySelector(".retry-btn").addEventListener("click", function() {
         resetQuiz();
@@ -774,14 +804,16 @@ ul.task-list li input[type="checkbox"] {
           return { selected: sel, verified: false, score: 0, correctShown: false };
         });
         renderQuestion();
-        updateProgress();
+        updateProgress();        
       }
     }
     
     // Chama a função para gerar cada questionário
     //gen_questionario("/h5p/questionario1.txt", "27ª OBA - Nível 1");
-    gen_questionario("/h5p/questionario3.txt", "27ª OBA - Nível 1");
-    //gen_questionario("/h5p/questionario3.txt", "27ª OBA - Nível 2");
+    gen_questionario("/oba/27OBA-Nivel1/27OBA-Nivel1.txt", "27ª OBA - Nível 1");    
+    gen_questionario("/oba/27OBA-Nivel2/27OBA-Nivel2.txt", "27ª OBA - Nível 2");    
+    gen_questionario("/oba/27OBA-Nivel3/27OBA-Nivel3.txt", "27ª OBA - Nível 3");    
+    gen_questionario("/oba/27OBA-Nivel4/27OBA-Nivel4.txt", "27ª OBA - Nível 4");    
   </script>
 
 

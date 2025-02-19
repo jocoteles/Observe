@@ -4,8 +4,7 @@ project:
   preview: 
     port: 4321
   resources:
-    - /h5p
-    - /atividades/desafios_online/h5p-atividades
+    - /oba
     - CNAME
   
 
