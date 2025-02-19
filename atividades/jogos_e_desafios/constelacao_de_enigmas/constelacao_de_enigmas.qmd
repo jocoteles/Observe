@@ -20,7 +20,7 @@ Newtinho, um estudante de física confiante em sua capacidade de resolver proble
 
 ---
 
-|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd).
+|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd) que vislumbrou esse problema enquanto fazia exercício sob a sombra de um quiosque.
 |   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
 
 :::
@@ -63,7 +63,7 @@ Ajude Elara a entender o "enigma da bexiga" de outro mundo e a provar que a fís
 
 ---
 
-|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd).
+|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd) que pensou nesse problema devido à insatisfação com a forma como o experimento com a bexiga é tratado em alguns livros didáticos.
 |   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
 
 :::
@@ -85,7 +85,7 @@ Mestra Rudolfina e os cientistas de Kepler-1571, agora diante do Vale da Sombra 
 
 ---
 
-|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd) que adaptou-o de um caso real acontecido na Terra.
+|   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd) que adaptou-o de uma [atividade didática](/atividades/jogos_e_desafios/constelacao_de_enigmas/Atividade_investigativa.pdf), que por sua vez foi inspirada em um caso real acontecido na Terra.
 |   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
 
 

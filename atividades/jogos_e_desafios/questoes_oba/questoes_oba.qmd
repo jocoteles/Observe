@@ -5,601 +5,623 @@ image: h5p_oba_logo.jpeg
 format:
     html:
         include-in-header:
-            text: |
+            text: |                                              
                 <style>
-                    /* Estilos Globais */
-                    body {
-                    background: #f4f7f6;
-                    color: #333;
-                    }
-                    /* Estilo do card do quiz */
-                    .quiz-card {
-                    background: #fff;
-                    border: 1px solid #ddd;
-                    border-radius: 8px;
-                    margin-bottom: 20px;
-                    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-                    overflow: hidden;
-                    }
-                    .quiz-card-header {
-                    background: #fafafa;
-                    padding: 15px;
-                    cursor: pointer;
-                    //font-size: 1.2rem;
-                    font-weight: 600;
-                    border-bottom: 1px solid #ddd;
-                    }
-                    .quiz-card-header:hover {
-                    background: #f0f0f0;
-                    }
-                    .quiz-card-body {
-                    padding: 20px;
-                    display: none;
-                    }
-                    .quiz-card-body.active {
-                    display: block;
-                    }
-                    /* Estilos da interface do quiz */
                     .quiz-container {
-                    max-width: 800px;
-                    margin: auto;
+                      /* Um estilo que lembra um “card” */
+                      border: 1px solid #ccc;
+                      border-radius: 4px;
+                      background-color: #fff;
+                      padding: 1rem 1.5rem;
+                      margin-bottom: 1.5rem;
+                      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                     }
-                    .question-container {
-                    background: #fafafa;
-                    padding: 20px;
-                    border-radius: 8px;
-                    margin-bottom: 20px;
-                    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-                    transition: transform 0.5s ease, opacity 0.5s ease;
-                    }
-                    .alternativa {
-                    margin-bottom: 15px;
-                    }
-                    .btn-action {
-                    padding: 10px 20px;
-                    border: none;
-                    border-radius: 30px;
-                    cursor: pointer;
-                    transition: background 0.3s ease, transform 0.3s ease;
-                    //font-size: 1rem;
-                    }
-                    .btn-action:hover {
-                    transform: scale(1.05);
-                    }
-                    .btn-primary {
-                    background-color: #5a67d8;
-                    color: #fff;
-                    }
-                    .btn-info {
-                    background-color: #48bb78;
-                    color: #fff;
-                    }
-                    .btn-secondary {
-                    background-color: #ccc;
-                    color: #333;
-                    }
-                    .score-container {
-                    text-align: center;
-                    margin-top: 20px;
-                    //font-size: 1.2rem;
-                    }
-                    .transition-question {
-                    transition: transform 0.5s ease, opacity 0.5s ease;
-                    }
-                    .slide-left {
-                    transform: translateX(-100%);
-                    opacity: 0;
-                    }
-                    .slide-right {
-                    transform: translateX(100%);
-                    opacity: 0;
-                    }
-                    .current-question {
-                    transform: translateX(0);
-                    opacity: 1;
-                    }
-                    .hidden {
-                    display: none !important;
-                    }
-                    .correct-bg { background-color: #e6ffed; }
-                    .show-answer-bg { background-color: #fff9e6; } /* Not used anymore, keeping for reference if needed */
-                    .incorrect-bg { background-color: #ffe6e6; }
-                    .progress {
-                    height: 10px;
-                    background: #e2e8f0;
-                    border-radius: 5px;
-                    overflow: hidden;
-                    margin-bottom: 10px;
-                    }
-                    .progress-bar {
-                    height: 100%;
-                    background: linear-gradient(90deg, #5a67d8, #48bb78);
-                    width: 0%;
-                    transition: width 0.3s ease;
-                    }
-                    /* Responsividade para os botões Verificar e Mostrar Resposta */
-                    @media (max-width: 800px) {
-                    .btn-group-responsive {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        width: 100%;
-                    }
-                    .btn-group-responsive .btn-action {
-                        width: 90%;
-                        margin-bottom: 10px;
-                    }
-                    }
-                    /* Feedback message style */
-                    .feedback-message {
-                        margin-top: 10px;
-                        text-align: center;
-                        font-weight: bold;
-                    }
-                    .feedback-correct { color: green; }
-                    .feedback-partial { color: orange; }
-                    .feedback-incorrect { color: red; }
-                    .correct-text { color: green !important; } /* Class for correct answer text - important added */
 
+                    .mode-selection-quiz {
+                      /* Fundo levemente cinza para destacar */
+                      margin-bottom: 1rem;
+                      padding: 0.5rem;
+                      background-color: #f8f9fa;
+                      border-radius: 4px;
+                    }
+
+                    .mode-selection-quiz label {
+                      margin-right: 1rem;
+                      cursor: pointer;
+                    }
+
+                    .question-display {
+                      position: relative;
+                      overflow: hidden;
+                      min-height: 150px;
+                      margin-bottom: 1rem;
+                    }
+
+                    .question-container {
+                      transition: transform 0.5s ease, opacity 0.5s ease;
+                      padding: 1rem;
+                      border-radius: 4px;
+                      background-color: #fff;
+                      border: 1px solid transparent; /* Deixe “transparent” para animar melhor */
+                    }
+
+                    .slide-in-right-quiz {
+                      transform: translateX(100%);
+                      animation: slideInFromRight 0.5s forwards;
+                    }
+
+                    .slide-in-left-quiz {
+                      transform: translateX(-100%);
+                      animation: slideInFromLeft 0.5s forwards;
+                    }
+
+                    @keyframes slideInFromRight {
+                      from { transform: translateX(100%); opacity: 0; }
+                      to { transform: translateX(0); opacity: 1; }
+                    }
+
+                    @keyframes slideInFromLeft {
+                      from { transform: translateX(-100%); opacity: 0; }
+                      to { transform: translateX(0); opacity: 1; }
+                    }
+
+                    .enunciado {
+                      font-size: 1.1em;
+                      margin-bottom: 1rem;
+                      font-weight: 500; /* um pouco mais de destaque */
+                    }
+
+                    /* Na tela larga a imagem fica à direita; em telas estreitas, ela ocupa a largura inteira */
+                    .question-image {
+                      max-width: 40%;
+                      float: right;
+                      margin: 0 0 10px 10px;
+                    }
+                    @media (max-width: 600px) {
+                      .question-image {
+                        float: none;
+                        display: block;
+                        max-width: 100%;
+                        margin: 10px 0;
+                      }
+                    }
+
+                    .alternatives {
+                      margin-bottom: 1rem;
+                    }
+
+                    .alternative {
+                      border: 1px solid #ddd;
+                      padding: 0.75rem 1rem;
+                      margin: 0;
+                      margin-bottom: 0.5rem;
+                      cursor: pointer;
+                      border-radius: 4px;
+                      transition: background-color 0.2s ease, border-color 0.2s ease;
+                    }
+
+                    /* Efeito “hover” para dar feedback ao usuário */
+                    .alternative:hover {
+                      background-color: #f1f1f1;
+                    }
+
+                    /* Quando selecionada */
+                    .alternative.selected {
+                      background-color: #cce5ff;
+                      border-color: #b8daff;
+                    }
+
+                    .nav-buttons-quiz {
+                      display: flex;
+                      justify-content: space-between;
+                      margin-bottom: 1rem;
+                    }
+
+                    /* Estilize os botões de navegação de modo semelhante a botões “secondary” do Bootstrap */
+                    .nav-buttons-quiz button {
+                      padding: 0.5rem 1rem;
+                      border-radius: 4px;
+                      border: 1px solid #ccc;
+                      background-color: #f8f9fa;
+                      cursor: pointer;
+                      transition: background-color 0.2s ease;
+                    }
+
+                    .nav-buttons-quiz button:hover:not(:disabled) {
+                      background-color: #e2e6ea;
+                    }
+
+                    .nav-buttons-quiz button:disabled {
+                      opacity: 0.6;
+                      cursor: not-allowed;
+                    }
+
+                    /* Barra de progresso textual */
+                    .progress-info {
+                      margin-bottom: 1rem;
+                      font-size: 0.9rem;
+                      color: #555;
+                    }
+
+                    .finalization {
+                      text-align: center;
+                      margin-top: 2rem;
+                      padding: 1rem;
+                      border-top: 1px solid #ccc;
+                      background-color: #f8f9fa;
+                      border-radius: 0 0 4px 4px;
+                    }
+
+                    .final-message {
+                      font-weight: 500;
+                      margin-bottom: 1rem;
+                    }
+
+                    .retry-btn {
+                      padding: 0.5rem 1rem;
+                      border-radius: 4px;
+                      border: 1px solid #ccc;
+                      background-color: #fff;
+                      cursor: pointer;
+                      transition: background-color 0.2s ease;
+                    }
+
+                    .retry-btn:hover {
+                      background-color: #e2e6ea;
+                    }
+
+                    /* Caso deseje realçar mensagens de acerto/erro/partial usando classes no statusDiv */
+                    .status-correct {
+                      background-color: #d4edda;  /* verde claro */
+                      color: #155724;
+                      border: 1px solid #c3e6cb;
+                      border-radius: 4px;
+                      padding: 0.5rem;
+                      margin-bottom: 1rem;
+                    }
+
+                    .status-partial {
+                      background-color: #fff3cd;  /* amarelo claro */
+                      color: #856404;
+                      border: 1px solid #ffeeba;
+                      border-radius: 4px;
+                      padding: 0.5rem;
+                      margin-bottom: 1rem;
+                    }
+
+                    .status-incorrect {
+                      background-color: #f8d7da;  /* rosa claro */
+                      color: #721c24;
+                      border: 1px solid #f5c6cb;
+                      border-radius: 4px;
+                      padding: 0.5rem;
+                      margin-bottom: 1rem;
+                    }
                 </style>
 ---
 
 ```{=html}
-<!-- Container para os questionários -->
+  
   <div id="quizzes"></div>
 
   <script>
-    // Função para alternar a exibição do conteúdo (collapse)
-    function toggleCollapse(event) {
-      const header = event.currentTarget;
-      const cardBody = header.nextElementSibling;
-      cardBody.classList.toggle('active');
-    }
-
-    // Função que gera um novo questionário
-    function gen_questionario(arquivoQuestoes, titulo) {
-      // Gera um ID único para este quiz
-      const quizId = "quiz" + Date.now() + Math.floor(Math.random() * 1000);
-      const containerHTML = `
-        <div class="quiz-card">
-          <div class="quiz-card-header">${titulo}</div>
-          <div class="quiz-card-body" id="${quizId}_body">
-            <div class="quiz-container" id="${quizId}">
-              <h3 style="text-align: center; margin-bottom: 20px;">${titulo}</h3>
-              <div style="text-align: center; margin-bottom: 20px;">
-                <label>
-                  <input type="radio" name="${quizId}_quizMode" value="random" checked> Modo Aleatório
-                </label>
-                <label style="margin-left: 15px;">
-                  <input type="radio" name="${quizId}_quizMode" value="sequential"> Modo Sequencial
-                </label>
-              </div>
-              <div id="${quizId}_questionArea" class="question-container transition-question current-question">
-                <!-- Questão será carregada aqui -->
-              </div>
-              <div style="text-align: center; margin-bottom: 10px;">
-                <span id="${quizId}_questionNavigation">Questão 1 de 10</span>
-              </div>
-              <div style="margin-bottom: 20px;">
-                <div class="progress">
-                  <div id="${quizId}_questionProgress" class="progress-bar" role="progressbar"></div>
-                </div>
-                <div style="text-align: center;" id="${quizId}_progressText">0 questões amostradas</div>
-              </div>
-              <div class="score-container">
-                Pontuação: <span id="${quizId}_currentScore">0</span> / <span id="${quizId}_maxScore">0</span>
-              </div>
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-                <button id="${quizId}_prevBtn" class="btn-action btn-secondary" disabled>Questão Anterior</button>
-                <div class="btn-group-responsive">
-                  <button id="${quizId}_verifyBtn" class="btn-action btn-primary" disabled>Verificar</button>
-                  <button id="${quizId}_showAnswerBtn" class="btn-action btn-info" disabled>Mostrar Resposta</button>
-                </div>
-                <button id="${quizId}_nextBtn" class="btn-action btn-secondary">Próxima Questão</button>
-              </div>
-              <div id="${quizId}_finalResult" class="hidden" style="margin-top: 20px; padding: 10px; background: #e6ffe6; border: 1px solid #b2d8b2; border-radius: 5px; text-align: center;">
-                Parabéns! Você completou o quiz. Sua pontuação final é: <span id="${quizId}_finalScoreValue"></span> / <span id="${quizId}_finalMaxScoreValue"></span>
-                <button id="${quizId}_tryAgainBtn" class="btn-action btn-primary" style="margin-left: 10px; padding: 5px 10px;">Tentar Novamente</button>
-              </div>
-              <div id="${quizId}_feedbackArea" class="feedback-message"></div> <!-- Feedback message area -->
-            </div>
-          </div>
-        </div>
+        /* 
+      A função gen_questionario recebe o caminho do arquivo de questões e o título do questionário.
+      Cada questionário é gerado dentro de um <details> (colapsável) e opera de forma independente.
+    */
+        function gen_questionario(arquivoQuestoes, titulo) {
+      // Cria o container colapsável usando <details>
+      var details = document.createElement("details");
+      details.style.marginBottom = "20px";
+      var summary = document.createElement("summary");
+      summary.textContent = titulo;
+      summary.style.cursor = "pointer";
+      details.appendChild(summary);
+      
+      var container = document.createElement("div");
+      container.className = "quiz-container";
+      details.appendChild(container);
+      
+      document.getElementById("quizzes").appendChild(details);
+      
+      // Variáveis do questionário
+      var questions = [];
+      var currentQuestionIndex = 0;
+      var questionStates = [];
+      var mode = "sequential"; // ou "random"
+      var quizStarted = false;
+      
+      // Opções de visualização
+      var modeDiv = document.createElement("div");
+      modeDiv.className = "mode-selection-quiz";
+      modeDiv.innerHTML = `
+        <label><input type="radio" name="mode_${titulo}" value="sequential" checked> Modo sequencial</label>
+        <label style="margin-left:20px;"><input type="radio" name="mode_${titulo}" value="random"> Modo aleatório</label>
       `;
-      document.getElementById("quizzes").insertAdjacentHTML("beforeend", containerHTML);
-
-      // Adiciona o evento de clique para o header (colapso)
-      const cardHeaders = document.querySelectorAll('.quiz-card-header');
-      cardHeaders.forEach(header => {
-        header.addEventListener('click', toggleCollapse);
+      container.appendChild(modeDiv);
+      
+      var modeInputs = modeDiv.querySelectorAll(`input[name="mode_${titulo}"]`);
+      modeInputs.forEach(input => {
+        input.addEventListener("change", function() {
+          if (quizStarted) {
+            if (!confirm("O questionário será reinicializado e tudo que foi feito até então será apagado. Deseja continuar?")) {
+              modeInputs.forEach(inp => {
+                if (inp.value === mode) inp.checked = true;
+              });
+              return;
+            }
+            resetQuiz();
+          }
+          mode = this.value;
+          if (mode === "random") {
+            questions = shuffleArray(questions);
+          } else {
+            questions = questions.sort((a, b) => a.originalIndex - b.originalIndex);
+          }
+          resetQuiz();
+        });
       });
-
-      // Referência ao container específico do quiz
-      const quizContainer = document.getElementById(quizId);
-
-      // Variáveis e estado do quiz (escopo local para cada instância)
-      let questions = [];
-      let currentQuestionIndex = -1;
-      let userAnswers = {};
-      let score = 0;
-      let maxPossibleScore = 0;
-      let questionOrder = [];
-      let quizMode = 'random';
-      let answeredQuestions = {};
-      let sampledQuestionCount = 0;
-      let totalQuestions = 0;
-
-      // Seleciona os elementos dentro deste quiz
-      const questionArea = quizContainer.querySelector(`#${quizId}_questionArea`);
-      const questionNavigationDisplay = quizContainer.querySelector(`#${quizId}_questionNavigation`);
-      const progressTextDisplay = quizContainer.querySelector(`#${quizId}_progressText`);
-      const questionProgress = quizContainer.querySelector(`#${quizId}_questionProgress`);
-      const currentScoreDisplay = quizContainer.querySelector(`#${quizId}_currentScore`);
-      const maxScoreDisplay = quizContainer.querySelector(`#${quizId}_maxScore`);
-      const prevBtn = quizContainer.querySelector(`#${quizId}_prevBtn`);
-      const nextBtn = quizContainer.querySelector(`#${quizId}_nextBtn`);
-      const verifyBtn = quizContainer.querySelector(`#${quizId}_verifyBtn`);
-      const showAnswerBtn = quizContainer.querySelector(`#${quizId}_showAnswerBtn`);
-      const finalResultDiv = quizContainer.querySelector(`#${quizId}_finalResult`);
-      const finalScoreValueDisplay = quizContainer.querySelector(`#${quizId}_finalScoreValue`);
-      const finalMaxScoreValueDisplay = quizContainer.querySelector(`#${quizId}_finalMaxScoreValue`);
-      const tryAgainBtn = quizContainer.querySelector(`#${quizId}_tryAgainBtn`);
-      const quizModeRadios = quizContainer.querySelectorAll(`input[name="${quizId}_quizMode"]`);
-      const feedbackArea = quizContainer.querySelector(`#${quizId}_feedbackArea`);
-
-
-      // Função para carregar as questões do arquivo
-      async function loadQuestions() {
-        try {
-          const response = await fetch(arquivoQuestoes);
-          const text = await response.text();
-          const questionBlocks = text.trim().split('---');
-          questions = questionBlocks.map(block => {
-            const lines = block.trim().split('\n').map(line => line.trim());
-            let question = {};
-            let alternativas = [];
-            let readingAlternativas = false;
-            for (const line of lines) {
-              if (line.startsWith('tipo:')) {
-                question.tipo = line.split(':')[1].trim();
-              } else if (line.startsWith('enunciado:')) {
-                question.enunciado = line.split(':')[1].trim();
-              } else if (line.startsWith('caminhofig:')) {
-                question.caminhofig = line.split(':')[1].trim();
-              } else if (line.startsWith('pontuacao:')) { // Corrected label to "pontuacao"
-                const scoreData = line.split(':')[1].trim();
-                question.pontuacao = scoreData.split('],[').map(item => {
-                  const parts = item.replace(/[\[\]]/g, '').split(',');
-                  return { pattern: parts[0], score: parseFloat(parts[1]) };
-                });
-              }
-              else if (line.startsWith('- ')) {
-                readingAlternativas = true;
-                let alternativaText = line.substring(2).trim();
-                alternativas.push({ texto: alternativaText, correta: alternativaText.startsWith('X ') }); // Correctness now only from 'X ' prefix for parsing compatibility, but not used in scoring logic for multichoice
-              } else if (readingAlternativas) {
-                let alternativaText = line.trim();
-                alternativas.push({ texto: alternativaText, correta: alternativaText.startsWith('X ') }); // Correctness now only from 'X ' prefix for parsing compatibility, but not used in scoring logic for multichoice
-              }
-            }
-            question.alternativas = alternativas.map(alt => ({texto: alt.texto.replace(/^X\s+/, ''), correta: alt.correta})); // Remove 'X ' prefix after parsing, keep correta for singlechoice if needed
-            return question;
+      
+      var questionDisplay = document.createElement("div");
+      questionDisplay.className = "question-display";
+      container.appendChild(questionDisplay);
+      
+      var progressInfo = document.createElement("div");
+      progressInfo.className = "progress-info";
+      container.appendChild(progressInfo);
+      
+      var navDiv = document.createElement("div");
+      navDiv.className = "nav-buttons-quiz";
+      navDiv.innerHTML = `
+        <button class="prev-btn" disabled>Anterior</button>
+        <button class="verify-btn" disabled>Verificar</button>
+        <button class="next-btn" disabled>Próxima</button>
+      `;
+      container.appendChild(navDiv);
+      
+      var showCorrectBtn = document.createElement("button");
+      showCorrectBtn.className = "show-correct-btn";
+      showCorrectBtn.textContent = "Mostrar Alternativas Corretas";
+      showCorrectBtn.disabled = true;
+      container.appendChild(showCorrectBtn);
+      
+      var finalDiv = document.createElement("div");
+      finalDiv.className = "finalization";
+      finalDiv.style.display = "none";
+      finalDiv.innerHTML = `
+        <div class="final-message"></div>
+        <button class="retry-btn">Tentar novamente</button>
+      `;
+      container.appendChild(finalDiv);
+      
+      // Carrega e parseia o arquivo de questões
+      fetch(arquivoQuestoes)
+        .then(response => response.text())
+        .then(text => {
+          questions = parseQuestions(text);
+          questions.forEach((q, idx) => { q.originalIndex = idx; });
+          // Inicializa os estados usando um objeto para armazenar a seleção por alternativa (id)
+          // Ao inicializar o estado de cada questão (na função que faz o reset):
+          questionStates = questions.map(q => {
+            var sel = {};
+            q.alternatives.forEach(alt => { sel[alt.id] = false; });
+            return { selected: sel, verified: false, score: 0, correctShown: false, order: null };
           });
-          totalQuestions = questions.length;
-          initializeQuiz();
-        } catch (error) {
-          console.error('Erro ao carregar o arquivo de questões:', error);
-        }
-      }
-
-      // Inicializa o quiz
-      function initializeQuiz() {
-        currentQuestionIndex = -1;
-        userAnswers = {};
-        score = 0;
-        maxPossibleScore = totalQuestions;
-        questionOrder = [...Array(questions.length).keys()];
-        answeredQuestions = {};
-        sampledQuestionCount = 0;
-        finalResultDiv.classList.add('hidden');
-        currentScoreDisplay.textContent = score;
-        maxScoreDisplay.textContent = maxPossibleScore;
-        quizMode = Array.from(quizModeRadios).find(r => r.checked).value;
-        if (quizMode === 'random') {
-          shuffleArray(questionOrder);
-        }
-        updateProgress();
-        displayQuestion(0); // Load the first question without transition on init
-      }
-
-      function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
-        }
-      }
-
-      function displayQuestion(index, transitionDirection = null) {
-        if (index < 0 || index >= questions.length) return;
-        currentQuestionIndex = index; // Update currentQuestionIndex here
-        const question = questions[questionOrder[index]];
-        const currentQuestionAnsweredState = answeredQuestions[questionOrder[index]] ? answeredQuestions[questionOrder[index]].state : null;
-        const currentFeedbackText = answeredQuestions[questionOrder[index]] ? answeredQuestions[questionOrder[index]].feedbackText : '';
-        const currentFeedbackClass = answeredQuestions[questionOrder[index]] ? answeredQuestions[questionOrder[index]].feedbackClass : '';
-
-
-        questionArea.className = 'question-container transition-question current-question';
-        feedbackArea.innerHTML = `<span class="${currentFeedbackClass}">${currentFeedbackText}</span>`;
-
-        if (currentQuestionAnsweredState === 'correct') {
-          questionArea.classList.add('correct-bg');
-        } else if (currentQuestionAnsweredState === 'incorrect') {
-          questionArea.classList.add('incorrect-bg');
-        } else {
-          questionArea.classList.remove('correct-bg', 'incorrect-bg'); // Remove background if not answered
-        }
-        const questionHTML = `
-          <h5 style="margin-bottom: 15px;">${question.enunciado}</h5>
-          ${question.caminhofig ? `<img src="${question.caminhofig}" style="max-width: 100%; border-radius: 8px; margin-bottom: 15px;" alt="Imagem da questão">` : ''}
-        `;
-        let shuffledAlternativesIndices = [...Array(question.alternativas.length).keys()];
-        shuffleArray(shuffledAlternativesIndices);
-        let alternativesHTML = '';
-        for (let i = 0; i < shuffledAlternativesIndices.length; i++) {
-          const originalIndex = shuffledAlternativesIndices[i];
-          const alternativa = question.alternativas[originalIndex];
-          alternativesHTML += `
-            <div class="alternativa">
-              <label id="altLabel${i}" > <!-- Added ID to label -->
-                <input type="${question.tipo === 'multichoice' ? 'checkbox' : 'radio'}" name="${quizId}_answer" value="${originalIndex}" ${currentQuestionAnsweredState ? 'disabled' : ''}>
-                ${alternativa.texto}
-              </label>
-            </div>
-          `;
-        }
-        questionArea.innerHTML = questionHTML + alternativesHTML;
-        questionNavigationDisplay.textContent = `Questão ${currentQuestionIndex + 1} de ${totalQuestions}`;
-        if (userAnswers[questionOrder[index]]) {
-          userAnswers[questionOrder[index]].forEach(answerIndex => {
-            const inputElement = questionArea.querySelector(`input[name="${quizId}_answer"][value="${answerIndex}"]`);
-            if (inputElement) {
-              inputElement.checked = true;
-            }
-          });
-        }
-
-        verifyBtn.disabled = true; // Initially disabled on question display
-        showAnswerBtn.disabled = true; // Initially disabled on question display
-
-        if (answeredQuestions[questionOrder[index]]) {
-          verifyBtn.disabled = true;
-          showAnswerBtn.disabled = false; // Enable Show Answer if already verified
-        }
-
-        questionArea.querySelectorAll(`input[name="${quizId}_answer"]`).forEach(input => {
-          input.addEventListener('change', function() {
-            saveCurrentAnswers();
-          });
-        });
-
-        prevBtn.disabled = index <= 0;
-        nextBtn.disabled = index >= questions.length - 1;
-
-        questionArea.classList.remove('current-question', 'slide-left', 'slide-right');
-        if (transitionDirection === 'left') {
-          questionArea.classList.add('slide-right');
-          setTimeout(() => {
-            questionArea.classList.remove('slide-right');
-            questionArea.classList.add('current-question');
-          }, 100);
-        } else if (transitionDirection === 'right') {
-          questionArea.classList.add('slide-left');
-          setTimeout(() => {
-            questionArea.classList.remove('slide-left');
-            questionArea.classList.add('current-question');
-          }, 100);
-        } else {
-          questionArea.classList.add('current-question');
-        }
-      }
-
-      function saveCurrentAnswers() {
-        const selectedIndices = getSelectedAnswers();
-        userAnswers[questionOrder[currentQuestionIndex]] = selectedIndices;
-        verifyBtn.disabled = selectedIndices.length === 0; // Enable Verify if at least one answer is selected, disable otherwise
-      }
-
-      function getSelectedAnswers() {
-        const selectedIndices = [];
-        questionArea.querySelectorAll(`input[name="${quizId}_answer"]:checked`).forEach(input => {
-          selectedIndices.push(parseInt(input.value));
-        });
-        return selectedIndices;
-      }
-
-      function checkAnswer() {
-        const currentQuestion = questions[questionOrder[currentQuestionIndex]];
-        const selectedAnswerIndices = getSelectedAnswers();
-        let questionScore = 0;
-        let isCorrect = false; // Assume not fully correct initially
-        let feedbackText = "Resposta errada: 0 pontos"; // Default feedback text
-        let feedbackClass = 'feedback-incorrect'; // Default feedback class
-
-        if (currentQuestion.tipo === 'multichoice' && currentQuestion.pontuacao) {
-          const selectionPattern = currentQuestion.alternativas.map((_, index) => selectedAnswerIndices.includes(index) ? 'X' : '0').join('');
-          let scored = false;
-          for (const scoreRule of currentQuestion.pontuacao) {
-            if (scoreRule.pattern === selectionPattern) {
-              questionScore = scoreRule.score;
-              scored = true;
-              if (questionScore === 1) { // Assuming max score for full correct is 1
-                  isCorrect = true;
-                  feedbackText = "Parabéns: você obteve 1 de 1 ponto!";
-                  feedbackClass = 'feedback-correct';
-              } else if (questionScore > 0) {
-                  feedbackText = `Quase: você obteve ${questionScore.toFixed(1)} de 1 ponto!`;
-                  feedbackClass = 'feedback-partial';
-              }
-              break;
-            }
-          }
-          if (!scored) {
-              questionScore = 0;
-          }
-        } else { // singlechoice or multichoice without partial scores - full correct or incorrect
-          isCorrect = verifyCorrectness(currentQuestion, selectedAnswerIndices);
-          questionScore = isCorrect ? 1 : 0;
-          feedbackText = isCorrect ? "Parabéns: você obteve 1 de 1 ponto!" : "Resposta errada: 0 pontos";
-          feedbackClass = isCorrect ? 'feedback-correct' : 'feedback-incorrect';
-        }
-
-
-        score += questionScore;
-
-
-        if (!answeredQuestions[questionOrder[currentQuestionIndex]]) {
-          answeredQuestions[questionOrder[currentQuestionIndex]] = { state: isCorrect ? 'correct' : 'incorrect', answers: selectedAnswerIndices, questionScore: questionScore, feedbackText: feedbackText, feedbackClass: feedbackClass };
-          sampledQuestionCount++;
+          if (mode === "random") questions = shuffleArray(questions);
+          quizStarted = false;
+          currentQuestionIndex = 0;
+          renderQuestion();
           updateProgress();
-        } else {
-          answeredQuestions[questionOrder[currentQuestionIndex]].state = isCorrect ? 'correct' : 'incorrect';
-          answeredQuestions[questionOrder[currentQuestionIndex]].questionScore = questionScore;
-          answeredQuestions[questionOrder[currentQuestionIndex]].feedbackText = feedbackText;
-          answeredQuestions[questionOrder[currentQuestionIndex]].feedbackClass = feedbackClass;
-        }
-
-        currentScoreDisplay.textContent = score.toFixed(1); // Display score with one decimal
-
-        questionArea.classList.remove('correct-bg', 'incorrect-bg'); // Remove previous backgrounds
-        if (isCorrect) {
-          questionArea.classList.add('correct-bg');
-        } else {
-          questionArea.classList.add('incorrect-bg');
-        }
-
-        feedbackArea.innerHTML = `<span class="${feedbackClass}">${feedbackText}</span>`; // Display feedback message
-        verifyBtn.disabled = true;
-        showAnswerBtn.disabled = false; // Enable Show Answer after Verify
-        //disableAnswerInputs();
-        checkFinalResultCondition();
-      }
-
-      function verifyCorrectness(currentQuestion, selectedAnswerIndices) {
-        let isCorrect = true;
-        let correctCount = 0;
-        let selectedCount = selectedAnswerIndices.length;
-        currentQuestion.alternativas.forEach(alt => { if (alt.correta) correctCount++; });
-        if (correctCount !== selectedCount) {
-          isCorrect = false;
-        } else {
-          selectedAnswerIndices.forEach(selectedIndex => {
-            if (!currentQuestion.alternativas[selectedIndex].correta) {
-              isCorrect = false;
+        });
+      
+      // Parse do arquivo de questões – agora atribuindo um id para cada alternativa
+      function parseQuestions(text) {
+        var qs = [];
+        var parts = text.split('---').map(s => s.trim()).filter(s => s.length > 0);
+        parts.forEach(part => {
+          var lines = part.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+          var q = { alternatives: [] };
+          lines.forEach(line => {
+            if (line.startsWith("tipo:")) {
+              q.tipo = line.substring(5).trim();
+            } else if (line.startsWith("fig:")) {
+              q.fig = line.substring(4).trim();
+            } else if (line.startsWith("enunciado:")) {
+              q.enunciado = line.substring(10).trim();
+            } else if (line.startsWith("pontuacao:")) {
+              var scoringStr = line.substring(11).trim();
+              q.scoring = [];
+              var regex = /\[([X0]+),([\d.]+)\]/g;
+              var match;
+              while ((match = regex.exec(scoringStr)) !== null) {
+                q.scoring.push({ pattern: match[1], score: parseFloat(match[2]) });
+              }
+            } else if (line.startsWith("-")) {
+              var altText = line.substring(1).trim();
+              var isCorrect = false;
+              if (q.tipo === "singlechoice" && altText.startsWith("X")) {
+                isCorrect = true;
+                altText = altText.substring(1).trim();
+              }
+              // Atribui um id com base no número atual de alternativas
+              q.alternatives.push({ id: q.alternatives.length, text: altText, isCorrect: isCorrect });
             }
           });
-        }
-        return isCorrect;
-      }
-
-      function showSolution() {
-        const currentQuestion = questions[questionOrder[currentQuestionIndex]];        
-        // Iterate through original alternatives (not shuffled)
-        currentQuestion.alternativas.forEach((alternativa, originalIndex) => {
-            const displayIndex = getAlternativeDisplayIndexFromOriginal(originalIndex); // Get display index
-            console.log(displayIndex);
-            if(displayIndex !== -1) { // Check if alternative is actually displayed
-                const labelElement = questionArea.querySelector(`#altLabel${displayIndex}`); // Use display index to select label                
-                if (alternativa.correta) {                    
-                    labelElement.classList.add('correct-text'); // Add class to change text color to green
-                } else {
-                    labelElement.classList.remove('correct-text'); // Remove class for incorrect alternatives
-                }
-            }
+          qs.push(q);
         });
-
-
-        verifyBtn.disabled = true;
-        //showAnswerBtn.disabled = true;
-        //disableAnswerInputs();
-        checkFinalResultCondition();
+        return qs;
       }
-
-
-      // Helper function to get display index of alternative from original index (after shuffle)
-      function getAlternativeDisplayIndexFromOriginal(originalIndex) {
-            const shuffledIndices = questionArea.querySelectorAll('input[name="answer"]');
-            for (let i = 0; i < shuffledIndices.length; i++) {
-                if (parseInt(shuffledIndices[i].value) === originalIndex) {
-                    return i;
-                }
-            }
-            return -1; // Return -1 if not found (should not happen in normal flow)
+      
+      // Função auxiliar para embaralhar um array
+      function shuffleArray(array) {
+        let arr = array.slice();
+        for (let i = arr.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [arr[i], arr[j]] = [arr[j], arr[i]];
         }
-
-
-      function disableAnswerInputs() {
-        questionArea.querySelectorAll(`input[name="${quizId}_answer"]`).forEach(input => {
-          input.disabled = true;
+        return arr;
+      }
+      
+      // Renderiza a questão atual, embaralhando as alternativas sempre
+      function renderQuestion(direction) {
+        var q = questions[currentQuestionIndex];
+        var state = questionStates[currentQuestionIndex];
+        questionDisplay.innerHTML = "";
+        var qContainer = document.createElement("div");
+        qContainer.className = "question-container";
+        if (direction === "next") {
+          qContainer.classList.add("slide-in-right-quiz");
+        } else if (direction === "prev") {
+          qContainer.classList.add("slide-in-left-quiz");
+        }
+        // Exibe o enunciado
+        var enunciadoDiv = document.createElement("div");
+        enunciadoDiv.className = "enunciado";
+        enunciadoDiv.textContent = q.enunciado;
+        qContainer.appendChild(enunciadoDiv);
+        // Imagem, se houver
+        if (q.fig) {
+          var img = document.createElement("img");
+          img.src = q.fig;
+          img.alt = "Figura da questão";
+          img.className = "question-image";
+          qContainer.appendChild(img);
+        }
+        // Status (se já verificada)
+        var statusDiv = document.createElement("div");
+        statusDiv.className = "status";
+        if (state.verified) {
+          if (state.score === 1) {
+            statusDiv.textContent = "Parabéns, você acertou esta questão!";
+            statusDiv.classList.add("status-correct");
+          } else if (state.score > 0) {
+            statusDiv.textContent = "Quase, você obteve " + state.score + " pontos nesta questão.";
+            statusDiv.classList.add("status-partial");
+          } else {
+            statusDiv.textContent = "Resposta errada: 0 pontos nesta questão.";
+            statusDiv.classList.add("status-incorrect");
+          }
+        }
+        qContainer.appendChild(statusDiv);
+        
+        // Aqui verificamos se já existe uma ordem definida para essa questão;
+        // se não, embaralhamos uma vez e salvamos no estado.
+        if (!state.order) {
+          state.order = shuffleArray(q.alternatives.slice());
+        }
+        var alternativesOrder = state.order;
+        
+        // Renderiza as alternativas conforme a ordem armazenada
+        var alternativesDiv = document.createElement("div");
+        alternativesDiv.className = "alternatives";
+        alternativesOrder.forEach(alt => {
+          var altDiv = document.createElement("div");
+          altDiv.className = "alternative";
+          altDiv.textContent = alt.text;
+          if (state.selected[alt.id]) altDiv.classList.add("selected");
+          if (!state.verified) {
+            altDiv.addEventListener("click", function() {
+              handleAlternativeClick(alt.id);
+            });
+          }
+          alternativesDiv.appendChild(altDiv);
         });
-      }
-
-      function nextQuestion() {
-        if (currentQuestionIndex < questions.length - 1) {
-          displayQuestion(currentQuestionIndex + 1, 'right');
+        qContainer.appendChild(alternativesDiv);
+        
+        // Altera a cor de fundo se a questão já foi verificada
+        if (state.verified) {
+          if (state.score === 1) {
+            qContainer.style.backgroundColor = "#d4edda";
+          } else if (state.score > 0) {
+            qContainer.style.backgroundColor = "#fff3cd";
+          } else {
+            qContainer.style.backgroundColor = "#f8d7da";
+          }
         }
-        prevBtn.disabled = false;
-        nextBtn.disabled = currentQuestionIndex >= questions.length - 1;
-        checkFinalResultCondition();
-      }
-
-      function previousQuestion() {
-        if (currentQuestionIndex > 0) {
-          displayQuestion(currentQuestionIndex - 1, 'left');
-        }
-        nextBtn.disabled = false;
-        prevBtn.disabled = currentQuestionIndex <= 0;
-      }
-
-      function updateProgress() {
-        const progressPercentage = (sampledQuestionCount / questions.length) * 100;
-        questionProgress.style.width = `${progressPercentage}%`;
-        progressTextDisplay.textContent = `${sampledQuestionCount} de ${questions.length} questões amostradas`;
-      }
-
-      function showFinalResult() {
-        finalScoreValueDisplay.textContent = score.toFixed(1); // Final score with one decimal
-        finalMaxScoreValueDisplay.textContent = maxPossibleScore;
-        finalResultDiv.classList.remove('hidden');
-      }
-
-      function tryAgain() {
-        initializeQuiz();
-      }
-
-      function checkFinalResultCondition() {
-        if (sampledQuestionCount === questions.length) {
-          showFinalResult();
+        questionDisplay.appendChild(qContainer);
+        updateNavButtons();
+        updateVerifyButton();
+        if (state.verified && !state.correctShown) {
+          showCorrectBtn.disabled = false;
         } else {
-          finalResultDiv.classList.add('hidden');
+          showCorrectBtn.disabled = true;
         }
       }
 
-      // Eventos
-      verifyBtn.addEventListener('click', checkAnswer);
-      showAnswerBtn.addEventListener('click', showSolution);
-      nextBtn.addEventListener('click', nextQuestion);
-      prevBtn.addEventListener('click', previousQuestion);
-      tryAgainBtn.addEventListener('click', tryAgain);
-      quizModeRadios.forEach(radio => {
-        radio.addEventListener('change', () => { quizMode = radio.value; initializeQuiz(); });
+      
+      // Trata clique na alternativa – agora passando o id da alternativa
+      function handleAlternativeClick(altId) {
+        var q = questions[currentQuestionIndex];
+        var state = questionStates[currentQuestionIndex];
+        if (state.verified) return;
+        if (q.tipo === "singlechoice") {
+          Object.keys(state.selected).forEach(key => {
+            state.selected[key] = (parseInt(key) === altId);
+          });
+        } else {
+          state.selected[altId] = !state.selected[altId];
+        }
+        quizStarted = true;
+        renderQuestion();
+        updateVerifyButton();
+      }
+      
+      function updateVerifyButton() {
+        var state = questionStates[currentQuestionIndex];
+        var verifyBtn = navDiv.querySelector(".verify-btn");
+        // Se alguma alternativa estiver selecionada, habilita o botão
+        if (!state.verified && Object.values(state.selected).some(s => s)) {
+          verifyBtn.disabled = false;
+        } else {
+          verifyBtn.disabled = true;
+        }
+      }
+      
+      function updateNavButtons() {
+        var prevBtn = navDiv.querySelector(".prev-btn");
+        var nextBtn = navDiv.querySelector(".next-btn");
+        prevBtn.disabled = (currentQuestionIndex === 0);
+        nextBtn.disabled = (currentQuestionIndex === questions.length - 1);
+      }
+      
+      // Atualiza as barras de progresso e os textos
+      function updateProgress() {
+        var evaluatedCount = questionStates.filter(s => s.verified).length;
+        var totalQuestions = questions.length;
+        var totalScore = questionStates.reduce((sum, s) => sum + s.score, 0);
+        progressInfo.innerHTML = `
+          <div>
+            Questão ${currentQuestionIndex + 1} de ${totalQuestions}.
+            <br>
+            <progress value="${currentQuestionIndex + 1}" max="${totalQuestions}" style="width: 100%;"></progress>
+          </div>
+          <div style="margin-top: 1rem;">
+            ${evaluatedCount} de ${totalQuestions} questões avaliadas.
+            <br>
+            <progress value="${evaluatedCount}" max="${totalQuestions}" style="width: 100%;"></progress>
+          </div>
+          <div style="margin-top: 1rem;">
+            Pontuação: ${totalScore.toFixed(1)} de ${totalQuestions}.
+            <br>
+            <progress value="${totalScore}" max="${totalQuestions}" style="width: 100%;"></progress>
+          </div>
+        `;
+        if (evaluatedCount === totalQuestions) {
+          finalDiv.style.display = "block";
+          var percentage = (totalScore / totalQuestions) * 100;
+          var finalMsg = "";
+          if (totalScore === totalQuestions) {
+            finalMsg = "Parabéns, você acertou tudo!";
+          } else if (percentage >= 50) {
+            finalMsg = percentage.toFixed(0) + "% de acerto. Está quase. Continue estudando.";
+          } else {
+            finalMsg = percentage.toFixed(0) + "% de acerto. Continue estudando.";
+          }
+          finalDiv.querySelector(".final-message").textContent = finalMsg;
+        } else {
+          finalDiv.style.display = "none";
+        }
+      }
+      
+      navDiv.querySelector(".prev-btn").addEventListener("click", function() {
+        if (currentQuestionIndex > 0) {
+          currentQuestionIndex--;
+          renderQuestion("prev");
+          updateProgress();
+        }
       });
-
-      // Carrega as questões do arquivo
-      loadQuestions();
+      navDiv.querySelector(".next-btn").addEventListener("click", function() {
+        if (currentQuestionIndex < questions.length - 1) {
+          currentQuestionIndex++;
+          renderQuestion("next");
+          updateProgress();
+        }
+      });
+      
+      navDiv.querySelector(".verify-btn").addEventListener("click", function() {
+        var state = questionStates[currentQuestionIndex];
+        if (state.verified) return;
+        var q = questions[currentQuestionIndex];
+        // Monta o padrão na ordem original (ordenada pelo id)
+        var sortedAlternatives = q.alternatives.slice().sort((a, b) => a.id - b.id);
+        var userPattern = sortedAlternatives.map(alt => state.selected[alt.id] ? "X" : "0").join("");
+        var score = 0;
+        if (q.tipo === "singlechoice") {
+          // Encontra o id selecionado e compara com a alternativa correta
+          var selectedId = Object.keys(state.selected).find(key => state.selected[key]);
+          var altObj = q.alternatives.find(alt => alt.id == selectedId);
+          if (altObj && altObj.isCorrect) score = 1;
+        } else {
+          if (q.scoring && q.scoring.length > 0) {
+            q.scoring.forEach(rule => {
+              if (rule.pattern === userPattern) {
+                score = Math.max(score, rule.score);
+              }
+            });
+          }
+        }
+        state.verified = true;
+        state.score = score;
+        renderQuestion();
+        updateProgress();
+      });
+      
+      showCorrectBtn.addEventListener("click", function() {
+        var state = questionStates[currentQuestionIndex];
+        if (!state.verified || state.correctShown) return;
+        var q = questions[currentQuestionIndex];
+        var alternativesDiv = questionDisplay.querySelector(".alternatives");
+        if (q.tipo === "singlechoice") {
+          Array.from(alternativesDiv.children).forEach((altDiv, idx) => {
+            // Para cada alternativa exibida, buscamos o objeto original com base no texto
+            var altObj = q.alternatives.find(a => a.text === altDiv.textContent);
+            if (altObj && altObj.isCorrect) {
+              altDiv.style.color = "green";
+            }
+          });
+        } else {
+          var correctPattern = null;
+          if (q.scoring) {
+            var fullRule = q.scoring.find(rule => rule.score === 1);
+            if (fullRule) {
+              correctPattern = fullRule.pattern;
+            }
+          }
+          if (correctPattern) {
+            Array.from(alternativesDiv.children).forEach((altDiv, idx) => {
+              // Aqui, usamos a ordem original dos índices do padrão
+              var sortedAlts = q.alternatives.slice().sort((a, b) => a.id - b.id);
+              if (correctPattern[idx] === "X") {
+                altDiv.style.color = "green";
+              }
+            });
+          }
+        }
+        state.correctShown = true;
+        showCorrectBtn.disabled = true;
+      });
+      
+      finalDiv.querySelector(".retry-btn").addEventListener("click", function() {
+        resetQuiz();
+      });
+      
+      function resetQuiz() {
+        quizStarted = false;
+        currentQuestionIndex = 0;
+        questionStates = questions.map(q => {
+          var sel = {};
+          q.alternatives.forEach(alt => { sel[alt.id] = false; });
+          return { selected: sel, verified: false, score: 0, correctShown: false };
+        });
+        renderQuestion();
+        updateProgress();
+      }
     }
-
-    // Exemplos de chamadas – cada questionário funciona de forma independente
-    //gen_questionario("/h5p/questionario1.txt", "Título 1");
-    //gen_questionario("/h5p/questionario2.txt", "Título 2");
-    gen_questionario("/h5p/questionario3.txt", "27ª OBA - Nível 1"); // Example call for the test question
+    
+    // Chama a função para gerar cada questionário
+    //gen_questionario("/h5p/questionario1.txt", "27ª OBA - Nível 1");
+    gen_questionario("/h5p/questionario3.txt", "27ª OBA - Nível 1");
+    //gen_questionario("/h5p/questionario3.txt", "27ª OBA - Nível 2");
   </script>
+```
+
