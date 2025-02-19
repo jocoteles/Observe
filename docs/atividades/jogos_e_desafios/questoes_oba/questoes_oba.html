@@ -492,7 +492,7 @@ ul.task-list li input[type="checkbox"] {
               q.fig = line.substring(4).trim();
             } else if (line.startsWith("enunciado:")) {
               // Começa a extrair o enunciado
-              var enunciado = line.substring(10).trim();
+              var enunciado = "<p>" + line.substring(10).trim() + "</p>";
               // Enquanto as próximas linhas não iniciem com "-" (alternativas) nem com outros campos
               i++;
               while (i < lines.length &&
@@ -500,11 +500,13 @@ ul.task-list li input[type="checkbox"] {
                     !lines[i].startsWith("pontuacao:") &&
                     !lines[i].startsWith("tipo:") &&
                     !lines[i].startsWith("fig:")) {
-                enunciado += "\n" + lines[i];
+                //enunciado += "\n" + lines[i];
+                enunciado += "<p>" + lines[i] + "</p>";
                 i++;
               }
               // Converte as quebras de linha em <br> para renderização correta em HTML
-              q.enunciado = enunciado.replace(/\n/g, "<br>");
+              //q.enunciado = enunciado.replace(/\n/g, "<br><br>");
+              q.enunciado = enunciado
               i--; // retrocede para reprocessar a linha que quebrou o loop
             } else if (line.startsWith("pontuacao:")) {
               var scoringStr = line.substring(11).trim();
