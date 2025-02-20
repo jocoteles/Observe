@@ -1,5 +1,5 @@
 ---
-title: XIX Jornada das Estrelas
+title: XIX Jornada diurna e noturna das Estrelas
 date: 14 02 25
 category: "Próximo" 
 format:
