@@ -733,5 +733,19 @@
     "title": "Código fonte do Website do grupo obseRVe",
     "section": "2. GitHub",
     "text": "2. GitHub\nSe você não conhece o sistema de controle de versão Git ou o repositório GitHub e sua forma de uso, é recomendável o seu estudo na página:\nSobre o GitHub e o Git.\nA qual é subdividida em:\n\nCriar uma conta\nOlá, Mundo\nConfigure o seu perfil\nEncontre inspiração\nBaixar arquivos\nCarregar um projeto\nRecursos de aprendizagem\n\nPara uma documentação específica do Git, incluindo vídeos tutoriais, acesse Git documentation.\nSe você for usar o VS Code para editar o website, também é recomendável o estudo do material abaixo para ter uma boa integração do VS Code com o Git e o GitHub:\n\nIntroduction to Git in VS Code\nWorking with GitHub in VS Code\n\n\nGuia direto para a linha de comando\nEste é um guia direto usando a linha de comando do seu sistema operacional e, por isso, é independente do editor de texto ou da IDE usada para editar o website.\n\nPrimeira vez no Git\nInstale o Git no seu computador.\n\n\nPrimeira vez no GitHub\nCrie uma conta no GitHub\n\n\nPrimeira vez no repositório do obseRVe\nFaça o clone do repositório."
+  },
+  {
+    "objectID": "atividades/jogos_e_desafios/questoes_oba/questoes_oba.html",
+    "href": "atividades/jogos_e_desafios/questoes_oba/questoes_oba.html",
+    "title": "Questões da OBA",
+    "section": "",
+    "text": "Todas as questões contidas nesta página foram obtidas sem qualquer modificação de conteúdo dos questionários da Olimpíada Brasileira de Astronomia e Astronáutica (OBA)."
+  },
+  {
+    "objectID": "planetas/mercurio.html",
+    "href": "planetas/mercurio.html",
+    "title": "Mercúrio",
+    "section": "",
+    "text": "É o menor planeta do Sistema Solar e o mais próximo do Sol. Por esse motivo, só é visível ao amanhecer e entardecer próximo ao horizonte. Não possui luas."
   }
 ]

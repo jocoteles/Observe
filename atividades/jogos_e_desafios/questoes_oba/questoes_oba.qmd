@@ -201,6 +201,8 @@ format:
                 </style>
 ---
 
+Todas as questões contidas nesta página foram obtidas sem qualquer modificação de conteúdo dos questionários da [Olimpíada Brasileira de Astronomia e Astronáutica (OBA).](http://www.oba.org.br/site/?p=conteudo&idcat=9&pag=conteudo)
+
 ```{=html}
   
   <div id="quizzes"></div>

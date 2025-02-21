@@ -1,0 +1,9 @@
+---
+title: Mercúrio
+subtitle: O planeta mais próximo do Sol.
+image: mercurio.jpg
+---
+
+![](mercurio.jpg)
+
+É o menor planeta do Sistema Solar e o mais próximo do Sol. Por esse motivo, só é visível ao amanhecer e entardecer próximo ao horizonte. Não possui luas.
