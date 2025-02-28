@@ -12,7 +12,7 @@ O evento Jornada do Sol ocorreu no dia 09 de novembro de 2023 no CCA-UFSCar e te
 	
 A Escola Estadual Professora Maria Rosa Nucci Pacífico Homem, situada no município de Araras-SP, foi a convidada para participar deste evento. Os estudantes do 1° ano do Ensino Médio foram o público alvo do evento e cerca de 90 pessoas compareceram às programações. 
 
-![Foto tirada com a turma do Maria Rosa junto com os bolsistas.](turma_maria_rosa.jpg)
+![Foto tirada com a turma do Maria Rosa junto com os bolsistas.](turma_maria_rosa.jpg){.preview-image}
 
 ## Atividades realizadas
 

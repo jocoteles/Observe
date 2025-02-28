@@ -12,6 +12,6 @@ De forma totalmente não planejada, eu (João Teles), Sílvio Dahmen, Fernando A
 
 Com a câmera [SV305](/acervo/itens/svbony305/svbony305.qmd) acoplada à saída da ocular do telescópio, fizemos as fotos abaixo.
 
-![Foto do cometa Pons-Brooks em 07/05/2024 em torno das 18h30 a partir do [Observatório do CCA-UFSCar](/localizacao/localizacao.qmd). Tempo de exposição de 10 s.](Foto_Pons-Brooks1.jpeg){width="80%"}
+![Foto do cometa Pons-Brooks em 07/05/2024 em torno das 18h30 a partir do [Observatório do CCA-UFSCar](/localizacao/localizacao.qmd). Tempo de exposição de 10 s.](Foto_Pons-Brooks1.jpeg){width="80%" preview-image}
 
 ![Foto do cometa Pons-Brooks em 07/05/2024 em torno das 18h30 a partir do [Observatório do CCA-UFSCar](/localizacao/localizacao.qmd). Tempo de exposição de 30 s. Nesta foto é possível observar três estrelas bem fracas na parte superior esquerda da imagem. A mais forte possui magnitude 10,55 e a mais fraca 13,80 (bastante aquém da sensibilidade do olho nu). São todas estrelas da constelação de Eridanus.](Foto_Pons-Brooks2.jpeg){width="80%"}

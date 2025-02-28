@@ -16,7 +16,7 @@ Neste minicurso estiveram presentes 19 pessoas, que puderam aproveitar e aprende
 
 [O minicurso completo pode ser acessado aqui.](https://jocoteles.github.io/Minicurso-A-Frame-VR/)
 
-![Primeira e segunda parte do minicurso, onde o professor João Teles ensinou as estruturas das linguagens de programação aos alunos.](introducao.jpeg)
+![Primeira e segunda parte do minicurso, onde o professor João Teles ensinou as estruturas das linguagens de programação aos alunos.](introducao.jpeg){.preview-image}
 
 ![Alunos do minicurso utilizando óculos VR (MetaQuest 2), onde puderam observar a experiência de realidade virtual feita pelo professor João Teles.](oculos.jpeg)
 

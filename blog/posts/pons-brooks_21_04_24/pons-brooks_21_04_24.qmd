@@ -20,7 +20,7 @@ Neste evento usamos os telescópios [C6-S](/acervo/itens/c6-s/c6s.qmd) e [NexSta
 
 Participaram das observações em torno de 20 pessoas. A @fig-noite mostra um dos momentos das pessoas interagindo e observando o céu.
 
-![Pessoas no Observatório observando, com telescópios e à vista desarmada, Júpiter e suas luas, Urano, a Lua e as constelações de Órion, Cão Maior, Cruzeiro do Sul, entre outras.](pessoas_noite.jpeg){#fig-noite}
+![Pessoas no Observatório observando, com telescópios e à vista desarmada, Júpiter e suas luas, Urano, a Lua e as constelações de Órion, Cão Maior, Cruzeiro do Sul, entre outras.](pessoas_noite.jpeg){#fig-noite .preview-image}
 
 ## Observações
 

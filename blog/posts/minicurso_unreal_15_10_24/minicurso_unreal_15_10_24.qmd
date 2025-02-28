@@ -16,7 +16,7 @@ Neste minicurso estiveram presentes 19 pessoas, em que todos puderam se benefici
 
 ![Introdução ao Workshop e ao Minicurso proferido por Jhasmani Cruz](introducao.jpeg)
 
-![Atividade "Nariz de Pinóquio" em que uma pessoa é estimulada a sentir que o próprio nariz cresceu, criando uma distorção da percepção do próprio corpo.](nariz_de_pinoquio.jpeg)
+![Atividade "Nariz de Pinóquio" em que uma pessoa é estimulada a sentir que o próprio nariz cresceu, criando uma distorção da percepção do próprio corpo.](nariz_de_pinoquio.jpeg){.preview-image}
 
 ![Atividade "Braço de borracha" em que a pessoa sentada vê uma mão que não é dela sendo acariciada ao mesmo tempo que a própria mão também recebe toques sincronizados, de forma que o cérebro pode começar a sentir que a mão falsa é parte do corpo.](mao_de_borracha.jpeg)
 

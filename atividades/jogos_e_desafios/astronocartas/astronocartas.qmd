@@ -4,7 +4,7 @@ subtitle: Reúna seus amigos, embaralhe as cartas e deixe que a gravidade da div
 image: astronocartas_logo.png
 ---
 
-![](astronocartas_logo.png)
+![](astronocartas_logo.png){.preview-image}
 
 Com as **AstronoCartas** você pode explorar planetas, constelações e estrelas de uma maneira divertida e cheia de curiosidades astronômicas! Este jogo foi criado especialmente para quem quer embarcar em uma jornada cósmica enquanto aprende e se diverte!
 

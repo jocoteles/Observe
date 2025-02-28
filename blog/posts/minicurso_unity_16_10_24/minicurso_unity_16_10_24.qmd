@@ -10,7 +10,7 @@ Dia 16 tivemos o segundo minicurso do [Workshop - Plataformas de desenvolvimento
 
 Na segunda parte do minicurso foi apresentado o motor de desenvolvimento de jogos digitais Unity. Desta vez, os computadores do LIG já tinham instalados os softwares da plataforma Unity. Foi necessária a instalação de várias dependências adicionais para compilação no sistema Android dos óculos e para a compatibilização com o hardware dos headsets Meta Quest. Ao longo do curso, o ministrante Iversen Unchupaico foi orientando os participantes sobre as várias etapas que envolvem a construção de uma aplicação simples com animação. Entretanto, não chegaram a apresentar elementos de C# que é a linguagem de programação usada para desenvolvimento de aplicações mais elaboradas em Unity.
 
-![Introdução ao Minicurso proferido por versen Unchupaico, Julio Aguinaga e Viky Quispe](introducao.jpeg)
+![Introdução ao Minicurso proferido por versen Unchupaico, Julio Aguinaga e Viky Quispe](introducao.jpeg){.preview-image}
 
 ![Demonstração da interação em Realidade Mista com um motor a combustão usando óculos Meta Quest 3.](motorcombustao.mp4)
 

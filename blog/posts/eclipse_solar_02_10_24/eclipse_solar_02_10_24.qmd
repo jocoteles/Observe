@@ -36,7 +36,7 @@ peS = str(round(pe,1)).replace('.', ',')
 
 ```
 
-![Eclipse solar simulado pelo Stellarium na cidade de Araras-SP às 17h45](eclipse_stellarium.png)
+![Eclipse solar simulado pelo Stellarium na cidade de Araras-SP às 17h45](eclipse_stellarium.png){.preview-image}
 
 Hoje, 02/10/2024, teremos um eclipse solar que poderá ser visto parcialmente no sul e sudeste do Brasil. Na região de Araras, apenas uma pequena parte do disco solar será encoberta: `{python} peS` % da sua área.
 

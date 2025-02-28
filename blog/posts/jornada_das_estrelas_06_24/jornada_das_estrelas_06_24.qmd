@@ -6,7 +6,7 @@ categories: [Evento, "Jornada das Estrelas"]
 author: Daiane Degan, Laís Florêncio, Lucas Caprio
 ---
 
-Entre os dias 18/06/24 e 20/06/24 ocorreu a XVII edição do evento [Jornada das Estrelas](/atividades/jornada_das_estrelas/jornada_das_estrelas.qmd).
+Entre os dias 18/06/24 e 20/06/24 ocorreu a XVII edição do evento [Jornada das Estrelas](/atividades/jornada_das_estrelas/jornada_das_estrelas.qmd){.preview-image}.
 
 Nesta edição tivemos:
 
