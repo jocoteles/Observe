@@ -64,7 +64,7 @@ fracao3 = str(round(fracao_planetas(T3, R3)*365.26))
 fracao4 = str(round(fracao_planetas(T4, R4)*365.26))
 ```
 
-![Carnaval dos planetas como uma paródia ao "alinhamento" dos planetas. [Imagem gerada com Qwen2.5]](carnaval_dos_planetas.png){fig-align="center" .responsive-img .preview-image}
+![Carnaval dos planetas como uma paródia ao "alinhamento" dos planetas. [Imagem gerada com Qwen2.5]](carnaval_dos_planetas.png){.preview-image}
 
 
 Hoje, 28/02/2025, está sendo alardeada nas redes sociais, jornais e nos mais diversos canais de comunicação uma condição muito especial de observação do céu que está sendo chamada de alinhamento dos planetas. Entretanto, existe muita imprecisão e até mesmo informações erradas em todas essas notícias. Vamos tratar de algumas delas.
