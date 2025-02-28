@@ -21,8 +21,7 @@ def fracao_planetas(T, R):
     ang0 = [random.random()*2*math.pi for _ in range(N)] #planetas iniciam em direções aleatórias
     P = [0]*N #inicializa array de vetores de posição dos planetas com a origem no Sol
 
-    t_dentro = 0  #tempo em que os planetas estarão dentro do horizonte de observação da Terra
-    t_fora = 0  #tempo em que nem todos os planetas estarão dentro desse horizonte.
+    t_visivel = 0  #tempo em que os planetas estarão acima do horizonte noturno de observação da Terra
     anos = 165*10  #10 anos netunianos
     fm = 12 #Número de intervalos temporais em que o ano é dividido para discretização da amostragem temporal.
     for t in range(anos*fm): #tempo
@@ -31,20 +30,28 @@ def fracao_planetas(T, R):
             ang = ang0[i] + wi*t/fm
             P[i] = [R[i]*math.cos(ang), R[i]*math.sin(ang)]
         Ps = [-P[0][0], -P[0][1]] #vetor Terra -> Sol
-        Pp = [-Ps[1], Ps[0]] #vetor perpendicular à direção Terra -> Sol
-        soma = 0
-        somaM = 0
-        for i in range(1, N): #Começa em 1 para pular a Terra
-            Pt = [P[i][0]-P[0][0], P[i][1]-P[0][1]] #posições dos planetas em relação a Terra
-            p = Pt[0]*Pp[0] +  Pt[1]*Pp[1] #produto escalar entre Pp e Pt
-            soma += p #soma dos produtos escalares
-            somaM += abs(p) #soma dos módulos dos produtos escalares
-        if (abs(soma) < somaM): #desigualdade triangular para ver se todos os p's possuem o mesmo sinal (planetas do mesmo lado a partir do Sol)
-            t_fora += 1
-        else:
-            t_dentro += 1
-    fracao = t_dentro/(anos*fm)
+        amin = 0
+        amax = 0
+        for i in range(2, N): #Começa em 2 para pular a Terra e o primeiro planeta
+            ang = angulo(P[0], P[1], P[i])
+            amax = max(amax, ang)
+            amin = min(amin, ang)
+        angS = angulo(P[0], P[1], Ps) #ângulo do Sol
+        if ((angS < amin) or (angS > amax)): #o Sol está fora do leque angular dos planetas
+            if ((amax - amin) < math.pi): #todos os planetas na mesma metade do plano com a Terra na origem
+                t_visivel += 1
+    fracao = t_visivel/(anos*fm)
     return fracao
+
+def angulo(A, B, C): #ângulo entre os vetores AB e AC
+    #calcula os vetores AB e AC
+    AB = (B[0] - A[0], B[1] - A[1])
+    AC = (C[0] - A[0], C[1] - A[1])
+    #produto vetorial e produto escalar
+    vet = AB[0]*AC[1] - AB[1]*AC[0]
+    esc = AB[0]*AC[0] + AB[1]*AC[1]    
+    return math.atan2(vet, esc)
+
 
 T1, R1 = T, R #todos os planetas
 T2, R2 = T[0:6], R[0:6] #exclusão de Urano e Netuno
@@ -68,7 +75,7 @@ Sim, como sempre estiveram. Como os planetas do Sistema Solar foram formados a p
 
 ## Os planetas estarão todos ao mesmo tempo no céu noturno?
 
-Tecnicamente, sim. Mas o céu é grande. A rigor, metade do Universo está voltada para nós ao mesmo tempo no céu a todo instante, e a outra metade está acessível para os australianos, por exemplo. Somemos a isso o fato de os planetas possuírem períodos orbitais diferentes, o que faz com que a quantidade de planetas visíveis mude constantemente ao longo dos anos. Incluímos aqui uma simulação simplificada, mas suficiente para nossos objetivos, que nos mostra que a condição mais rara de termos todos os planetas ao mesmo tempo no céu noturno ocorre, em média[^nota], em `{python} fracao1` dias do ano. Parece pouco, mas compare com outros fenômenos interessantes como a ocorrência de um eclipse solar total na mesma região do planeta (algumas dezenas de minutos a cada 300 ou 400 anos) ou o trânsito de Vênus pelo Sol (algumas horas a cada 240 anos). Mesmo os eclipses solares parciais com frequência de alguns anos podem ser mais raros do que esse "alinhamento" completo, ainda mais um que ocorra no momento do pôr do Sol, cuja beleza ímpar pudemos apreciar em [nossa região em outubro de 2024](/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.qmd) (e que foi bem menos anunciado que o "alinhamento" de hoje). Um outro fator muito importante que precisamos considerar é que dos sete planetas, dois (Urano e Netuno) são somente visíveis com telescópios. E mesmo usando telescópios comerciais, é necessário conhecimento e habilidade para encontrar esses planetas no céu, pois mesmo ampliações de centenas de vezes não permitem destacá-los das estrelas pálidas. Então, se excluirmos Urano e Netuno (que não vemos a olho nu), temos `{python} fracao2` dias por ano, em média, com todos os planetas visíveis simultaneamente no céu noturno.
+Tecnicamente, sim. Mas o céu é grande. A rigor, metade do Universo está voltada para nós ao mesmo tempo no céu a todo instante, e a outra metade está acessível para os australianos, por exemplo. Somemos a isso o fato de os planetas possuírem períodos orbitais diferentes, o que faz com que a quantidade de planetas visíveis mude constantemente ao longo dos anos. Incluímos aqui uma simulação simplificada, mas suficiente para nossos objetivos, que nos mostra que a condição mais rara de termos todos os planetas ao mesmo tempo no céu noturno ocorre, em média[^nota], em `{python} fracao1` dias por ano. Parece pouco, mas compare com outros fenômenos interessantes como a ocorrência de um eclipse solar total na mesma região do planeta (algumas dezenas de minutos a cada 300 ou 400 anos) ou o trânsito de Vênus pelo Sol (algumas horas a cada 240 anos). Mesmo os eclipses solares parciais com frequência de alguns anos podem ser mais raros do que esse "alinhamento" completo, ainda mais um que ocorra no momento do pôr do Sol, cuja beleza ímpar pudemos apreciar em [nossa região em outubro de 2024](/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.qmd) (e que foi bem menos anunciado que o "alinhamento" de hoje). Um outro fator muito importante que precisamos considerar é que dos sete planetas, dois (Urano e Netuno) são somente visíveis com telescópios. E mesmo usando telescópios comerciais, é necessário conhecimento e habilidade para encontrar esses planetas no céu, pois mesmo ampliações de centenas de vezes não permitem destacá-los das estrelas pálidas. Então, se excluirmos Urano e Netuno (que não vemos a olho nu), temos `{python} fracao2` dias por ano, em média, com todos os planetas visíveis simultaneamente no céu noturno.
 
 ## Veremos todos os planetas visíveis de forma mais clara neste "alinhamento"?
 
@@ -91,65 +98,67 @@ Procure se informar com as páginas de instituições acadêmicas do Brasil e do
 
 
 ::: {.callout-tip collapse="true"}
-## Entendendo o código Python da simulação do período de observação dos planetas
 
-O código Python aqui apresentado realiza uma simulação simplificada para estimar a fração do tempo em que um conjunto de planetas está visível no céu noturno da Terra.  Ele utiliza algumas aproximações para simplificar o cálculo, focando em fornecer uma estimativa razoável para fins de comparação e contextualização do fenômeno de "alinhamento" planetário.
+## Entendendo o código Python da simulação do período de visibilidade dos planetas
 
-O código calcula, para diferentes conjuntos de planetas, quantos dias por ano, em média, todos eles estão posicionados no céu noturno simultaneamente, do ponto de vista da Terra.  Ele faz isso simulando as órbitas planetárias ao longo de um período extenso (10 anos netunianos, o planeta mais distante do Sol e, portanto, com o período orbital mais longo).
+O código Python desenvolvido por nós realiza uma simulação simplificada para estimar a fração do tempo em que um grupo de planetas pode ser observado no céu noturno da Terra.  Ele simplifica a complexidade real do movimento planetário para oferecer uma estimativa útil para entender a frequência relativa de conjuntos planetários visíveis.
+
+O código calcula, para diferentes conjuntos de planetas, quantos dias por ano, em média, é possível vê-los simultaneamente no céu noturno, a partir da perspectiva da Terra.  A simulação abrange um longo período de tempo (10 anos netunianos, correspondendo ao período orbital do planeta mais distante e, portanto, o mais longo).
 
 ### Como o código funciona?
 
-1.  **Dados iniciais:**
-    - `T = [1.0, 0.2, 0.6, 1.9, 11.9, 29.5, 84.0, 164.8]`:  Lista dos períodos orbitais dos planetas em anos terrestres. A ordem segue a partir da Terra (período 1.0), depois Mercúrio, Vênus, Marte, Júpiter, Saturno, Urano e Netuno.
-    - `R = [150, 58, 108, 228, 778, 1443, 2872, 4495]`: Lista dos raios orbitais dos planetas em milhões de quilômetros, na mesma ordem dos períodos.
-    - Note que a Terra é incluída como o primeiro elemento nas listas `T` e `R`. Isso é feito para facilitar o cálculo das posições relativas dos outros planetas em relação à Terra.
+1.  **Dados Iniciais:**
+    - `T = [1.0, 0.2, 0.6, 1.9, 11.9, 29.5, 84.0, 164.8]`: Esta lista define os períodos orbitais dos planetas em anos terrestres. A ordem começa com a Terra (período 1.0), seguida por Vênus, Mercúrio, Marte, Júpiter, Saturno, Urano e Netuno.
+    - `R = [150, 58, 108, 228, 778, 1443, 2872, 4495]`: Esta lista contém os raios orbitais médios dos planetas em milhões de quilômetros, seguindo a mesma ordem da lista de períodos.
+    - A Terra é incluída como o primeiro elemento em `T` e `R` para servir como ponto de referência nos cálculos de posição relativa dos outros planetas.
 
 2.  **Função `fracao_planetas(T, R)`:**
     - **Inicialização:**
-        - `N = len(T)`:  Obtém o número de planetas a serem considerados na simulação.
-        - `ang0 = [random.random()*2*math.pi for _ in range(N)]`: Define ângulos iniciais aleatórios para cada planeta. Isso simula que os planetas começam em posições orbitais aleatórias no início da simulação.
-        - `P = [0]*N`: Inicializa uma lista `P` para armazenar as posições dos planetas em coordenadas cartesianas (x, y) com o Sol na origem.
-        - `t_dentro = 0`, `t_fora = 0`: Inicializam contadores para o tempo em que os planetas estão "dentro" (visíveis simultaneamente) e "fora" (não visíveis simultaneamente) do "horizonte de observação" (essa condição será explicada adiante).
-        - `anos = 165*10`: Define a duração total da simulação como 10 anos netunianos (165 anos terrestres * 10).
-        - `fm = 12`: Define o número de intervalos de tempo em que cada ano é dividido. A simulação avança em passos discretos de tempo, e `fm` controla a granularidade dessa discretização. Quanto maior `fm`, mais precisa (e mais lenta) a simulação.
+        - `N = len(T)`: A variável `N` armazena o número de planetas a serem simulados, obtido do tamanho da lista `T`.
+        - `ang0 = [random.random()*2*math.pi for _ in range(N)]`:  Cria uma lista `ang0` com ângulos iniciais aleatórios para cada planeta. Isso simula que os planetas podem começar em qualquer ponto de suas órbitas no início da simulação.
+        - `P = [0]*N`:  Inicializa a lista `P` que irá armazenar as posições (coordenadas x e y) de cada planeta em relação ao Sol (que é considerado a origem).
+        - `t_visivel = 0`: Inicializa a variável `t_visivel` para contar os intervalos de tempo em que os planetas são considerados visíveis no céu noturno.
+        - `anos = 165*10`: Define a duração total da simulação em 10 anos netunianos.
+        - `fm = 12`: Define o número de subdivisões de tempo dentro de cada ano terrestre, controlando a precisão da simulação temporal.
 
-    - **Loop temporal:**
-        - `for t in range(anos*fm)`:  Itera ao longo do tempo, em passos discretos.
-        - **Loop planetário:**
-            - `for i in range(N)`: Itera sobre cada planeta.
-            - `wi = 2*math.pi/T[i]`: Calcula a velocidade angular (`wi`) de cada planeta em radianos por "intervalo de tempo". A velocidade angular é calculada a partir do período orbital (`T[i]`).
-            - `ang = ang0[i] + wi*t/fm`: Calcula o ângulo orbital (`ang`) do planeta no instante `t`. Assume-se movimento circular uniforme, então o ângulo varia linearmente com o tempo.
-            - `P[i] = [R[i]*math.cos(ang), R[i]*math.sin(ang)]`: Calcula as coordenadas (x, y) do planeta (`P[i]`) em relação ao Sol, usando o raio orbital (`R[i]`) e o ângulo orbital (`ang`).
+    - **Loop Temporal:**
+        - `for t in range(anos*fm)`: Este loop itera ao longo do tempo total da simulação, em passos discretos definidos por `fm`.
+        - **Loop Planetário:**
+            - `for i in range(N)`: Para cada passo de tempo, este loop itera sobre cada planeta.
+            - `wi = 2*math.pi/T[i]`: Calcula a velocidade angular `wi` de cada planeta, baseada em seu período orbital `T[i]`. Assume-se movimento circular uniforme.
+            - `ang = ang0[i] + wi*t/fm`: Calcula o ângulo orbital `ang` do planeta no tempo `t`, somando o ângulo inicial `ang0[i]` ao deslocamento angular desde o início da simulação.
+            - `P[i] = [R[i]*math.cos(ang), R[i]*math.sin(ang)]`: Calcula as coordenadas (x, y) da posição do planeta `P[i]` em relação ao Sol, usando o raio orbital `R[i]` e o ângulo orbital `ang`.
 
-        - **Cálculo da condição de visibilidade:**
-            - `Ps = [-P[0][0], -P[0][1]]`: Calcula o vetor posição do Sol em relação à Terra (`Ps`). Como `P[0]` é a posição da Terra em relação ao Sol, `Ps` é simplesmente o vetor oposto.
-            - `Pp = [-Ps[1], Ps[0]]`: Calcula um vetor `Pp` perpendicular à direção Terra-Sol (`Ps`). Este vetor representa uma direção perpendicular à órbita da Terra, que pode ser interpretada como uma aproximação do Zênite na observação noturno.
-            - `soma = 0`, `somaM = 0`: Inicializa variáveis para acumular somas.
-            - **Loop para os outros planetas (excluindo a Terra):**
-                - `for i in range(1, N)`: Itera sobre os planetas, começando do segundo elemento (índice 1) para excluir a Terra.
-                - `Pt = [P[i][0]-P[0][0], P[i][1]-P[0][1]]`: Calcula o vetor posição do planeta `i` em relação à Terra (`Pt`).
-                - `p = Pt[0]*Pp[0] +  Pt[1]*Pp[1]`: Calcula o produto escalar entre o vetor posição planeta-Terra (`Pt`) e o vetor "horizonte" (`Pp`). O sinal deste produto escalar indica se o planeta está "de um lado" ou "do outro" em relação à direção Terra-Sol.
-                - `soma += p`, `somaM += abs(p)`: Acumula a soma dos produtos escalares (`soma`) e a soma dos valores absolutos dos produtos escalares (`somaM`).
+        - **Cálculo da Condição de Visibilidade Noturna:**
+            - `Ps = [-P[0][0], -P[0][1]]`: Calcula o vetor posição do Sol visto da Terra (`Ps`). Como `P[0]` é a posição da Terra em relação ao Sol, `Ps` é o vetor oposto.
+            - `amin = 0`, `amax = 0`: Inicializa as variáveis `amin` e `amax` para rastrear o ângulo mínimo e máximo formado entre a Terra, Vênus (planeta de referência) e os demais planetas.
+            - **Loop para os planetas visíveis (excluindo Terra e Vênus):**
+                - `for i in range(2, N)`: Este loop itera sobre os planetas a partir de Mercúrio (índice 2), pulando a Terra e Vênus.
+                - `ang = angulo(P[0], P[1], P[i])`: Calcula o ângulo `ang` entre o vetor Terra-Vênus e o vetor Terra-Planeta `i` usando a função `angulo`.
+                - `amax = max(amax, ang)`, `amin = min(amin, ang)`: Atualiza `amax` e `amin` para manter o registro do maior e menor ângulo encontrado até agora.
+            - `angS = angulo(P[0], P[1], Ps)`: Calcula o ângulo `angS` entre o vetor Terra-Vênus e o vetor Terra-Sol, usando novamente a função `angulo`.
+            - **Condição de Visibilidade:**
+                - `if ((angS < amin) or (angS > amax))`: Verifica se o ângulo do Sol (`angS`) está fora do intervalo angular definido pelos planetas (`amin` a `amax`). Se estiver fora, o Sol está "atrás" dos planetas, potencialmente permitindo a sua visibilidade noturna.
+                - `if ((amax - amin) < math.pi)`: Adicionalmente, verifica se o intervalo angular dos planetas (`amax - amin`) é menor que $\pi$ radianos (180°). Isso garante que os planetas estejam agrupados na mesma metade do céu.
+                - `t_visivel += 1`: Se ambas as condições forem satisfeitas, incrementa o contador `t_visivel`, indicando que neste intervalo de tempo os planetas são considerados visíveis no céu noturno.
 
-        - **Condição de "visibilidade simultânea":**
-            - `if (abs(soma) < somaM)`:  Esta é a condição chave para determinar se os planetas estão "visíveis simultaneamente". Ela se baseia na desigualdade triangular. Se a soma dos valores absolutos (`somaM`) for maior que o valor absoluto da soma (`abs(soma)`), isso indica que os produtos escalares `p` (e, portanto, as posições dos planetas projetadas no vetor "horizonte") têm sinais diferentes. Em termos simplificados, isso sugere que os planetas estão espalhados em ambos os lados do "horizonte" (céu diurno e noturno). Se a condição *não* for satisfeita (`else`), significa que os produtos escalares `p` têm o mesmo sinal (ou são próximos de zero), indicando que os planetas estão mais concentrados do mesmo lado, que é interpretado como "visíveis simultaneamente" no céu noturno.
-            - `t_fora += 1` ou `t_dentro += 1`: Incrementa os contadores `t_fora` ou `t_dentro` dependendo da condição de visibilidade.
+    - **Cálculo da Fração de Tempo Visível:**
+        - `fracao = t_visivel/(anos*fm)`: Calcula a fração do tempo total em que os planetas foram considerados visíveis, dividindo o tempo visível acumulado `t_visivel` pelo tempo total da simulação (`anos*fm`).
+        - `return fracao`: Retorna o valor da fração calculada.
 
-    - **Cálculo da fração de tempo:**
-        - `fracao = t_dentro/(anos*fm)`: Calcula a fração do tempo em que os planetas foram considerados "visíveis simultaneamente" dividindo o tempo contado em `t_dentro` pelo tempo total da simulação (`anos*fm`).
-        - `return fracao`: Retorna a fração calculada.
+3.  **Função `angulo(A, B, C)`:**
+    - Esta função calcula o ângulo entre os vetores AB e AC, onde A, B e C são pontos definidos por suas coordenadas.
+    - Calcula os vetores `AB` e `AC` subtraindo as coordenadas do ponto A dos pontos B e C, respectivamente.
+    - Calcula o produto vetorial 2D (`vet`) e o produto escalar (`esc`) dos vetores `AB` e `AC`.
+    - Retorna o ângulo entre os vetores usando `math.atan2(vet, esc)`, que fornece o ângulo correto no intervalo $(-\pi,\pi]$ radianos.
 
-3.  **Cálculo e exibição dos resultados:**
-    - `T1, R1 = T, R`: Define o primeiro conjunto de planetas como todos os planetas.
-    - `T2, R2 = T[0:6], R[0:6]`: Define o segundo conjunto excluindo Urano e Netuno.
-    - `T3, R3 = T[0:1] + T[2:6], R[0:1] + R[2:6]`: Define o terceiro conjunto excluindo Mercúrio, Urano e Netuno.
-    - `T4, R4 = T[0:1] + T[2:5], R[0:1] + R[2:5]`: Define o quarto conjunto excluindo Mercúrio, Saturno, Urano e Netuno.
-    - `fracao1 = str(round(fracao_planetas(T1, R1)*365.26))`, etc.: Chama a função `fracao_planetas` para cada conjunto de planetas, multiplica o resultado pela quantidade de dias em um ano (365.26) para obter o resultado em dias por ano, arredonda para um número inteiro, e converte para string para ser inserido no texto do documento.
+4.  **Cálculo e Exibição dos Resultados:**
+    - `T1, R1 = T, R`, `T2, R2 = T[0:6], R[0:6]`, `T3, R3 = T[0:1] + T[2:6], R[0:1] + R[2:6]`, `T4, R4 = T[0:1] + T[2:5], R[0:1] + R[2:5]`: Define diferentes conjuntos de listas de períodos e raios para simular a visibilidade com diferentes combinações de planetas (todos, excluindo Urano e Netuno, excluindo Mercúrio, Urano e Netuno, excluindo Mercúrio, Saturno, Urano e Netuno).
+    - `fracao1 = str(round(fracao_planetas(T1, R1)*365.26))`, etc.: Para cada conjunto de planetas, chama a função `fracao_planetas` para calcular a fração de tempo visível, multiplica por 365.26 para converter para dias por ano, arredonda o resultado para o inteiro mais próximo, e converte para string para ser inserido no texto do artigo.
 
 ### Simplificações e Considerações
 
-- **Órbitas Circulares e Coplanares:** A simulação assume que as órbitas planetárias são circulares e coplanares (no mesmo plano), o que é uma aproximação. As órbitas reais são elípticas e ligeiramente inclinadas umas em relação às outras.
-- **Condição de Visibilidade Simplificada:** A condição `abs(soma) < somaM` é uma aproximação para determinar se os planetas estão concentrados no mesmo lado do céu a partir da Terra. Ela não leva em conta fatores como o brilho dos planetas ou a luminosidade do céu noturno.
-- **Natureza Estatística:** A simulação usa posições iniciais aleatórias e roda por um longo período para obter uma estimativa média. Os resultados são, portanto, estatísticos e podem variar ligeiramente a cada execução devido à aleatoriedade inicial.
-
+- **Órbitas Circulares e Coplanares:** A simulação simplifica as órbitas planetárias para círculos perfeitos e assume que todos os planetas orbitam no mesmo plano, o que não é totalmente preciso, mas suficiente para nossas estimativas. As órbitas reais são levemente elípticas e possuem pequenas inclinações relativas.
+- **Condição de Visibilidade Aproximada:** A condição para determinar a visibilidade noturna é uma aproximação e não considera outros fatores que afetam a visibilidade real, como o brilho dos planetas, a condição de luminosidade noturna do céu, ou as fases dos planetas.
+- **Natureza Estatística da Simulação:** A simulação utiliza posições iniciais aleatórias para os planetas e executa a simulação por um longo período para obter uma média estatística da fração de tempo visível. Os resultados devem ser interpretados como estimativas médias e podem variar ligeiramente em execuções repetidas devido à aleatoriedade.
 :::
