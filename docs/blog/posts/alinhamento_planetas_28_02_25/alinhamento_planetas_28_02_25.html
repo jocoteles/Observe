@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -224,6 +224,7 @@ window.Quarto = {
   <li><a href="#a-minha-localização-no-planeta-vai-influenciar-o-que-conseguirei-ver" id="toc-a-minha-localização-no-planeta-vai-influenciar-o-que-conseguirei-ver" class="nav-link" data-scroll-target="#a-minha-localização-no-planeta-vai-influenciar-o-que-conseguirei-ver">A minha localização no planeta vai influenciar o que conseguirei ver?</a></li>
   <li><a href="#e-se-eu-perder-a-oportunidade-de-ver-o-alinhamento-hoje" id="toc-e-se-eu-perder-a-oportunidade-de-ver-o-alinhamento-hoje" class="nav-link" data-scroll-target="#e-se-eu-perder-a-oportunidade-de-ver-o-alinhamento-hoje">E se eu perder a oportunidade de ver o “alinhamento” hoje?</a></li>
   <li><a href="#como-faço-para-não-ser-ludibriadoa-por-notícias-que-tratam-planetas-como-confetes" id="toc-como-faço-para-não-ser-ludibriadoa-por-notícias-que-tratam-planetas-como-confetes" class="nav-link" data-scroll-target="#como-faço-para-não-ser-ludibriadoa-por-notícias-que-tratam-planetas-como-confetes">Como faço para não ser ludibriado(a) por notícias que tratam planetas como confetes?</a></li>
+  <li><a href="#entendendo-o-código-python-da-simulação-do-período-de-visibilidade-dos-planetas" id="toc-entendendo-o-código-python-da-simulação-do-período-de-visibilidade-dos-planetas" class="nav-link" data-scroll-target="#entendendo-o-código-python-da-simulação-do-período-de-visibilidade-dos-planetas">Entendendo o código Python da simulação do período de visibilidade dos planetas</a></li>
   </ul>
 </nav>
     </div>
@@ -264,7 +265,52 @@ window.Quarto = {
 </header>
 
 
-<div id="55ac6054" class="cell" data-execution_count="1">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="carnaval_dos_planetas.png" class="preview-image img-fluid figure-img"></p>
+<figcaption>Carnaval dos planetas como uma paródia ao “alinhamento” dos planetas. [Imagem gerada com Qwen2.5]</figcaption>
+</figure>
+</div>
+<p>Hoje, 28/02/2025, está sendo alardeada nas redes sociais, jornais e nos mais diversos canais de comunicação uma condição muito especial de observação do céu que está sendo chamada de alinhamento dos planetas. Entretanto, existe muita imprecisão e até mesmo informações erradas em todas essas notícias. Vamos tratar de algumas delas.</p>
+<section id="os-planetas-estarão-mesmo-alinhados" class="level2">
+<h2 class="anchored" data-anchor-id="os-planetas-estarão-mesmo-alinhados">Os planetas estarão mesmo alinhados?</h2>
+<p>Sim, como sempre estiveram. Como os planetas do Sistema Solar foram formados a partir do mesmo disco de acreção estelar, que evoluiu na forma de um disco achatado (semelhante à estrutura da própria Via Láctea), todos eles orbitam o Sol aproximadamente no mesmo plano. Isso significa que a Terra, estando nesse plano, faz com que vejamos os planetas <em>sempre alinhados</em>. Ou seja, não existe nenhum <em>alinhamento</em> especial ocorrendo, pois essa é uma condição perene dos planetas. Todos percorrem o céu aproximadamente ao longo do mesmo arco, cuja principal referência é o arco percorrido pelo Sol ao longo do ano, chamado de eclíptica. Inclusive, localizar a eclíptica no céu é um dos métodos que podemos usar para localizar os planetas e distingui-los dentre as estrelas.</p>
+</section>
+<section id="os-planetas-estarão-todos-ao-mesmo-tempo-no-céu-noturno" class="level2">
+<h2 class="anchored" data-anchor-id="os-planetas-estarão-todos-ao-mesmo-tempo-no-céu-noturno">Os planetas estarão todos ao mesmo tempo no céu noturno?</h2>
+<p>Tecnicamente, sim. Mas o céu é grande. A rigor, metade do Universo está voltada para nós ao mesmo tempo no céu a todo instante, e a outra metade está acessível para os australianos, por exemplo. Somemos a isso o fato de os planetas possuírem períodos orbitais diferentes, o que faz com que a quantidade de planetas visíveis mude constantemente ao longo dos anos. Incluímos aqui uma <a href="#entendendo-o-código-python-da-simulação-do-período-de-visibilidade-dos-planetas">simulação simplificada</a>, mas suficiente para nossos objetivos, que nos mostra que a condição mais rara de termos todos os planetas ao mesmo tempo no céu noturno ocorre, em média<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, em 8 dias por ano. Parece pouco, mas compare com outros fenômenos interessantes como a ocorrência de um eclipse solar total na mesma região do planeta (algumas dezenas de minutos a cada 300 ou 400 anos) ou o trânsito de Vênus pelo Sol (algumas horas a cada 240 anos). Mesmo os eclipses solares parciais com frequência de alguns anos podem ser mais raros do que esse “alinhamento” completo, ainda mais um que ocorra no momento do pôr do Sol, cuja beleza ímpar pudemos apreciar em <a href="../../../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html">nossa região em outubro de 2024</a> (e que foi bem menos anunciado que o “alinhamento” de hoje). Um outro fator muito importante que precisamos considerar é que dos sete planetas, dois (Urano e Netuno) são somente visíveis com telescópios. E mesmo usando telescópios comerciais, é necessário conhecimento e habilidade para encontrar esses planetas no céu, pois mesmo ampliações de centenas de vezes não permitem destacá-los das estrelas pálidas. Então, se excluirmos Urano e Netuno (que não vemos a olho nu), temos 26 dias por ano, em média, com todos os planetas visíveis simultaneamente no céu noturno.</p>
+</section>
+<section id="veremos-todos-os-planetas-visíveis-de-forma-mais-clara-neste-alinhamento" class="level2">
+<h2 class="anchored" data-anchor-id="veremos-todos-os-planetas-visíveis-de-forma-mais-clara-neste-alinhamento">Veremos todos os planetas visíveis de forma mais clara neste “alinhamento”?</h2>
+<p>De forma alguma. Neste tal alinhamento, Mercúrio e Saturno estarão muito próximos do Sol, dificultando muito a sua visualização. Aliás, esse sempre é o caso de Mercúrio devido à sua maior proximidade do Sol. Vênus e Júpiter também não estarão na sua melhor condição (que é próxima à máxima elongação e em oposição, respectivamente).</p>
+</section>
+<section id="a-minha-localização-no-planeta-vai-influenciar-o-que-conseguirei-ver" class="level2">
+<h2 class="anchored" data-anchor-id="a-minha-localização-no-planeta-vai-influenciar-o-que-conseguirei-ver">A minha localização no planeta vai influenciar o que conseguirei ver?</h2>
+<p>Com certeza. Para regiões mais distantes do equador, o arco da eclíptica (que é o caminho do Sol e dos planetas ao longo dos anos) fica mais próximo do horizonte, podendo dar a sensação de um maior alinhamento dos planetas justamente devido à referência do relevo ao longo do horizonte e pela maior comodidade de visualização por não precisarmos ficar com o pescoço tão dobrado para o alto. No verão dos respectivos hemisférios, a eclíptica está ainda mais próxima do horizonte durante o período noturno. Além disso, essa maior inclinação da eclíptica nas altas latitudes (norte ou sul) faz com que a duração da alvorada e do crepúsculo solar seja maior nessas localidades, dando mais tempo para se tentar apreciar os planetas próximos ao Sol, como é sempre o caso de Mercúrio.</p>
+</section>
+<section id="e-se-eu-perder-a-oportunidade-de-ver-o-alinhamento-hoje" class="level2">
+<h2 class="anchored" data-anchor-id="e-se-eu-perder-a-oportunidade-de-ver-o-alinhamento-hoje">E se eu perder a oportunidade de ver o “alinhamento” hoje?</h2>
+<p>Não se preocupe. Amanhã será bem parecido. Na verdade, os planetas vão “foliar” até quarta-feira de cinzas (brincadeira, claro). Como dito anteriormente, a condição de visualização simultânea dos planetas pode durar vários dias. Além disso, os planetas que realmente geram bons espetáculos a olho nu são Vênus, Júpiter, Marte e Saturno, que ocorrem simultaneamente no céu noturno ao longo de 59 dias por ano em média. Se formos ainda mais restritivos e considerarmos apenas Vênus, Júpiter e Marte, essa condição ocorre por cerca de 107 dias por ano.</p>
+</section>
+<section id="como-faço-para-não-ser-ludibriadoa-por-notícias-que-tratam-planetas-como-confetes" class="level2">
+<h2 class="anchored" data-anchor-id="como-faço-para-não-ser-ludibriadoa-por-notícias-que-tratam-planetas-como-confetes">Como faço para não ser ludibriado(a) por notícias que tratam planetas como confetes?</h2>
+<p>Procure se informar com as páginas de instituições acadêmicas do Brasil e do exterior e use bons softwares de visualização do céu. Um dos melhores e de código aberto é o <a href="https://stellarium.org/pt/">Stellarium</a>, disponível para tudo que é sistema operacional.</p>
+</section>
+<section id="entendendo-o-código-python-da-simulação-do-período-de-visibilidade-dos-planetas" class="level2">
+<h2 class="anchored" data-anchor-id="entendendo-o-código-python-da-simulação-do-período-de-visibilidade-dos-planetas">Entendendo o código Python da simulação do período de visibilidade dos planetas</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Clique para abrir
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div id="a-cell" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">"""Cálculo estimado da fração de tempo ao longo de um longo período (10 anos netunianos) em que um conjunto de planetas fica visível a partir da Terra. Utilizamos a aproximação de movimento circular uniforme para as órbitas planetárias, que é suficiente para essa estimativa."""</span></span>
@@ -323,48 +369,6 @@ window.Quarto = {
 <span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>fracao4 <span class="op">=</span> <span class="bu">str</span>(<span class="bu">round</span>(fracao_planetas(T4, R4)<span class="op">*</span><span class="fl">365.26</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="carnaval_dos_planetas.png" class="preview-image img-fluid figure-img"></p>
-<figcaption>Carnaval dos planetas como uma paródia ao “alinhamento” dos planetas. [Imagem gerada com Qwen2.5]</figcaption>
-</figure>
-</div>
-<p>Hoje, 28/02/2025, está sendo alardeada nas redes sociais, jornais e nos mais diversos canais de comunicação uma condição muito especial de observação do céu que está sendo chamada de alinhamento dos planetas. Entretanto, existe muita imprecisão e até mesmo informações erradas em todas essas notícias. Vamos tratar de algumas delas.</p>
-<section id="os-planetas-estarão-mesmo-alinhados" class="level2">
-<h2 class="anchored" data-anchor-id="os-planetas-estarão-mesmo-alinhados">Os planetas estarão mesmo alinhados?</h2>
-<p>Sim, como sempre estiveram. Como os planetas do Sistema Solar foram formados a partir do mesmo disco de acreção estelar, que evoluiu na forma de um disco achatado (semelhante à estrutura da própria Via Láctea), todos eles orbitam o Sol aproximadamente no mesmo plano. Isso significa que a Terra, estando nesse plano, faz com que vejamos os planetas <em>sempre alinhados</em>. Ou seja, não existe nenhum <em>alinhamento</em> especial ocorrendo, pois essa é uma condição perene dos planetas. Todos percorrem o céu aproximadamente ao longo do mesmo arco, cuja principal referência é o arco percorrido pelo Sol ao longo do ano, chamado de eclíptica. Inclusive, localizar a eclíptica no céu é um dos métodos que podemos usar para localizar os planetas e distingui-los dentre as estrelas.</p>
-</section>
-<section id="os-planetas-estarão-todos-ao-mesmo-tempo-no-céu-noturno" class="level2">
-<h2 class="anchored" data-anchor-id="os-planetas-estarão-todos-ao-mesmo-tempo-no-céu-noturno">Os planetas estarão todos ao mesmo tempo no céu noturno?</h2>
-<p>Tecnicamente, sim. Mas o céu é grande. A rigor, metade do Universo está voltada para nós ao mesmo tempo no céu a todo instante, e a outra metade está acessível para os australianos, por exemplo. Somemos a isso o fato de os planetas possuírem períodos orbitais diferentes, o que faz com que a quantidade de planetas visíveis mude constantemente ao longo dos anos. Incluímos aqui uma simulação simplificada, mas suficiente para nossos objetivos, que nos mostra que a condição mais rara de termos todos os planetas ao mesmo tempo no céu noturno ocorre, em média<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, em 7 dias por ano. Parece pouco, mas compare com outros fenômenos interessantes como a ocorrência de um eclipse solar total na mesma região do planeta (algumas dezenas de minutos a cada 300 ou 400 anos) ou o trânsito de Vênus pelo Sol (algumas horas a cada 240 anos). Mesmo os eclipses solares parciais com frequência de alguns anos podem ser mais raros do que esse “alinhamento” completo, ainda mais um que ocorra no momento do pôr do Sol, cuja beleza ímpar pudemos apreciar em <a href="../../../blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html">nossa região em outubro de 2024</a> (e que foi bem menos anunciado que o “alinhamento” de hoje). Um outro fator muito importante que precisamos considerar é que dos sete planetas, dois (Urano e Netuno) são somente visíveis com telescópios. E mesmo usando telescópios comerciais, é necessário conhecimento e habilidade para encontrar esses planetas no céu, pois mesmo ampliações de centenas de vezes não permitem destacá-los das estrelas pálidas. Então, se excluirmos Urano e Netuno (que não vemos a olho nu), temos 26 dias por ano, em média, com todos os planetas visíveis simultaneamente no céu noturno.</p>
-</section>
-<section id="veremos-todos-os-planetas-visíveis-de-forma-mais-clara-neste-alinhamento" class="level2">
-<h2 class="anchored" data-anchor-id="veremos-todos-os-planetas-visíveis-de-forma-mais-clara-neste-alinhamento">Veremos todos os planetas visíveis de forma mais clara neste “alinhamento”?</h2>
-<p>De forma alguma. Neste tal alinhamento, Mercúrio e Saturno estarão muito próximos do Sol, dificultando muito a sua visualização. Aliás, esse sempre é o caso de Mercúrio devido à sua maior proximidade do Sol. Vênus e Júpiter também não estarão na sua melhor condição (que é próxima à máxima elongação e em oposição, respectivamente).</p>
-</section>
-<section id="a-minha-localização-no-planeta-vai-influenciar-o-que-conseguirei-ver" class="level2">
-<h2 class="anchored" data-anchor-id="a-minha-localização-no-planeta-vai-influenciar-o-que-conseguirei-ver">A minha localização no planeta vai influenciar o que conseguirei ver?</h2>
-<p>Com certeza. Para regiões mais distantes do equador, o arco da eclíptica (que é o caminho do Sol e dos planetas ao longo dos anos) fica mais próximo do horizonte, podendo dar a sensação de um maior alinhamento dos planetas justamente devido à referência do relevo ao longo do horizonte e pela maior comodidade de visualização por não precisarmos ficar com o pescoço tão dobrado para o alto. Dependendo da estação (verão no hemisfério sul e inverno no norte), a eclíptica está ainda mais próxima do horizonte durante o período noturno. Além disso, essa maior inclinação da eclíptica nas altas latitudes (norte ou sul) faz com que a duração da alvorada e do crepúsculo solar seja maior nessas localidades, dando mais tempo para se tentar apreciar os planetas próximos ao Sol, como é sempre o caso de Mercúrio.</p>
-</section>
-<section id="e-se-eu-perder-a-oportunidade-de-ver-o-alinhamento-hoje" class="level2">
-<h2 class="anchored" data-anchor-id="e-se-eu-perder-a-oportunidade-de-ver-o-alinhamento-hoje">E se eu perder a oportunidade de ver o “alinhamento” hoje?</h2>
-<p>Não se preocupe. Amanhã será bem parecido. Na verdade, os planetas vão “foliar” até quarta-feira de cinzas (brincadeira, claro). Como dito anteriormente, a condição de visualização simultânea dos planetas pode durar vários dias. Além disso, os planetas que realmente geram bons espetáculos a olho nu são Vênus, Júpiter, Marte e Saturno, que ocorrem simultaneamente no céu noturno ao longo de 58 dias por ano em média. Se formos ainda mais restritivos e considerarmos apenas Vênus, Júpiter e Marte, essa condição ocorre por cerca de 107 dias por ano.</p>
-</section>
-<section id="como-faço-para-não-ser-ludibriadoa-por-notícias-que-tratam-planetas-como-confetes" class="level2">
-<h2 class="anchored" data-anchor-id="como-faço-para-não-ser-ludibriadoa-por-notícias-que-tratam-planetas-como-confetes">Como faço para não ser ludibriado(a) por notícias que tratam planetas como confetes?</h2>
-<p>Procure se informar com as páginas de instituições acadêmicas do Brasil e do exterior e use bons softwares de visualização do céu. Um dos melhores e de código aberto é o <a href="https://stellarium.org/pt/">Stellarium</a>, disponível para tudo que é sistema operacional.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Entendendo o código Python da simulação do período de visibilidade dos planetas
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
 <p>O código Python desenvolvido por nós realiza uma simulação simplificada para estimar a fração do tempo em que um grupo de planetas pode ser observado no céu noturno da Terra. Ele simplifica a complexidade real do movimento planetário para oferecer uma estimativa útil para entender a frequência relativa de conjuntos planetários visíveis.</p>
 <p>O código calcula, para diferentes conjuntos de planetas, quantos dias por ano, em média, é possível vê-los simultaneamente no céu noturno, a partir da perspectiva da Terra. A simulação abrange um longo período de tempo (10 anos netunianos, correspondendo ao período orbital do planeta mais distante e, portanto, o mais longo).</p>
 <section id="como-o-código-funciona" class="level3">
@@ -400,14 +404,14 @@ Entendendo o código Python da simulação do período de visibilidade dos plane
 <li><strong>Cálculo da Condição de Visibilidade Noturna:</strong>
 <ul>
 <li><code>Ps = [-P[0][0], -P[0][1]]</code>: Calcula o vetor posição do Sol visto da Terra (<code>Ps</code>). Como <code>P[0]</code> é a posição da Terra em relação ao Sol, <code>Ps</code> é o vetor oposto.</li>
-<li><code>amin = 0</code>, <code>amax = 0</code>: Inicializa as variáveis <code>amin</code> e <code>amax</code> para rastrear o ângulo mínimo e máximo formado entre a Terra, Vênus (planeta de referência) e os demais planetas.</li>
-<li><strong>Loop para os planetas visíveis (excluindo Terra e Vênus):</strong>
+<li><code>amin = 0</code>, <code>amax = 0</code>: Inicializa as variáveis <code>amin</code> e <code>amax</code> para rastrear o ângulo mínimo e máximo formado entre a Terra e o planeta de referência (1° planeta da lista depois da Terra) e os demais planetas.</li>
+<li><strong>Loop para os planetas visíveis (excluindo Terra e planeta de referência):</strong>
 <ul>
-<li><code>for i in range(2, N)</code>: Este loop itera sobre os planetas a partir de Mercúrio (índice 2), pulando a Terra e Vênus.</li>
-<li><code>ang = angulo(P[0], P[1], P[i])</code>: Calcula o ângulo <code>ang</code> entre o vetor Terra-Vênus e o vetor Terra-Planeta <code>i</code> usando a função <code>angulo</code>.</li>
+<li><code>for i in range(2, N)</code>: Este loop itera sobre os planetas a partir de Mercúrio (índice 2), pulando a Terra e o planeta de referência.</li>
+<li><code>ang = angulo(P[0], P[1], P[i])</code>: Calcula o ângulo <code>ang</code> entre o vetor Terra-Planeta_referência e o vetor Terra-Planeta <code>i</code> usando a função <code>angulo</code>.</li>
 <li><code>amax = max(amax, ang)</code>, <code>amin = min(amin, ang)</code>: Atualiza <code>amax</code> e <code>amin</code> para manter o registro do maior e menor ângulo encontrado até agora.</li>
 </ul></li>
-<li><code>angS = angulo(P[0], P[1], Ps)</code>: Calcula o ângulo <code>angS</code> entre o vetor Terra-Vênus e o vetor Terra-Sol, usando novamente a função <code>angulo</code>.</li>
+<li><code>angS = angulo(P[0], P[1], Ps)</code>: Calcula o ângulo <code>angS</code> entre o vetor Terra-Planeta_referência e o vetor Terra-Sol, usando novamente a função <code>angulo</code>.</li>
 <li><strong>Condição de Visibilidade:</strong>
 <ul>
 <li><code>if ((angS &lt; amin) or (angS &gt; amax))</code>: Verifica se o ângulo do Sol (<code>angS</code>) está fora do intervalo angular definido pelos planetas (<code>amin</code> a <code>amax</code>). Se estiver fora, o Sol está “atrás” dos planetas, potencialmente permitindo a sua visibilidade noturna.</li>
@@ -426,7 +430,7 @@ Entendendo o código Python da simulação do período de visibilidade dos plane
 <ul>
 <li>Esta função calcula o ângulo entre os vetores AB e AC, onde A, B e C são pontos definidos por suas coordenadas.</li>
 <li>Calcula os vetores <code>AB</code> e <code>AC</code> subtraindo as coordenadas do ponto A dos pontos B e C, respectivamente.</li>
-<li>Calcula o produto vetorial 2D (<code>vet</code>) e o produto escalar (<code>esc</code>) dos vetores <code>AB</code> e <code>AC</code>.</li>
+<li>Calcula o módulo do produto vetorial <code>AB</code> e <code>AC</code> (<code>vet</code> que corresponde a <span class="math inline">\(|AB||AC|\textnormal{sen}\theta\)</span>) e o produto escalar (<code>esc</code> que corresponde a <span class="math inline">\(|AB||AC|\cos\theta\)</span>).</li>
 <li>Retorna o ângulo entre os vetores usando <code>math.atan2(vet, esc)</code>, que fornece o ângulo correto no intervalo <span class="math inline">\((-\pi,\pi]\)</span> radianos.</li>
 </ul></li>
 <li><strong>Cálculo e Exibição dos Resultados:</strong>
@@ -684,8 +688,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -796,7 +798,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

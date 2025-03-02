@@ -7,7 +7,9 @@ author: João Teles
 ---
 
 ```{python}
+#| label: a-cell
 #| code-fold: true
+
 """Cálculo estimado da fração de tempo ao longo de um longo período (10 anos netunianos) em que um conjunto de planetas fica visível a partir da Terra. Utilizamos a aproximação de movimento circular uniforme para as órbitas planetárias, que é suficiente para essa estimativa."""
 
 import math, random
@@ -75,7 +77,7 @@ Sim, como sempre estiveram. Como os planetas do Sistema Solar foram formados a p
 
 ## Os planetas estarão todos ao mesmo tempo no céu noturno?
 
-Tecnicamente, sim. Mas o céu é grande. A rigor, metade do Universo está voltada para nós ao mesmo tempo no céu a todo instante, e a outra metade está acessível para os australianos, por exemplo. Somemos a isso o fato de os planetas possuírem períodos orbitais diferentes, o que faz com que a quantidade de planetas visíveis mude constantemente ao longo dos anos. Incluímos aqui uma simulação simplificada, mas suficiente para nossos objetivos, que nos mostra que a condição mais rara de termos todos os planetas ao mesmo tempo no céu noturno ocorre, em média[^nota], em `{python} fracao1` dias por ano. Parece pouco, mas compare com outros fenômenos interessantes como a ocorrência de um eclipse solar total na mesma região do planeta (algumas dezenas de minutos a cada 300 ou 400 anos) ou o trânsito de Vênus pelo Sol (algumas horas a cada 240 anos). Mesmo os eclipses solares parciais com frequência de alguns anos podem ser mais raros do que esse "alinhamento" completo, ainda mais um que ocorra no momento do pôr do Sol, cuja beleza ímpar pudemos apreciar em [nossa região em outubro de 2024](/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.qmd) (e que foi bem menos anunciado que o "alinhamento" de hoje). Um outro fator muito importante que precisamos considerar é que dos sete planetas, dois (Urano e Netuno) são somente visíveis com telescópios. E mesmo usando telescópios comerciais, é necessário conhecimento e habilidade para encontrar esses planetas no céu, pois mesmo ampliações de centenas de vezes não permitem destacá-los das estrelas pálidas. Então, se excluirmos Urano e Netuno (que não vemos a olho nu), temos `{python} fracao2` dias por ano, em média, com todos os planetas visíveis simultaneamente no céu noturno.
+Tecnicamente, sim. Mas o céu é grande. A rigor, metade do Universo está voltada para nós ao mesmo tempo no céu a todo instante, e a outra metade está acessível para os australianos, por exemplo. Somemos a isso o fato de os planetas possuírem períodos orbitais diferentes, o que faz com que a quantidade de planetas visíveis mude constantemente ao longo dos anos. Incluímos aqui uma [simulação simplificada](#entendendo-o-código-python-da-simulação-do-período-de-visibilidade-dos-planetas), mas suficiente para nossos objetivos, que nos mostra que a condição mais rara de termos todos os planetas ao mesmo tempo no céu noturno ocorre, em média[^nota], em `{python} fracao1` dias por ano. Parece pouco, mas compare com outros fenômenos interessantes como a ocorrência de um eclipse solar total na mesma região do planeta (algumas dezenas de minutos a cada 300 ou 400 anos) ou o trânsito de Vênus pelo Sol (algumas horas a cada 240 anos). Mesmo os eclipses solares parciais com frequência de alguns anos podem ser mais raros do que esse "alinhamento" completo, ainda mais um que ocorra no momento do pôr do Sol, cuja beleza ímpar pudemos apreciar em [nossa região em outubro de 2024](/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.qmd) (e que foi bem menos anunciado que o "alinhamento" de hoje). Um outro fator muito importante que precisamos considerar é que dos sete planetas, dois (Urano e Netuno) são somente visíveis com telescópios. E mesmo usando telescópios comerciais, é necessário conhecimento e habilidade para encontrar esses planetas no céu, pois mesmo ampliações de centenas de vezes não permitem destacá-los das estrelas pálidas. Então, se excluirmos Urano e Netuno (que não vemos a olho nu), temos `{python} fracao2` dias por ano, em média, com todos os planetas visíveis simultaneamente no céu noturno.
 
 ## Veremos todos os planetas visíveis de forma mais clara neste "alinhamento"?
 
@@ -97,9 +99,13 @@ Procure se informar com as páginas de instituições acadêmicas do Brasil e do
 [^nota]: Essa é uma simulação realizada ao longo de 1600 anos. Então, em determinadas épocas (ou décadas), esse período de visualização pode ser significativamente maior ou menor. Mas o valor médio é esse mesmo.
 
 
-::: {.callout-tip collapse="true"}
-
 ## Entendendo o código Python da simulação do período de visibilidade dos planetas
+
+::: {.callout-tip collapse="true"}
+## Clique para abrir
+
+
+{{< contents a-cell >}}
 
 O código Python desenvolvido por nós realiza uma simulação simplificada para estimar a fração do tempo em que um grupo de planetas pode ser observado no céu noturno da Terra.  Ele simplifica a complexidade real do movimento planetário para oferecer uma estimativa útil para entender a frequência relativa de conjuntos planetários visíveis.
 
@@ -131,12 +137,12 @@ O código calcula, para diferentes conjuntos de planetas, quantos dias por ano, 
 
         - **Cálculo da Condição de Visibilidade Noturna:**
             - `Ps = [-P[0][0], -P[0][1]]`: Calcula o vetor posição do Sol visto da Terra (`Ps`). Como `P[0]` é a posição da Terra em relação ao Sol, `Ps` é o vetor oposto.
-            - `amin = 0`, `amax = 0`: Inicializa as variáveis `amin` e `amax` para rastrear o ângulo mínimo e máximo formado entre a Terra, Vênus (planeta de referência) e os demais planetas.
-            - **Loop para os planetas visíveis (excluindo Terra e Vênus):**
-                - `for i in range(2, N)`: Este loop itera sobre os planetas a partir de Mercúrio (índice 2), pulando a Terra e Vênus.
-                - `ang = angulo(P[0], P[1], P[i])`: Calcula o ângulo `ang` entre o vetor Terra-Vênus e o vetor Terra-Planeta `i` usando a função `angulo`.
+            - `amin = 0`, `amax = 0`: Inicializa as variáveis `amin` e `amax` para rastrear o ângulo mínimo e máximo formado entre a Terra e o planeta de referência (1° planeta da lista depois da Terra) e os demais planetas.
+            - **Loop para os planetas visíveis (excluindo Terra e planeta de referência):**
+                - `for i in range(2, N)`: Este loop itera sobre os planetas a partir de Mercúrio (índice 2), pulando a Terra e o planeta de referência.
+                - `ang = angulo(P[0], P[1], P[i])`: Calcula o ângulo `ang` entre o vetor Terra-Planeta_referência e o vetor Terra-Planeta `i` usando a função `angulo`.
                 - `amax = max(amax, ang)`, `amin = min(amin, ang)`: Atualiza `amax` e `amin` para manter o registro do maior e menor ângulo encontrado até agora.
-            - `angS = angulo(P[0], P[1], Ps)`: Calcula o ângulo `angS` entre o vetor Terra-Vênus e o vetor Terra-Sol, usando novamente a função `angulo`.
+            - `angS = angulo(P[0], P[1], Ps)`: Calcula o ângulo `angS` entre o vetor Terra-Planeta_referência e o vetor Terra-Sol, usando novamente a função `angulo`.
             - **Condição de Visibilidade:**
                 - `if ((angS < amin) or (angS > amax))`: Verifica se o ângulo do Sol (`angS`) está fora do intervalo angular definido pelos planetas (`amin` a `amax`). Se estiver fora, o Sol está "atrás" dos planetas, potencialmente permitindo a sua visibilidade noturna.
                 - `if ((amax - amin) < math.pi)`: Adicionalmente, verifica se o intervalo angular dos planetas (`amax - amin`) é menor que $\pi$ radianos (180°). Isso garante que os planetas estejam agrupados na mesma metade do céu.
@@ -149,7 +155,7 @@ O código calcula, para diferentes conjuntos de planetas, quantos dias por ano, 
 3.  **Função `angulo(A, B, C)`:**
     - Esta função calcula o ângulo entre os vetores AB e AC, onde A, B e C são pontos definidos por suas coordenadas.
     - Calcula os vetores `AB` e `AC` subtraindo as coordenadas do ponto A dos pontos B e C, respectivamente.
-    - Calcula o produto vetorial 2D (`vet`) e o produto escalar (`esc`) dos vetores `AB` e `AC`.
+    - Calcula o módulo do produto vetorial `AB` e `AC` (`vet` que corresponde a $|AB||AC|\textnormal{sen}\theta$) e o produto escalar (`esc` que corresponde a $|AB||AC|\cos\theta$).
     - Retorna o ângulo entre os vetores usando `math.atan2(vet, esc)`, que fornece o ângulo correto no intervalo $(-\pi,\pi]$ radianos.
 
 4.  **Cálculo e Exibição dos Resultados:**
