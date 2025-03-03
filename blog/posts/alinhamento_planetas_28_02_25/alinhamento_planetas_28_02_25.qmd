@@ -101,8 +101,8 @@ Procure se informar com as páginas de instituições acadêmicas do Brasil e do
 
 ## Entendendo o código Python da simulação do período de visibilidade dos planetas
 
-::: {.callout-tip collapse="true"}
-## Clique para abrir
+<details>
+<summary><strong>Clique para abrir</strong></summary>
 
 
 {{< contents a-cell >}}
@@ -167,4 +167,5 @@ O código calcula, para diferentes conjuntos de planetas, quantos dias por ano, 
 - **Órbitas Circulares e Coplanares:** A simulação simplifica as órbitas planetárias para círculos perfeitos e assume que todos os planetas orbitam no mesmo plano, o que não é totalmente preciso, mas suficiente para nossas estimativas. As órbitas reais são levemente elípticas e possuem pequenas inclinações relativas.
 - **Condição de Visibilidade Aproximada:** A condição para determinar a visibilidade noturna é uma aproximação e não considera outros fatores que afetam a visibilidade real, como o brilho dos planetas, a condição de luminosidade noturna do céu, ou as fases dos planetas.
 - **Natureza Estatística da Simulação:** A simulação utiliza posições iniciais aleatórias para os planetas e executa a simulação por um longo período para obter uma média estatística da fração de tempo visível. Os resultados devem ser interpretados como estimativas médias e podem variar ligeiramente em execuções repetidas devido à aleatoriedade.
-:::
+
+</details>
