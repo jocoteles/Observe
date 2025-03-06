@@ -23,27 +23,59 @@ def fracao_planetas(T, R):
     ang0 = [random.random()*2*math.pi for _ in range(N)] #planetas iniciam em direções aleatórias
     P = [0]*N #inicializa array de vetores de posição dos planetas com a origem no Sol
 
-    t_visivel = 0  #tempo em que os planetas estarão acima do horizonte noturno de observação da Terra
     anos = 165*10  #10 anos netunianos
-    fm = 12 #Número de intervalos temporais em que o ano é dividido para discretização da amostragem temporal.
-    for t in range(anos*fm): #tempo
+    fm = 12 #Número de intervalos temporais em que o ano é dividido para discretização da amostragem temporal.    
+    
+    t_visivel = 0  #tempo em que os planetas estarão acima do horizonte noturno de observação da Terra
+    tsv_min = anos*fm  #intervalo de tempo mínimo em que todos os planetas estão visíveis
+    tsv_max = 0  #intervalo de tempo máximo em que todos os planetas estão visíveis
+    tsn_min = anos*fm  #intervalo de tempo mínimo em que pelo menos um planeta não é visível
+    tsn_max = 0  #intervalo de tempo máximo em que pelo menos um planeta não é visível
+    tsv, tsn = 0, 0 # contadores para tsv e tsn min e max.
+    t_ant = False #Indicador se todos os planetas estavam visíveis no passo temporal anterior.
+        
+    for t in range(anos*fm): #tempo em ano/fm
         for i in range(N): #posições dos planetas em relação ao Sol
             wi = 2*math.pi/T[i]
             ang = ang0[i] + wi*t/fm
             P[i] = [R[i]*math.cos(ang), R[i]*math.sin(ang)]
         Ps = [-P[0][0], -P[0][1]] #vetor Terra -> Sol
-        amin = 0
+        amin = math.pi
         amax = 0
         for i in range(2, N): #Começa em 2 para pular a Terra e o primeiro planeta
             ang = angulo(P[0], P[1], P[i])
             amax = max(amax, ang)
             amin = min(amin, ang)
-        angS = angulo(P[0], P[1], Ps) #ângulo do Sol
-        if ((angS < amin) or (angS > amax)): #o Sol está fora do leque angular dos planetas
-            if ((amax - amin) < math.pi): #todos os planetas na mesma metade do plano com a Terra na origem
-                t_visivel += 1
+        angS = angulo(P[0], P[1], Ps) #ângulo do Sol        
+        if(
+            ((angS < amin) or (angS > amax)) and #o Sol está fora do leque angular dos planetas
+            ((amax - amin) < math.pi) #todos os planetas na mesma metade do plano com a Terra na origem
+          ):            
+            t_visivel += 1
+            if (t_ant):
+                tsv += 1
+            else:
+                tsv = 1
+            tsv_min = min(tsv_min, tsv)    
+            tsv_max = max(tsv_max, tsv)    
+            t_ant = True            
+        else:
+            if (not t_ant):
+                tsn += 1
+            else:
+                tsn = 1
+            tsn_min = min(tsn_min, tsn)    
+            tsn_max = max(tsn_max, tsn)    
+            t_ant = False            
+        
     fracao = t_visivel/(anos*fm)
-    return fracao
+    return [
+        str(round(fracao*365.26)),
+        str(round(tsv_min)),
+        str(round(tsv_max)),
+        str(round(tsn_min)),
+        str(round(tsn_max))
+    ]
 
 def angulo(A, B, C): #ângulo entre os vetores AB e AC
     #calcula os vetores AB e AC
@@ -60,10 +92,13 @@ T2, R2 = T[0:6], R[0:6] #exclusão de Urano e Netuno
 T3, R3 = T[0:1] + T[2:6], R[0:1] + R[2:6] #exclusão de Mercúrio, Urano e Netuno
 T4, R4 = T[0:1] + T[2:5], R[0:1] + R[2:5] #exclusão de Mercúrio, Saturno, Urano e Netuno
 
-fracao1 = str(round(fracao_planetas(T1, R1)*365.26))
-fracao2 = str(round(fracao_planetas(T2, R2)*365.26))
-fracao3 = str(round(fracao_planetas(T3, R3)*365.26))
-fracao4 = str(round(fracao_planetas(T4, R4)*365.26))
+[fracao1, tsv_min1, tsv_max1, tsn_min1, tsn_max1] = fracao_planetas(T1, R1)
+[fracao2, tsv_min2, tsv_max2, tsn_min2, tsn_max2] = fracao_planetas(T2, R2)
+[fracao3, tsv_min3, tsv_max3, tsn_min3, tsn_max3] = fracao_planetas(T3, R3)
+[fracao4, tsv_min4, tsv_max4, tsn_min4, tsn_max4] = fracao_planetas(T4, R4)
+
+print(fracao1, tsv_min1, tsv_max1, tsn_min1, tsn_max1)
+
 ```
 
 ![Carnaval dos planetas como uma paródia ao "alinhamento" dos planetas. [Imagem gerada com Qwen2.5]](carnaval_dos_planetas.png){.preview-image}
