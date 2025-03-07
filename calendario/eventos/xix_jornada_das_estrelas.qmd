@@ -97,11 +97,13 @@ O evento é gratuito e o público geral pode comparecer sem agendamento. Entreta
     const agendamentos = [
         {escola:'EMEF PROFESSORA ADALGISA PERIM BALESTRO FRANZINI', professor:'João Apolari', dia:'18/03', horario:'14h às 15h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'EMEF Profa. Clotilde Russo', professor:'Fátima Franzini', dia:'18/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'PEI EE Yolanda Salles Cabianca', professor:'Fabiana Scarmagnani', dia:'18/03', horario:'14h às 15h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'Colégio Delta', professor:'Aniele Dias', dia:'18/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},        
         {escola:'EMEF THEREZA COLETTE OMETTO', professor:'Suzane Fazzi', dia:'18/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'EMEF THEREZA COLETTE OMETTO', professor:'Melissa Sommer', dia:'18/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'Colégio CONECTA', professor:'Maria Piva', dia:'19/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
         {escola:'EMEF Profa. Clotilde Russo', professor:'Viviani Zorzo', dia:'19/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'PEI EE Yolanda Salles Cabianca', professor:'Geysa Carneiro', dia:'19/03', horario:'14h às 15h30', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
         {escola:'EMEF PROFESSOR LEONALDO ZORNOFF', professor:'Pâmela Quintiliano', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
         {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
