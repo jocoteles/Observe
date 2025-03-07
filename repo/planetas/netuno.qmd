@@ -1,0 +1,56 @@
+---
+title: Netuno
+subtitle: O planeta mais distante.
+image: netuno.png
+---
+
+![Netuno com sua cor e aparência verdadeiras. Fonte: Wikipedia](netuno.png)
+
+Netuno é o oitavo e último planeta do nosso sistema solar, com uma distância 30 vezes maior do Sol do que a Terra. Sua distância não permite que seja visto a olho nu.Su período orbital é de 165 anos terrestres e em 2011, o gigante de gelo completou sua primeira órbita desde a sua descoberta em 1846.
+
+O planeta Netuno está tão distante que a luz que nós recebemos aqui da Terra é 900 vezes mais brilhante que a que chega em Netuno, o meio-dia lá chega próximo a um crepúsculo nosso.
+
+O planeta azul foi o primeiro planeta localizado através de cálculos matemáticos. Johann Galle descobriu o planeta em 1846 utilizando as previsões de Urbain Le Verrier, e por meio de uma sugestão do mesmo, o planeta foi nomeado em homenagem ao deus romano dos mares.
+
+Netuno não possui vida como nós a conhecemos, suas temperaturas, pressões e composição são características muito extremas e voláteis do planeta para organismos se adaptarem.
+
+Com um diâmetro equatorial de 49.528 quilômetros, o planeta é 4 vezes maior que a Terra. Com uma distância média de 4.5 bilhões de quilômetros, Netuno possui 30 unidades astronômicas (AU) do Sol, sendo uma unidade astronômica à distância do Sol da Terra, com isso, a luz do Sol leva 4 horas para chegar no gigante de gelo.
+
+Um dia em Netuno possui 16 horas, tempo que leva para completar uma rotação, e 60.190 dias terrestres para uma translação (165 anos). Às vezes Netuno está até mais distante do sol do que o Planeta-Anão Plutão. A órbita de Plutão o coloca dentro da órbita de Netuno durante 20 anos a cada 248 anos terrestres, porém os dois nunca podem se colidir, pois a cada três voltas que Netuno dá ao redor do Sol, Plutão faz duas, o que impede a aproximação dos dois corpos. O eixo de rotação de Netuno possui uma inclinação de 28 graus em relação ao plano de sua órbita ao redor do Sol, parecido com os eixos de Terra e Marte. Isso mostra que o gigante de gelo possui estações do ano, com a diferença que cada estação dura cerca de 40 anos.
+
+Netuno possui 16 luas conhecidas, e seu maior satélite é Triton, descoberto por William Lassel 17 dias após a descoberta do próprio planeta. Como Netuno foi nomeado com base no deus romano dos mares, suas luas seguiram os nomes de deuses menores dos mares e ninfas da mitologia grega.
+
+Tritton é a única lua grande no sistema solar que circula seu planeta na direção oposta da rotação do planeta, possuindo aquilo que conhecemos como órbita retrógrada, o que pode significar que esta lua era um objeto independente que foi capturado por Netuno. Triton é extremamente frio, com temperaturas em sua superfície em torno de 235 graus Celsius negativos, mas apesar das suas temperaturas congelantes, foram descobertos gêiseres expelindo substâncias geladas acima de 8 quilômetros. Sua pequena atmosfera foi detectada diversas vezes da Terra e está esquentando, mas os cientistas ainda não sabem o motivo.
+
+Netuno também possui anéis, cinco no total, onde há aglomerados peculiares de poeira chamados arcos. Quatro arcos proeminentes chamados Liberté (Liberdade), Egalité (Igualdade), Fraternité (Fraternidade) e Coragem estão no anel mais externo, Adams. Os arcos são estranhos porque as leis do movimento previam que eles se espalhariam uniformemente em vez de permanecerem aglomerados. Os cientistas agora acham que os efeitos gravitacionais de Galatea, uma lua logo para dentro do anel, estabilizam esses arcos.
+
+Entre os planetas gigantes, Netuno é o mais denso. Ele é um dos dois gigantes de gelo do sistema solar externo, sendo Urano o outro planeta. Cerca de 80% ou mais da massa do planeta é composta por um conjunto de materiais gelados (água, metano e amônia) que formam um fluido denso e quente acima de um pequeno núcleo rochoso. Cientistas acreditam que possa haver um oceano muito quente de água sob as nuvens geladas de Netuno, mas não evapora devido a pressão extremamente alta que o mantém trancado dentro.
+
+O planeta não possui uma superfície sólida. Sua atmosfera, feita pela maior parte de hidrogênio, hélio e metano, se estende em grandes profundidades, fundindo-se gradualmente em água e outros gelos derretidos sobre um núcleo sólido e mais pesado, com aproximadamente a mesma massa da Terra. O metano de sua atmosfera absorve outras cores mas reflete o azul, dando a este planeta esse tom de azul profundo.
+
+Netuno é o planeta do nosso sistema solar que mais possui ventos. Apesar da sua grande distância e baixa entrada de energia solar, os ventos de Netuno podem ser três vezes mais fortes que os de Júpiter e nove vezes que os da Terra. Esses ventos chicoteiam nuvens congeladas de metano pelo planeta com velocidades de 2.000 quilômetros por hora, sendo os ventos mais fortes da Terra atingindo no máximo 400 quilômetros por hora.
+
+O eixo de inclinação do campo magnético de Netuno é inclinado em cerca de 47 graus em comparação com o eixo de rotação do planeta. Devido a este desalinhamento, a magnetosfera do planeta sofre variações muito fortes durante cada rotação. O campo magnético de Netuno é aproximadamente 27 vezes mais forte que o da Terra.
+
+
+
+
+| **Composição**               | **Raio Equatorial**  | **Distância mínima à Terra** | **Distância ao Sol**  |
+|:--------:|:--------:|:--------:|:--------:|
+| 79% hidrogênio, 18% hélio e 3% metano | 24.622 km | de 4,3 a 4,5 bilhões de km | 4,5 bilhões de km |
+| **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
+| 28° | 11,15 m/s² | 1,638 g/cm³ | Johann Galle |
+: NETUNO {.striped .hover}
+
+
+<br>
+
+## Referências
+
+- <https://pt.wikipedia.org/wiki/Netuno_(planeta)>
+- <https://science.nasa.gov/neptune/neptune-facts/>
+- <https://solarsystem.nasa.gov/neptune-by-the-numbers/?intent=121>
+- <https://solarsystem.nasa.gov/planet-compare/?intent=121>
+- <https://science.nasa.gov/neptune/>
+- <https://olhardigital.com.br/2023/08/14/ciencia-e-espaco/qual-a-distancia-da-terra-ate-outros-planetas-do-sistema-solar/#:~:text=A%20distância%20média%20entre%20a%20Terra%20e%20Netuno%20varia%20de,órbitas%20em%20torno%20do%20Sol.>
+

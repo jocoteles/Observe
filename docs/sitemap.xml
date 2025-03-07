@@ -134,7 +134,7 @@
   </url>
   <url>
     <loc>https://observe.ufscar.br/repo/planetas/mercurio.html</loc>
-    <lastmod>2025-02-21T23:37:40.226Z</lastmod>
+    <lastmod>2025-03-07T19:23:02.432Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/projetos/sissolxr_proj/sissolxr_proj.html</loc>
@@ -259,5 +259,17 @@
   <url>
     <loc>https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html</loc>
     <lastmod>2025-02-14T22:16:57.746Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/repo/planetas/jupiter.html</loc>
+    <lastmod>2025-03-07T19:47:19.370Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/repo/planetas/urano.html</loc>
+    <lastmod>2025-03-07T20:01:11.741Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/repo/planetas/netuno.html</loc>
+    <lastmod>2025-03-07T19:59:20.819Z</lastmod>
   </url>
 </urlset>

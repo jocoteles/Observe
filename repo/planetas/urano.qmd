@@ -1,0 +1,38 @@
+---
+title: Urano
+subtitle: O planeta que gira deitado.
+image: urano.png
+---
+
+![Urano com sua cor e aparência verdadeiras. Fonte: Wikipedia](urano.png)
+
+Urano é o sétimo planeta do Sistema Solar, ou seja, ele está bem distante do Sol, a aproximadamente 19,2 unidades astronômicas da nossa estrela! Por esse motivo, ele tem um período orbital muito longo, levando cerca de 84 anos terrestres para completar uma volta ao redor do Sol. Seu nome vem da mitologia grega, onde Urano era o deus do céu, refletindo sua aparência azulada e etérea no céu noturno.
+
+Apesar de demorar tanto para orbitar o Sol, Urano gira rapidamente em torno de si mesmo, completando um dia em apenas 17 horas e 14 minutos. Mas o mais impressionante é que ele gira praticamente "de lado"! Seu eixo de rotação é inclinado em cerca de 98 graus. Isso causa estações extremamente longas, onde cada polo fica exposto ao Sol por mais de 42 anos seguidos antes de ficar por muito tempo na escuridão completa!
+
+Urano é um gigante gasoso, mas diferente de Júpiter e Saturno, ele é classificado como um gigante de gelo, pois contém grandes quantidades de água, metano e amônia em seu interior. Ele tem um raio de aproximadamente 25.362 km, sendo o terceiro maior planeta do Sistema Solar. Sua coloração azul-esverdeada se deve à presença de metano em sua atmosfera. Diferente de outros gigantes gasosos, Urano tem uma aparência bastante uniforme, apesar de conter algumas tempestades.
+
+A temperatura em Urano pode ser extremamente baixa, chegando a -224 °C, tornando-o o planeta mais frio do Sistema Solar. Isso acontece porque ele emite muito menos calor interno do que Netuno e outros gigantes gasosos. Sua atmosfera é composta principalmente por hidrogênio e hélio, com uma porcentagem significativa de metano. Abaixo das camadas gasosas, acredita-se que haja um oceano profundo de água, amônia e outros compostos congelados, envolvendo um pequeno núcleo rochoso.
+
+Urano também tem um sistema de anéis, embora sejam muito rarefeitos e difíceis de observar, são mais visíveis no infravermelho. Além disso, ele possui 27 luas conhecidas, algumas delas são: Titânia, Oberon, Umbriel, Ariel e Miranda. Essas luas têm superfícies geladas e algumas apresentam sinais de atividade geológica no passado.
+
+Por estar tão distante, Urano foi visitado apenas uma vez por uma sonda espacial: a Voyager 2, que passou por ele em 1986 e revelou muitos detalhes sobre sua atmosfera, anéis e luas. Desde então, missões futuras têm sido planejadas para explorar Urano com mais profundidade, e astrônomos continuam a estudá-lo através de telescópios terrestres e espaciais.
+
+
+
+| **Composição**               | **Raio Equatorial**  | **Distância mínima à Terra** | **Distância ao Sol**  |
+|:--------:|:--------:|:--------:|:--------:|
+| 83% hidrogênio, 14% hélio, 2% metano | 23.362 km | de 2,6 a 3,2 bilhões de km | 2,8 bilhões de km |
+| **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
+| 97,77° | 8,87 m/s² | 1,27 g/cm³ | William Herschel |
+: URANO {.striped .hover}
+
+
+<br>
+
+## Referências
+
+- <https://science.nasa.gov/uranus/>
+- <https://www.nasa.gov/history/35-years-ago-voyager-2-explores-uranus/>
+- <https://science.nasa.gov/resource/uranus-atmosphere/>
+

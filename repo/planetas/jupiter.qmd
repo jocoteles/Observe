@@ -1,0 +1,37 @@
+---
+title: Júpiter
+subtitle: O maior planeta do Sistema Solar.
+image: jupiter.jpg
+---
+
+![Fonte: NASA, ESA, and A. Simon (Goddard Space Flight Center) ](jupiter.jpg)
+
+Júpiter é o quinto planeta do Sistema Solar, ou seja, ele está a 5,2 unidades astronômicas de distância da nossa estrela! Por este motivo, ele tem um período orbital muito maior que o da Terra, leva 11,86 anos terrestres para Júpiter completar uma volta ao redor do Sol. Por ser o maior planeta do sistema e dominar gravitacionalmente seus arredores, os romanos deram ao planeta o nome do rei dos deuses, Júpiter, em referência ao seu poder e grandeza.
+
+Apesar de levar muito tempo para orbitar o Sol, ele gira extremamente rápido em torno de si mesmo: um único dia em Júpiter dura apenas 9 horas e 56 minutos! Isso significa que, se você estivesse em Júpiter, veria o Sol cruzar o céu rapidamente, completando um ciclo de dia e noite em menos de metade de um dia terrestre.
+
+Ele é o maior planeta do Sistema Solar, com um raio de 69.911 km, e se assemelha a uma gigantesca bola de gás. Isso acontece porque ele não tem uma superfície sólida como a Terra, sendo composto majoritariamente por hidrogênio e hélio. Sua atmosfera é turbulenta, repleta de tempestades colossais, como a Grande Mancha Vermelha, um furacão gigantesco que já dura séculos! Júpiter não tem um solo definido, apenas camadas cada vez mais densas de gases e um oceano profundo de hidrogênio metálico em seu interior. Apesar de estar tão distante do Sol, sua gravidade intensa mantém um núcleo extremamente quente.
+
+Mas de que Júpiter é feito? Ele tem um núcleo possivelmente rochoso, envolto por uma espessa camada de hidrogênio e hélio. Seu interior é tão denso e quente que o hidrogênio se comporta como um metal, conduz eletricidade e gera um campo magnético poderosíssimo, o mais intenso do Sistema Solar! Esse campo magnético protege Júpiter de partículas solares e influencia até suas luas.
+
+As sondas Pioneer 10, Voyager 1 e 2, Galileo, Juno e a futura Europa Clipper, estudam o planeta e suas luas. Essas missões nos revelaram detalhes impressionantes, como oceanos sob a crosta gelada de luas como Europa e Ganimedes, aumentando as possibilidades de vida além da Terra. 
+
+As primeiras sondas a visitá-lo foram a Pioneer 10, em 1973, e a Pioneer 11, em 1974, que capturaram imagens do planeta e identificaram seus intensos cinturões de radiação. Em 1979, as missões Voyager 1 e 2 passaram por Júpiter e descobriram detalhes, como a complexidade da Grande Mancha Vermelha e a existência de vulcões ativos na lua Io. No entanto, foi a missão Galileo, lançada em 1989, que trouxe as informações mais detalhadas até então. Ao entrar em órbita em 1995, Galileo lançou uma pequena sonda na atmosfera de Júpiter, que sobreviveu por alguns minutos antes de ser destruída pela imensa pressão. Além disso, a missão estudou as luas do planeta, como Europa, que pode conter um oceano de água líquida sob sua crosta de gelo. Em 2016, a NASA enviou a sonda Juno, que está atualmente em órbita de Júpiter, investigando seu interior e seu campo magnético. Essa missão revelou que o planeta tem um núcleo difuso e que sua atmosfera possui dinâmicas complexas, incluindo ciclones gigantes nos polos. Para o futuro, está prevista a missão Europa Clipper, com lançamento planejado para 2024. Diferente das anteriores, essa missão será dedicada exclusivamente à lua Europa, buscando sinais de vida em seu oceano subterrâneo e estudando a espessura da camada de gelo que o cobre.
+
+
+| **Composição**               | **Raio Equatorial**  | **Distância mínima à Terra** | **Distância ao Sol**  |
+|:--------:|:--------:|:--------:|:--------:|
+| 86% hidrogênio e 14% hélio | 69.911 km | 778 milhões de km | 590 milhões de km |
+| **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
+| 3,13°                           | 24,79 m/s² | 1,33 g/cm³ | Antigos |
+: JÚPITER {.striped .hover}
+
+
+<br>
+
+## Referências
+
+- <https://science.nasa.gov/jupiter/>
+- <https://science.nasa.gov/mission/europa-clipper/>
+- <https://science.nasa.gov/mission/galileo/>
+- <https://science.nasa.gov/mission/pioneer-10/>
