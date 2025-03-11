@@ -2,6 +2,7 @@
 title: Netuno
 subtitle: O planeta mais distante.
 image: netuno.png
+author: Daiane Degan
 ---
 
 ![Netuno com sua cor e aparência verdadeiras. Fonte: Wikipedia](netuno.png)

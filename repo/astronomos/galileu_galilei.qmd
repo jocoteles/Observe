@@ -1,0 +1,38 @@
+---
+title: Galileu Galilei
+subtitle: \"Meu prezado Kepler, desejo que possamos rir da estupidez notável do rebanho comum\"
+image: galileu_galilei.webp
+author:  Laís Florêncio de Oliveira
+---
+
+![Pintura de 1857 intitulada "*Galileu Diante da Inquisição Romana*", de Cristiano Banti. Ela retrata o julgamento por heresia do matemático e astrônomo Galileu (1564-1642) em 1633. Galileu foi considerado culpado e condenado a viver em prisão domiciliar pelo resto de seus dias. Fonte: World History Encyclopedia.](galileu_galilei.webp)
+
+Galileu Galilei (1564-1642) foi um matemático, físico, astrônomo e filósofo italiano. Ele ajudou a fundamentar cientificamente a Teoria Heliocêntrica de Copérnico, desafiou lendas, criou novos princípios e teve um grande impacto na história da ciência. Galileu nasceu em Pisa, Itália, no dia 15 de fevereiro de 1564. Filho de Vincenzo Galilei, um comerciante de lã, e Giulia Amnannati, Galileu se mostrou uma criança muito talentosa. Interessado por arte, fazia pinturas incríveis e até criava brinquedos e engenhocas. Além disso, tocava órgão e cítara. Com o apoio do pai, entrou na Universidade de Pisa para estudar Medicina.
+
+Aos 20 anos, fez sua primeira descoberta científica: ao observar o movimento do lustre na catedral de Pisa, percebeu que o pêndulo se movia de forma regular, o que o levou a concluir que um pêndulo de determinado comprimento leva o mesmo tempo para realizar as oscilações, independentemente de sua amplitude. Essa descoberta foi um passo importante para o desenvolvimento dos relógios de parede. 
+
+Em 1585, Galileu abandonou Medicina para se dedicar à Matemática e começou a criticar as “leis do movimento” de Aristóteles, que afirmava que a Terra era o centro de todos os movimentos celestes. Nesse mesmo ano, começou a lecionar Matemática na Academia de Florença e inventou a balança hidrostática. Em 1589, publicou um estudo sobre a gravidade e foi convidado para lecionar Matemática na Universidade de Pisa. No entanto, ele não era bem aceito pelos outros professores por questionar as ideias de Aristóteles.
+
+Em 1591, após disputas com os seguidores de Aristóteles, Galileu perdeu o cargo de professor. No ano seguinte, foi nomeado para lecionar Matemática na Universidade de Pádua, onde passou 18 anos realizando pesquisas importantes sobre dinâmica e problemas militares, como calcular a trajetória de uma bala de canhão.
+
+Em 1610, ao saber que o holandês Zacharias Janssen havia inventado um aparelho para ver de longe, Galileu fez um telescópio ainda mais potente e fez descobertas astronômicas, como as manchas solares, as montanhas da Lua, os satélites de Júpiter, os anéis de Saturno e as fases de Vênus. Ele também observou que os planetas, assim como a Lua, eram iluminados de fora, o que apoiava a teoria heliocêntrica de Copérnico.
+
+Galileu fez várias contribuições importantes, como descobrir as leis do movimento pendular, criar um relógio com pêndulo, criticar as leis de Aristóteles sobre a queda dos corpos e inventar o termômetro. Com sua luneta, mostrou que Júpiter tinha quatro satélites girando ao seu redor e descobriu os anéis de Saturno.
+
+Apesar de seus feitos, Galileu entrou em conflito com a Igreja Católica, que rejeitava suas descobertas, especialmente a teoria heliocêntrica. Ele foi forçado pela Inquisição a renegar publicamente suas ideias sob a ameaça de pena de morte. Depois disso, ele se retirou para seu castelo em Arcetri, onde continuou suas pesquisas. Galileu morreu cego em 8 de janeiro de 1642. Em 1992, a Igreja Católica reconheceu o erro cometido contra ele.
+
+Algumas de suas obras mais importantes incluem O Mensageiro das Estrelas (1610), História das Manchas e Acidentes do Sol (1613) e Diálogo Sobre os Dois Máximos Sistemas do Mundo (1632), onde defendeu a teoria heliocêntrica contra a visão geocêntrica de Ptolomeu, o que causou grande polêmica.
+
+> "Meu prezado Kepler, desejo que possamos rir da estupidez notável do rebanho comum. O que você tem a dizer sobre os principais filósofos desta academia que estão cheios da teimosia de uma víbora e não querem olhar os planetas, a lua ou o telescópio, apesar de eu ter oferecido livre e deliberadamente a oportunidade mil vezes? Verdadeiramente, assim como a víbora fecha seus ouvidos, esses filósofos fecham os olhos à luz da verdade."
+>
+> *Trecho de carta escrita por Galileu a Kepler em 1610. Fonte: Wikipedia.*
+
+
+<br>
+
+## Referências
+
+- <https://www.ebiografia.com/galileu_galilei/>
+- <https://pt.wikipedia.org/wiki/Galileu_Galilei>
+- <https://www.worldhistory.org/trans/pt/1-19494/galileu-galilei/>
+

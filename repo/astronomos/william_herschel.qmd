@@ -1,0 +1,31 @@
+---
+title: William Herschel
+subtitle: \"É muito provável que o grande estrato chamado Via Láctea seja aquele no qual o Sol está localizado, embora talvez não no centro exato de sua espessura\"
+image: william_herschel.jpg
+author:  Laís Florêncio de Oliveira
+---
+
+![William Herschel. Pintura de Lemuel Francis Abbott, 1785. Fonte: Wikipedia.](william_herschel.jpg)
+
+William Herschel (1738–1822) foi um astrônomo e compositor alemão naturalizado inglês, conhecido por descobrir o planeta Urano e por realizar importantes contribuições na astronomia e na física. Nascido em Hanôver, Alemanha, em 15 de novembro de 1738, Herschel se mudou para a Inglaterra aos 19 anos, onde começou a ensinar música, tornando-se organista. A partir daí, se dedicou à astronomia e se fez várias descobertas, como as luas Titânia e Oberon de Urano e a radiação infravermelha.
+
+Herschel nasceu na Alemanha, filho de Issak e Anna Herschel. Seu pai, músico na Guarda Hanoveriana, ajudou-o a mudar-se para a Inglaterra em 1757. Inicialmente, Herschel se dedicou à música, mas em 1766 começou a estudar astronomia. Ele e sua irmã Caroline construíram telescópios e iniciaram suas observações astronômicas. Em 1781, enquanto observava estrelas duplas, Herschel descobriu o planeta Urano, inicialmente confundido com um cometa. A descoberta foi confirmada e Urano foi oficialmente reconhecido como planeta, sendo inicialmente chamado de "estrela georgiana", em homenagem ao rei Jorge III, mas o nome "Urano" foi adotado internacionalmente.
+
+De 1782 a 1802, Herschel descobriu mais de 2400 objetos celestes, como nebulosas, que mais tarde foram catalogadas. Ele usou grandes telescópios para classificar esses objetos e publicou seus achados nos catálogos de 1786, 1789 e 1802. Herschel também foi pioneiro na observação do movimento do Sol, do sistema solar e da estrutura da Via Láctea. Descobriu duas luas de Saturno, Mimas e Enceladus, e duas de Urano, Titânia e Oberon. Além disso, foi o primeiro a usar o termo "asteroide" em 1802.
+
+Em 1800, Herschel fez uma descoberta fundamental ao identificar a radiação infravermelha, ao medir a temperatura das cores do espectro solar. Esse estudo levou à conclusão de que há radiações invisíveis aos olhos humanos. Ele acreditava que a Lua e outros planetas poderiam ser habitados, com especial interesse em Marte. Ele também especulou sobre a possibilidade de vida no interior do Sol.
+
+Em 2009, a Agência Espacial Europeia lançou o Telescópio Espacial Herschel, inspirado nas contribuições de Herschel. O telescópio foi projetado para estudar a origem e evolução das estrelas e galáxias, cobrindo o espectro infravermelho. O trabalho de Herschel foi fundamental para a astronomia moderna. Sua irmã Caroline também foi uma astrônoma notável, descobrindo cometas e catalogando nebulosas. Sua casa em Bath, onde observou Urano pela primeira vez, é agora um museu dedicado à astronomia.
+
+Herschel faleceu em 25 de agosto de 1822. Seu legado para a astronomia e suas descobertas continuam a influenciar a ciência até os dias atuais.
+
+
+
+<br>
+
+## Referências
+
+- <https://pt.wikipedia.org/wiki/William_Herschel>
+- <https://www.ufrgs.br/amlef/glossario/frederick-william-herschel/>
+- História da Física e Ciências Afins • Rev. Bras. Ensino Fís. 36 (4) • Dez 2014 
+

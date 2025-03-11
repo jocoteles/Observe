@@ -1,0 +1,24 @@
+---
+title: Aristarco de Samos
+subtitle: \"A Lua recebe sua luz do Sol\".
+image: aristarco_de_samos.jpg
+author:  Laís Florêncio de Oliveira
+---
+
+![Estátua de Aristarco de Samos na Universidade Aristóteles de Tessalônica, Grécia. Fonte: Wikipedia.](aristarco_de_samos.jpg)
+
+Aristarco nasceu em 310 a.C. em Samos, na Grécia. Foi o primeiro astrônomo a sugerir que a Terra gira ao redor do Sol, o que chamamos de sistema heliocêntrico. Ele pensou que a Terra gira ao redor do Sol uma vez por ano e também gira ao redor de si mesma uma vez por dia. Essa ideia foi bem diferente do que todos acreditavam na época, que era a teoria de que a Terra era o centro do universo (geocentrismo). Ele foi influenciado por Filolau, que falou de um "fogo no centro do universo", e Aristarco achou que esse "fogo" era o Sol.
+
+Ele também acreditava que as estrelas eram outros sóis, só que super distantes, mas, infelizmente, suas ideias não foram aceitas na época. Só muito depois, com Copérnico, foi que esse conceito de heliocentrismo ganhou mais força. Aristarco também fez cálculos bem interessantes sobre o tamanho e a distância do Sol e da Lua, e, embora tenha subestimado alguns fatores, seu método era matematicamente correto.
+
+A única obra dele que sobreviveu foi "Sobre os tamanhos e distâncias entre o Sol e a Lua", na qual ele calculou as dimensões do Sol e da Lua e suas distâncias da Terra. Ele achou que o Sol estava 20 vezes mais distante da Terra do que a Lua, quando, na verdade, é cerca de 400 vezes, mas o jeito dele de fazer os cálculos foi correto, só os números estavam errados devido aos instrumentos que ele usava. Ele também fez contribuições importantes para a matemática e até tem uma cratera na Lua e um planeta menor com seu nome, o "3999 Aristarchus". Mesmo que sua teoria sobre o heliocentrismo não tenha sido muito popular, ele é considerado um dos grandes astrônomos da antiguidade.
+
+
+<br>
+
+## Referências
+
+- <https://pt.wikipedia.org/wiki/Aristarco_de_Samos>
+- <https://histedbrantigo.fe.unicamp.br/navegando/glossario/verb_b_aristarco_de_samos.htm>
+- <https://www.worldhistory.org/Aristarchus_of_Samos/>
+

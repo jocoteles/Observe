@@ -1,0 +1,42 @@
+---
+title: Marte
+subtitle: O "agradável" planeta vermelho.
+image: marte.png
+author: Lucas Caprio Ribeiro
+---
+
+![Marte fotografado pela sonda espacial emirática Hope, em 30/08/2021. Fonte: Wikipedia](marte.png)
+
+Marte é o quarto planeta do Sistema Solar e é conhecido como o "Planeta Vermelho" devido à sua aparência avermelhada, causada pela presença de óxido de ferro (ferrugem) em sua superfície. Ele está a aproximadamente 1,52 unidades astronômicas do Sol. Marte tem um raio de cerca de 3.389,5 km, sendo um dos planetas mais estudados devido à sua proximidade relativa com a Terra e seu potencial para ter abrigado vida no passado.
+
+Marte leva cerca de 687 dias terrestres para completar uma órbita ao redor do Sol, o que significa que seu ano é quase o dobro do ano terrestre. Seu nome é derivado do deus romano da guerra, Marte, provavelmente devido à sua cor vermelha associada ao sangue e à batalha.
+
+Um dia em Marte, dura aproximadamente 24,6 horas, um pouco mais do que um dia terrestre. Isso faz com que a duração dos dias em Marte seja bastante semelhante à da Terra, o que é um fator importante para missões tripuladas futuras.
+
+A superfície de Marte é uma paisagem desértica composta de vastas planícies, montanhas gigantes e vales profundos. O Monte Olimpo, o vulcão mais alto do Sistema Solar, se ergue a 22 km de altura, quase três vezes a altura do Monte Everest. Valles Marineris, um enorme sistema de cânions, se estende por cerca de 4.000 km, aproximadamente a distância entre Nova York e Los Angeles.
+
+Embora Marte tenha uma atmosfera muito fina, composta principalmente de dióxido de carbono, existem indícios de que no passado, o planeta tinha uma atmosfera mais espessa e água líquida em sua superfície. Hoje, a água em Marte se encontra principalmente em forma de gelo, com exceção de algumas correntes de água salgada que foram detectadas em certas épocas do ano.
+
+A exploração de Marte tem sido um objetivo importante para várias agências espaciais. A sonda Viking 1 da NASA, lançada em 1975, foi a primeira a pousar com sucesso na superfície de Marte e enviar imagens detalhadas. Desde então, várias missões, incluindo os rovers Spirit, Opportunity e Curiosity, forneceram informações valiosas sobre a geologia e o clima de Marte.
+
+Atualmente, o rover Perseverance, lançado em 2020 pela NASA, está explorando a cratera Jezero, onde busca sinais de vida microbiana passada e coleta amostras de rochas para futuras missões de retorno à Terra. Além disso, a missão Mars Helicopter Ingenuity fez história ao realizar os primeiros voos controlados em outro planeta.
+
+No futuro, a exploração de Marte pode abrir caminho para missões tripuladas e até mesmo a colonização, tornando o Planeta Vermelho um dos destinos mais fascinantes e promissores da exploração espacial.
+
+
+
+| **Composição**               | **Raio Equatorial**  | **Distância mínima à Terra** | **Distância ao Sol**  |
+|:--------:|:--------:|:--------:|:--------:|
+| Superfície: Basalto, Atmosfera: 95.3% Dióxido de carbono, 2,7% Nitrogênio, 1.6% Argônio, 0.13% Oxigênio e 0.08% Monóxido de carbono | 3.390 km | 225 .000.000 km | 227.909.227 km |
+| **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
+| 25,2° | 3,71 m/s² | 3,93  g/cm³ | Antigos |
+: MARTE {.striped .hover}
+
+
+<br>
+
+## Referências
+
+- Marte (planeta). (2021, May 28). Wikipedia. <https://pt.wikipedia.org/wiki/Marte_(planeta)>
+- Marte (planeta) – Wikipédia, a enciclopédia livre. (2022). Wikipedia.org. <https://pt.wikipedia.org/wiki/Marte_(planeta)#/media/Ficheiro:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png>
+

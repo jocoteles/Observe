@@ -1,0 +1,38 @@
+---
+title: Terra
+subtitle: O único lugar com vida que conhecemos.
+image: terra.jpg
+author: Lucas Caprio Ribeiro
+---
+
+![Fotografia da Terra tirada pela tripulação da Apolo 17 a 29.400 km da Terra a caminho da Lua, em 07/12/1972. Fonte: Wikipedia.](terra.jpg)
+
+A Terra é o terceiro planeta do Sistema Solar e o único conhecido por abrigar vida. Ela está localizada a aproximadamente 1 unidade astronômica do Sol, cerca de 150 milhões de km, e possui um raio de aproximadamente 6.371 km, sendo o quinto maior planeta do Sistema Solar. Composta por várias camadas, a Terra tem a crosta, o manto e o núcleo (dividido em núcleo externo líquido e núcleo interno sólido). A crosta terrestre, uma fina camada rochosa onde vivemos, é dividida em placas tectônicas que flutuam sobre o manto, cuja movimentação é responsável por fenômenos como terremotos e a formação de montanhas.
+
+A atmosfera terrestre é composta principalmente de nitrogênio (78%) e oxigênio (21%), com traços de outros gases como argônio e dióxido de carbono. Essa atmosfera é fundamental para a vida, pois protege o planeta dos raios nocivos do Sol, regula a temperatura e permite a existência de água líquida na superfície.
+
+A Terra é um oásis de biodiversidade, com milhões de espécies de plantas, animais, fungos e microorganismos, encontrados em uma vasta gama de habitats, desde as profundezas dos oceanos até as florestas tropicais e as geleiras polares. Essa diversidade de vida é crucial para a saúde dos ecossistemas e proporciona benefícios diretos aos humanos, como alimentos, medicamentos e materiais. A presença de vida na Terra está intimamente ligada à sua posição no Sistema Solar e às suas características astronômicas. A Terra está localizada na "zona habitável" do Sol, uma faixa de distância onde as temperaturas permitem a existência de água líquida – um ingrediente essencial para a vida como a conhecemos. Além disso, a inclinação do eixo da Terra em 23,5 graus cria as estações do ano, que influenciam os ciclos de vida de muitas espécies.
+
+A observação astronômica tem nos permitido entender melhor a Terra e sua posição no universo. Telescópios e satélites em órbita, como o Hubble, nos fornecem imagens detalhadas do cosmos e nos ajudam a estudar fenômenos como buracos negros, galáxias distantes e a expansão do universo. A exploração espacial também nos permite comparar a Terra com outros planetas e luas, ajudando-nos a entender melhor a singularidade e a fragilidade de nosso próprio planeta.
+
+Embora a Terra seja um planeta vibrante e cheio de vida, enfrenta inúmeros desafios, incluindo mudanças climáticas, perda de biodiversidade e poluição. A conservação e a sustentabilidade são cruciais para garantir que futuras gerações possam continuar a desfrutar das riquezas naturais da Terra. Iniciativas globais, como os Objetivos de Desenvolvimento Sustentável da ONU, visam promover ações que preservem o meio ambiente e melhorem a qualidade de vida para todos.
+
+A Terra, com sua abundante biodiversidade e complexidade, é um lembrete de como somos afortunados por viver em um planeta tão especial. A astronomia nos ajuda a valorizar ainda mais nossa casa planetária ao compará-la com outros corpos celestes e compreender melhor nosso lugar no universo. Esses pontos mostram a importância de proteger nosso planeta e a necessidade de explorar e entender o cosmos para garantir um futuro sustentável e próspero para todos.
+
+
+| **Composição**               | **Raio Equatorial**  | **Distância mínima à Terra** | **Distância ao Sol**  |
+|:--------:|:--------:|:--------:|:--------:|
+| Superfície: Rochas, solo, água e material orgânico, Atmosfera: 78% Nitrogênio, 21% Oxigênio, 0.93% Argônio e 0.04% Dióxido de carbono
+6.371km | - | 149.600.000 km |
+| **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
+| 23,5° | 9,81 m/s² | 5,52g/cm³ | - |
+: TERRA {.striped .hover}
+
+
+<br>
+
+## Referências
+
+- Terra. (2023, July 21). Wikipedia. <https://pt.wikipedia.org/wiki/Terra>
+- Terra – Wikipédia, a enciclopédia livre. (2022). Wikipedia.org. <https://pt.wikipedia.org/wiki/Terra#/media/Ficheiro:The_Blue_Marble_(remastered).jpg>
+

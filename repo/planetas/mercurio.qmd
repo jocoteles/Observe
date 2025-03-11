@@ -2,6 +2,7 @@
 title: Mercúrio
 subtitle: O planeta mais próximo do Sol.
 image: mercurio.jpg
+author: Laís Florêncio de Oliveira
 ---
 
 ![Fonte: MESSENGER - NASA, 2008](mercurio.jpg)

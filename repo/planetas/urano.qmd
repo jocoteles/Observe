@@ -2,6 +2,7 @@
 title: Urano
 subtitle: O planeta que gira deitado.
 image: urano.png
+author: Laís Florêncio de Oliveira
 ---
 
 ![Urano com sua cor e aparência verdadeiras. Fonte: Wikipedia](urano.png)

@@ -2,6 +2,7 @@
 title: Júpiter
 subtitle: O maior planeta do Sistema Solar.
 image: jupiter.jpg
+author: Laís Florêncio de Oliveira
 ---
 
 ![Fonte: NASA, ESA, and A. Simon (Goddard Space Flight Center) ](jupiter.jpg)

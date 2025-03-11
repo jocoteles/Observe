@@ -1,0 +1,42 @@
+---
+title: Venus
+subtitle: O planeta mais quente e que gira ao contrário.
+image: venus.jpg
+author: Lucas Caprio Ribeiro
+---
+
+![Vênus com sua cor e aparência verdadeiras. Fonte: Wikipedia](venus.jpg)
+
+Vênus é o segundo planeta do Sistema Solar e é conhecido por sua beleza, muitas vezes chamado de "estrela da manhã" ou "estrela da noite" devido ao seu brilho intenso.
+
+Ele está a cerca de 0,72 unidades astronômicas do Sol. Curiosamente, apesar de não ser o planeta mais próximo do Sol (posto ocupado por Mercúrio), Vênus é o planeta mais quente do Sistema Solar, com temperaturas na superfície que podem ultrapassar os 460 °C! Isso ocorre devido ao seu efeito estufa descontrolado, com uma atmosfera densa composta principalmente de dióxido de carbono e nuvens de ácido sulfúrico.
+
+Em termos de período orbital, Vênus leva cerca de 225 dias terrestres para completar uma órbita ao redor do Sol. O nome do planeta vem da deusa romana do amor e da beleza, Vênus, refletindo seu brilho espetacular no céu noturno.
+
+Curiosamente, um dia em Vênus (ou seja, a rotação em torno de seu eixo) é extremamente longo - leva cerca de 243 dias terrestres. Isso significa que um dia em Vênus é mais longo que seu ano! E mais, Vênus tem uma rotação retrógrada, ou seja, ele gira no sentido oposto ao da maioria dos planetas do Sistema Solar, incluindo a Terra.
+
+Vênus é semelhante em tamanho à Terra, com um raio de aproximadamente 6.051,8 km, mas sua superfície é extremamente diferente. Dominado por vastas planícies vulcânicas e grandes regiões montanhosas, Vênus tem mais vulcões do que qualquer outro planeta do Sistema Solar. As missões espaciais nos mostraram que a superfície de Vênus é jovem em termos geológicos, sugerindo que o vulcanismo recente pode ser responsável por isso.
+
+A exploração de Vênus tem sido desafiadora devido às suas condições extremas, mas várias missões espaciais já se aventuraram até lá. A sonda soviética Venera 7 foi a primeira a pousar em outro planeta e enviar dados de volta à Terra em 1970, apesar de operar por apenas 23 minutos antes de sucumbir às altas temperaturas e pressões. A Venera 9, também soviética, enviou as primeiras imagens da superfície em 1975.
+
+A missão Magellan da NASA, lançada em 1989, usou radar para mapear 98% da superfície de Vênus com detalhes sem precedentes. Recentemente, a missão Akatsuki da JAXA, lançada em 2010, está em órbita de Vênus estudando a dinâmica atmosférica e os fenômenos climáticos do planeta.
+
+Por tudo isso, Vênus continua a ser um planeta de grande interesse científico, especialmente devido ao seu efeito estufa intenso, que fornece uma visão do que poderia acontecer em um planeta com mudanças climáticas descontroladas.
+
+
+| **Composição**               | **Raio Equatorial**  | **Distância mínima à Terra** | **Distância ao Sol**  |
+|:--------:|:--------:|:--------:|:--------:|
+| Superfície: Basalto, Atmosfera: 96.5% Dióxido de carbono 3.5% Nitrogênio | 6.051,8 km | 61.000.000 km | 108.209.475 km |
+| **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
+| 177,3° (ou seja, gira ao contrário) | 8,87 m/s² | 5,24  g/cm³ | Antigos |
+: VÊNUS {.striped .hover}
+
+
+<br>
+
+## Referências
+
+- 2° planeta a partir do Sol no Sistema Solar. Wikipedia.org; Fundação Wikimedia, Inc. <https://pt.wikipedia.org/wiki/V%C3%A9nus_(planeta)>
+- Vénus (planeta) – Wikipédia, a enciclopédia livre. (2022). Wikipedia.org. <https://pt.wikipedia.org/wiki/V%C3%A9nus_(planeta)#/media/Ficheiro:PIA23791-Venus-RealAndEnhancedContrastViews-20200608_(cropped2).jpg>
+- NASA. (2023). Venus - NASA Science. Science.nasa.gov; NASA. <https://science.nasa.gov/venus/>
+
