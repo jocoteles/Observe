@@ -1,0 +1,39 @@
+---
+title: Henrietta Swan Leavitt
+subtitle: \"É possível traçar facilmente uma linha reta entre cada uma das duas séries de pontos, demonstrando assim uma relação simples entre o brilho das estrelas variáveis e seus períodos\"
+image: henrietta_leavitt.jpg
+author:  Daiane Ribeiro Degan
+---
+
+![Astrônoma norte-americana Henrietta Leavitt trabalhando no *Harvard College Observatory*. Fonte: Royal Astronomical Society.](henrietta_leavitt.jpg)
+
+
+Henrietta Swan Leavitt nasceu em Lancaster em 1868 e foi uma astrônoma norte-americana. Ficou conhecida por seu trabalho sobre estrelas variáveis, no qual os seus resultados de suas pesquisas foram utilizados por Edwin Hubble para calcular a distância das galáxias. Através destes resultados, Hubble conseguiu demonstrar que algumas dessas nebulosas (na época eram como chamavam as galáxias) eram outras galáxias e que o universo está em expansão, encerrando o debate a respeito sobre a natureza desses objetos e as dimensões do universo.
+
+Henrietta ingressou no Oberlin College antes de se transferir para a Sociedade para Instrução Colegiada de Mulheres da Universidade Harvard, posteriormente o Radcliffe College, onde se graduou em bacharelado em 1892. No Oberlin e em Harvard, Henrietta estudou um amplo currículo que incluía latim e grego clássico, artes, filosofia, geometria analítica e cálculo. Só ingressou em astronomia no quarto ano de faculdade. 
+
+Leavitt também começou a trabalhar como uma das mulheres "computadores" no Harvard College Observatory, contratada por seu diretor Edward Charles Pickering para medir e catalogar o brilho das estrelas durante suas aparições na coleção de chapas fotográficas do observatório. Naquela época as mulheres não eram permitidas na operação de telescópios, mas as chapas fotográficas possuíam os dados científicos.
+
+Pickering designou-a para estudar estrelas variáveis, cujo brilho variava num período de alguns dias. Leavitt teve poucas possibilidades de realizar trabalhos teóricos, mas foi rapidamente nomeada à chefia do departamento de fotometria fotográfica, responsável pelo estudo das fotografias de estrelas para determinar suas magnitudes, em que o trabalho consistia na comparação do tamanho de uma estrela em duas chapas fotográficas tiradas em tempos diferentes. 
+
+Ela descobriu e catalogou 1777 estrelas variáveis situadas nas Nuvens de Magalhães. Em 1908, publicou seus resultados nos Annals of the Astronomical Observatory of Harvard College, reparando que algumas destas estrelas variáveis apresentavam um padrão: as mais brilhantes oscilavam com períodos maiores. Depois de um aprofundamento maior, em 1912 foi confirmado, a partir de seu catálogo, que a luminosidade das variáveis cefeidas era proporcional ao seu período de variação de luminosidade, e que essa relação era bastante precisa.
+
+Suas descobertas são reconhecidas como relação período-luminosidade. O logaritmo do período é diretamente proporcional à luminosidade intrínseca média da estrela. Segundo Leavitt, “uma linha reta pode ser traçada entre duas séries de pontos correspondentes aos máximos e mínimos, o que mostra que há uma relação simples entre os brilhos das variáveis e seus períodos”. 
+
+A relação período-luminosidade fez delas as primeiras “velas-padrão” em astronomia, permitindo a determinação das distâncias de galáxias. Distâncias estas que são muito grandes, de forma que não há como aplicar o método da paralaxe, usado para medir distâncias de estrelas próximas. Depois de um ano da publicação dos resultados de Leavitt, Ejnar Hertzsprung determinou as distâncias de várias estrelas cefeidas na Via Láctea, e com esta calibração a distância de qualquer cefeida poderia ser encontrada com bastante precisão.
+
+Leavitt chegou a ser indicada para o prêmio Nobel em 1925, mas descobriram que ela havia morrido há quatro anos antes de morrer, e portanto, não foi premiada. Mas o asteroide 5383 Leavitt e uma das crateras da Lua receberam seu nome em sua homenagem.
+
+<br>
+
+> **Tradução de trecho do artigo original de Henrietta Leavitt de 1912:**
+>
+> A relação é mostrada graficamente na Figura 1, na qual as abscissas correspondem aos períodos, expressos em dias, e as ordenadas correspondem às magnitudes observadas nos máximos e mínimos. As duas curvas resultantes — uma para os máximos e outra para os mínimos — são surpreendentemente suaves e de forma notável. Na Figura 2, as abscissas representam os logaritmos dos períodos, e as ordenadas mantêm-se como magnitudes correspondentes, conforme na Figura 1. **É possível traçar facilmente uma linha reta entre cada uma das duas séries de pontos (máximos e mínimos), demonstrando assim uma relação simples entre o brilho das estrelas variáveis e seus períodos**. O logaritmo do período aumenta aproximadamente 0,48 para cada incremento de uma magnitude no brilho. Os resíduos (desvios) dos máximos e mínimos de cada estrela em relação às linhas da Figura 2 estão listados nas sexta e sétima colunas da Tabela I. É provável que esses desvios em relação à reta diminuam com o uso de uma escala absoluta de magnitudes, podendo inclusive indicar correções necessárias para ajustar a escala provisória.
+
+<br>
+
+## Referências
+
+- <https://pt.wikipedia.org/wiki/Henrietta_Swan_Leavitt>
+- <https://lilith.fisica.ufmg.br/~dsoares/ensino/1-07/leandra-leavitt.htm>
+- LEAVITT, Henrietta Swan. Periods of 25 Variable Stars in the Small Magellanic Cloud. Harvard College Observatory Circular, Cambridge, MA, n. 173, 1912. <https://silentskyplay.tumblr.com/post/71219744368/henrietta-swan-leavitts-actual-1912-paper-wherein>. Acesso em: 11 mar. 2025.

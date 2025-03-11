@@ -13,8 +13,8 @@ O Observatório a Olho Nu do CCA/UFSCar possui uma série de informações inter
 Essas são as atividades fixas que estão sempre presentes no observatório:
 
 - *Círculo das estações*. Você irá se surpreender como o Sol nem sempre nasce no Leste e como os dias e as noites mudam ao longo do ano.
-- *Círculo dos astrônomos*. Como a astronomia evoluiu ao longo do tempo através de alguns dos seus expoentes.
-- *Círculo dos planetas*. As peculiaridades, superlativos, semelhanças e diferenças que compõe o "panteão" do Sistema Solar.
+- [*Círculo dos astrônomos*](circulo_dos_astronomos/circulo_dos_astronomos.qmd). Como a astronomia evoluiu ao longo do tempo através de alguns dos seus expoentes.
+- [*Círculo dos planetas*](circulo_dos_planetas/circulo_dos_planetas.qmd). As peculiaridades, superlativos, semelhanças e diferenças que compõe o "panteão" do Sistema Solar.
 - *Relógio/calendário solar*. Relógio com projeção horizontal e ponteiro de 2 metros de altura que possibilita a medição das horas e dos meses do ano.
 - *Relógio estelar*. Grade equatorial com 1 metro de diâmetro composta por 24 hastes que possibilitam a medição da passagem do tempo através da leitura do posicionamento das estrelas.
 - *Bússola*. Localizada no centro do Observatório, seu ponteiro possui uma forte imantação que mostra claramente o desvio entre a direção do campo magnético terrestre e seu eixo de rotação.

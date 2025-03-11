@@ -1,0 +1,21 @@
+---
+title: Círculo dos planetas
+listing:
+    type: grid
+    fields: [image, title, subtitle]
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    table-hover: true
+    contents:
+        - "../../../repo/planetas/mercurio.qmd"
+        - "../../../repo/planetas/venus.qmd"
+        - "../../../repo/planetas/terra.qmd"
+        - "../../../repo/planetas/marte.qmd"
+        - "../../../repo/planetas/jupiter.qmd"
+        - "../../../repo/planetas/saturno.qmd"
+        - "../../../repo/planetas/urano.qmd"
+        - "../../../repo/planetas/netuno.qmd"
+---
+
+As peculiaridades, superlativos, semelhanças e diferenças que compõe o "panteão" do Sistema Solar.

@@ -1,6 +1,6 @@
 ---
 title: Saturno
-subtitle: "\"Por você vou roubar os anéis de Saturno.\""
+subtitle: O planeta dos anéis.
 image: saturno.jpg
 author: Daiane Degan
 ---
@@ -44,33 +44,6 @@ As Auroras acontecem quando partículas carregadas espiralam na atmosfera de um 
 | **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
 | 26,73° | 10,4 m/s² | 0,687 g/cm³ | Antigos |
 : SATURNO {.striped .hover}
-
-<br>
-
-> Desculpe o auê<br>
-> Eu não queria magoar você<br>
-> Foi ciúme, sim<br>
-> Fiz greve de fome, guerrilhas, motim<br>
-> Perdi a cabeça, esqueça<br>
-> 
-> Desculpe o auê<br>
-> Eu não queria magoar você<br>
-> Foi ciúme, sim<br>
-> Fiz greve de fome, guerrilhas, motim<br>
-> Perdi a cabeça, esqueça<br>
-> 
-> Da próxima vez eu me mando<br>
-> Que se dane meu jeito inseguro<br>
-> Nosso amor vale tanto<br>
-> **Por você vou roubar os anéis de Saturno**<br>
-> 
-> Da próxima vez eu me mando<br>
-> Que se dane meu jeito inseguro<br>
-> Nosso amor vale tanto<br>
-> **Por você vou roubar os anéis de Saturno**<br>
->
-> Compositores: Roberto Zenobio Affonso De Carvalho / Rita Lee Jones De Carvalho
-
 
 <br>
 
