@@ -5,7 +5,7 @@ image: saturno.jpg
 author: Daiane Degan
 ---
 
-![Fonte: NASA, ESA, and A. Simon (Goddard Space Flight Center) ](jupiter.jpg)
+![Imagem em cores naturais do planeta Saturno a partir de imagens da sonda Cassini obtidas em julho de 2008. Fonte: Wikipedia ](saturno.jpg)
 
 
 Saturno é o sexto planeta do sistema solar e o segundo maior. Assim como Júpiter, Saturno é um grande planeta gasoso feito em sua maior parte de hidrogênio e hélio. Ele não é o único planeta a possuir anéis, mas ele é o mais impressionante e o que  possui o maior número. O planeta também possui dúzias de satélites naturais.
@@ -38,21 +38,46 @@ O campo magnético de Saturno é menor que o de Júpiter, mas ainda sim 578 veze
 
 As Auroras acontecem quando partículas carregadas espiralam na atmosfera de um planeta ao longo das linhas do campo magnético. Cassini mostrou que pelo menos algumas das auroras de Saturno são como as de Júpiter e são amplamente não afetadas pelos ventos solares. Pelo contrário,  essas auroras são  causadas pela combinação de partículas ejetadas das luas de Saturno e pela rápida taxa de rotação de seu campo magnético. Mas essas auroras não originárias do Sol não são completamente compreendidas ainda.
 
-
-
-| **Composição**               | **Raio Equatorial**  | **Distância mínima à Terra** | **Distância ao Sol**  |
+| **Composição**               | **Raio Equatorial**  | **Distância à Terra** | **Distância ao Sol**  |
 |:--------:|:--------:|:--------:|:--------:|
-| 86% hidrogênio e 14% hélio | 69.911 km | 778 milhões de km | 590 milhões de km |
+| Hidrogênio e Hélio | 58.232 km | de 1,2 a 1,6 bilhões de km | 1,4 bilhões de km |
 | **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
-| 3,13°                           | 24,79 m/s² | 1,33 g/cm³ | Antigos |
-: JÚPITER {.striped .hover}
+| 26,73° | 10,4 m/s² | 0,687 g/cm³ | Antigos |
+: SATURNO {.striped .hover}
+
+<br>
+
+> Desculpe o auê<br>
+> Eu não queria magoar você<br>
+> Foi ciúme, sim<br>
+> Fiz greve de fome, guerrilhas, motim<br>
+> Perdi a cabeça, esqueça<br>
+> 
+> Desculpe o auê<br>
+> Eu não queria magoar você<br>
+> Foi ciúme, sim<br>
+> Fiz greve de fome, guerrilhas, motim<br>
+> Perdi a cabeça, esqueça<br>
+> 
+> Da próxima vez eu me mando<br>
+> Que se dane meu jeito inseguro<br>
+> Nosso amor vale tanto<br>
+> **Por você vou roubar os anéis de Saturno**<br>
+> 
+> Da próxima vez eu me mando<br>
+> Que se dane meu jeito inseguro<br>
+> Nosso amor vale tanto<br>
+> **Por você vou roubar os anéis de Saturno**<br>
+>
+> Compositores: Roberto Zenobio Affonso De Carvalho / Rita Lee Jones De Carvalho
 
 
 <br>
 
 ## Referências
 
-- <https://science.nasa.gov/jupiter/>
-- <https://science.nasa.gov/mission/europa-clipper/>
-- <https://science.nasa.gov/mission/galileo/>
-- <https://science.nasa.gov/mission/pioneer-10/>
+* Saturn: Facts, NASA Science - <https://science.nasa.gov/saturn/facts/>   
+* Saturn - <https://science.nasa.gov/saturn/>  
+* Saturno em números – Exploração do Sistema Solar da NASA - <https://solarsystem.nasa.gov/saturn-by-the-numbers/?intent=121>  
+* Planet Compare – NASA Solar System Exploration - <https://solarsystem.nasa.gov/planet-compare/?intent=121>  
+* Qual a distância da Terra até outros planetas do Sistema Solar? - <https://olhardigital.com.br/2023/08/14/ciencia-e-espaco/qual-a-distancia-da-terra-ate-outros-planetas-do-sistema-solar/>

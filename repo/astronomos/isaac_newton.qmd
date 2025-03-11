@@ -1,0 +1,69 @@
+---
+title: Isaac Newton
+subtitle: \"Se eu enxerguei mais longe, foi por estar apoiado nos ombros de gigantes\"
+image: isaac_newton.jpg
+author:  Daiane Degan
+---
+
+![Retrato de Sir Isaac Newton (46 anos). Pintura de Godfrey Kneller, 1689. Fonte: Wikipedia.](isaac_newton.jpg)
+
+
+Sir Isaac Newton nasceu em Woolsthorpe, na Inglaterra em 1642, é considerado um dos maiores cientistas da história da humanidade. Matemático, físico, astrônomo, teólogo e filósofo é reconhecido pela sua participação na revolução científica. Teve grande influência na matemática clássica e participação na óptica. Desenvolveu junto com Gottfried Wilhelm Leibniz o cálculo infinitesimal.
+
+Em sua principal obra, *Philosophiae Naturalis Principia mathematica* (*Principia Mathematica* ou, simplesmente, *Principia*), desenvolveu as leis do movimento e da gravitação universal, que foram a principal base científica até Albert Einstein contribuir com suas ideias com a teoria da relatividade. Newton usou seus conhecimentos matemáticos para descrever a gravidade e provar as leis de movimento planetário de Kepler, explicar as forças de marés, as trajetórias dos cometas, a precessão dos equinócios e outros fenômenos, provando o heliocentrismo. Ainda demonstrou que o movimento dos objetos e dos corpos celestes são explicados pelos mesmos princípios. A insistência de Newton sobre a Terra ser uma esfera foi posteriormente confirmada por diversos cientistas, assentando a superioridade da mecânica newtoniana.
+
+Newton construiu o primeiro telescópio refletor prático e desenvolveu uma teoria sofisticada da cor com base na observação de que um prisma separa a luz branca nas cores do espectro visível. Formulou uma lei empírica do resfriamento, fez o primeiro cálculo teórico da velocidade do com e criou a noção de um fluido newtoniano. 
+
+Fez contribuições para a matemática em séries de potências, generalizou o teorema binomial a expoentes não inteiros, desenvolveu um método para aproximar as raízes de uma e classificou a maioria das curvas do plano cúbico.
+
+Newton foi membro do Trinity College e o segundo professor lucasiano na Universidade de Cambridge. Foi um cristão devoto, mas pouco ortodoxo. Além da matemática, Isaac se dedicou também ao estudo da alquimia e da cronologia bíblica. Serviu brevemente dois mandatos como membro do Parlamento da Universidade de Cambridge, foi cavaleiro da rainha e passou trinta anos de sua vida em Londres servindo como diretor e mestre da Casa da Moeda Real e como presidente da Royal Society.
+
+Durante sua adolescência, Newton estudou na The King’s School, que ensinava latim, grego e, provavelmente, uma base de matemática. Foi removido da escola e sua mãe tentou torná-lo um fazendeiro, o que Newton odiava. Por insistência da família e do mestre da escola, Isaac retornou a estudar e como um aluno mais bem classificado.
+
+Em 1661, entrou na Trinity College, em Cambridge. Entrou como um tipo de bolsista, pagando seus estudos ao cumprir as funções de criado particular até receber uma bolsa de estudos em 1664, garantindo mais quatro anos até conseguir seu diploma de mestrado. Os valores da faculdade eram inspirados em Aristóteles, Newton os acrescentou com o ensino de filósofos modernos como Descartes e astrônomos como Galileu e Thomas Street, em que ele aprendeu o trabalho de Kepler. Levantou questões sobre a filosofia mecânica. Em 1665, descobriu o teorema binomial generalizado e começou a desenvolver uma teoria matemática que se tornou o cálculo.
+
+O trabalho de Newton usa extensivamente o cálculo na forma geométrica, com base nos valores limite das proporções de quantidades extremamente pequenas, em Principia Newton denominou isso como o método da primeira e da última proporções, e explicando que por meio disso é realizada a mesma coisa que pelo método dos indivisíveis.
+
+Newton tem crédito com o teorema binomial generalizado, válido para qualquer expoente. Descobriu as identidades de Newton, o método de Newton, classificou as curvas do plano cúbico (polinômios de três graus em duas variáveis), contribuiu significativamente na teoria das diferenças finitas e foi o primeiro a usar índices fracionários e a empregar geometria analítica para derivar soluções para as equações diofantinas. Aproximou somas parciais da série harmônica por logaritmos e foi o primeiro a usar as séries de potência. Se inspirou em Simon Stevin para o seu trabalho em séries infinitas. Foi nomeado Professor Lucasiano de Matemática em 1669, por recomendação de Barrow.
+
+Em 1666, Newton observou que o prisma refrata cores diferentes por ângulos diferentes. Entre 1670 e 1672, investigou a refração da luz, demonstrando que o espectro multicolorido produzido por um prisma poderia ser recomposto em luz branca por uma lente e um segundo prisma. Posteriormente foi revelado que a análise e ressíntese da luz branca de Newton devem uma dívida a alquimia corpuscular.
+
+Newton mostrou que a luz colorida não muda suas propriedades separando um feixe colorido e brilhante em vários objetos e que, independentemente se refletida, dispersa ou transmitida, a luz permanece da mesma cor. Portanto, a cor é o resultado de objetos que interagem com a luz já colorida, em vez de objetos gerando a própria cor. Isso é conhecido como a teoria da cor de Newton.
+
+Isso permitiu a conclusão que as lentes de qualquer telescópio refratário sofriam como a dispersão da luz em cores, a aberração cromática. A prova disso foi a construção de um telescópio usando espelhos reflexivos em vez de lentes com o objetivo de contornar esse problema, conhecido como telescópio Newtoniano.
+
+Posteriormente, Young e Fresnel combinaram a teoria das partículas de Newton com a teoria das ondas de Huygens para mostrar que a cor é a manifestação visível do comprimento de onda da luz.
+
+Em 1679, Newton voltou ao seu trabalho sobre a mecânica celeste, considerando a gravitação e seu efeito nas órbitas dos planetas, com referências às leis de Kepler. Depois de algumas deliberações com Hooke, Newton descobriu que a forma elíptica das órbitas planetárias resultaria de uma força centrípeta inversamente proporcional ao quadrado do vetor do raio.
+
+Principia é a principal obra de Newton, publicada em 1687, em que declarou as três leis universais do movimento. Essas leis descrevem a relação entre qualquer objeto, as forças que atuam sobre ele e o movimento resultante, estabelecendo as bases para a mecânica clássica. Usou a palavra gravitas (peso em latim) para o efeito que seria conhecido como gravidade e definiu a lei da gravitação universal. Nesta obra também foi apresentado o método de cálculo como análise geométrica usando primeira e última razão, baseada na lei de Boyle, deu a primeira determinação analítica da velocidade do som no ar, inferiu o achatamento da figura esferoidal da Terra, responsável pela precessão dos equinócios como resultado da atração gravitacional da lua sobre o achatamento terrestre, iniciou o estudo gravitacional das irregularidades no movimento da Lua, entre muitas outras coisas. Newton encontrou 72 das 78 "espécies" de curvas cúbicas e as classificou em quatro tipos. Em 1717, e provavelmente com a ajuda de Newton, James Stirling provou que todo cúbico era um desses quatro tipos. Newton também afirmou que os quatro tipos poderiam ser obtidos por projeção plana de um deles e isto foi comprovado em 1731, quatro anos após sua morte.
+
+Newton teve uma morte pacífica em 1727, durante seu sono.
+
+<br>
+
+> **Tradução de Carta de Isaac Newton a Robert Hooke:**
+>
+> Cambridge, 5 de fevereiro de 1675-6
+>
+> Prezado Senhor,
+> 
+> Na leitura de sua carta, fiquei extremamente satisfeito e contente com sua generosa franqueza, e acredito que agiu conforme o espírito de um verdadeiro filósofo. Não há nada que eu deseje evitar mais na filosofia do que a contenda, nem qualquer tipo de contenda mais do que uma em público; e, portanto, abraço com grande prazer sua proposta de uma correspondência privada. O que é feito diante de muitas testemunhas raramente está livre de interesses além da busca pela verdade; mas o que passa entre amigos em privado geralmente merece o nome de consulta mais do que de contenda, e espero que assim seja entre nós.
+> 
+> Suas críticas serão, portanto, bem-vindas para mim; pois, embora antes eu estivesse cansado deste assunto devido às frequentes interrupções que me causava, e ainda não tenha — nem creio que jamais terei — recuperado tanto amor por ele a ponto de deleitar-me em gastar tempo com ele, ainda assim, desejo verdadeiramente conhecer de uma vez as objeções mais fortes que possam ser feitas, e não conheço ninguém mais capaz de me fornecer tais objeções do que o senhor. Nisso, o senhor me fará um favor. E se houver algo em meus escritos em que considere que assumi demasiado... Se lhe aprouver reservar seus sentimentos sobre isso para uma carta privada, espero que [perceba que] não estou tão apaixonado por produções filosóficas a ponto de não poder fazê-las ceder...
+> 
+> Entretanto, o senhor atribui excessivamente à minha habilidade em investigar este assunto. O que Descartes fez foi um bom passo. O senhor acrescentou muito de várias formas, especialmente ao considerar as cores de placas delgadas. **Se eu enxerguei mais longe, foi por estar apoiado nos ombros de gigantes**. Mas não duvido que o senhor tenha diversos experimentos muito relevantes além dos que publicou, e alguns, muito provavelmente, os mesmos que constam em meus artigos recentes. Há pelo menos dois que sei que o senhor já observou frequentemente: a dilatação dos anéis coloridos pela obliquidade do olhar e o aparecimento de uma mancha escura no contato de duas lentes convexas, bem como no topo de uma bolha de água. É provável que haja mais, além de outros que eu não realizei, de modo que tenho razão para deferir tanto ou mais a o senhor nesse aspecto do que o senhor deferiria a mim.
+> 
+> Mas, sem insistir nisso, sua carta me dá motivo para indagar sobre uma observação que o senhor propôs que eu fizesse aqui, referente ao trânsito de uma estrela próxima ao zênite. Saí de Londres alguns dias antes do que lhe disse, pois precisei encontrar um amigo em Newmarket naquela ocasião e, assim, perdi suas orientações planejadas. Entretanto, passei em sua residência um ou dois dias antes de partir, mas não o encontrei. Se, portanto, o senhor ainda deseja... que seja observado, pode, enviando suas instruções, ordenar...
+>
+> Seu humilde servo, <br>
+> Is. Newton
+>
+
+<br>
+
+## Referências
+
+* Isaac Newton <https://www.ghtc.usp.br/Biografias/Newton/Newton3.htm>  
+* Isaac Newton – Wikipédia <https://pt.wikipedia.org/wiki/Isaac_Newton>
+- NEWTON, Isaac. *Carta a Robert Hooke*. 5 de fevereiro de 1675-6. Disponível em: <https://www.newtonproject.ox.ac.uk/view/texts/normalized/OTHE00101>. Acesso em: 25 out. 2023.
