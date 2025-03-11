@@ -10,8 +10,8 @@ listing:
     contents:
         - "../../../repo/astronomos/aristarco_de_samos.qmd"
         - "../../../repo/astronomos/claudio_ptolomeu.qmd"
-        - "../../../repo/astronomos/al_batani.qmd"
-        - "../../../repo/astronomos/claudio_ptolomeu.qmd"
+        - "../../../repo/astronomos/al_batani.qmd"        
+        - "../../../repo/astronomos/nicolau_copernico.qmd"
         - "../../../repo/astronomos/galileu_galilei.qmd"
         - "../../../repo/astronomos/isaac_newton.qmd"
         - "../../../repo/astronomos/william_herschel.qmd"
