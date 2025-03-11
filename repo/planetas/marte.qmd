@@ -5,7 +5,7 @@ image: marte.png
 author: Lucas Caprio Ribeiro
 ---
 
-![Marte fotografado pela sonda espacial emirática Hope, em 30/08/2021. Fonte: Wikipedia](marte.png)
+![Marte fotografado pela sonda espacial emirática Hope, em 30/08/2021.](marte.png)
 
 Marte é o quarto planeta do Sistema Solar e é conhecido como o "Planeta Vermelho" devido à sua aparência avermelhada, causada pela presença de óxido de ferro (ferrugem) em sua superfície. Ele está a aproximadamente 1,52 unidades astronômicas do Sol. Marte tem um raio de cerca de 3.389,5 km, sendo um dos planetas mais estudados devido à sua proximidade relativa com a Terra e seu potencial para ter abrigado vida no passado.
 

@@ -5,7 +5,7 @@ image: william_herschel.jpg
 author:  Laís Florêncio de Oliveira
 ---
 
-![William Herschel. Pintura de Lemuel Francis Abbott, 1785. Fonte: Wikipedia.](william_herschel.jpg)
+![William Herschel. Pintura de Lemuel Francis Abbott, 1785.](william_herschel.jpg)
 
 William Herschel (1738–1822) foi um astrônomo e compositor alemão naturalizado inglês, conhecido por descobrir o planeta Urano e por realizar importantes contribuições na astronomia e na física. Nascido em Hanôver, Alemanha, em 15 de novembro de 1738, Herschel se mudou para a Inglaterra aos 19 anos, onde começou a ensinar música, tornando-se organista. A partir daí, se dedicou à astronomia e se fez várias descobertas, como as luas Titânia e Oberon de Urano e a radiação infravermelha.
 

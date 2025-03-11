@@ -1,0 +1,32 @@
+---
+title: Cláudio Ptolomeu
+subtitle: \"É esse amor pela contemplação do eterno e imutável que constantemente buscamos aumentar...\"
+image: almagesto.webp
+author:  Lucas Caprio Ribeiro
+---
+
+![Foto da primeira edição de 1528 da primeira tradução latina do texto original grego de um dos textos científicos mais influentes do mundo - *o Almagesto*. Fonte: Manhattan Rare Book Company.](almagesto.webp)
+
+Cláudio Ptolomeu, conhecido simplesmente como Ptolomeu, foi um matemático, astrônomo, geógrafo e astrólogo grego que viveu no século II d.C., na cidade de Alexandria, no Egito, durante o período do Império Romano. Ptolomeu é mais famoso por seu trabalho no campo da astronomia, onde desenvolveu o modelo geocêntrico do universo, que permaneceu a visão dominante do cosmos por mais de mil anos.
+
+Seu trabalho mais influente, o "Almagesto", é uma obra monumental que compila o conhecimento astronômico da época e apresenta um modelo matemático detalhado do universo. No Almagesto, Ptolomeu propôs que a Terra estava no centro do universo e que todos os planetas, incluindo o Sol e a Lua, giravam ao seu redor em órbitas circulares. Para explicar as variações observadas nos movimentos planetários, ele introduziu o conceito de epiciclos, pequenos círculos nos quais os planetas se movem enquanto giram em torno da Terra.
+
+Ptolomeu também fez importantes contribuições à geografia com sua obra "Geografia", onde compilou e expandiu o conhecimento geográfico da época, criando mapas e desenvolvendo técnicas de projeção cartográfica que foram usadas por séculos. Seu sistema de coordenadas geográficas ajudou a orientar exploradores e geógrafos por gerações.
+
+Além de suas contribuições à astronomia e geografia, Ptolomeu escreveu sobre astrologia no "Tetrabiblos", uma obra que tentou fornecer uma base científica para a prática astrológica. Embora a astrologia não seja considerada uma ciência hoje em dia, o Tetrabiblos teve uma influência duradoura na tradição astrológica ocidental.
+
+A visão geocêntrica de Ptolomeu foi amplamente aceita pela Igreja Católica e pela maioria dos estudiosos da Idade Média, tornando-se a base da astronomia europeia até o Renascimento. Foi somente com o trabalho de astrônomos como Nicolau Copérnico, Johannes Kepler e Galileu Galilei que o modelo heliocêntrico começou a ganhar aceitação e a substituir o sistema ptolomaico.
+
+Apesar de suas falhas, o modelo de Ptolomeu foi notavelmente preciso em prever as posições dos planetas e foi uma ferramenta útil para astrônomos e navegadores por muitos séculos. Seu trabalho representa um marco importante na história da astronomia e demonstra a engenhosidade e a dedicação dos antigos estudiosos em entender o cosmos.
+
+> "É esse amor pela contemplação do eterno e imutável que constantemente buscamos aumentar, estudando aquelas partes dessas ciências que já foram dominadas por aqueles que se aproximaram delas com um espírito genuíno de investigação, e tentando, por nossa parte, contribuir com o máximo de avanço possível, dado o tempo adicional entre aqueles e nós. Tentaremos anotar tudo o que achamos ter descoberto até o momento; faremos isso da maneira mais concisa possível e de uma forma que possa ser seguida por aqueles que já fizeram algum progresso na área. Para garantir a completude de nosso tratamento, apresentaremos tudo o que for útil para a teoria dos céus na ordem adequada, mas, para evitar comprimento excessivo, apenas relataremos o que já foi adequadamente estabelecido pelos antigos. No entanto, os tópicos que não foram tratados [por nossos predecessores] de modo algum, ou não da maneira mais útil possível, serão discutidos detalhadamente, da melhor forma que conseguirmos."
+>
+> *Trecho do prefácio do Almagesto traduzido de TOOMER (1984).*
+
+<br>
+
+## Referências
+
+- Ptolemeu. (2023, August 29). Wikipedia. <https://pt.wikipedia.org/wiki/Ptolemeu>
+- Cláudio Ptolomeu - Biografia - UOL Educação. (2025). Uol.com.br. <https://educacao.uol.com.br/biografias/ptolomeu.jhtm>
+- TOOMER, G. J. (trad.). *Ptolemy’s Almagest*. Tradução e anotação de G. J. Toomer. 1984. 693 p. Springer-Verlag. Disponível em: <https://archive.org/details/ptolemys-almagest-toomer>. Acesso em: 11 mar. 2025.

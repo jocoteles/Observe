@@ -1,0 +1,32 @@
+---
+title: Al-Battani
+subtitle: \"...Al-Battani de Raqqa fez a próxima observação, na qual podemos ter a máxima confiança.\"
+image: al_batani.webp
+author:  Lucas Caprio Ribeiro
+---
+
+![Representação de Al-Battani, em que o sábio árabe manipula um astrolábio. Fonte: Wikipedia.](al_batani.webp)
+
+Abu Abdallah Muhammad ibn Jabir ibn Sinan Al-Battani, conhecido na Europa como Albategnius, foi um astrônomo e matemático árabe nascido por volta de 858 em Harran, na atual Turquia. Ele é amplamente reconhecido como um dos maiores astrônomos da Idade Média e fez contribuições significativas para a astronomia e a matemática durante o período de ouro islâmico.
+
+Al-Battani é mais conhecido por seu trabalho "Kitab az-Zij" (O Livro das Tabelas Astronômicas), um compêndio de tabelas astronômicas baseado em suas próprias observações. Este trabalho corrigiu e refinou as obras anteriores de Ptolomeu e outros astrônomos, fornecendo medições altamente precisas dos corpos celestes. Ele melhorou os valores existentes para o comprimento do ano e das estações, a precessão anual dos equinócios e a inclinação do eclíptico.
+
+Um dos principais avanços de Al-Battani foi a introdução de funções trigonométricas em seus cálculos astronômicos, substituindo os métodos geométricos usados por Ptolomeu. Ele também mostrou que a posição do apogeu do Sol, o ponto mais distante da Terra, é variável e que eclipses anulares (eclipses centrais, mas incompletas) do Sol são possíveis.
+
+Al-Battani realizou muitas observações precisas em ar-Raqqa, na Síria, a partir de 877, e suas tabelas astronômicas foram traduzidas para o latim em cerca de 1116 e para o espanhol no século XIII. Sua obra teve um impacto duradouro na astronomia europeia e nas técnicas de navegação.
+
+Além de suas contribuições astronômicas, Al-Battani também fez importantes avanços na matemática, especialmente no campo da trigonometria. Seu trabalho influenciou muitos cientistas posteriores e ajudou a estabelecer uma base sólida para o desenvolvimento da astronomia e da matemática no mundo islâmico e europeu.
+
+
+> Mas muito tempo depois, ou seja, 1.202 anos após a morte de Alexandre, Al-Battani de Raqqa fez a próxima observação, na qual podemos ter a máxima confiança. Naquele ano, Regulus (ou Basiliscus, na constelação de Leão) foi visto ter atingido 44° 5' a partir do solstício de verão; e a estrela na testa do Escorpião, 47° 50'.
+>
+> *Trecho do Capítulo 2 do Livro 3 de "Sobre as Revoluções das Esferas Celestes" de Nicolau Copérnico.*
+
+<br>
+
+## Referências
+
+- <https://pt.wikipedia.org/wiki/Nicolau_Cop%C3%A9rnico>
+- <https://www.worldhistory.org/trans/pt/1-19243/nicolau-copernico/>
+- COPÉRNICO, Nicolau. *On the revolutions of the heavenly spheres.* Tradução de Edward Rosen. Disponível em: <https://www.reed.edu/math-stats/wieting/mathematics537/DeRevolutionibus.pdf>. Acesso em: 11 mar. 2025.
+
