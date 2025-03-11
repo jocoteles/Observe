@@ -1,14 +1,15 @@
 [
   {
-    "listing": "/atividades/observatorio/circulo_dos_astronomos/circulo_dos_astronomos.html",
+    "listing": "/atividades/observatorio/circulo_dos_planetas.html",
     "items": [
-      "/repo/astronomos/aristarco_de_samos.html",
-      "/repo/astronomos/claudio_ptolomeu.html",
-      "/repo/astronomos/al_batani.html",
-      "/repo/astronomos/galileu_galilei.html",
-      "/repo/astronomos/isaac_newton.html",
-      "/repo/astronomos/william_herschel.html",
-      "/repo/astronomos/henrietta_leavitt.html"
+      "/repo/planetas/mercurio.html",
+      "/repo/planetas/venus.html",
+      "/repo/planetas/terra.html",
+      "/repo/planetas/marte.html",
+      "/repo/planetas/jupiter.html",
+      "/repo/planetas/saturno.html",
+      "/repo/planetas/urano.html",
+      "/repo/planetas/netuno.html"
     ]
   },
   {
@@ -105,16 +106,15 @@
     ]
   },
   {
-    "listing": "/atividades/observatorio/circulo_dos_planetas/circulo_dos_planetas.html",
+    "listing": "/atividades/observatorio/circulo_dos_astronomos.html",
     "items": [
-      "/repo/planetas/mercurio.html",
-      "/repo/planetas/venus.html",
-      "/repo/planetas/terra.html",
-      "/repo/planetas/marte.html",
-      "/repo/planetas/jupiter.html",
-      "/repo/planetas/saturno.html",
-      "/repo/planetas/urano.html",
-      "/repo/planetas/netuno.html"
+      "/repo/astronomos/aristarco_de_samos.html",
+      "/repo/astronomos/claudio_ptolomeu.html",
+      "/repo/astronomos/al_batani.html",
+      "/repo/astronomos/galileu_galilei.html",
+      "/repo/astronomos/isaac_newton.html",
+      "/repo/astronomos/william_herschel.html",
+      "/repo/astronomos/henrietta_leavitt.html"
     ]
   }
 ]
