@@ -117,6 +117,7 @@
         {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
         {escola:'EE PROFESSOR VICENTE FERREIRA DOS SANTOS', professor:'Antonio de Souza', dia:'20/03', horario:'14h às 15h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'EMEF PROFESSORA ADALGISA PERIM BALESTRO FRANZINI', professor:'Maria Alves', dia:'20/03', horario:'14h às 15h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'EMEF PADRE HERCÍLIO BERTOLINI', professor:'Fernanda Trevisan', dia:'20/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
         {escola:'Colégio Sagrada Familia', professor:'Isadora Amâncio', dia:'20/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'Colégio Sagrada Familia', professor:'Nicolas', dia:'20/03', horario:'19h às 20h30', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
         {escola:'Colégio Sagrada Familia', professor:'Jonathan', dia:'20/03', horario:'19h às 20h30', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'}

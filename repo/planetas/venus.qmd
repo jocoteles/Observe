@@ -1,5 +1,5 @@
 ---
-title: Venus
+title: Vênus
 subtitle: O planeta mais quente e que gira ao contrário.
 image: venus.jpg
 author: Lucas Caprio Ribeiro

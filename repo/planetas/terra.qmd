@@ -22,8 +22,7 @@ A Terra, com sua abundante biodiversidade e complexidade, é um lembrete de como
 
 | **Composição**               | **Raio Equatorial**  | **Distância mínima à Terra** | **Distância ao Sol**  |
 |:--------:|:--------:|:--------:|:--------:|
-| Superfície: Rochas, solo, água e material orgânico, Atmosfera: 78% Nitrogênio, 21% Oxigênio, 0.93% Argônio e 0.04% Dióxido de carbono
-6.371km | - | 149.600.000 km |
+| Superfície: Rochas, solo, água e material orgânico, Atmosfera: 78% Nitrogênio, 21% Oxigênio, 0.93% Argônio e 0.04% Dióxido de carbono | 6.371km | - | 149.600.000 km |
 | **Inclinação Equatorial**    | **Aceleração da Gravidade** | **Densidade** | **Descoberta** |
 | 23,5° | 9,81 m/s² | 5,52g/cm³ | - |
 : TERRA {.striped .hover}
