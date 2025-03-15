@@ -55,7 +55,9 @@
 </section>
 <section id="form_escolas" class="level2">
 <h2 class="anchored" data-anchor-id="form_escolas">Formulário para as escolas</h2>
-<form id="formulario">
+<p>O período para inscrições das escolas está encerrado.</p>
+<!-- Retirar style="display: none" quando o período de inscrições estiver aberto -->
+<form id="formulario" style="display: none">
    <p></p><div class="form-group">
         <label for="escola">Escola</label>
         <input type="text" class="form-control" id="escola" placeholder="Insira o nome da escola">
@@ -112,6 +114,7 @@
         {escola:'Colégio CONECTA', professor:'Maria Piva', dia:'19/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
         {escola:'EMEF Profa. Clotilde Russo', professor:'Viviani Zorzo', dia:'19/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
         {escola:'PEI EE Yolanda Salles Cabianca', professor:'Geysa Carneiro', dia:'19/03', horario:'14h às 15h30', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'EMEF PROFESSOR LEONALDO ZORNOFF', professor:'Ariane, Jacqueline e Daniele', dia:'19/03', horario:'16h às 17h30', escolaridade:'Fundamental 1', alunos: 'menos que 15'},
         {escola:'EMEF PROFESSOR LEONALDO ZORNOFF', professor:'Pâmela Quintiliano', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
         {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
@@ -254,19 +257,13 @@ Grupo ${i}:
     }
 
 </script>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Atenção
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email <code>observe@ufscar.br</code></p>
-</div>
-</div>
+<!-- Descomentar o callout abaixo quando o período de inscrições estiver aberto -->
+<!-- 
+::: {.callout-note}
+## Atenção
+A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email `observe@ufscar.br`
+:::
+ -->
 </section>
 <section id="agendamentos-confirmados" class="level2">
 <h2 class="anchored" data-anchor-id="agendamentos-confirmados">Agendamentos confirmados</h2>
