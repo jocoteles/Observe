@@ -9,7 +9,7 @@
 <link>https://observe.ufscar.br/calendario/calendario.html</link>
 <atom:link href="https://observe.ufscar.br/calendario/calendario.xml" rel="self" type="application/rss+xml"/>
 <description> </description>
-<generator>quarto-1.6.42</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Fri, 14 Feb 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>XIX Jornada diurna e noturna das Estrelas</title>
@@ -114,7 +114,6 @@
         {escola:'Colégio CONECTA', professor:'Maria Piva', dia:'19/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
         {escola:'EMEF Profa. Clotilde Russo', professor:'Viviani Zorzo', dia:'19/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
         {escola:'PEI EE Yolanda Salles Cabianca', professor:'Geysa Carneiro', dia:'19/03', horario:'14h às 15h30', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
-        {escola:'EMEF PROFESSOR LEONALDO ZORNOFF', professor:'Ariane, Jacqueline e Daniele', dia:'19/03', horario:'16h às 17h30', escolaridade:'Fundamental 1', alunos: 'menos que 15'},
         {escola:'EMEF PROFESSOR LEONALDO ZORNOFF', professor:'Pâmela Quintiliano', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
         {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
         {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
