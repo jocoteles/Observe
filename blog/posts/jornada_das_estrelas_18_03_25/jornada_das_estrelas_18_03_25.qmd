@@ -1,0 +1,25 @@
+---
+title: XIX Jornada das Estrelas - 18/03/2024
+date: 19 03 2025
+image: foto10.jpg
+categories: [Evento, "Jornada das Estrelas"]
+author: João Teles
+---
+
+Ontem tivemos o primeiro dia da XIX Jornada diurna e noturna das Estrelas. Nela tivemos a satisfação de receber turmas das escolas de Araras, EMEF Clotilde Russo e EE Yolanda Cabianca, no período da tarde, e o Colégio Delta de Leme e a EMEF Thereza Ometto de Araras no período noturno, totalizando aproximadamente 250 estudantes visitantes. Além disso, tivemos a presença de várias pessoas em grupos de familiares e amigos (em torno de 100).
+
+Durante o dia tivemos a sorte de escapar da chuva para poder fazer a observação do Sol com o nosso [telescópio equatorial motorizado de 150 mm de abertura](/acervo/itens/c6-s/c6s.qmd). Utilizando filtro solar na entrada da objetiva do telescópio, todos puderam observar o Sol em tempo real e apreciar suas manchas solares, as quais também foram apresentadas e comparadas com imagens em tempo real do [observatório espacial SOHO](https://soho.nascom.nasa.gov/).
+
+![Estudantes observando o Sol através do telescópio (com filtro) durante o evento em torno das 15h da tarde de 18/03/2025.](sol_observacao.jpeg){fig-align="center" .responsive-img .preview-image}
+
+Durante o dia também pudemos inaugurar o [Passeio dos Planetas](/atividades/passeio_dos_planetas/passeio_dos_planetas.qmd) com o público visitante. Nele, o Sistema Solar é representado em uma escala de 1 para 185 milhões, fazendo com que o Sol tenha 75 cm e a Terra 6,9 mm de diâmetro. A esfera do Sol foi fabricada em fibra de vidro e pode ser apreciada juntamente com parte do público visitante na imagem abaixo. Os planetas, de Mercúrio a Júpiter, foram feitos em impressão 3D. Os estudantes que caminharam até Júpiter (420 metros de distância do Sol) dispensaram a aula de educação física (rsrsrs). 
+
+![Estudantes iniciando o Passeio dos Planetas a partir da esfera do Sol.](esfera_sol.jpeg){fig-align="center" .responsive-img .preview-image}
+
+Durante à tarde também realizamos a atividade de Modelagem das Estações do ano em que pudemos ensinar usando uma maquete interativa e uma fonte de iluminação a verdadeira causa das estações do ano e suas peculiaridades.
+
+![Explicações das estações do ano sendo feitas durante o evento.](estacoes_do_ano.jpeg){fig-align="center" .responsive-img .preview-image}
+
+Como última atração da tarde, os estudantes puderam visitar o [Observatório a olho nu do CCA/UFSCar](/atividades/observatorio/observatorio.qmd) e aprender mais sobre os movimentos do Sol e das estrelas através do posicionamento das 8 placas informativas e dos relógios solar e estelar.
+
+![Estudantes no centro do Observatorio a olho nu, observando a diferença entre as direções do norte geográfico e do norte magnético.](estudantes_observatorio.jpeg){fig-align="center" .responsive-img .preview-image}
