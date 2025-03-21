@@ -10,13 +10,13 @@ Com seus quase 4 trilhões de trilhões de megawatts constantemente "fritando" M
 
 Galileu Galilei foi o primeiro a testemunhar isso, observando o Sol com seu telescópio e relatando a existência das manchas solares. Hoje sabemos que são regiões mais frias na superfície solar devido ao confinamento do plasma em imensas linhas de campo magnético, impedindo assim a convecção que renova sua temperatura.
 
-Aqui temos a oportunidade de observar o Sol e suas manchas em tempo real com nossos telescópios. Mesmo utilizando filtros solares adequados, evitamos observar diretamente pela ocular do telescópio. Usamos, ao invés disso, uma câmera de astrofotografia para projetar a imagem do Sol com grande ampliação e, assim, observar os detalhes das manchas solares.
+Aqui temos a oportunidade de observar o Sol e suas manchas em tempo real com nossos telescópios. Utilizando filtros solares adequados, podemos fazer observações diretamente pela ocular do telescópio ou usar uma câmera de astrofotografia para projetar a imagem do Sol com grande ampliação e, assim, observar os detalhes das manchas solares.
 
 ### Atividades
 
 Normalmente, a Jornada do Sol é dividia em três etapas:
 
-1. Projeção do Sol usando [telescópios]({{< var loc.acervo >}}/acervo.qmd).
+1. Observação do Sol usando [telescópios]({{< var loc.acervo >}}/acervo.qmd).
 1. Visitação ao [Relógio Solar]({{< var loc.atividades >}}/observatorio/observatorio.qmd) e ao [Passeio dos Planetas]({{< var loc.atividades >}}/passeio_dos_planetas/passeio_dos_planetas.qmd).
 1. Palestra sobre temas relacionados ao Sol.
 

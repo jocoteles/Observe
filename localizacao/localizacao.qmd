@@ -7,7 +7,7 @@ description: " "
 
 Abaixo encontra-se o mapa de localização da Praça do Observatório a Olho Nu -- marca vermelha -- que é o ponto de referência da maioria das atividades desenvolvidas no {{< var tipo.observe >}}. O CCA/UFSCar possui duas entradas. Uma, indicada pela marca azul no mapa, é por dentro da cidade entre o Jardim Pedras Preciosas e o Jardim Esmeraldas. A outra, indicada pela marca verde, é pela rodovia Anhanguera no sentido de Araras para Ribeirão Preto.
 
-Mas atenção, as participações nos eventos do {{< var tipo.observe >}} precisam ser pré-agendadas ou estarem programadas no [calendário de eventos]({{< var loc.calendario >}}/calendario.qmd). Não há pessoas disponíveis para atendimento fora dessas condições.
+Mas atenção, as participações nos eventos do {{< var tipo.observe >}} precisam ser agendadas ou estarem programadas no [calendário de eventos]({{< var loc.calendario >}}/calendario.qmd). Não há pessoas disponíveis para atendimento fora dessas condições.
 
 ```{python}
 #| echo: false
