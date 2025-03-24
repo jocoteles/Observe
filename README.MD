@@ -1,5 +1,8 @@
 # Código fonte do Website do grupo obseRVe
 
+Estas são informações gerais sobre a estrutura e organização do website.
+O website renderizado encontra-se em (https://observe.ufscar.br/)
+
 ## Barra de navegação
 
 Todos os itens da página inicial acessíveis na barra de navegação.
