@@ -1,11 +1,41 @@
 ---
 title: Realidade Virtual com A-Frame para Ensino de Física e Astronomia
-subtitle: Este minicurso visa introduzir os participantes ao desenvolvimento de aplicações de RV para o ensino de astronomia utilizando a plataforma A-Frame, com base na linguagem HTML/Javascript.
+subtitle: "[Este minicurso](https://jocoteles.github.io/Minicurso-A-Frame-VR/) visa introduzir os participantes ao desenvolvimento de aplicações de RV para o ensino de astronomia utilizando a plataforma A-Frame, com base na linguagem HTML/Javascript."
 image: aframe.jpeg
 ---
 
-### [Acesse aqui o minicurso completo](https://jocoteles.github.io/Minicurso-A-Frame-VR/)
+![](aframe.jpeg)
+
+[Acesse aqui o minicurso completo](https://jocoteles.github.io/Minicurso-A-Frame-VR/)
 
 <br>
 
-![](aframe.jpeg) 
+## Aplicações A-FRame em RV desenvolvidas no minicurso
+
+### Sistema Sol-Terra-Lua em movimento
+
+Nesta aplicação, podemos observar os movimentos e posições do Sol, da Terra e da Lua com eixo e planos auxiliares de forma a explorar fenômenos como as estações do ano, fases da lua e eclipses.
+
+- Ela pode ser [editada na plataforma Glitch](https://glitch.com/edit/#!/stl-completo), ou
+- pode ser rodada diretamente pelo endereço [https://stl-completo.glitch.me/](https://stl-completo.glitch.me/).
+
+::: {#vid-stl-completo}
+{{< video https://youtu.be/Xs07RB4W-kc >}}
+
+Sistema STL em movimento.
+:::
+
+
+### Sistema Sol-Terra-Lua manipulável
+
+Nesta aplicação, podemos manipular a posição do Sol, da Terra, ou da Lua de forma a explorar fenômenos como as estações do ano, fases da lua e eclipses. O foco aqui está na liberdade do usuário em manipular os corpos e testar as diferentes configurações orientado ou não por um professor.
+
+- Ela pode ser [editada na plataforma Glitch](https://glitch.com/edit/#!/stl-grabbable), ou
+- pode ser rodada diretamente pelo endereço [https://stl-grabbable.glitch.me/](https://stl-grabbable.glitch.me/).
+
+::: {#vid-stl-grabbable}
+{{< video https://youtu.be/v-wMky5iR70 >}}
+
+Vídeo mostrando a manipulação e os usos didáticos do sistema STL manipulável
+:::
+

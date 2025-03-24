@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://observe.ufscar.br/localizacao/localizacao.html</loc>
-    <lastmod>2024-04-24T19:11:44.000Z</lastmod>
+    <lastmod>2025-03-21T14:24:51.737Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/repo/astronomos/isaac_newton.html</loc>
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://observe.ufscar.br/atividades/jornada_do_sol/jornada_do_sol.html</loc>
-    <lastmod>2024-09-26T18:43:25.993Z</lastmod>
+    <lastmod>2025-03-21T14:22:59.582Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/atividades/atividades.html</loc>
@@ -141,19 +141,63 @@
     <lastmod>2025-03-06T16:58:14.240Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html</loc>
+    <loc>https://observe.ufscar.br/blog/posts/jornada_das_estrelas_18_03_25/jornada_das_estrelas_18_03_25.html</loc>
+    <lastmod>2025-03-21T14:20:11.182Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/blog/posts/minicurso_unity_16_10_24/minicurso_unity_16_10_24.html</loc>
+    <lastmod>2025-03-06T16:58:14.240Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html</loc>
     <lastmod>2025-03-06T16:58:14.246Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html</loc>
-    <lastmod>2025-03-06T16:58:14.239Z</lastmod>
+    <loc>https://observe.ufscar.br/acervo/itens/quest2/quest2.html</loc>
+    <lastmod>2024-09-25T14:08:22.935Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/acervo/itens/relogio_estelar/relogio_estelar.html</loc>
+    <loc>https://observe.ufscar.br/acervo/itens/svbony305/svbony305.html</loc>
+    <lastmod>2024-09-25T14:08:22.935Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/acervo/itens/nexstar4se/nexstar4se.html</loc>
     <lastmod>2024-04-24T19:11:44.000Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/acervo/itens/c6-s/c6s.html</loc>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/soupsieve-2.6.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:01.209Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/httpcore-1.0.5.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:05.231Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/numpy/random/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:42:47.134Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:01.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/index.html</loc>
+    <lastmod>2025-02-05T19:08:29.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/cffi/recompiler.html</loc>
+    <lastmod>2024-09-25T17:38:05.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:03.458Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/httpx-0.27.2.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-09-25T17:38:05.770Z</lastmod>
+  </url>
+  <url>
+    <loc>https://observe.ufscar.br/acervo/acervo.html</loc>
     <lastmod>2024-09-25T14:08:22.933Z</lastmod>
   </url>
   <url>
@@ -161,60 +205,20 @@
     <lastmod>2024-09-25T14:08:22.935Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/acervo/acervo.html</loc>
+    <loc>https://observe.ufscar.br/acervo/itens/c6-s/c6s.html</loc>
     <lastmod>2024-09-25T14:08:22.933Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/httpx-0.27.2.dist-info/licenses/LICENSE.html</loc>
-    <lastmod>2024-09-25T17:38:05.770Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.html</loc>
-    <lastmod>2024-09-25T17:38:03.458Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/cffi/recompiler.html</loc>
-    <lastmod>2024-09-25T17:38:05.304Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/index.html</loc>
-    <lastmod>2025-02-05T19:08:29.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/licenses/LICENSE.html</loc>
-    <lastmod>2024-09-25T17:38:01.887Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/numpy/random/LICENSE.html</loc>
-    <lastmod>2024-09-25T17:42:47.134Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/httpcore-1.0.5.dist-info/licenses/LICENSE.html</loc>
-    <lastmod>2024-09-25T17:38:05.231Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/observe-env/lib/python3.12/site-packages/soupsieve-2.6.dist-info/licenses/LICENSE.html</loc>
-    <lastmod>2024-09-25T17:38:01.209Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/acervo/itens/nexstar4se/nexstar4se.html</loc>
+    <loc>https://observe.ufscar.br/acervo/itens/relogio_estelar/relogio_estelar.html</loc>
     <lastmod>2024-04-24T19:11:44.000Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/acervo/itens/svbony305/svbony305.html</loc>
-    <lastmod>2024-09-25T14:08:22.935Z</lastmod>
+    <loc>https://observe.ufscar.br/blog/posts/eclipse_solar_02_10_24/eclipse_solar_02_10_24.html</loc>
+    <lastmod>2025-03-06T16:58:14.239Z</lastmod>
   </url>
   <url>
-    <loc>https://observe.ufscar.br/acervo/itens/quest2/quest2.html</loc>
-    <lastmod>2024-09-25T14:08:22.935Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html</loc>
+    <loc>https://observe.ufscar.br/blog/posts/pons-brooks_07_05_24/pons-brooks_07_05_24.html</loc>
     <lastmod>2025-03-06T16:58:14.246Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/minicurso_unity_16_10_24/minicurso_unity_16_10_24.html</loc>
-    <lastmod>2025-03-06T16:58:14.240Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/blog/posts/alinhamento_planetas_28_02_25/alinhamento_planetas_28_02_25.html</loc>
@@ -298,7 +302,7 @@
   </url>
   <url>
     <loc>https://observe.ufscar.br/atividades/cursos/aframe/aframe.html</loc>
-    <lastmod>2025-02-05T18:34:24.626Z</lastmod>
+    <lastmod>2025-03-24T17:24:42.812Z</lastmod>
   </url>
   <url>
     <loc>https://observe.ufscar.br/atividades/jogos_e_desafios/jogos_e_desafios.html</loc>
@@ -355,9 +359,5 @@
   <url>
     <loc>https://observe.ufscar.br/repo/astronomos/claudio_ptolomeu.html</loc>
     <lastmod>2025-03-11T19:00:04.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://observe.ufscar.br/blog/posts/jornada_das_estrelas_18_03_25/jornada_das_estrelas_18_03_25.html</loc>
-    <lastmod>2025-03-19T20:18:26.719Z</lastmod>
   </url>
 </urlset>
