@@ -11,4 +11,5 @@ listing:
     contents:
         - "foucault_proj/foucault_proj.qmd"
         - "sissolxr_proj/sissolxr_proj.qmd"
+        - "planetar/planetar.qmd"
 ---

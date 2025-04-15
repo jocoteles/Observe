@@ -1,0 +1,89 @@
+---
+title: PlanetAR
+subtitle: Exploração dos Planetas em Realidade Aumentada pelo Celular.
+image: planetar_logo.png
+date: 15 04 2025
+categories: [Projeto]
+author: Jhasmani Tito
+---
+
+## Descrição
+
+*PlanetAR* é um aplicativo de realidade aumentada (RA) disponível para o sistema Android que oferece uma experiência lúdica e interativa para explorar a estrutura dos planetas por meio de modelos 3D animados projetados diretamente na tela do celular.
+
+- Endereço do aplicativo na Play Store: [em breve]
+- Link para as imagens alvo dos planetas individualmente:
+    - [Mercúrio](mercurio.svg)
+    - [Vênus](venus.svg)
+    - [Terra](terra.svg)
+    - [Marte](marte.svg)
+    - [Júpiter](jupiter.svg)
+    - [Saturno](saturno.svg)
+    - [Urano](urano.svg)
+    - [Netuno](netuno.svg)
+- Link para imagem com todos os planetas: [Todos](todos.svg)
+
+Características do aplicativo:
+
+- O sistema de RA utiliza a câmera do dispositivo para rastrear imagens de referência dos planetas, disponibilizadas nos links acima.
+- Ao reconhecer uma imagem, o aplicativo projeta um modelo 3D animado do planeta correspondente, cuja animação pode ser controlada por meio de botões na tela.
+- No canto superior esquerdo, há um botão que, ao ser clicado, exibe informações reais sobre o planeta identificado, além de uma imagem autêntica capturada por sondas ou telescópios.
+
+PlanetAR é um aplicativo de código aberto, licenciado sob a MIT License, com sua versão 1.0 disponível no GitHub: [https://github.com/Jhasmaniectt/PlanetAR](https://github.com/Jhasmaniectt/PlanetAR)
+
+
+## Política de Privacidade
+
+- *Data de vigência:* Atualizado 12/05/205
+- *Desenvolvedor:* Jhasmani Tito
+- *Aplicativo:* PlanetAR
+- *Plataforma:* Android
+- *Idioma principal do aplicativo:* Português (Brasil)
+- *Público-alvo:* Usuários a partir de 8 anos de idade
+
+### 1. Compromisso com a privacidade
+
+A privacidade dos usuários é uma prioridade para o desenvolvedor do PlanetAR. Este aplicativo foi criado com foco educacional e informativo, e não coleta nem processa dados pessoais. Todas as funcionalidades ocorrem localmente no dispositivo, sem qualquer comunicação com servidores externos.
+
+### 2. Uso da câmera
+
+O aplicativo solicita permissão de acesso à câmera do dispositivo exclusivamente para a funcionalidade de Realidade Aumentada (RA). Esse acesso:
+
+- Não grava, armazena ou transmite imagens ou vídeos.
+- Não é utilizado para reconhecimento facial ou biométrico.
+- Não é compartilhado com terceiros.
+
+O uso da câmera se limita à projeção de modelos 3D dos planetas sobre imagens de referência, com fins educativos.
+
+### 3. Coleta de dados
+
+PlanetAR não coleta, transmite ou armazena informações pessoais ou dados do dispositivo.
+
+Especificamente, o aplicativo:
+
+- Não acessa contatos, localização, microfone, arquivos, identificadores do dispositivo ou histórico de navegação.
+- Não utiliza cookies nem tecnologias de rastreamento.
+- Não exibe anúncios nem utiliza redes de publicidade.
+
+### 4. Armazenamento local
+
+Todos os recursos, modelos 3D, imagens e configurações são armazenados localmente no dispositivo. Não há sincronização em nuvem nem envio de dados para servidores externos.
+
+### 5. Segurança
+
+Como não há coleta de dados nem conexão com a internet, o risco de exposição de informações é praticamente inexistente. O aplicativo segue boas práticas de desenvolvimento para garantir segurança durante o uso.
+
+### 6. Público-alvo
+
+O PlanetAR é destinado a usuários com idade a partir de 8 anos. O conteúdo tem finalidade educacional e científica, focando na astronomia e no sistema solar. Não contém conteúdo sensível, violento ou inadequado para menores.
+
+### 7. Alterações nesta política
+
+Caso futuras atualizações incluam funcionalidades que exijam permissões adicionais ou tratamento de dados, esta política será atualizada e os usuários serão informados através da Play Store.
+
+### 8. Contato
+
+Em caso de dúvidas sobre esta Política de Privacidade, entre em contato com a equipe desenvolvedora: `observe@ufscar.br`
+
+
+
