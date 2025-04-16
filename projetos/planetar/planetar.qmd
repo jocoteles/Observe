@@ -9,30 +9,75 @@ author: Jhasmani Tito
 
 ## Descrição
 
-*PlanetAR* é um aplicativo de realidade aumentada (RA) disponível para o sistema Android que oferece uma experiência lúdica e interativa para explorar a estrutura dos planetas por meio de modelos 3D animados projetados diretamente na tela do celular.
+*PlanetAR* é um aplicativo de Realidade Aumentada disponível para o sistema Android que oferece uma experiência lúdica e interativa para explorar a estrutura dos planetas por meio de modelos 3D animados projetados diretamente na tela do celular.
 
-- Endereço do aplicativo na Play Store: [em breve]
-- Link para as imagens alvo dos planetas individualmente:
-    - [Mercúrio](mercurio.svg)
-    - [Vênus](venus.svg)
-    - [Terra](terra.svg)
-    - [Marte](marte.svg)
-    - [Júpiter](jupiter.svg)
-    - [Saturno](saturno.svg)
-    - [Urano](urano.svg)
-    - [Netuno](netuno.svg)
-- Link para imagem com todos os planetas: [Todos](todos.svg)
+### Instalação
 
-Características do aplicativo:
+- Instale no seu celular o aplicativo PlanetAR: [link para a Play Store em breve]
+- Abra o aplicativo PlanetAR no seu celular.
+- Após a instalação, você tem as duas opções a seguir.
 
-- O sistema de RA utiliza a câmera do dispositivo para rastrear imagens de referência dos planetas, disponibilizadas nos links acima.
-- Ao reconhecer uma imagem, o aplicativo projeta um modelo 3D animado do planeta correspondente, cuja animação pode ser controlada por meio de botões na tela.
-- No canto superior esquerdo, há um botão que, ao ser clicado, exibe informações reais sobre o planeta identificado, além de uma imagem autêntica capturada por sondas ou telescópios.
+#### **1. Visualização direta no computador**
+
+Se quiser apenas testar o aplicativo, abra esta página em outro dispositivo (computador, tablet ou outro celular). Nesse outro dispositivo, clique em uma das imagens abaixo e aponte a câmera do seu celular (aquele com o PlanetAR aberto) para ela.
+
+::: {.grid}
+
+::: {.g-col-lg-2 .g-col-md-3 .g-col-sm-3 .g-col-4}
+[![](mercurio.svg)](mercurio.svg)
+:::
+
+::: {.g-col-lg-2 .g-col-md-3 .g-col-sm-3 .g-col-4}
+[![](venus.svg)](venus.svg)
+:::
+
+::: {.g-col-lg-2 .g-col-md-3 .g-col-sm-3 .g-col-4}
+[![](terra.svg)](terra.svg)
+:::
+
+::: {.g-col-lg-2 .g-col-md-3 .g-col-sm-3 .g-col-4}
+[![](marte.svg)](marte.svg)
+:::
+
+::: {.g-col-lg-2 .g-col-md-3 .g-col-sm-3 .g-col-4}
+[![](jupiter.svg)](jupiter.svg)
+:::
+
+::: {.g-col-lg-2 .g-col-md-3 .g-col-sm-3 .g-col-4}
+[![](saturno.svg)](saturno.svg)
+:::
+
+::: {.g-col-lg-2 .g-col-md-3 .g-col-sm-3 .g-col-4}
+[![](urano.svg)](urano.svg)
+:::
+
+::: {.g-col-lg-2 .g-col-md-3 .g-col-sm-3 .g-col-4}
+[![](netuno.svg)](netuno.svg)
+:::
+
+:::
+
+
+
+#### **2. Imprimir as imagens dos planetas**
+
+Se quiser ter uma experiência mais completa, clique na [imagem dos planetas neste link](todos.svg), imprima-a, recorte cada planeta e espalhe-os pelo ambiente.
+
+
+### Forma de uso
+
+O sistema de Realidade Aumentada do aplicativo utiliza a câmera do dispositivo para rastrear as imagens de referência dos planetas disponibilizadas nas opções acima.
+
+Ao reconhecer uma imagem, o aplicativo projeta um modelo 3D animado do planeta correspondente, cuja animação pode ser controlada por meio de botões na tela.
+
+No canto superior esquerdo do aplicativo há um botão que, ao ser clicado, exibe informações reais sobre o planeta identificado, além de uma imagem autêntica capturada por sondas ou telescópios.
+
+### Licença de uso
 
 PlanetAR é um aplicativo de código aberto, licenciado sob a MIT License, com sua versão 1.0 disponível no GitHub: [https://github.com/Jhasmaniectt/PlanetAR](https://github.com/Jhasmaniectt/PlanetAR)
 
 
-## Política de Privacidade
+## Política de Privacidade{#privacidade}
 
 - *Data de vigência:* Atualizado 12/05/205
 - *Desenvolvedor:* Jhasmani Tito
@@ -47,7 +92,7 @@ A privacidade dos usuários é uma prioridade para o desenvolvedor do PlanetAR. 
 
 ### 2. Uso da câmera
 
-O aplicativo solicita permissão de acesso à câmera do dispositivo exclusivamente para a funcionalidade de Realidade Aumentada (RA). Esse acesso:
+O aplicativo solicita permissão de acesso à câmera do dispositivo exclusivamente para a funcionalidade de Realidade Aumentada. Esse acesso:
 
 - Não grava, armazena ou transmite imagens ou vídeos.
 - Não é utilizado para reconhecimento facial ou biométrico.
