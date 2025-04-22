@@ -13,7 +13,7 @@ author: Jhasmani Tito
 
 ### Instalação
 
-- Instale no seu celular o aplicativo PlanetAR: [link para a Play Store em breve]
+- Instale no seu celular o aplicativo PlanetAR: [link para a versão de teste no Play Store](https://play.google.com/store/apps/details?id=com.PlanetAR&hl=en-US&ah=REZ6Fiy-FTuvLXSqHDOXtobd6jM)
 - Abra o aplicativo PlanetAR no seu celular.
 - Após a instalação, você tem as duas opções a seguir.
 
