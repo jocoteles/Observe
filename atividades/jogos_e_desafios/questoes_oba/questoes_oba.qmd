@@ -212,7 +212,7 @@ Todas as questões contidas nesta página foram obtidas sem qualquer modificaç�
       A função gen_questionario recebe o caminho do arquivo de questões e o título do questionário.
       Cada questionário é gerado dentro de um <details> (colapsável) e opera de forma independente.
     */
-    function gen_questionario(arquivoQuestoes, titulo) {
+    function gen_questionario(arquivoQuestoes, titulo, id = false) {
       // Cria o container colapsável usando <details>
       var details = document.createElement("details");
       details.style.marginBottom = "20px";
@@ -224,8 +224,13 @@ Todas as questões contidas nesta página foram obtidas sem qualquer modificaç�
       var container = document.createElement("div");
       container.className = "quiz-container";
       details.appendChild(container);
-      
-      document.getElementById("quizzes").appendChild(details);
+           
+      if (!id) {
+        document.getElementById("quizzes").appendChild(details);
+      }
+      else {
+        document.getElementById(id).appendChild(details);
+      }
       
       // Variáveis do questionário
       var questions = [];
@@ -652,12 +657,18 @@ Todas as questões contidas nesta página foram obtidas sem qualquer modificaç�
       }
     }
     
-    // Chama a função para gerar cada questionário
-    //gen_questionario("/h5p/questionario1.txt", "27ª OBA - Nível 1");
-    gen_questionario("/oba/27OBA-Nivel1/27OBA-Nivel1.txt", "27ª OBA - Nível 1");    
-    gen_questionario("/oba/27OBA-Nivel2/27OBA-Nivel2.txt", "27ª OBA - Nível 2");    
-    gen_questionario("/oba/27OBA-Nivel3/27OBA-Nivel3.txt", "27ª OBA - Nível 3");    
-    gen_questionario("/oba/27OBA-Nivel4/27OBA-Nivel4.txt", "27ª OBA - Nível 4");    
+    //gen_questionario("/h5p/questionario1.txt", "27ª OBA - Nível 1");    
   </script>
 ```
 
+### 27ª OBA
+
+```{=html}
+ <div id="oba27a"></div>
+<script>  
+  gen_questionario("/oba/27OBA-Nivel1/27OBA-Nivel1.txt", "27ª OBA - Nível 1", "oba27a");    
+  gen_questionario("/oba/27OBA-Nivel2/27OBA-Nivel2.txt", "27ª OBA - Nível 2", "oba27a");    
+  gen_questionario("/oba/27OBA-Nivel3/27OBA-Nivel3.txt", "27ª OBA - Nível 3", "oba27a");    
+  gen_questionario("/oba/27OBA-Nivel4/27OBA-Nivel4.txt", "27ª OBA - Nível 4", "oba27a");    
+</script>
+```
