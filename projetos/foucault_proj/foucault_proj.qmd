@@ -49,3 +49,8 @@ O sistema será uma adaptação do [sistema](https://github.com/FrancescoScandif
 
 <!-- Uma explicação de Eudes Fileti sobre o pêndulo de Foucault pode ser vista a seguir-->
 <!--{{< video https://www.youtube.com/watch?v=_ASUQwYELOI width="400" height="300" >}} -->
+
+
+## Financiamento
+
+Este projeto é uma das atividades financiadas pelo CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 "Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais" (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.

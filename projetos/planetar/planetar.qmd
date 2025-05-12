@@ -131,4 +131,7 @@ Caso futuras atualizações incluam funcionalidades que exijam permissões adici
 Em caso de dúvidas sobre esta Política de Privacidade, entre em contato com a equipe desenvolvedora: `observe@ufscar.br`
 
 
+## Financiamento
+
+Este software recebeu financiamento do CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 "Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais" (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.
 

@@ -21,3 +21,7 @@ Neste minicurso estiveram presentes 19 pessoas, que puderam aproveitar e aprende
 ![Alunos do minicurso utilizando óculos VR (MetaQuest 2), onde puderam observar a experiência de realidade virtual feita pelo professor João Teles.](oculos.jpeg)
 
 ![Sistema Sol Terra Lua sendo projetado nos televisores do LIG e sendo manipulados pelos alunos no ambiente virtual com os óculos.](projecao.jpeg)
+
+## Financiamento
+
+Este evento é uma das atividades financiadas pelo CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 "Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais" (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.

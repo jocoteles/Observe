@@ -15,3 +15,7 @@ Na segunda parte do minicurso foi apresentado o motor de desenvolvimento de jogo
 ![Demonstração da interação em Realidade Mista com um motor a combustão usando óculos Meta Quest 3.](motorcombustao.mp4)
 
 ![Segunda parte do Minicurso em que os participante tiveram contato direto com a Plataforma Unity através do computadores do LIG.](unity.jpeg)
+
+## Financiamento
+
+Este evento é uma das atividades financiadas pelo CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 "Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais" (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.

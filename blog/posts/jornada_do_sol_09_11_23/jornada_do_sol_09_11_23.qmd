@@ -57,3 +57,7 @@ Pode-se concluir que o evento foi bem proveitoso, pois houve participação dos 
 A realização de eventos como a Jornada do Sol são importantes para a divulgação da astronomia para a sociedade e, também, para que os estudantes conheçam e se aproximem da universidade, incentivando-os a entrarem em uma instituição de ensino superior.
 
 A divulgação científica é um método importante para combater as fakes news que são tão comuns e corriqueiras nos dias atuais, logo o nosso compromisso como instituição de ensino é alertar e difundir o conhecimento científico para a comunidade. 
+
+## Financiamento
+
+Este evento é uma das atividades financiadas pelo CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 "Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais" (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.
