@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-9365cb09a3586e2e72ce9bd6ec9c9591.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-eb343a0522b434cc5867bce36814521e.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -276,14 +276,47 @@ ul.task-list li input[type="checkbox"] {
 const loopTime = 5000;
 
 const imagens = [
-  "esfera_sol.jpeg",
-  "estacoes_do_ano.jpeg",
-  "estudantes_observatorio.jpeg"
+  
+
 ];
 const legendas = [
-  "Legenda da imagem 1 sobre isso e aquilo",
-  "Legenda da imagem 2 sobre isso e aquilo outro",
-  "Legenda da imagem 3 que mostra mais uma coisa"
+  legendas = [
+    "Lua vista de um dos binóculos em exposição",
+    "Atividade dos óculos VR",
+    "Atividade de oculus VR",
+    "Família na modelagem das estações do ano",
+    "Criança vendo o Sol através do Telescópio com filtro protetor ocular",
+    "Aluna vendo o Sol pelo Telescópio",
+    "Escola na fila para a visualização do Sol pelo Telescópio",
+    "Fundamental I no Observatório a Olho Nu",
+    "Explicação do Relógio Solar",
+    "Família na modelagem das estações do ano",
+    "Casal vendo a Lua pelo Binóculos",
+    "Alunos do EJA no Observatório",
+    "Eja na modelagem das estações do ano",
+    "Famílias no Observatório",
+    "Mulher visualizando o céu pelo binóculos",
+    "Observatório no período noturno",
+    "Observatório no período diurno",
+    "Público para visualização dos telescópios",
+    "Escola visitante no passeio dos planetas",
+    "Jogo Astronocartas",
+    "Escola visitante no Observatório",
+    "Escola visitante no telescópio voltado pro Sol",
+    "Observatório com escola visitante",
+    "Escola visitante no Observatório noturno",
+    "Escola visitante na modelagem das estações do ano",
+    "Escola visitante no passeio dos planetas",
+    "Passeio dos planetas visto a partir do Sol",
+    "Passeio dos planetas com escola visitante",
+    "Modelagem das estações do ano",
+    "Modelagem das estações do ano",
+    "Família visitante no Observatório",
+    "Escola visitante na bússola do Observatório",
+    "Relógio estelar",
+    "Observatório a olho nu durante a noite",
+    "Escolas no observatório",
+    "Equinócio de Outono visto do Observatório a olho nu"
 ];
 
 let indice = 0;
@@ -580,6 +613,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -690,6 +725,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

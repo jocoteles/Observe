@@ -1,0 +1,59 @@
+---
+tipo: multichoice
+enunciado: (Q8 N3 OBA2021) PRESENCIAL NA ESCOLA O Sol é o único astro do Sistema Solar que tem luz própria. Todos os demais, como Lua, cometas, planetas, asteroides, satélites naturais ou artificiais apenas refletem a luz dele.
+Assinale as alternativas corretas.
+- O Sol é o astro mais brilhante do Sistema Solar.
+- A Lua Cheia quando num eclipse lunar total brilha menos do que a Lua Quarto Minguante.
+- A Lua Nova reflete a luz do Sol, mas não vemos esta reflexão.
+- A Lua Cheia ao nascer é maior do que quando se põe.
+- O Sol visto da Terra ou de Saturno tem o mesmo brilho.
+pontuacao: [XXXX0,1.0],[XXX0X,0.6],[0XX00,0.4],[0X0X0,0.2],[000X0,0.0]
+---
+tipo: multichoice
+enunciado: (Q3 N3 OBA2022) A velocidade da luz e de qualquer radiação eletromagnética, no vácuo, é uma constante que vale aproximadamente 300.000 km/s. A velocidade da luz independe da velocidade da fonte emissora e da velocidade de quem recebe a luz. A estrela Betelgeuse está a aproximadamente 720 anos-luz da Terra e a estrela Antares está a aproximadamente 605 anos-luz da Terra. Ambas são supergigantes vermelhas com diâmetros aproximadamente 900 vezes maior do que o do Sol. Observação: ano-luz é a distância que a luz viaja no período de um ano.
+Assinale as alternativas corretas.
+- A luz que recebemos hoje de Betelgeuse é mais antiga do que a que recebemos hoje de Antares.
+- Se Betelgeuse está se afastando da Terra e Antares está se aproximando da Terra, a velocidade da luz que elas emitem em nossa direção é a mesma.
+- A Betelgeuse que vemos hoje, de fato é como ela era há 720 anos.
+- É impossível ver Antares ou Betelgeuse exatamente como elas são hoje.
+- A velocidade da luz é de 300.000 km/s porque as estrelas são vermelhas.
+pontuacao: [XXXX0,1.0],[XXX00,0.6],[00XX0,0.4],[XX00X,0.2],[00000,0.0]
+---
+tipo: singlechoice
+enunciado: (Q1 N3 OBA2024) Sabemos que a Luminosidade (L) das estrelas (equivalente à Potência das lâmpadas) é dada por:
+
+$$L = (4\pi R^2)\sigma T^4,$$
+
+onde \(\sigma\) (letra grega sigma) é uma constante, como o \(\pi\) (pi), R é o raio da estrela e T a temperatura superficial da estrela. Note que \(4\pi R^2\) representa a área superficial da estrela. Então se duas estrelas têm a mesma temperatura superficial, a de maior luminosidade será:
+
+- A mais próxima da Terra.
+- A que tiver mais massa.
+- A de maior densidade.
+- X A maior delas.
+- A mais brilhante.
+---
+tipo: multichoice
+fig: /oba/27OBA-Nivel3/fig4.png
+enunciado: (Q4 N3 OBA2024) As Leis de Kepler descrevem os movimentos dos planetas, luas, cometas e satélites artificiais em torno dos astros nos quais orbitam. Ela vale para o Sol e seus planetas e para os planetas e seus satélites naturais ou artificiais.
+
+A 1ª Lei de Kepler afirma que:
+
+“Os planetas (inclusive planetas anões) giram em torno do Sol em órbitas elípticas, estando o Sol num dos focos da elipse."
+
+A 2ª Lei de Kepler afirma que:
+
+“Em iguais intervalos de tempos (\(\Delta t_{12} = \Delta t_{34}\)) os planetas “varrem” áreas iguais (Área₁ = Área₂)”.
+
+A 3ª Lei de Kepler afirma que \(T^2 = ka^3\), onde \(k = \frac{4\pi^2}{G(M_{Sol} + M_{Planeta})}\), G é a constante Universal da Gravitação e “a” o semieixo maior da elipse.
+
+Como consequência das três Leis de Kepler podemos afirmar que:
+
+Assinale as alternativas corretas.
+
+- No periélio a velocidade dos planetas é maior do que no afélio. Veja figura.
+- Como a massa dos planetas é desprezível em comparação com a massa do Sol, então o valor da constante “k” é praticamente o mesmo para todos os corpos do Sistema Solar que orbitam o Sol.
+- Nos pontos P1 e P4 as velocidades dos planetas estão aumentando, mas diminuindo nos pontos P2 e P3. Considere que o astro vai passar pelos pontos P1, P2, P3, P4 nesta ordem.
+- Quanto maior o semieixo da elipse do planeta, maior é a duração do seu ano.
+- A Lei da Gravitação Universal de Newton invalidou as três Leis de Kepler.
+pontuacao: [XXXX0,1.0],[XXX00,0.6],[00XX0,0.4],[000X,0.0],[XX00X,0.2]
+---

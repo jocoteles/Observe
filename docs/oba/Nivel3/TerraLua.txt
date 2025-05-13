@@ -1,0 +1,51 @@
+---
+tipo: singlechoice
+fig: /oba/Nivel3/fig22-5.png
+enunciado: (Q5 N2 OBA2022) Quatro estudantes, estando um no Polo Norte (aluno A), outro no Polo Sul (aluno D) e dois (alunos B e C) sobre a linha do Equador (aquela que divide a Terra em dois Hemisférios), deixam cair no mesmo instante uma pedra. Veja a figura, fora de escala. Assinale a alternativa que contém o(s) caminho(s) correto(s) das pedras depois que elas são soltas.
+- X A
+- A, B, C, D
+- A, B, C
+- D
+- A, D
+---
+tipo: singlechoice
+fig: /oba/Nivel3/fig22-8.png
+enunciado: (Q8 N2 OBA2022) A imagem mostra o mapa do Brasil, com seus Estados e as direções cardeais. Suponha que você vai lançar um foguete do Ceará (CE) para o Espírito Santo (ES). Assinale a alternativa que contém a direção cardeal na qual seguirá o seu foguete.
+- X Sul (S).
+- Leste (L).
+- Oeste (O).
+- Norte (N).
+- Sudoeste (SO).
+---
+tipo: singlechoice
+enunciado: (Q3 N2 OBA2024) Os astrônomos sabem que quanto mais distante estiver um planeta do Sol, mais lento é o seu movimento ao redor do Sol. Assinale a única alternativa onde está tudo certo, ok?
+- Todos os planetas do Sistema Solar têm dia de 24 horas e ano de 365 dias.
+- Júpiter é o maior dos planetas, logo, ele é o mais lento dos planetas.
+- Saturno tem os mais lindos anéis do Sistema Solar, logo, é o mais rápido.
+- Plutão, o planeta anão, não se move, porque é muito pequeno.
+- X Mercúrio é o planeta mais rápido do Sistema Solar.
+---
+tipo: multichoice
+enunciado: (Q5 N2 OBA2024) Assinale as alternativas corretas. Leia com atenção!
+- O Sol sempre nasce no lado Leste e sempre se põe do lado Oeste.
+- Quatro são as direções cardeais principais.
+- A Lua nasce no lado Leste e se põe no lado Oeste.
+- As estrelas nascem no lado Leste e se põem no lado Oeste.
+- Algumas estrelas nascem no Norte e se põem no Sul.
+pontuacao: [XXXX0,1.0],[0000X,0.0],[00XX0,0.4],[XXXX,0.2],[XX0X0,0.6]
+---
+tipo: multichoice
+fig: /oba/27OBA-Nivel3/fig6.png
+enunciado: (Q6 N3 OBA2024) Abaixo está o globo terrestre representando a Terra em dois diferentes instantes ao redor do Sol, aproximadamente à mesma distância do Sol, porém separados por 6 meses. Entre eles está o Sol (desenhado esquematicamente e fora de escala) e os “raios solares”.
+
+Dado: Na figura HN = Hemisfério Norte e HS = Hemisfério Sul. As linhas tracejadas representam os Trópicos.
+
+Assinale as alternativas corretas.
+
+- No dia 4 de janeiro a Terra passa pelo seu periélio, por isso é verão nos dois Hemisférios.
+- Se o eixo de rotação da Terra estivesse perpendicular ao plano da sua órbita não ocorreriam as estações do ano, pois ambos os Hemisférios ficariam igualmente expostos ao Sol o ano todo.
+- No inverno o Sol não é visível no Polo do Hemisfério no qual é inverno.
+- O eixo de rotação da Terra está inclinado de 23,5 graus em relação ao Equador da Terra.
+- No globo da direita é Verão no Hemisfério Norte e Inverno no Hemisfério Sul.
+pontuacao: [0XX0X,1.0],[0X0X0,0.6],[0X00X,0.2],[0000X,0.0],[000X0,0.4]
+---

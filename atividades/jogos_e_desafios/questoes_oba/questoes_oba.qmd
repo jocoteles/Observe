@@ -664,11 +664,22 @@ Todas as questões contidas nesta página foram obtidas sem qualquer modificaç�
 ### 27ª OBA
 
 ```{=html}
- <div id="oba27a"></div>
+<div id="oba27a"></div>
 <script>  
   gen_questionario("/oba/27OBA-Nivel1/27OBA-Nivel1.txt", "27ª OBA - Nível 1", "oba27a");    
   gen_questionario("/oba/27OBA-Nivel2/27OBA-Nivel2.txt", "27ª OBA - Nível 2", "oba27a");    
   gen_questionario("/oba/27OBA-Nivel3/27OBA-Nivel3.txt", "27ª OBA - Nível 3", "oba27a");    
   gen_questionario("/oba/27OBA-Nivel4/27OBA-Nivel4.txt", "27ª OBA - Nível 4", "oba27a");    
+</script>
+```
+
+### Seleção Nível 3 - 6º ao 9º ano
+
+```{=html}
+<div id="nivel3-selecao"></div>
+<script>  
+  gen_questionario("/oba/Nivel3/TerraLua.txt", "Nível 3 - Terra e Lua", "nivel3-selecao");    
+  gen_questionario("/oba/Nivel3/SSCorposCelestes.txt", "Nível 3 - Sistema Solar e Corpos Celestes", "nivel3-selecao");    
+  gen_questionario("/oba/Nivel3/GravitacaoFenomenos.txt", "Nível 3 - Gravitação e Fenômenos Físicos e Químicos", "nivel3-selecao");      
 </script>
 ```
