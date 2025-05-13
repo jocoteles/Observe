@@ -9,21 +9,41 @@ Assinale as alternativas corretas.
 - O Sol é o astro mais brilhante do céu porque é a maior estrela do Universo.
 pontuacao: [XXXX0,1.0],[0XX0X,0.6],[X0X00,0.4],[00XX0,0.2],[000X0,0.0]
 ---
-tipo: multichoice
-enunciado: (Q7 N3 OBA-2023) Não basta saber os nomes dos planetas e a sequência de afastamento deles ao Sol. Precisa saber também algumas das suas características. Assim, escreva o nome do planeta na frente das suas características. Assinale as alternativas corretas.
-- É um pouco maior do que a Lua; gira ao redor do Sol a 47 km/s. Seu ano é só de 88 dias. Superfície cheia de crateras. Estando nele, o Sol teria quase o triplo do diâmetro aparente que tem visto da Terra.
-- Ele tem mais do que o dobro da massa de todos os outros planetas juntos. Está a 5,2 vezes mais distante do Sol do que a Terra. Seu dia tem só 10 horas, mas seu ano dura 12 anos da Terra.
-- É o planeta mais estudado. Seu dia é quase igual ao da Terra, mas está a 228.000.000 km do Sol. Tem tempestades de areia e vulcões. Tem duas luas. Parece ter tido água no passado.
-- Tem espessa atmosfera que prende o calor do Sol fazendo dele o mais quente dos planetas. Quase do volume da Terra. Rochoso. Está a 108.000.000 km do Sol. Um dia dele é igual a 243 dias da Terra.
-- Gasoso. Ao longo do seu diâmetro cabem 9 Terras. É um dos 4 que tem anéis. Seu dia é de apenas 10,7 horas e seu ano é de 29 anos da Terra. Tem principalmente Hidrogênio H₂ e Hélio.
-pontuacao: [XXXXX,1.0],[XXXX0,0.6],[0XX0X,0.4],[X0X00,0.2],[X0000,0.0]
+tipo: singlechoice
+enunciado: (Q7 N3 OBA-2023) Não basta saber os nomes dos planetas e a sequência de afastamento deles ao Sol. Precisa saber também algumas das suas características. Assim, escreva o nome do planeta na frente das suas características e assinale a alternativa correta.
+
+1° É um pouco maior do que a Lua; gira ao redor do Sol a 47 km/s. Seu ano é só de 88 dias. Superfície cheia de crateras. Estando nele, o Sol teria quase o triplo do diâmetro aparente que tem visto da Terra.
+
+2° Ele tem mais do que o dobro da massa de todos os outros planetas juntos. Está a 5,2 vezes mais distante do Sol do que a Terra. Seu dia tem só 10 horas, mas seu ano dura 12 anos da Terra.
+
+3° É o planeta mais estudado. Seu dia é quase igual ao da Terra, mas está a 228.000.000 km do Sol. Tem tempestades de areia e vulcões. Tem duas luas. Parece ter tido água no passado.
+
+4° Tem espessa atmosfera que prende o calor do Sol fazendo dele o mais quente dos planetas. Quase do volume da Terra. Rochoso. Está a 108.000.000 km do Sol. Um dia dele é igual a 243 dias da Terra.
+
+5° Gasoso. Ao longo do seu diâmetro cabem 9 Terras. É um dos 4 que tem anéis. Seu dia é de apenas 10,7 horas e seu ano é de 29 anos da Terra. Tem principalmente Hidrogênio H₂ e Hélio.
+
+- X 1º (Mercúrio) – 2º (Júpiter) – 3º (Marte) – 4º (Vênus) – 5º (Saturno)
+- 1º (Mercúrio) – 2º (Júpiter) – 3º (Marte) – 4º (Vênus) – 5º (Urano)
+- 1º (Plutão) – 2º (Júpiter) – 3º (Marte) – 4º (Terra) – 5º (Saturno)
+- 1º (Mercúrio) – 2º (Netuno) – 3º (Marte) – 4º (Terra) – 5º (Urano)
+- 1º (Mercúrio) – 2º (Saturno) – 3º (Vênus) – 4º (Marte) – 5º (Júpiter)
 ---
-tipo: multichoice
-enunciado: (Q7 N3 OBA-2024) Não basta saber os nomes dos planetas e a sequência de afastamento deles ao Sol. Precisa saber também algumas das suas características. Assim, escreva o nome do planeta na frente das suas características. Assinale as alternativas corretas.
-- MERCÚRIO. O mais veloz dos planetas. Sua órbita é a mais excêntrica de todas. Se parece com a Lua, com crateras de impacto e planícies lisas. Visível só ao amanhecer ou ao entardecer.
-- JÚPITER. Tem menos de um milésimo da massa do Sol. Composto principalmente de hidrogênio. Rotação só de 10 horas. Em geral é o quarto astro mais brilhante do céu, depois do Sol, Lua e Vênus. Tem finos anéis e cerca de 95 satélites naturais.
-- MARTE. O óxido de Ferro predomina em sua superfície. Nele está o Monte Olimpo, a mais alta montanha num planeta. Tem estações do ano, como a Terra. Sobre ele está o “rover” chinês “Zhurong.
-- VÊNUS. O planeta mais brilhante, embora não seja o mais volumoso. Ele possui a mais densa atmosfera entre todos os planetas terrestres. A pressão atmosférica na superfície dele é 92 vezes a da Terra.
-- SATURNO. Composto principalmente de Hidrogênio e Hélio. Menos denso do que a água. Tem cerca de 95 vezes a massa da Terra. Ele irradia cerca de duas vezes mais energia do que recebe do Sol, isto indica que, assim como Júpiter, o planeta possui uma fonte de energia interna.
-pontuacao: [XXXXX, 1.0],[0XXX0,0.6],[0X000,0.0],[00X00,0.2],[000X0,0.4]
+tipo: singlechoice
+enunciado: (Q7 N3 OBA-2024) Não basta saber os nomes dos planetas e a sequência de afastamento deles ao Sol. Precisa saber também algumas das suas características. Assim, escreva o nome do planeta na frente das suas características e assinale a alternativa correta.
+
+1° O mais veloz dos planetas. Sua órbita é a mais excêntrica de todas. Se parece com a Lua, com crateras de impacto e planícies lisas. Visível só ao amanhecer ou ao entardecer.
+
+2° Tem menos de um milésimo da massa do Sol. Composto principalmente de hidrogênio. Rotação só de 10 horas. Em geral é o quarto astro mais brilhante do céu, depois do Sol, Lua e Vênus. Tem finos anéis e cerca de 95 satélites naturais.
+
+3° O óxido de Ferro predomina em sua superfície. Nele está o Monte Olimpo, a mais alta montanha num planeta. Tem estações do ano, como a Terra. Sobre ele está o “rover” chinês “Zhurong.
+
+4° O planeta mais brilhante, embora não seja o mais volumoso. Ele possui a mais densa atmosfera entre todos os planetas terrestres. A pressão atmosférica na superfície dele é 92 vezes a da Terra.
+
+5° Composto principalmente de Hidrogênio e Hélio. Menos denso do que a água. Tem cerca de 95 vezes a massa da Terra. Ele irradia cerca de duas vezes mais energia do que recebe do Sol, isto indica que, assim como Júpiter, o planeta possui uma fonte de energia interna.
+
+- 1º (Mercúrio) – 2º (Netuno) – 3º (Marte) – 4º (Terra) – 5º (Urano).
+- 1º (Mercúrio) – 2º (Saturno) – 3º (Vênus) – 4º (Marte) – 5º (Júpiter).
+- 1º (Plutão)– 2º (Júpiter) – 3º (Marte) – 4º (Terra) – 5º (Saturno).
+- X 1º (Mercúrio) – 2º (Júpiter) – 3º (Marte) – 4º (Vênus) – 5º (Saturno).
+- 1º (Mercúrio) – 2º (Júpiter) – 3º (Marte) – 4º (Vênus) – 5º (Urano).
 ---
