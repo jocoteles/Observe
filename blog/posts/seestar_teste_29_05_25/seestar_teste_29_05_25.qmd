@@ -1,7 +1,7 @@
 ---
 title: Primeiro teste com o Seestar S50
 date: 28 05 2025
-image: sistema_solar_vr_INSA_1.jpeg
+image: C94.jpg
 categories: [Observação, Fotos]
 author: João Teles
 ---
