@@ -89,122 +89,80 @@ Já no período noturno, a dinâmica foi mais simples, porém a disponibilidade 
 
 ## Fotos do evento
 
-```{=html}
-<div id="carrossel" class="carousel">
-  <img id="carrossel-img" src="" alt="Imagem do carrossel">
-  <p id="carrossel-legenda"></p>
-  <div class="carousel-controles">
-    <button onclick="anterior()">◀</button>
-    <button onclick="proximo()">▶</button>
-  </div>
-</div>
+![Lua vista de um dos binóculos em exposição](image4.jpg)
 
-<script>
+![Atividade dos óculos VR](image24.jpg)
 
-const loopTime = 5000;
+![Atividade de oculus VR](image22.jpg)
 
-const imagens = [
-  
+![Família na modelagem das estações do ano](image5.jpg)
 
-];
-const legendas = [
-  legendas = [
-    "Lua vista de um dos binóculos em exposição",
-    "Atividade dos óculos VR",
-    "Atividade de oculus VR",
-    "Família na modelagem das estações do ano",
-    "Criança vendo o Sol através do Telescópio com filtro protetor ocular",
-    "Aluna vendo o Sol pelo Telescópio",
-    "Escola na fila para a visualização do Sol pelo Telescópio",
-    "Fundamental I no Observatório a Olho Nu",
-    "Explicação do Relógio Solar",
-    "Família na modelagem das estações do ano",
-    "Casal vendo a Lua pelo Binóculos",
-    "Alunos do EJA no Observatório",
-    "Eja na modelagem das estações do ano",
-    "Famílias no Observatório",
-    "Mulher visualizando o céu pelo binóculos",
-    "Observatório no período noturno",
-    "Observatório no período diurno",
-    "Público para visualização dos telescópios",
-    "Escola visitante no passeio dos planetas",
-    "Jogo Astronocartas",
-    "Escola visitante no Observatório",
-    "Escola visitante no telescópio voltado pro Sol",
-    "Observatório com escola visitante",
-    "Escola visitante no Observatório noturno",
-    "Escola visitante na modelagem das estações do ano",
-    "Escola visitante no passeio dos planetas",
-    "Passeio dos planetas visto a partir do Sol",
-    "Passeio dos planetas com escola visitante",
-    "Modelagem das estações do ano",
-    "Modelagem das estações do ano",
-    "Família visitante no Observatório",
-    "Escola visitante na bússola do Observatório",
-    "Relógio estelar",
-    "Observatório a olho nu durante a noite",
-    "Escolas no observatório",
-    "Equinócio de Outono visto do Observatório a olho nu"
-];
+![Criança vendo o Sol através do Telescópio com filtro protetor ocular](image21.jpg)
 
-let indice = 0;
-const img = document.getElementById("carrossel-img");
-const leg = document.getElementById("carrossel-legenda");
+![Aluna vendo o Sol pelo Telescópio](image3.jpg)
 
-function atualizar() {
-  img.src = imagens[indice];
-  leg.textContent = legendas[indice];
-}
+![Escola na fila para a visualização do Sol pelo Telescópio](image16.jpg)
 
-function proximo() {
-  indice = (indice + 1) % imagens.length;
-  atualizar();
-}
+![Fundamental I no Observatório a Olho Nu](image10.jpg)
 
-function anterior() {
-  indice = (indice - 1 + imagens.length) % imagens.length;
-  atualizar();
-}
+![Explicação do Relógio Solar](image34.jpg)
 
-// atualiza uma vez na carga e depois a cada 3s
-atualizar();
-const intervalo = setInterval(proximo, 3000);
+![Família na modelagem das estações do ano ](image29.jpg)
 
-// opcional: pausar ao passar o mouse
-const carrossel = document.getElementById("carrossel");
-carrossel.addEventListener("mouseenter", () => clearInterval(intervalo));
-carrossel.addEventListener("mouseleave", () => {
-  // retoma o loop
-  setInterval(proximo, loopTime);
-});
-</script>
+![Casal vendo a Lua pelo Binóculos](image28.jpg)
 
-<style>
-.carousel {
-  text-align: center;
-  max-width: 600px;
-  margin: 2rem auto;
-}
-.carousel img {
-  width: 60%;  
-  object-fit: contain;
-  border-radius: 8px;
-}
-.carousel p {
-  margin-top: 0.5rem;
-  font-style: italic;
-}
-.carousel-controles {
-  margin-top: 0.5rem;
-}
-.carousel-controles button {
-  padding: 0.4rem 1rem;
-  font-size: 1.2rem;
-  margin: 0 0.5rem;
-}
-</style>
+![Alunos do EJA no Observatório](image33.jpg)
 
-```
+![Eja na modelagem das estações do ano](image20.jpg)
+
+![ Famílias no Observatório](image9.jpg)
+
+![Mulher visualizando o céu pelo binóculos](image12.jpg)
+
+![Observatório no período noturno](image19.jpg)
+
+![Observatório no período diurno ](image31.jpg)
+
+![Público para visualização dos telescópios](image35.jpg)
+
+![Escola visitante no passeio dos planetas](image17.jpg)
+
+![Jogo Astronocartas](image6.jpg)
+
+![Escola visitante no Observatório](image1.jpg)
+
+![Escola visitante no telescópio voltado pro Sol](image37.jpg)
+
+![Observatório com escola visitante](image25.jpg)
+
+![Escola visitante no Observatório noturno](image26.jpg)
+
+![Escola visitante na modelagem das estações do ano](image13.jpg)
+
+![Escola visitante no passeio dos planetas](image32.jpg)
+
+![Passeio dos planetas visto a partir do Sol](image18.jpg)
+
+![Passeio dos planetas com escola visitante](image2.jpg)
+
+![Modelagem das estações do ano](image14.jpg)
+
+![Modelagem das estações do ano](image11.jpg)
+
+![Família visitante no Observatório](image30.jpg)
+
+![Escola visitante na bússola do Observatório](image23.jpg)
+
+![Relógio estelar](image7.jpg)
+
+![Observatório a olho nu durante a noite](image36.jpg)
+
+![Escolas no observatório](image27.jpg)
+
+![Equinócio de Outono visto do Observatório a olho nu](image8.jpg)
+
+![Equipe obseRVe](image15.jpg)
+
 
 ## Agradecimentos
 

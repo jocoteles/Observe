@@ -8,7 +8,7 @@
 
 <meta name="author" content="João Teles">
 
-<title>Eclipse solar de outubro de 2024 – obseRVe</title>
+<title>Primeiro teste com o Seestar S50 – obseRVe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -107,12 +73,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Eclipse solar de outubro de 2024 – obseRVe">
+<meta property="og:title" content="Primeiro teste com o Seestar S50 – obseRVe">
 <meta property="og:description" content="Do céu real ao céu virtual - ensino e divulgação de astronomia">
-<meta property="og:image" content="https://observe.ufscar.br/blog/posts/eclipse_solar_02_10_24/eclipse_stellarium.png">
+<meta property="og:image" content="https://observe.ufscar.br/blog/posts/seestar_teste_29_05_25/sistema_solar_vr_INSA_1.jpeg">
 <meta property="og:site_name" content="obseRVe">
-<meta property="og:image:height" content="407">
-<meta property="og:image:width" content="750">
 </head>
 
 <body class="nav-fixed">
@@ -184,29 +148,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Nesta página</h2>
-   
-  <ul>
-  <li><a href="#dados-do-eclipse-para-araras-sp" id="toc-dados-do-eclipse-para-araras-sp" class="nav-link active" data-scroll-target="#dados-do-eclipse-para-araras-sp">Dados do eclipse para Araras-SP</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Eclipse solar de outubro de 2024</h1>
+<h1 class="title">Primeiro teste com o Seestar S50</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Fenômeno celeste</div>
+    <div class="quarto-category">Observação</div>
+    <div class="quarto-category">Fotos</div>
   </div>
   </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     <div>
     <div class="quarto-title-meta-heading">Autor</div>
@@ -218,7 +177,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Data de Publicação</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2 de outubro de 2024</p>
+      <p class="date">28 de maio de 2025</p>
     </div>
   </div>
   
@@ -230,63 +189,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="a95d532a" class="cell" data-execution_count="1">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">"""Cálculo da área do disco solar eclipsado conforme</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">estimativa da imagem extraída do Stellarium para a cidade de Araras-SP</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">em 02/10/2024 às 17h45.</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">Medidas feitas todas na mesma unidade arbitrária (ua)."""</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>rd <span class="op">=</span> <span class="dv">15</span>  <span class="co"># raio médio da Lua e do Sol [ua]</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ca <span class="op">=</span> <span class="dv">17</span>  <span class="co"># comprimento da corda do arco de circunferência eclipsado no auge do eclipse [ua]</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Cálculos para a área do paralelogramo formado entre os centros dos dois astros e as extremidades da corda do eclipse:</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>d1p <span class="op">=</span> ca  <span class="co"># comprimento da primeira diagonal (corda)</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>d2p <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>(rd<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> (d1p<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>)<span class="op">**</span><span class="fl">0.5</span> <span class="co"># comprimento da segunda diagonal (centro a centro)</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>ap <span class="op">=</span> d1p<span class="op">*</span>d2p<span class="op">/</span><span class="dv">2</span> <span class="co"># área do paralelogramo</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>ang <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>math.atan(d1p<span class="op">/</span>d2p) <span class="co"># ângulo do arco de circunferência do eclipse [rad]</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>aa <span class="op">=</span> (math.pi<span class="op">*</span>rd<span class="op">**</span><span class="dv">2</span>)<span class="op">*</span>ang<span class="op">/</span>(<span class="dv">2</span><span class="op">*</span>math.pi) <span class="co"># área do arco de circunferência [ua^2]</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># A área eclipsada (ae) é dada por ap = 2*aa - ae</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>ae <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>aa <span class="op">-</span> ap  <span class="co"># [ua^2]</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Percentual de área eclipsada:</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>pe <span class="op">=</span> <span class="dv">100</span><span class="op">*</span>ae<span class="op">/</span>(math.pi<span class="op">*</span>rd<span class="op">**</span><span class="dv">2</span>)</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>peS <span class="op">=</span> <span class="bu">str</span>(<span class="bu">round</span>(pe,<span class="dv">1</span>)).replace(<span class="st">'.'</span>, <span class="st">','</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
+<p>Na noite de 18/05/2025, eu, Fernando Apolinário e Felipe Ricobello estreamos o <a href="../../../acervo/itens/seestarS50/seestarS50.html">Telescópio Seestar S50</a> recém adquirido. Nosso objetivo foi apenas testar se o equipamento estava funcionando corretamente. Para isso, fizemos fotos de alguns objetos que costumamos observar pela ocular de nossos telescópios em nossos eventos (Caixinha de Joias e Ômega Centauri). Aproveitamos também para observar a galáxia espiral M100 em Coma Berenices - localizada entre Denebola (Leo) e Vindemiatrix (Vir).</p>
+<p>A operação do instrumento é muito robusta e automatizada. Mesmo sem fazer qualquer procedimento explícito de calibração (nem mesmo nivelamos a base do equipamento), e utilizando curtos tempos de exposição, conseguimos boas fotos. Além disso, o céu não estava muito limpo, apresentando alguma nebulosidade.</p>
+<p>Estamos ansiosos para explorar todas as <a href="../../../acervo/itens/seestarS50/seestarS50.html#tutoriais-web-completo-seestar">funcionalidades do equipamento</a> para uma observação “profunda” do céu em nossos encontros e eventos.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="C80.jpg" class="img-fluid figure-img"></p>
+<figcaption>C80 - Aglomerado globular <em>Omega Centauri</em>.</figcaption>
+</figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="eclipse_stellarium.png" class="preview-image img-fluid figure-img"></p>
-<figcaption>Eclipse solar simulado pelo Stellarium na cidade de Araras-SP às 17h45</figcaption>
+<p><img src="C94.jpg" class="img-fluid figure-img"></p>
+<figcaption>C94 - Aglomerado aberto <em>Caixinha de Joias</em>.</figcaption>
 </figure>
 </div>
-<p>Hoje, 02/10/2024, teremos um eclipse solar que poderá ser visto parcialmente no sul e sudeste do Brasil. Na região de Araras, apenas uma pequena parte do disco solar será encoberta: 8,6 % da sua área.</p>
-<p>Apesar disso, valerá a pena apreciá-lo.</p>
-<p>Os eclipses solares, além de serem um fenômeno incrível e relativamente raro (pesquise sobre o <a href="https://en.wikipedia.org/wiki/Saros_(astronomy)">ciclo de Saros</a>) em que a o Sol é encoberto pela Lua em plena luz do dia, este eclipse, em particular na cidade de Araras-SP, terá início às 17h e permanecerá visível até o pôr do Sol.</p>
-<p>Como nesse horário o Sol estará próximo ao horizonte, seu brilho estará mais fraco e avermelhado (ainda mais com a poluição das queimadas que infelizmente assolam o território brasileiro atualmente) o que possivelmente facilitará a contemplação do fenômeno. Além disso, como todo astro próximo ao horizonte, suas dimensões parecerão maiores pela ilusão de óptica promovida pela <a href="https://en.wikipedia.org/wiki/Ponzo_illusion">ilusão de Ponzo</a>.</p>
-<p>Portanto, para observá-lo, procure um local aberto no horizonte oeste. Mesmo com um brilho mais fraco, é recomendado utilizar proteção adequada para os olhos (filtros solares).</p>
-<section id="dados-do-eclipse-para-araras-sp" class="level2">
-<h2 class="anchored" data-anchor-id="dados-do-eclipse-para-araras-sp">Dados do eclipse para Araras-SP</h2>
-<ul>
-<li><strong>Data</strong>: 02/10/2024</li>
-<li><strong>Início</strong>: 17:00</li>
-<li><strong>Máximo</strong>: 17:45</li>
-<li><strong>Área do Sol encoberta</strong>: 8,6 %</li>
-<li><strong>Sugestões de locais de observação a olho nu</strong>:
-<ul>
-<li><a href="../../../localizacao/localizacao.html">Observatório a olho nu do CCA-UFSCar</a></li>
-<li><a href="https://aeroclubedeararas.wixsite.com/aeroclubedeararas">Aeroporto Municipal de Araras</a></li>
-</ul></li>
-</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="M100.jpg" class="img-fluid figure-img"></p>
+<figcaption>M100 - Galáxia espiral no aglomerado de Virgem (<em>Blowdryer Galaxy</em>).</figcaption>
+</figure>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

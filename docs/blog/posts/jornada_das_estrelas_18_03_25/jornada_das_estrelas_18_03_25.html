@@ -262,120 +262,228 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="fotos-do-evento" class="level2">
 <h2 class="anchored" data-anchor-id="fotos-do-evento">Fotos do evento</h2>
-<div id="carrossel" class="carousel">
-  <img id="carrossel-img" src="" alt="Imagem do carrossel">
-  <p id="carrossel-legenda"></p>
-  <div class="carousel-controles">
-    <button onclick="anterior()">◀</button>
-    <button onclick="proximo()">▶</button>
-  </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image4.jpg" class="img-fluid figure-img"></p>
+<figcaption>Lua vista de um dos binóculos em exposição</figcaption>
+</figure>
 </div>
-
-<script>
-
-const loopTime = 5000;
-
-const imagens = [
-  
-
-];
-const legendas = [
-  legendas = [
-    "Lua vista de um dos binóculos em exposição",
-    "Atividade dos óculos VR",
-    "Atividade de oculus VR",
-    "Família na modelagem das estações do ano",
-    "Criança vendo o Sol através do Telescópio com filtro protetor ocular",
-    "Aluna vendo o Sol pelo Telescópio",
-    "Escola na fila para a visualização do Sol pelo Telescópio",
-    "Fundamental I no Observatório a Olho Nu",
-    "Explicação do Relógio Solar",
-    "Família na modelagem das estações do ano",
-    "Casal vendo a Lua pelo Binóculos",
-    "Alunos do EJA no Observatório",
-    "Eja na modelagem das estações do ano",
-    "Famílias no Observatório",
-    "Mulher visualizando o céu pelo binóculos",
-    "Observatório no período noturno",
-    "Observatório no período diurno",
-    "Público para visualização dos telescópios",
-    "Escola visitante no passeio dos planetas",
-    "Jogo Astronocartas",
-    "Escola visitante no Observatório",
-    "Escola visitante no telescópio voltado pro Sol",
-    "Observatório com escola visitante",
-    "Escola visitante no Observatório noturno",
-    "Escola visitante na modelagem das estações do ano",
-    "Escola visitante no passeio dos planetas",
-    "Passeio dos planetas visto a partir do Sol",
-    "Passeio dos planetas com escola visitante",
-    "Modelagem das estações do ano",
-    "Modelagem das estações do ano",
-    "Família visitante no Observatório",
-    "Escola visitante na bússola do Observatório",
-    "Relógio estelar",
-    "Observatório a olho nu durante a noite",
-    "Escolas no observatório",
-    "Equinócio de Outono visto do Observatório a olho nu"
-];
-
-let indice = 0;
-const img = document.getElementById("carrossel-img");
-const leg = document.getElementById("carrossel-legenda");
-
-function atualizar() {
-  img.src = imagens[indice];
-  leg.textContent = legendas[indice];
-}
-
-function proximo() {
-  indice = (indice + 1) % imagens.length;
-  atualizar();
-}
-
-function anterior() {
-  indice = (indice - 1 + imagens.length) % imagens.length;
-  atualizar();
-}
-
-// atualiza uma vez na carga e depois a cada 3s
-atualizar();
-const intervalo = setInterval(proximo, 3000);
-
-// opcional: pausar ao passar o mouse
-const carrossel = document.getElementById("carrossel");
-carrossel.addEventListener("mouseenter", () => clearInterval(intervalo));
-carrossel.addEventListener("mouseleave", () => {
-  // retoma o loop
-  setInterval(proximo, loopTime);
-});
-</script>
-
-<style>
-.carousel {
-  text-align: center;
-  max-width: 600px;
-  margin: 2rem auto;
-}
-.carousel img {
-  width: 60%;  
-  object-fit: contain;
-  border-radius: 8px;
-}
-.carousel p {
-  margin-top: 0.5rem;
-  font-style: italic;
-}
-.carousel-controles {
-  margin-top: 0.5rem;
-}
-.carousel-controles button {
-  padding: 0.4rem 1rem;
-  font-size: 1.2rem;
-  margin: 0 0.5rem;
-}
-</style>
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image24.jpg" class="img-fluid figure-img"></p>
+<figcaption>Atividade dos óculos VR</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image22.jpg" class="img-fluid figure-img"></p>
+<figcaption>Atividade de oculus VR</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image5.jpg" class="img-fluid figure-img"></p>
+<figcaption>Família na modelagem das estações do ano</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image21.jpg" class="img-fluid figure-img"></p>
+<figcaption>Criança vendo o Sol através do Telescópio com filtro protetor ocular</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image3.jpg" class="img-fluid figure-img"></p>
+<figcaption>Aluna vendo o Sol pelo Telescópio</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image16.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escola na fila para a visualização do Sol pelo Telescópio</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image10.jpg" class="img-fluid figure-img"></p>
+<figcaption>Fundamental I no Observatório a Olho Nu</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image34.jpg" class="img-fluid figure-img"></p>
+<figcaption>Explicação do Relógio Solar</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image29.jpg" class="img-fluid figure-img"></p>
+<figcaption>Família na modelagem das estações do ano</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image28.jpg" class="img-fluid figure-img"></p>
+<figcaption>Casal vendo a Lua pelo Binóculos</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image33.jpg" class="img-fluid figure-img"></p>
+<figcaption>Alunos do EJA no Observatório</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image20.jpg" class="img-fluid figure-img"></p>
+<figcaption>Eja na modelagem das estações do ano</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image9.jpg" class="img-fluid figure-img"></p>
+<figcaption>Famílias no Observatório</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image12.jpg" class="img-fluid figure-img"></p>
+<figcaption>Mulher visualizando o céu pelo binóculos</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image19.jpg" class="img-fluid figure-img"></p>
+<figcaption>Observatório no período noturno</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image31.jpg" class="img-fluid figure-img"></p>
+<figcaption>Observatório no período diurno</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image35.jpg" class="img-fluid figure-img"></p>
+<figcaption>Público para visualização dos telescópios</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image17.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escola visitante no passeio dos planetas</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image6.jpg" class="img-fluid figure-img"></p>
+<figcaption>Jogo Astronocartas</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image1.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escola visitante no Observatório</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image37.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escola visitante no telescópio voltado pro Sol</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image25.jpg" class="img-fluid figure-img"></p>
+<figcaption>Observatório com escola visitante</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image26.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escola visitante no Observatório noturno</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image13.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escola visitante na modelagem das estações do ano</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image32.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escola visitante no passeio dos planetas</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image18.jpg" class="img-fluid figure-img"></p>
+<figcaption>Passeio dos planetas visto a partir do Sol</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image2.jpg" class="img-fluid figure-img"></p>
+<figcaption>Passeio dos planetas com escola visitante</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image14.jpg" class="img-fluid figure-img"></p>
+<figcaption>Modelagem das estações do ano</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image11.jpg" class="img-fluid figure-img"></p>
+<figcaption>Modelagem das estações do ano</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image30.jpg" class="img-fluid figure-img"></p>
+<figcaption>Família visitante no Observatório</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image23.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escola visitante na bússola do Observatório</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image7.jpg" class="img-fluid figure-img"></p>
+<figcaption>Relógio estelar</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image36.jpg" class="img-fluid figure-img"></p>
+<figcaption>Observatório a olho nu durante a noite</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image27.jpg" class="img-fluid figure-img"></p>
+<figcaption>Escolas no observatório</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image8.jpg" class="img-fluid figure-img"></p>
+<figcaption>Equinócio de Outono visto do Observatório a olho nu</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image15.jpg" class="img-fluid figure-img"></p>
+<figcaption>Equipe obseRVe</figcaption>
+</figure>
+</div>
 </section>
 <section id="agradecimentos" class="level2">
 <h2 class="anchored" data-anchor-id="agradecimentos">Agradecimentos</h2>
