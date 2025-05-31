@@ -1,15 +1,47 @@
 [
   {
-    "listing": "/atividades/observatorio/circulo_dos_planetas.html",
+    "listing": "/calendario/calendario.html",
     "items": [
-      "/repo/planetas/mercurio.html",
-      "/repo/planetas/venus.html",
-      "/repo/planetas/terra.html",
-      "/repo/planetas/marte.html",
-      "/repo/planetas/jupiter.html",
-      "/repo/planetas/saturno.html",
-      "/repo/planetas/urano.html",
-      "/repo/planetas/netuno.html"
+      "/calendario/eventos/xix_jornada_das_estrelas.html",
+      "/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html",
+      "/calendario/eventos/WorkshopVR.html",
+      "/calendario/eventos/xvii_jornada_das_estrelas.html",
+      "/calendario/eventos/pons_brooks.html"
+    ]
+  },
+  {
+    "listing": "/equipe/equipe.html",
+    "items": [
+      "/equipe/professores/silvio_dahmen.html",
+      "/equipe/professores/joao_teles.html",
+      "/equipe/professores/vitor_coluci.html",
+      "/equipe/professores/alexandre_colato.html",
+      "/equipe/tecnicos/fernando_apolinario.html",
+      "/equipe/tecnicos/aline_soares.html",
+      "/equipe/estudantes/lais_oliveira.html",
+      "/equipe/estudantes/guilherme_bonaldo.html",
+      "/equipe/estudantes/lucas_ribeiro.html",
+      "/equipe/estudantes/vivian_silva.html",
+      "/equipe/estudantes/leticia_de_souza.html",
+      "/equipe/estudantes/maria_gomes.html",
+      "/equipe/estudantes/jhasmani_tito_cruz.html",
+      "/equipe/estudantes/daniel_oliveira.html",
+      "/equipe/estudantes/amanda_greyce.html",
+      "/equipe/estudantes/daiane_degan.html",
+      "/equipe/estudantes/maria_dantas.html"
+    ]
+  },
+  {
+    "listing": "/atividades/observatorio/circulo_dos_astronomos.html",
+    "items": [
+      "/repo/astronomos/aristarco_de_samos.html",
+      "/repo/astronomos/claudio_ptolomeu.html",
+      "/repo/astronomos/al_batani.html",
+      "/repo/astronomos/nicolau_copernico.html",
+      "/repo/astronomos/galileu_galilei.html",
+      "/repo/astronomos/isaac_newton.html",
+      "/repo/astronomos/william_herschel.html",
+      "/repo/astronomos/henrietta_leavitt.html"
     ]
   },
   {
@@ -33,18 +65,38 @@
     ]
   },
   {
-    "listing": "/calendario/calendario.html",
+    "listing": "/projetos/projetos.html",
     "items": [
-      "/calendario/eventos/xix_jornada_das_estrelas.html",
-      "/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html",
-      "/calendario/eventos/WorkshopVR.html",
-      "/calendario/eventos/xvii_jornada_das_estrelas.html",
-      "/calendario/eventos/pons_brooks.html"
+      "/projetos/foucault_proj/foucault_proj.html",
+      "/projetos/sissolxr_proj/sissolxr_proj.html",
+      "/projetos/planetar/planetar.html"
+    ]
+  },
+  {
+    "listing": "/atividades/jogos_e_desafios/jogos_e_desafios.html",
+    "items": [
+      "/atividades/jogos_e_desafios/questoes_oba/questoes_oba.html",
+      "/atividades/jogos_e_desafios/astronocartas/astronocartas.html",
+      "/atividades/jogos_e_desafios/constelacao_de_enigmas/constelacao_de_enigmas.html"
+    ]
+  },
+  {
+    "listing": "/atividades/observatorio/circulo_dos_planetas.html",
+    "items": [
+      "/repo/planetas/mercurio.html",
+      "/repo/planetas/venus.html",
+      "/repo/planetas/terra.html",
+      "/repo/planetas/marte.html",
+      "/repo/planetas/jupiter.html",
+      "/repo/planetas/saturno.html",
+      "/repo/planetas/urano.html",
+      "/repo/planetas/netuno.html"
     ]
   },
   {
     "listing": "/blog/blog.html",
     "items": [
+      "/blog/posts/seestar_teste_30_05_25/seestar_teste_30_05_25.html",
       "/blog/posts/seestar_teste_29_05_25/seestar_teste_29_05_25.html",
       "/blog/posts/jornada_das_estrelas_18_03_25/jornada_das_estrelas_18_03_25.html",
       "/blog/posts/alinhamento_planetas_28_02_25/alinhamento_planetas_28_02_25.html",
@@ -69,57 +121,6 @@
       "/acervo/itens/svbony305/svbony305.html",
       "/acervo/itens/swdob300c/swdob300c.html",
       "/acervo/itens/seestarS50/seestarS50.html"
-    ]
-  },
-  {
-    "listing": "/equipe/equipe.html",
-    "items": [
-      "/equipe/professores/silvio_dahmen.html",
-      "/equipe/professores/alexandre_colato.html",
-      "/equipe/professores/joao_teles.html",
-      "/equipe/professores/vitor_coluci.html",
-      "/equipe/tecnicos/fernando_apolinario.html",
-      "/equipe/tecnicos/aline_soares.html",
-      "/equipe/estudantes/lais_oliveira.html",
-      "/equipe/estudantes/maria_gomes.html",
-      "/equipe/estudantes/guilherme_bonaldo.html",
-      "/equipe/estudantes/jhasmani_tito_cruz.html",
-      "/equipe/estudantes/leticia_de_souza.html",
-      "/equipe/estudantes/daiane_degan.html",
-      "/equipe/estudantes/lucas_ribeiro.html",
-      "/equipe/estudantes/daniel_oliveira.html",
-      "/equipe/estudantes/vivian_silva.html",
-      "/equipe/estudantes/maria_dantas.html",
-      "/equipe/estudantes/amanda_greyce.html"
-    ]
-  },
-  {
-    "listing": "/projetos/projetos.html",
-    "items": [
-      "/projetos/foucault_proj/foucault_proj.html",
-      "/projetos/sissolxr_proj/sissolxr_proj.html",
-      "/projetos/planetar/planetar.html"
-    ]
-  },
-  {
-    "listing": "/atividades/jogos_e_desafios/jogos_e_desafios.html",
-    "items": [
-      "/atividades/jogos_e_desafios/questoes_oba/questoes_oba.html",
-      "/atividades/jogos_e_desafios/astronocartas/astronocartas.html",
-      "/atividades/jogos_e_desafios/constelacao_de_enigmas/constelacao_de_enigmas.html"
-    ]
-  },
-  {
-    "listing": "/atividades/observatorio/circulo_dos_astronomos.html",
-    "items": [
-      "/repo/astronomos/aristarco_de_samos.html",
-      "/repo/astronomos/claudio_ptolomeu.html",
-      "/repo/astronomos/al_batani.html",
-      "/repo/astronomos/nicolau_copernico.html",
-      "/repo/astronomos/galileu_galilei.html",
-      "/repo/astronomos/isaac_newton.html",
-      "/repo/astronomos/william_herschel.html",
-      "/repo/astronomos/henrietta_leavitt.html"
     ]
   }
 ]
