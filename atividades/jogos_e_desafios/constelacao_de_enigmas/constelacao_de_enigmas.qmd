@@ -23,6 +23,15 @@ Newtinho, um estudante de física confiante em sua capacidade de resolver proble
 |   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd) que vislumbrou esse problema enquanto fazia exercício sob a sombra de um quiosque.
 |   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
 
+::: {.callout-note collapse="true"}
+## Ver a Solução
+
+<p style="font-size: 0.85em; color: #808080; font-style: italic;">
+A resposta não está no céu, mas na memória térmica do solo sob os pés de Newtinho. Ao retirar os chinelos e caminhar pelo perímetro interno da sombra do quiosque, sua pele sente o que seus olhos não veem: a história da manhã. O lado do chão que esteve banhado pelo sol desde o amanhecer acumulou calor (inércia térmica), revelando o Leste. Já o lado oposto, protegido pela sombra do quiosque durante toda a manhã, permanece mais frio, indicando o Oeste. Assim, a física do calor guia Newtinho: o chão quente aponta para onde o sol nasceu, garantindo-lhe o jantar e livrando-o do sorvete. Procure um quiosque ou abrigo sombreado semelhante ao de Newtinho e faça o teste você mesmo(a).
+</p>
+
+:::
+<p></p>
 :::
 
 #### O Enigma da Bexiga de Outro Mundo - Desafio de Trappist-1e
@@ -66,12 +75,23 @@ Ajude Elara a entender o "enigma da bexiga" de outro mundo e a provar que a fís
 |   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd) que pensou nesse problema devido à insatisfação com a forma como o experimento com a bexiga é tratado em alguns livros didáticos.
 |   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
 
+::: {.callout-note collapse="true"}
+## Ver a Solução
+
+<span style="font-size: 0.85em; color: #808080; font-style: italic;">
+O segredo não reside na gravidade alienígena, mas na tensão de uma membrana elástica. O experimento original funciona porque a borracha da bexiga comprime o ar em seu interior, aumentando sua densidade em relação ao ar externo; esse excesso de densidade vence o empuxo e a balança registra a diferença. O saquinho plástico de Elara, porém, não oferece resistência elástica: a pressão interna se iguala à externa, e a densidade do ar capturado permanece idêntica à do ar ambiente. Pelo Princípio de Arquimedes, o peso do ar dentro do saco é perfeitamente anulado pela força de empuxo (o peso do ar deslocado), fazendo com que a balança enxergue o ar como "invisível" em termos de peso. Você pode fazer esse experimento com uma balança digital doméstica. Para que a diferença de peso no caso da bexiga seja mensurável pela balança, encha a bexiga o máximo possível até quase estourá-la, pois o ar dentro dela só terá um aumento apreciável de densidade no limite da elasticidade da borracha.
+</span>
+:::
+<p></p>
+
 :::
 
 
 #### O Pesadelo dos Somnians
 ::: {.callout-tip collapse="true"}
 # Abra o desafio
+
+![](pesadelo_dos_somnians.jpg){.img-left}
 
 Em Kepler-1571, um planeta distante banhado pela pálida e avermelhada luz de sua estrela anã, florescia a engenhosa civilização dos Somnians. Seres ligados à terra, os Somnians ergueram suas cidades na superfície de Kepler-1571, um mundo rochoso colossal, cuja generosa gravidade, superior à da Terra, permitia reter uma atmosfera densa e vasta, mesmo sendo composta predominantemente pelo gás mais leve do universo: o gás hidrogênio (H~2~). A vida em Kepler-1571 havia trilhado um caminho evolutivo único, respirando a leveza do hidrogênio, a essência primordial do cosmos. Em comparação com mundos menores e mais quentes, como a Terra, onde o hidrogênio se dissipa para o espaço, Kepler-1571 abraçava seus habitantes com um oceano de hidrogênio gasoso vital. Suas cidades intrincadas, obras de arte em pedra e metal, adornavam as encostas elevadas e os planaltos acima do imponente Lago Celeste, um corpo d'água de beleza ímpar. Suas águas profundas e misteriosas exibiam um reflexo safira de tirar o fôlego, uma joia líquida cintilante sob a luz crepuscular, um fenômeno visual único, paradoxalmente possível graças aos altos níveis de dióxido de carbono (CO~2~) dissolvido em suas profundezas. Este excesso natural de CO~2~ dissolvido na água, armazenado lentamente no leito vulcânico do lago ao longo do último século, criava essa beleza singular e não inspirava receio por ser atóxico para os Somnians. A vida Somnian era tecida com a engenhosidade da terra e a imensidão do céu de hidrogênio, uma sinfonia de existência em Kepler-1571, com o Lago Celeste como sua joia mais preciosa.
 
@@ -88,8 +108,65 @@ Mestra Rudolfina e os cientistas de Kepler-1571, agora diante do Vale da Sombra 
 |   **Criação do Problema e Solução Original:** [João Teles](/equipe/professores/joao_teles.qmd) que adaptou-o de uma [atividade didática](/atividades/jogos_e_desafios/constelacao_de_enigmas/Atividade_investigativa.pdf), que por sua vez foi inspirada em um caso real acontecido na Terra.
 |   **Desenvolvimento da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 2.0 Flash Thinking Experimental O1-21.
 
+::: {.callout-note collapse="true"}
+## Ver a Solução
+
+<span style="font-size: 0.85em; color: #808080; font-style: italic;">
+A catástrofe foi uma erupção límnica. O tremor planetário rompeu o equilíbrio do Lago Celeste, liberando abruptamente toneladas de CO~2~ dissolvido. Em um planeta onde a atmosfera é feita do levíssimo Hidrogênio (H~2~), o Dióxido de Carbono (CO~2~) comporta-se como um "líquido" fantasmagórico extremamente pesado. Pela implacável lei da densidade, essa nuvem invisível não subiu, mas escorreu pelas encostas como uma avalanche silenciosa, inundando o Vale da Sombra e expulsando o ar respirável. As cidades altas, ilhas acima desse mar de gás denso, permaneceram salvas, enquanto o vale sucumbia sufocado.
+</span>
+:::
+<p></p>
 
 :::
+
+#### Acidente na Lua
+::: {.callout-tip collapse="true"}
+# Abra o desafio
+
+![](acidente_na_lua.png){.img-left}
+
+Estamos em 2115. A Base Lunar Brasileira "Cruzeiro do Sul" enfrenta sua pior crise de relações públicas. A principal fonte de renda da estação, o turismo espacial, está ameaçada pela inauguração da luxuosa estação vizinha, a "Estación de Los Hermanos", comandada pelos argentinos, que prometem "o melhor churrasco e o melhor tango do lado escuro da Lua". Para piorar, um incidente trágico e misterioso colocou a segurança brasileira em xeque.
+
+O protagonista dessa história infeliz é o **Dr. Caio Torres**. Um geólogo brilhante na Terra, mas um completo novato no ambiente lunar — aquele era seu *primeiro dia* de campo fora da gravidade terrestre.
+
+O incidente ocorreu na Torre de Observação e Descarte. Um detalhe arquitetônico importante desta torre é que ela possui **terraços de manutenção recuados** logo abaixo da plataforma principal, como degraus de uma escada invertida. O Dr. Torres tinha a missão de descartar amostras de rochas lunares lançando-as da plataforma superior.
+
+A Comissão de Vigilantes (burocratas com pouca afinidade com a física) analisou as imagens e decretou: **Homicídio**. Segundo eles, a física não explicava a cena, e alguém teria empurrado o doutor. Se isso se confirmar, o escândalo fará os turistas migrarem em massa para a base argentina.
+
+**O Que as Câmeras Viram (e o que intriga a polícia):**
+
+1.  **A Confiança Excessiva:** O Dr. Torres caminhava em direção ao parapeito segurando uma rocha enorme, do tamanho de uma melancia, com uma facilidade desconcertante. Ele andava rápido, quase saltitando, parecendo ignorar que carregava um objeto volumoso.
+2.  **O Tropeço Suspeito:** Ao chegar à marca de segurança para arremessar a pedra, ele travou os pés no chão para frear. Mas, em vez de parar, seu tronco foi projetado violentamente para a frente, como se a rocha tivesse "ganhado vida" e o arrastado para o abismo — algo muito suspeito para os Vigilantes.
+3.  **A "Geometria do Crime":** O detalhe que convenceu os vigilantes do assassinato foi a posição final dos corpos no solo lunar. O corpo do Dr. Torres foi encontrado **muito próximo** à base da torre, quase colado à parede (como se ele tivesse caído para trás, em direção aos terraços recuados). Já a rocha que ele segurava foi encontrada a uma distância horizontal **enorme**, muito além de onde seria natural. *"Impossível,"* disse o chefe de segurança, *"Se ele caiu segurando a pedra, ambos deveriam cair na mesma trajetória parabólica. Alguém o empurrou e depois arremessou a pedra longe!"*
+4. **O Enigma do Capacete:** O visor do capacete do Dr. Torres, feito de polímero de alta resistência, estilhaçou no impacto, causando despressurização fatal. O fabricante garante que o visor suporta impactos de até 20 km/h. A altura da torre gera exatamente essa velocidade de queda na gravidade lunar.
+    - *A Teoria dos Vigilantes:* "Se o corpo dele foi encontrado perto da torre, significa que ele conseguiu 'frear' seu movimento para a frente. **Ora, quem freia, chega devagar!** Se ele freou no ar a ponto de cair reto, o impacto deveria ter sido suave. Se o capacete quebrou mesmo ele tendo 'freado', alguém o arremessou com força para baixo!"
+
+O governo brasileiro está desesperado. Eles precisam provar que não há um assassino à solta, mas apenas um acidente causado por "falta de adaptação às leis da Física na Lua".
+
+**Seu desafio:** Salve a reputação do turismo nacional! Explique, usando conceitos físicos, os dois mistérios que os vigilantes não entendem:
+
+1. Por que ele foi projetado para frente ao tentar parar para lançar a rocha lunar?
+2. Como explicar a rocha caindo longe e o corpo caindo perto (lembrando dos terraços recuados)?
+3. Por que o argumento dos vigilantes sobre o capacete está fisicamente errado? (Por que "frear" horizontalmente não salvou o visor?)
+---
+
+|   **Criação do Problema e Solução Original:** Baseado na atividade didática ["Acidente na Lua" de Paulo R. Scomparin](https://repositorio.ufscar.br/handle/20.500.14289/11932), que utiliza uma narrativa investigativa para o ensino das Leis de Newton.
+|   **Adaptação da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 3.0.
+
+::: {.callout-note collapse="true"}
+## Ver a Solução
+
+<span style="font-size: 0.85em; color: #808080; font-style: italic;">
+**1. A Armadilha da Inércia:** O Dr. Torres confundiu peso com massa. Na Lua, a rocha tinha peso baixo (parecia leve), mas mantinha sua grande massa. Ao caminhar rápido e frear os pés, a **inércia** da rocha a fez continuar em movimento (1ª Lei de Newton), arrastando o cientista — que tinha pouco atrito no chão devido à baixa gravidade — para fora da torre.
+<br><br>
+**2. Ação e Reação:** Já em queda livre, percebendo os terraços recuados abaixo, Torres tentou se salvar empurrando a rocha violentamente para frente. Pela 3ª Lei de Newton, ao empurrar a rocha, ele recebeu um impulso contrário (para trás). Isso diminui sua velocidade para frente, fazendo-o cair próximo à torre (numa tentativa falha de atingir o terraço), enquanto a rocha ganhou velocidade extra para voar longe.
+<br><br>
+**3. Independência dos Movimentos:** O erro dos vigilantes é misturar movimentos. O empurrão que Torres deu na rocha alterou apenas sua velocidade **horizontal** (fazendo-o cair perto da torre), mas não teve efeito algum sobre sua velocidade **vertical**. A gravidade atuou sobre ele da mesma forma, independentemente de ele estar indo para frente ou parado horizontalmente. Ele atingiu o solo com a mesma velocidade vertical fatal (~20 km/h) determinada apenas pela altura da queda, o suficiente para quebrar o capacete.
+</span>
+:::
+<p></p>
+:::
+
 
 
 ---
