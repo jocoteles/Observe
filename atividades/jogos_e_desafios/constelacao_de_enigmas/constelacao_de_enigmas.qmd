@@ -150,7 +150,7 @@ O governo brasileiro está aflito. Eles precisam provar que não há um ["HAL 90
 3. Por que o argumento dos vigilantes sobre o capacete está fisicamente errado? (Por que "frear" horizontalmente não salvou o visor?)
 ---
 
-|   **Criação do Problema e Solução Original:** Baseado na atividade didática ["Acidente na Lua" de Paulo R. Scomparin](https://repositorio.ufscar.br/handle/20.500.14289/11932), que utiliza uma narrativa investigativa para o ensino das Leis de Newton.
+|   **Criação do Problema e Solução Original:** Baseado na atividade didática ["Acidente na Lua" de Paulo R. Scomparin](https://repositorio.ufscar.br/handle/20.500.14289/11932), que utiliza uma abordagem investigativa para o ensino das Leis de Newton.
 |   **Adaptação da Narrativa e Colaboração:** [João Teles](/equipe/professores/joao_teles.qmd) e Modelo Gemini 3.0.
 
 ::: {.callout-note collapse="true"}
@@ -161,7 +161,7 @@ O governo brasileiro está aflito. Eles precisam provar que não há um ["HAL 90
 <br><br>
 **2. Ação e Reação:** Já em queda livre, percebendo os terraços recuados abaixo, Torres tentou se salvar empurrando a rocha violentamente para frente. Pela 3ª Lei de Newton, ao empurrar a rocha, ele recebeu um impulso contrário (para trás) proporcionando-lhe a chance de alcançar um dos terraços antes de atingir o solo. Isso pode eventualmente até inverter sua velocidade horizontal, fazendo-o cair próximo à torre (numa tentativa falha de atingir o terraço), enquanto a rocha ganhou velocidade extra para voar longe.
 <br><br>
-**3. Independência dos Movimentos:** O erro dos vigilantes é misturar movimentos. O empurrão que Torres deu na rocha alterou apenas sua velocidade **horizontal** (fazendo-o cair perto da torre), mas não teve efeito algum sobre sua velocidade **vertical**. A gravidade atuou sobre ele da mesma forma (2ª Lei de Newton), independentemente do seu movimento horizontal. Ele atingiu o solo com a mesma velocidade vertical fatal (~20 km/h) determinada apenas pela altura da queda, o suficiente para quebrar o capacete.
+**3. Independência dos Movimentos:** O erro dos vigilantes é misturar movimentos. O empurrão que Torres deu na rocha alterou apenas sua velocidade **horizontal** (fazendo-o cair perto da torre), mas não teve efeito algum sobre sua velocidade **vertical**. A gravidade atuou sobre ele verticalmente da mesma forma (2ª Lei de Newton), independentemente do seu movimento horizontal. Ele atingiu o solo com a mesma velocidade vertical fatal (~20 km/h) determinada pela altura da queda, o suficiente para quebrar o capacete.
 </span>
 :::
 <p></p>
