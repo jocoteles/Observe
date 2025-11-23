@@ -125,7 +125,7 @@ A catástrofe foi uma erupção límnica. O tremor planetário rompeu o equilíb
 
 ![](acidente_na_lua.png){.img-left}
 
-Estamos em 2115. A Base Lunar Brasileira "Cruzeiro do Sul" enfrenta sua pior crise de relações públicas. A principal fonte de renda da estação, o turismo espacial, está ameaçada pela inauguração da luxuosa estação vizinha, a "Estación de Los Hermanos", comandada pelos argentinos, que prometem "o melhor churrasco e o melhor tango do lado escuro da Lua". Para piorar, um incidente trágico e misterioso colocou a segurança brasileira em xeque.
+Estamos em 2115. A Base Lunar Brasileira "Cruzeiro do Sul" enfrenta sua pior crise de relações públicas. A principal fonte de renda da estação, o turismo espacial, está ameaçada pela inauguração da luxuosa estação vizinha, a "Estación de Los Hermanos", comandada pelos argentinos, que prometem "o melhor churrasco e o melhor tango do lado oculto da Lua". Para piorar, um incidente trágico e misterioso colocou a segurança brasileira em xeque.
 
 O protagonista dessa história infeliz é o **Dr. Caio Torres**. Um geólogo brilhante na Terra, mas um completo novato no ambiente lunar — aquele era seu *primeiro dia* de campo fora da gravidade terrestre.
 
@@ -139,9 +139,9 @@ A Comissão de Vigilantes, com os Olhos da Burocracia Terrestre (e com pouca afi
 2.  **O Tropeço Suspeito:** Ao chegar à marca de segurança para arremessar a pedra, ele travou os pés no chão para frear. Mas, em vez de parar, seu tronco foi projetado violentamente para a frente, como se a rocha tivesse "ganhado vida" e o arrastado para o abismo — algo muito suspeito para os Vigilantes. Infelizmente, a qualidade das imagens não era boa o suficiente para discernir claramente a cena.
 3.  **A "Geometria do Crime":** Um dos detalhes que convenceu os vigilantes do assassinato foi a posição final dos corpos no solo lunar. O corpo do Dr. Torres foi encontrado **muito próximo** à base da torre, quase colado à parede (como se ele tivesse caído para trás, em direção aos terraços recuados). Já a rocha que ele segurava foi encontrada a uma distância horizontal **enorme**, muito além de onde seria natural. *"Impossível,"* disse o chefe de segurança, *"Se ele caiu segurando a pedra, ambos deveriam cair na mesma trajetória parabólica. Alguém o empurrou!"*
 4. **O Enigma do Capacete:** O visor do capacete do Dr. Torres estilhaçou no impacto, causando despressurização fatal. O fabricante garante que o visor suporta impactos de até 20 km/h. A altura da torre gera exatamente essa velocidade de queda na gravidade lunar.
-    - *A Teoria dos Vigilantes:* "Se o corpo dele foi encontrado perto da torre, significa que ele conseguiu 'frear' seu movimento para a frente. **Ora, quem freia, chega devagar!** Se ele freou no ar a ponto de cair reto, o impacto deveria ter sido suave. Se o capacete quebrou mesmo ele tendo 'freado', alguém o arremessou com força para baixo!"
+    - *A Teoria dos Vigilantes:* "Se o corpo dele foi encontrado perto da torre, significa que ele conseguiu 'frear' seu movimento para a frente. **Ora, quem freia, chega devagar!** Se ele "freou" durante a queda a ponto de cair reto, o impacto deveria ter sido suave. Se o capacete quebrou mesmo ele tendo 'freado', alguém o arremessou com força para baixo!"
 
-O governo brasileiro está aflito. Eles precisam provar que não há um [HAL 9000](https://pt.wikipedia.org/wiki/HAL_9000) à solta na Base Cruzeiro do Sul, mas apenas um acidente causado por "falta de adaptação às [leis de Newton](https://pt.wikipedia.org/wiki/Leis_de_Newton) na Lua".
+O governo brasileiro está aflito. Eles precisam provar que não há um ["HAL 9000"](https://pt.wikipedia.org/wiki/HAL_9000) à solta na Base Cruzeiro do Sul, mas apenas um acidente causado por "falta de adaptação às [leis de Newton](https://pt.wikipedia.org/wiki/Leis_de_Newton) na Lua".
 
 **Seu desafio:** Salve a reputação do turismo nacional! Explique, usando conceitos físicos, os dois mistérios que os vigilantes não entendem:
 
