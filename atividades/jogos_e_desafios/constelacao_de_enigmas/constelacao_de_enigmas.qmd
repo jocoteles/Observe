@@ -27,7 +27,7 @@ Newtinho, um estudante de física confiante em sua capacidade de resolver proble
 ## Ver a Solução
 
 <p style="font-size: 0.85em; color: #808080; font-style: italic;">
-A resposta não está apenas no céu, mas na memória térmica do solo sob os pés de Newtinho. Ao retirar os chinelos e caminhar pelo perímetro interno da sombra do quiosque, sua pele sente o que seus olhos não veem: a história da manhã. O lado da sombra voltado para o Leste esteve recentemente banhado pelo Sol, mantendo-se aquecido (inércia térmica). Já o lado oposto da sombra, anteriormente protegido pela sombra do quiosque, permanece mais frio, indicando o Oeste. Assim, a física do calor guia Newtinho: o chão quente aponta para onde o Sol nasceu, garantindo-lhe o jantar e livrando-o de uma fria (preju dos sorvetes). Procure um quiosque ou abrigo sombreado semelhante ao de Newtinho e faça o teste você mesmo(a).
+A resposta não está apenas no céu, mas na memória térmica do solo sob os pés de Newtinho. Ao retirar os chinelos e caminhar pelo perímetro interno da sombra do quiosque, sua pele sente o que seus olhos não veem: a história da manhã. Imagine um filme do Sol percorrendo o ceú de Leste para Oeste enquanto a sombra do quiosque, consequentemente, "caminha" de Oeste para Leste. O lado da sombra voltado para o Leste esteve recentemente banhado pelo Sol, mantendo-se aquecido (inércia térmica). Já o lado oposto da sombra, anteriormente protegido pela cobertura do quiosque, permanece mais frio, indicando o Oeste. Assim, a física do calor guia Newtinho: o chão quente aponta para onde o Sol nasceu, garantindo-lhe o jantar e livrando-o de uma fria (preju dos sorvetes). Procure um quiosque ou abrigo sombreado semelhante ao de Newtinho e faça o teste você mesmo(a).
 </p>
 
 :::
