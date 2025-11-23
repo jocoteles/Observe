@@ -143,7 +143,7 @@ A Comissão de Vigilantes, com os Olhos da Burocracia Terrestre (e com pouca afi
 
 O governo brasileiro está aflito. Eles precisam provar que não há um ["HAL 9000"](https://pt.wikipedia.org/wiki/HAL_9000) à solta na Base Cruzeiro do Sul, mas apenas um acidente causado por "falta de adaptação às [leis de Newton](https://pt.wikipedia.org/wiki/Leis_de_Newton) na Lua".
 
-**Seu desafio:** Salve a reputação do turismo nacional! Explique, usando conceitos físicos, os dois mistérios que os vigilantes não entendem:
+**Seu desafio:** Salve a reputação do turismo nacional! Explique, usando conceitos físicos, os três mistérios que os vigilantes não entendem:
 
 1. Por que ele foi projetado para frente ao tentar parar para lançar a rocha lunar?
 2. Como explicar a rocha caindo longe e o corpo caindo perto (lembrando dos terraços recuados)?
