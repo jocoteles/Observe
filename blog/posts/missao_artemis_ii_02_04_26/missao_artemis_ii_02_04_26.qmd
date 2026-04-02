@@ -14,13 +14,13 @@ Eis o fascinante cronograma orbital da Orion:
 
 | Etapa da Missão | Data/Hora (BRT) | Semi-eixo (a) | Excentricidade (e) | Dist. Mínima (Perigeu) | Dist. Máxima (Apogeu) | Status/Ação |
 |:---|:---|:---|:---|:---|:---|:---|
-| 1. Órbita LEO | 01/04 - 19:45 | ~7.920 km | ~0,17 | ~6.556 km | ~9.271 km | Inserção inicial e testes. |
-| 2. Órbita HEO (24h) | 02/04 - 10:30 | ~43.771 km | ~0,83 | ~7.171 km | ~80.371 km | Testes de proximidade (ICPS). |
-| 3. Injeção (TLI) | 02/04 - 21:00 | Hipérbole | > 1,0 | 7.171 km | ∞ (Escape) | Queima para sair da órbita. |
-| 4. Cruzeiro Lunar | 03/04 a 05/04 | Trajetória | de | Interceptação | Lunar | Manobras corretivas (OTCs). |
-| 5. Perilúnio (Flyby) | 06/04 - ~14:00 | Hipérbole | > 1,0 (Lua) | ~10.400 km (da Lua) | N/A | Máxima aproximação lunar. |
-| 6. Queda Livre | 07/04 a 09/04 | Trajetória | de | Retorno | à Terra | Atração gravitacional terrestre. |
-| 7. Splashdown | 10/04 - Tarde | - | - | Reentrada | Atmosférica | Pouso no Oceano Pacífico. |
+| 1-5. Órbita LEO | 01/04 - 19:45 | ~7.920 km | ~0,17 | ~6.556 km | ~9.271 km | Inserção inicial e testes. |
+| 5-9. Órbita HEO (24h) | 02/04 - 10:30 | ~43.771 km | ~0,83 | ~7.171 km | ~80.371 km | Testes de proximidade (ICPS). |
+| 9. Injeção (TLI) | 02/04 - 21:00 | Hipérbole | > 1,0 | 7.171 km | ∞ (Escape) | Queima para sair da órbita. |
+| 9-11. Cruzeiro Lunar ida | 03/04 a 05/04 | Trajetória | de | Interceptação | Lunar | Manobras corretivas (OTCs). |
+| 11. Perilúnio (Flyby) | 06/04 - ~14:00 | Hipérbole | > 1,0 (Lua) | ~10.400 km (da Lua) | N/A | Máxima aproximação lunar. |
+| 11-15. Cruzeiro Lunar volta | 07/04 a 09/04 | Trajetória | de | Retorno | à Terra | Atração gravitacional terrestre. |
+| 15. Splashdown | 10/04 - Tarde | - | - | Reentrada | Atmosférica | Pouso no Oceano Pacífico. |
 
 ![Diagrama com as etapas da missão Artemis II. [Crédito: https://www.nasa.gov/image-feature/artemis-ii-map]](Artemis_2_map_march_2023.jpg){.preview-image}
 
