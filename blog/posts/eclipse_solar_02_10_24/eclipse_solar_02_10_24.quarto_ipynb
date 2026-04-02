@@ -12,7 +12,7 @@
         "author: João Teles\n",
         "---"
       ],
-      "id": "3f0fbcef"
+      "id": "fe143591"
     },
     {
       "cell_type": "code",
@@ -45,7 +45,7 @@
         "pe = 100*ae/(math.pi*rd**2)\n",
         "peS = str(round(pe,1)).replace('.', ',')"
       ],
-      "id": "e2484515",
+      "id": "7e29fd04",
       "execution_count": null,
       "outputs": []
     },
@@ -75,7 +75,7 @@
         "    - [Observatório a olho nu do CCA-UFSCar](/localizacao/localizacao.qmd)\n",
         "    - [Aeroporto Municipal de Araras](https://aeroclubedeararas.wixsite.com/aeroclubedeararas)"
       ],
-      "id": "720e486d"
+      "id": "e59a09e1"
     }
   ],
   "metadata": {
