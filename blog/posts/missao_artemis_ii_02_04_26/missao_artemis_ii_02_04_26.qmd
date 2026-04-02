@@ -34,3 +34,4 @@ Ao longo de cada uma dessas órbitas, a energia mecânica da Órion é conservad
 
 ![Animação vista do referencial girante com a Lua, em que a órbita em formato de 8 se "desdobra" em um formato mais próximo da hipérbole. [Fonte: Wikimedia Commons]](Animation_of_Artemis_II_around_Earth_-_Frame_rotating_with_Moon.gif){.preview-image}
 
+Para acompanhar a telemetria da Órion em tempo real, acesse o [app da NASA](https://www.nasa.gov/missions/artemis-ii/arow/).
