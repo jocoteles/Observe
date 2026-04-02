@@ -1,0 +1,91 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Eclipse solar de outubro de 2024\n",
+        "date: 02 10 2024\n",
+        "image: eclipse_stellarium.png\n",
+        "categories: [Fenômeno celeste]\n",
+        "author: João Teles\n",
+        "---"
+      ],
+      "id": "3f0fbcef"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| code-fold: true\n",
+        "\"\"\"Cálculo da área do disco solar eclipsado conforme\n",
+        "estimativa da imagem extraída do Stellarium para a cidade de Araras-SP\n",
+        "em 02/10/2024 às 17h45.\n",
+        "Medidas feitas todas na mesma unidade arbitrária (ua).\"\"\"\n",
+        "\n",
+        "import math\n",
+        "\n",
+        "rd = 15  # raio médio da Lua e do Sol [ua]\n",
+        "ca = 17  # comprimento da corda do arco de circunferência eclipsado no auge do eclipse [ua]\n",
+        "\n",
+        "#Cálculos para a área do paralelogramo formado entre os centros dos dois astros e as extremidades da corda do eclipse:\n",
+        "d1p = ca  # comprimento da primeira diagonal (corda)\n",
+        "d2p = 2*(rd**2 - (d1p/2)**2)**0.5 # comprimento da segunda diagonal (centro a centro)\n",
+        "ap = d1p*d2p/2 # área do paralelogramo\n",
+        "\n",
+        "ang = 2*math.atan(d1p/d2p) # ângulo do arco de circunferência do eclipse [rad]\n",
+        "\n",
+        "aa = (math.pi*rd**2)*ang/(2*math.pi) # área do arco de circunferência [ua^2]\n",
+        "\n",
+        "# A área eclipsada (ae) é dada por ap = 2*aa - ae\n",
+        "ae = 2*aa - ap  # [ua^2]\n",
+        "\n",
+        "# Percentual de área eclipsada:\n",
+        "pe = 100*ae/(math.pi*rd**2)\n",
+        "peS = str(round(pe,1)).replace('.', ',')"
+      ],
+      "id": "e2484515",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![Eclipse solar simulado pelo Stellarium na cidade de Araras-SP às 17h45](eclipse_stellarium.png){.preview-image}\n",
+        "\n",
+        "Hoje, 02/10/2024, teremos um eclipse solar que poderá ser visto parcialmente no sul e sudeste do Brasil. Na região de Araras, apenas uma pequena parte do disco solar será encoberta: `{python} peS` % da sua área.\n",
+        "\n",
+        "Apesar disso, valerá a pena apreciá-lo.\n",
+        "\n",
+        "Os eclipses solares, além de serem um fenômeno incrível e relativamente raro (pesquise sobre o [ciclo de Saros](https://en.wikipedia.org/wiki/Saros_(astronomy))) em que a o Sol é encoberto pela Lua em plena luz do dia, este eclipse, em particular na cidade de Araras-SP, terá início às 17h e permanecerá visível até o pôr do Sol.\n",
+        "\n",
+        "Como nesse horário o Sol estará próximo ao horizonte, seu brilho estará mais fraco e avermelhado (ainda mais com a poluição das queimadas que infelizmente assolam o território brasileiro atualmente) o que possivelmente facilitará a contemplação do fenômeno. Além disso, como todo astro próximo ao horizonte, suas dimensões parecerão maiores pela ilusão de óptica promovida pela [ilusão de Ponzo](https://en.wikipedia.org/wiki/Ponzo_illusion).\n",
+        "\n",
+        "Portanto, para observá-lo, procure um local aberto no horizonte oeste. Mesmo com um brilho mais fraco, é recomendado utilizar proteção adequada para os olhos (filtros solares).\n",
+        "\n",
+        "## Dados do eclipse para Araras-SP\n",
+        "\n",
+        "- **Data**: 02/10/2024\n",
+        "- **Início**: 17:00\n",
+        "- **Máximo**: 17:45\n",
+        "- **Área do Sol encoberta**: `{python} peS` %\n",
+        "- **Sugestões de locais de observação a olho nu**:\n",
+        "    - [Observatório a olho nu do CCA-UFSCar](/localizacao/localizacao.qmd)\n",
+        "    - [Aeroporto Municipal de Araras](https://aeroclubedeararas.wixsite.com/aeroclubedeararas)"
+      ],
+      "id": "720e486d"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/usr/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
