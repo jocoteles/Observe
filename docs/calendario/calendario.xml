@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>obseRVe</title>
+<link>https://observe.ufscar.br/calendario/calendario.html</link>
+<atom:link href="https://observe.ufscar.br/calendario/calendario.xml" rel="self" type="application/rss+xml"/>
+<description> </description>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Fri, 14 Feb 2025 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>XIX Jornada diurna e noturna das Estrelas</title>
+  <link>https://observe.ufscar.br/calendario/eventos/xix_jornada_das_estrelas.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Entre os dias 18/03/25 e 20/03/25 ocorrerá a XIX edição especial do evento Jornada das Estrelas.</p>
+<p><em>Esta é a primeira vez que a Jornada das Estrelas ocorrerá <a href="../../atividades/jornada_do_sol/jornada_do_sol.html">à tarde</a> e <a href="../../atividades/jornada_das_estrelas/jornada_das_estrelas.html">à noite</a>!</em></p>
+<ul>
+<li>Local: <a href="../../localizacao/localizacao.html">Praça do Observatório a Olho Nu do CCA-UFSCar</a></li>
+<li>Data: 18 a 20/03/25</li>
+<li>Horários:
+<ul>
+<li>Tarde: 14h às 15h30 e 16h às 17h30</li>
+<li>Noite: 19h às 20h30 e 21h às 22h30</li>
+</ul></li>
+</ul>
+<p>Nesta edição teremos:</p>
+<ul>
+<li>Observação do céu com telescópios (Sol à tarde e planetas à noite, caso o céu esteja limpo).</li>
+<li>Coreografia dos planetas (em qualquer condição climática).</li>
+<li>Modelagem das estações do ano (em qualquer condição climática).</li>
+<li>Visitação ao Observatório a Olho Nu (caso não chova).</li>
+<li>Caminhada pelos planetas (caso não chova).</li>
+<li>Jogo AstronoCartas (caso chova).</li>
+</ul>
+<p>O circuito completo de atividades terá duração em torno 1 hora e 30 minutos. Como várias atividades são realizadas à céu aberto, recomendamos que os visitantes venham protegidos para as intempéries.</p>
+<p>O evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as <strong>escolas precisam fazer a solicitação de agendamento</strong> conforme instruções abaixo.</p>
+<!-- Recebemos a informação do TCA que, nos dias do evento, a linha de ônibus [Linha 0403 - Parque das Arvores / Jardim Alvorada - Carro 820](https://www.smtca.sp.gov.br/wp-content/uploads/2023/01/LINHAS-E-HORARIOS-DE-ONIBUS-SITE-2023-01-30.pdf) estará operando. -->
+<section id="instruções-para-as-escolas" class="level2">
+<h2 class="anchored" data-anchor-id="instruções-para-as-escolas">Instruções para as escolas</h2>
+<ul>
+<li>Escolas que queiram trazer seus alunos deverão, obrigatoriamente, fazer o agendamento do dia e horário de visitação preenchendo o formulário abaixo e enviando a solicitação gerada para o email <code>observe@ufscar.br</code>.</li>
+<li>O agendamento poderá ser feito até o dia 14 de março. As escolas que não puderem vir deverão cancelar o agendamento com antecedência para liberar horário para outras escolas.</li>
+<li>Serão aceitos no máximo 3 grupos de até 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.</li>
+<li>As escolas que vierem com grupos que não tiverem sido agendados e confirmados não poderão participar do evento. Todas as escolas serão contatadas por e-mail ou telefone para confirmação do agendamento. Ou seja, não basta fazer o agendamento, é necessário que a escola receba a confirmação por email para poder participar.</li>
+<li>Escolas que chegarem atrasadas em relação ao horário agendado poderão perder algumas das atividades acima, sendo direcionadas para a atividade seguinte desde que dentro do período agendado.</li>
+<li>Para a UFSCar é uma grande satisfação receber as escolas no evento, trazendo uma grande motivação para que ele ocorra anualmente. Entretanto, as escolas que descumprirem com as informações aqui descritas não poderão participar do evento. Isso é necessário para que as atividades ocorram de forma proveitosa para todos.</li>
+</ul>
+</section>
+<section id="form_escolas" class="level2">
+<h2 class="anchored" data-anchor-id="form_escolas">Formulário para as escolas</h2>
+<p>O período para inscrições das escolas está encerrado.</p>
+<!-- Retirar style="display: none" quando o período de inscrições estiver aberto -->
+<form id="formulario" style="display: none">
+   <p></p><div class="form-group">
+        <label for="escola">Escola</label>
+        <input type="text" class="form-control" id="escola" placeholder="Insira o nome da escola">
+    </div><p></p> 
+   <p></p><div class="form-group">
+        <label for="municipio">Município</label>
+        <input type="text" class="form-control" id="municipio" placeholder="Insira o nome do município da escola">
+    </div><p></p> 
+    <div id="grupos"></div>
+   <p><button type="submit" class="btn btn-warning">Gerar solicitação</button></p>
+   <p><label for="solicitacao">Solicitação</label>
+        <textarea class="form-control" id="solicitacao" rows="3" readonly=""></textarea>
+   </p> 
+</form>
+
+<script defer="">
+    const nulo = '---';
+    const horarios = [ 
+        '14h às 15h30',
+        '16h às 17h30',
+        '19h às 20h30',
+        '21h às 22h30',
+    ];
+    const dias = ['18/03','19/03','20/03'];
+    const alunos = {
+        label: "Quantidade de alunos",
+        options: [
+            nulo,
+            'menos que 15',
+            'entre 15 e 30',
+            'entre 30 e 50'
+        ]
+    };
+    const escolaridade = {
+        label: "Escolaridade",
+        options: [
+            nulo,
+            'Infantil',
+            'Fundamental 1',
+            'Fundamental 2',
+            'Ensino Médio',
+            'EJA',
+            'Superior',
+            'Misto'
+        ]   
+    };
+    const agendamentos = [
+        {escola:'EMEF PROFESSORA ADALGISA PERIM BALESTRO FRANZINI', professor:'João Apolari', dia:'18/03', horario:'14h às 15h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'EMEF Profa. Clotilde Russo', professor:'Fátima Franzini', dia:'18/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'PEI EE Yolanda Salles Cabianca', professor:'Fabiana Scarmagnani', dia:'18/03', horario:'14h às 15h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'Colégio Delta', professor:'Aniele Dias', dia:'18/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},        
+        {escola:'EMEF THEREZA COLETTE OMETTO', professor:'Suzane Fazzi', dia:'18/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'EMEF THEREZA COLETTE OMETTO', professor:'Melissa Sommer', dia:'18/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'Colégio CONECTA', professor:'Maria Piva', dia:'19/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'EMEF Profa. Clotilde Russo', professor:'Viviani Zorzo', dia:'19/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'PEI EE Yolanda Salles Cabianca', professor:'Geysa Carneiro', dia:'19/03', horario:'14h às 15h30', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'EMEF PROFESSOR LEONALDO ZORNOFF', professor:'Pâmela Quintiliano', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
+        {escola:'E.M.E.F. "Prof. Leonaldo Zornoff" ', professor:'Monique Cerri', dia:'19/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 15 e 30'},
+        {escola:'EMEF THEREZA COLETTE OMETTO', professor:'Débora Tavine', dia:'19/03', horario:'21h às 22h30', escolaridade:'EJA', alunos: 'entre 30 e 50'},
+        {escola:'EE PROFESSOR VICENTE FERREIRA DOS SANTOS', professor:'Antonio de Souza', dia:'20/03', horario:'14h às 15h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'EMEF PROFESSORA ADALGISA PERIM BALESTRO FRANZINI', professor:'Maria Alves', dia:'20/03', horario:'14h às 15h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'EMEF PADRE HERCÍLIO BERTOLINI', professor:'Fernanda Trevisan', dia:'20/03', horario:'14h às 15h30', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'Colégio Sagrada Familia', professor:'Isadora Amâncio', dia:'20/03', horario:'19h às 20h30', escolaridade:'Fundamental 2', alunos: 'entre 30 e 50'},
+        {escola:'Colégio Sagrada Familia', professor:'Nicolas', dia:'20/03', horario:'19h às 20h30', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'Colégio Sagrada Familia', professor:'Jonathan', dia:'20/03', horario:'19h às 20h30', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'}
+                
+    ];
+
+    const Ngrupos = 6;
+
+    const max_grupos_por_horario = 3;
+
+    const evento = 'XIX Jornada das Estrelas';
+
+    const professor = {
+        label: "Professor(a)",
+        placeholder: "Professor(a) responsável por acompanhar os estudantes"
+    }
+    const telefone = {
+        label: "Telefone",
+        placeholder: "Telefone para contato em caso de necessidade"
+    }
+
+    const datas = genDatasDisponiveisLista(agendamentos, dias, horarios, max_grupos_por_horario);
+
+    let grupos = document.getElementById("grupos");
+    for (let i = 1; i < Ngrupos+1; i++) {
+        let botaoHTML = fromHTML(`<p><button type="button" class="btn btn-primary btn-block" data-bs-toggle="collapse" href="#grupo${i}">Grupo ${i}</button></p>`);
+        grupos.append(botaoHTML);
+        let divHTML = fromHTML(`<div id="grupo${i}" class="collapse"></div>"`);
+        let professorHTML = genInput(`professor${i}`, divHTML, 'text', professor.label, professor.placeholder);
+        let telefoneHTML = genInput(`telefone${i}`, divHTML, 'text', telefone.label, telefone.placeholder);
+        let alunosHTML = genSelect(`alunos${i}`, divHTML, alunos.options, alunos.label); 
+        let escolaridadeHTML = genSelect(`escolaridade${i}`, divHTML, escolaridade.options, escolaridade.label); 
+        let opcao1HTML = genSelect(`opcao${i}1`, divHTML, datas, 'Opção 1'); 
+        let opcao2HTML = genSelect(`opcao${i}2`, divHTML, datas, 'Opção 2'); 
+        grupos.append(divHTML);
+    };  
+
+    function genDatasDisponiveisLista(agendamentos, dias, horarios, maxGrupos) {
+        let datas = {};
+        for (let d of dias) {
+            let h = {};
+            for (let hx of horarios) h[hx] = 0;
+            datas[d] = h;
+        }
+        for (let a of agendamentos) datas[a.dia][a.horario]++;
+        let datasDispo = [nulo];
+        for (let d of dias) for (let hx of horarios) if (datas[d][hx] < maxGrupos) datasDispo.push(d + ' - ' + hx);
+        return datasDispo;
+    }
+
+    function formSubmit(event) {
+        event.preventDefault();
+        let el = event.target.elements;
+        let x0 = ``;
+        let x = ``;
+        if (el.escola.value == "") return alert("Insira o nome da Escola.");
+        else {
+            x0 = 
+`Prezados organizadores da ${evento},
+
+Nós, da instituição ${el.escola.value}, localizada no município de ${el.municipio.value}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:`
+        }; 
+        for (let i = 1; i < Ngrupos+1; i++) {
+            if (el[`professor${i}`].value != "" &&
+                el[`telefone${i}`].value != "" &&
+                el[`alunos${i}`].value != nulo &&
+                el[`opcao${i}1`].value != nulo) 
+            {
+                x += 
+`
+
+Grupo ${i}:
+- Professor responsável: ${el[`professor${i}`].value}
+- Telefone: ${el[`telefone${i}`].value}
+- Número de alunos: ${el[`alunos${i}`].value}
+- Escolaridade: ${el[`escolaridade${i}`].value}
+- 1ª opção: ${el[`opcao${i}1`].value}
+- 2ª opção: ${el[`opcao${i}2`].value}`;
+            }
+        }
+        if (x == "") return alert("Informe os dados de pelo menos um grupo de alunos.");
+        else {
+            el.solicitacao.value = x0 + x;
+            navigator.clipboard.writeText(x0+x);
+            document.getElementById('solicitacao').setAttribute('rows', '20');  
+            return alert("A solicitação foi copiada para a área de transferência. Cole-a no corpo do email e envie para oberve@ufscar.br");
+        }
+    }
+    document.getElementById("formulario").addEventListener("submit", formSubmit);
+
+    function genSelect(id, parentHTML, optionsList, label = "", paragraph = true) {
+        let selectHTML = fromHTML(`<select class="form-select" id="${id}"></select>`);
+        for (option of optionsList) {
+            let optHTML = fromHTML(`<option>${option}</option>`);
+            selectHTML.append(optHTML);
+        }
+        if (label != "") {
+            let labelHTML = fromHTML(`<label for="${id}">${label}</label>`);
+            parentHTML.append(labelHTML);
+        }
+        if (paragraph) {
+            let parHTML = fromHTML('<p></p>');
+            parHTML.append(selectHTML);
+            parentHTML.append(parHTML);
+        }
+        else parentHTML.append(selectHTML);
+    }
+
+    function genInput(id, parentHTML, type, label = "", placeholder = "", paragraph = true) {
+        let inputHTML = fromHTML(`<input type="${type}" class="form-control" id="${id}" placeholder="${placeholder}">`);
+        if (label != "") {
+            let labelHTML = fromHTML(`<label for="${id}">${label}</label>`);
+            parentHTML.append(labelHTML);
+        }
+        if (paragraph) {
+            let parHTML = fromHTML('<p></p>');
+            parHTML.append(inputHTML);
+            parentHTML.append(parHTML);
+        }
+        else parentHTML.append(inputHTML);
+    }
+
+    function fromHTML(html, trim = false) {
+        html = trim ? html.trim() : html;
+        if (!html) return null;
+
+        const template = document.createElement('template');
+        template.innerHTML = html;
+        const result = template.content.children;
+
+        if (result.length === 1) return result[0];
+        return result;
+    }
+
+</script>
+<!-- Descomentar o callout abaixo quando o período de inscrições estiver aberto -->
+<!-- 
+::: {.callout-note}
+## Atenção
+A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email `observe@ufscar.br`
+:::
+ -->
+</section>
+<section id="agendamentos-confirmados" class="level2">
+<h2 class="anchored" data-anchor-id="agendamentos-confirmados">Agendamentos confirmados</h2>
+<div id="tabelaAgendamentos"></div>
+
+<script>
+    var tableAgen = new Tabulator("#tabelaAgendamentos", {
+        layout:"fitColumns",
+        groupBy:["dia","horario"],
+        data: agendamentos,
+        columns:[
+            {field:'escola', title:'Escola'},
+            {field:'alunos', title:'Alunos'},
+            {field:'escolaridade', title:'Nível'},
+            {field:'professor', title:'Prof(a)'},
+        ],
+    });
+</script>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://observe.ufscar.br/calendario/eventos/xix_jornada_das_estrelas.html</guid>
+  <pubDate>Fri, 14 Feb 2025 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>XVIII Jornada das Estrelas</title>
+  <link>https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas_divulgacao.jpeg" class="img-fluid"></p>
+<section id="a-próxima-jornada-das-estrelas-está-com-data-marcada" class="level3">
+<h3 class="anchored" data-anchor-id="a-próxima-jornada-das-estrelas-está-com-data-marcada"><em>A próxima Jornada das Estrelas está com data marcada!</em></h3>
+<p>Nos dias 8 e 10 de outubro (terça e quinta-feira), ocorrerá a XVIII edição do nosso evento <a href="../../../atividades/jornada_das_estrelas/jornada_das_estrelas.html">Jornada das Estrelas</a>.</p>
+<ul>
+<li>Local: <a href="../../../localizacao/localizacao.html">Praça do Observatório a Olho Nu do CCA-UFSCar</a></li>
+<li>Datas: 8 e 10/10/24</li>
+<li>Horários: 19h às 22h</li>
+</ul>
+<p>Nesta edição teremos:</p>
+<ol type="1">
+<li>Observação da Lua e de Saturno com os nossos <a href="../../../acervo/itens/c6-s/c6s.html">telescópios</a>.</li>
+<li>Passeio pelo <a href="../../../atividades/observatorio/observatorio.html">Observatório a Olho Nu</a>.</li>
+<li>Apresentação do Sistema Solar em Realidade Aumentada com nossos <a href="../../../acervo/itens/quest2/quest2.html">óculos de realidade virtual</a>.</li>
+</ol>
+<p>O evento é GRATUITO e aberto ao público. Não há necessidade de agendamento. Basta comparecer nos dias e horários do evento.</p>
+<p>A atividade 3 é a única que irá ocorrer mesmo que esteja nublado ou com (a tão esperada) chuva.</p>
+<p><strong>ESCOLAS</strong>, nesta Jornada não faremos agendamento de turmas, porém a próxima Jornada do Sol está por vir e nela vocês poderão vir com suas turmas! Fiquem de olho.</p>
+<p>Não percam essa oportunidade, chamem a família e os amigos!</p>
+<p>Divulguem <a href="https://www.instagram.com/p/DAW0IgOSeJC/?igsh=MTg5YzNvamt6c3k0MQ=="><i class="bi bi-instagram"></i></a>!</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://observe.ufscar.br/calendario/eventos/xviii_jornada_das_estrelas_divulgacao/xviii_jornada_das_estrelas.html</guid>
+  <pubDate>Thu, 26 Sep 2024 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual para o Ensino de Física e Astronomia</title>
+  <link>https://observe.ufscar.br/calendario/eventos/WorkshopVR.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://observe.ufscar.br/calendario/eventos/workshoVR.webp" class="img-fluid"></p>
+<p>Venha participar deste workshop gratuito sobre plataformas de desenvolvimento de Realidade Virtual (RV) com potencial para o ensino de Física e Astronomia organizado pela Universidade Federal de São Carlos (UFSCar) em parceria com a FT-UNICAMP, a Universidad Nacional de Ingeniería (Peru) e a <a href="https://oraculusxr.com/">Oraculus XR</a>. O objetivo principal é democratizar o acesso a ferramentas digitais inovadoras para professores e estudantes, estimulando a criação de atividades interativas e imersivas. O workshop é dividido em três minicursos de 4 horas cada, abordando plataformas como <a href="https://www.unrealengine.com/pt-BR">Unreal Engine</a>, <a href="https://unity.com/pt">Unity</a> e <a href="https://aframe.io/">A-Frame</a> e orientando os participantes a construírem ambientes 3D e desenvolverem aplicações educacionais em realidade virtual.</p>
+<section id="minicursos" class="level2">
+<h2 class="anchored" data-anchor-id="minicursos">Minicursos</h2>
+<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unreal-engine" class="level3">
+<h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unreal-engine">15/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unreal Engine</h3>
+<p><em>Objetivos</em>: introduzir os participantes aos conceitos básicos de desenvolvimento em realidade virtual utilizando a <a href="https://www.unrealengine.com/pt-BR">Unreal Engine</a>, com foco em aplicações para o ensino de Física e Astronomia. Ao final do minicurso, espera-se que os participantes compreendam o processo básico de desenvolvimento em Unreal Engine e saibam como criar e manipular ambientes 3D simples com elementos interativos.</p>
+<p><strong>Ministrante</strong>: <a href="../../equipe/estudantes/jhasmani_tito_cruz.html">Jhasmani Tito Cruz (FT-UNICAMP)</a></p>
+</section>
+<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity" class="level3">
+<h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-unity">16/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma Unity</h3>
+<p><em>Objetivos</em>: introduzir os participantes à criação de atividades interativas em realidade virtual utilizando a plataforma <a href="https://unity.com/pt">Unity</a>.</p>
+<ul>
+<li>Introdução à RV e Unity
+<ul>
+<li>Noções básicas de VR</li>
+<li>Configuração do ambiente de desenvolvimento Unity</li>
+<li>Introdução ao Meta SDK</li>
+<li>Criação de um novo projeto RV</li>
+</ul></li>
+<li>Cenas em RV
+<ul>
+<li>Configurações da câmera RV</li>
+<li>Criação de objetos e materiais 3D</li>
+<li>Interação com objetos (raycasting, colisões)</li>
+<li>Programação básica e animações para Realidade Virtual</li>
+</ul></li>
+<li>Interação Avançada
+<ul>
+<li>Rastreamento e configuração manual</li>
+<li>Manipulação de objetos 3D com e sem restrições.</li>
+<li>Interface de usuário de realidade virtual (tela, botões, texto)</li>
+</ul></li>
+</ul>
+<p><strong>Ministrantes</strong>: <a href="https://oraculusxr.com/">Viky Cecilia Camarena Quispe, Julio César Cubas Aguinaga e Iversen Arroyo Unchupaico (Universidad Nacional de Ingeniería, Oraculus XR)</a></p>
+</section>
+<section id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame" class="level3">
+<h3 class="anchored" data-anchor-id="desenvolvimento-de-atividades-em-realidade-virtual-com-a-plataforma-web-a-frame">17/10: Desenvolvimento de Atividades em Realidade Virtual com a plataforma web A-Frame</h3>
+<p><em>Objetivos</em>: introduzir os participantes ao desenvolvimento de atividades interativas de Realidade Virtual (RV) utilizando a plataforma web <a href="https://aframe.io/">A-Frame</a>, com foco em aplicações voltadas para o ensino de Física e Astronomia. Ao final do minicurso, os participantes terão criado um ambiente VR simples e compreendido os conceitos básicos do A-Frame.</p>
+<ul>
+<li>Introdução ao A-Frame
+<ul>
+<li>O que é A-Frame: Conceitos e arquitetura.</li>
+<li>Estrutura básica de um projeto em A-Frame: HTML, entidades e componentes.</li>
+</ul></li>
+<li>Hands-on: Construção de um ambiente RV simples
+<ul>
+<li>Configuração de ambiente e ferramentas</li>
+<li>Criação de cenas básicas em RV: Céu, objetos 3D e movimentação no espaço.</li>
+<li>Integração de JavaScript para interatividade: controle de câmera e manipulação de objetos.</li>
+</ul></li>
+<li>Exploração de atividades educacionais em Física e Astronomia:
+<ul>
+<li>Simulação de conceitos de Física (como gravidade, movimento de corpos).</li>
+<li>Representação de corpos celestes em RV.</li>
+</ul></li>
+</ul>
+<p><strong>Ministrante</strong>: <a href="../../equipe/professores/joao_teles.html">João Teles de Carvalho Neto (CCA-UFSCar)</a></p>
+</section>
+</section>
+<section id="forma-de-participação" class="level2">
+<h2 class="anchored" data-anchor-id="forma-de-participação">Forma de participação</h2>
+<ul>
+<li><p><strong>Público interno</strong> da UFSCar não precisará trazer material algum para participar dos minicursos.</p></li>
+<li><p><strong>Público externo</strong> precisará, obrigatoriamente, trazer um notebook pessoal. Além disso, quem for participar do minicurso com o Unity, deverá vir com o <a href="https://unity.com/pt/download">Unity já instalado</a> em seu notebook.</p></li>
+</ul>
+</section>
+<section id="processo-de-inscrição" class="level2">
+<h2 class="anchored" data-anchor-id="processo-de-inscrição">Processo de inscrição</h2>
+<p>O processo de inscrição será da seguinte forma:</p>
+<ul>
+<li>Etapa 1 - Pré-inscrição online via <a href="https://forms.gle/RU8US7j6KKTJ2wwh6">formulário online</a>.</li>
+<li>Etapa 2 - Efetivação da inscrição presencialmente no LIG 1 às 13h40 no dia do respectivo minicurso.</li>
+</ul>
+<p>Para cada minicurso serão chamados até 10 pré-inscritos a mais do que o limite de vagas para compor a fila de espera. As vagas não preenchidas na etapa 2, serão preenchidas pelas pessoas em fila de espera que estiverem presentes na etapa 2.</p>
+</section>
+<section id="emissão-de-certificados" class="level2">
+<h2 class="anchored" data-anchor-id="emissão-de-certificados">Emissão de certificados</h2>
+<p>Será emitido um certificado para cada minicurso cursado, desde que cumpridos os seguintes quesitos:</p>
+<ul>
+<li>O participante tenha sua inscrição efetivada na Etapa 2 de inscrições.</li>
+<li>A participação ocorra do início ao fim do minicurso (14h às 18h).</li>
+<li>O participante entregue as tarefas online que serão propostas.</li>
+</ul>
+</section>
+<section id="informações-gerais" class="level2">
+<h2 class="anchored" data-anchor-id="informações-gerais">Informações gerais</h2>
+<ul>
+<li><p><strong>Datas</strong>: 15, 16 e 17 de outubro de 2024</p></li>
+<li><p><strong>Horário</strong>: 13h40 às 18h</p></li>
+<li><p><strong>Local</strong>: Laboratório de Informática da Graduação (LIG 1),localizado no prédio principal (bloco A) do <a href="../../localizacao/localizacao.html">CCA-UFSCar</a></p></li>
+<li><p><strong>Público Alvo</strong>: Estudantes de ensino superior, professores e egressos de cursos de graduação.</p></li>
+<li><p><strong>Vagas</strong>: 50 vagas em cada dia, sendo metade reservadas para estudantes do CCA/UFSCar.</p></li>
+<li><p><strong>Pré-inscrição</strong>: de 25/09/2024 a 14/10/2024 às 13h (foi prorrogada) via <a href="https://forms.gle/RU8US7j6KKTJ2wwh6">formulário online</a> e confirmação no dia do curso.</p></li>
+<li><p><strong>Confirmação de pré-inscrição</strong>: será enviada por e-mail em 14/10/2024.</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Atenção
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Só poderá participar do minicurso quem receber o email de confirmação de pré-inscrição.</li>
+<li>Nos dias dos minicursos será obrigatória a apresentação de documento contendo o número de identificação conforme registrado no formulário de pré-inscrição.</li>
+</ul>
+</div>
+</div>
+<p>Este evento possui apoio do CNPq por meio da Chamada CNPq/MCTI/FNDCT 39/2022 “Programa de Apoio a Museus e Centros de Ciência e Tecnologia e a Espaços Científico-Culturais” (processo 407086/2022-6) dentro da Linha 3: Divulgação Científica e Educação Museal.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://observe.ufscar.br/calendario/eventos/WorkshopVR.html</guid>
+  <pubDate>Wed, 25 Sep 2024 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>XVII Jornada das Estrelas</title>
+  <link>https://observe.ufscar.br/calendario/eventos/xvii_jornada_das_estrelas.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Entre os dias 18/06/24 e 20/06/24 ocorrerá a XVII edição do evento <a href="../../atividades/jornada_das_estrelas/jornada_das_estrelas.html">Jornada das Estrelas</a>.</p>
+<ul>
+<li>Local: <a href="../../localizacao/localizacao.html">Praça do Observatório a Olho Nu do CCA-UFSCar</a></li>
+<li>Data: 18 a 20/06/24</li>
+<li>Horários: 19h às 20h, 20h às 21h e 21h às 22h</li>
+</ul>
+<p>Nesta edição teremos:</p>
+<ul>
+<li>Observação do céu com telescópios.</li>
+<li>Visitação ao Observatório a Olho Nu.</li>
+<li>Passeio pelos planetas do Sistema Solar em escala de tamanhos e distâncias.</li>
+</ul>
+<p>Cada uma das três atividades terá duração entre 20 e 25 minutos, fazendo com que o circuito completo seja realizado em até 1 hora e 10 minutos. Como as atividades são realizadas à noite e a céu aberto, recomendamos que os visitantes venham agasalhados.</p>
+<p>O evento é gratuito e o público geral pode comparecer sem agendamento. Entretanto, as <strong>escolas precisam fazer a solicitação de agendamento</strong> conforme instruções abaixo.</p>
+<p>Recebemos a informação do TCA que, nos dias do evento, a linha de ônibus <a href="https://www.smtca.sp.gov.br/wp-content/uploads/2023/01/LINHAS-E-HORARIOS-DE-ONIBUS-SITE-2023-01-30.pdf">Linha 0403 - Parque das Arvores / Jardim Alvorada - Carro 820</a> estará operando.</p>
+<section id="instruções-para-as-escolas" class="level2">
+<h2 class="anchored" data-anchor-id="instruções-para-as-escolas">Instruções para as escolas</h2>
+<ul>
+<li>Escolas que queiram trazer seus alunos deverão, obrigatoriamente, fazer o agendamento do dia e horário de visitação preenchendo o formulário abaixo e enviando a solicitação gerada para o email observe@ufscar.br.</li>
+<li>O agendamento poderá ser feito até o dia 14 de junho. As escolas que não puderem vir deverão cancelar o agendamento com antecedência para liberar horário para outras escolas.</li>
+<li>Serão aceitos no máximo 4 grupos de 50 alunos por horário. Para cada grupo, deverá haver, obrigatoriamente, pelo menos um professor responsável. Uma mesma escola poderá vir com mais de um grupo desde que haja pelo menos um professor diferente para cada grupo em um mesmo horário.</li>
+<li>As escolas que vierem com grupos que não tiverem sido agendados e confirmados não poderão participar do evento. Todas as escolas serão contatadas por e-mail ou telefone para confirmação do agendamento. Ou seja, não basta fazer o agendamento, é necessário que a escola receba a confirmação por email para poder participar.</li>
+<li>Escolas que chegarem atrasadas em relação ao horário agendado poderão perder alguma das atividades acima, sendo direcionadas para a atividade seguinte desde que dentro do período agendado.<br>
+</li>
+<li>Para a UFSCar é uma grande satisfação receber as escolas no evento, trazendo uma grande motivação para que ele ocorra anualmente. Entretanto, as escolas que descumprirem com as informações aqui descritas não poderão participar do evento. Isso é necessário para que as atividades ocorram de forma proveitosa para todos.</li>
+</ul>
+</section>
+<section id="form_escolas" class="level2">
+<h2 class="anchored" data-anchor-id="form_escolas">Formulário para as escolas</h2>
+<form id="formulario">
+   <p></p><div class="form-group">
+        <label for="escola">Escola</label>
+        <input type="text" class="form-control" id="escola" placeholder="Insira o nome da escola">
+    </div><p></p> 
+   <p></p><div class="form-group">
+        <label for="municipio">Município</label>
+        <input type="text" class="form-control" id="municipio" placeholder="Insira o nome do município da escola">
+    </div><p></p> 
+    <div id="grupos"></div>
+   <p><button type="submit" class="btn btn-warning">Gerar solicitação</button></p>
+   <p><label for="solicitacao">Solicitação</label>
+        <textarea class="form-control" id="solicitacao" rows="3" readonly=""></textarea>
+   </p> 
+</form>
+
+<script defer="">
+    const nulo = '---';
+    const horarios = [ 
+        '19h às 20h',
+        '20h às 21h',
+        '21h às 22h',
+    ];
+    const dias = ['18/06','19/06','20/06'];
+    const alunos = {
+        label: "Quantidade de alunos",
+        options: [
+            nulo,
+            'menos que 15',
+            'entre 15 e 30',
+            'entre 30 e 50'
+        ]
+    };
+    const escolaridade = {
+        label: "Escolaridade",
+        options: [
+            nulo,
+            'Infantil',
+            'Fundamental 1',
+            'Fundamental 2',
+            'Ensino Médio',
+            'EJA',
+            'Superior',
+            'Misto'
+        ]   
+    };
+    const agendamentos = [
+        {escola:'INSA', professor:'Cintia', dia:'19/06', horario:'19h às 20h', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'INSA', professor:'Karine', dia:'19/06', horario:'19h às 20h', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'INSA', professor:'Márcia', dia:'19/06', horario:'19h às 20h', escolaridade:'Fundamental 1', alunos: 'entre 30 e 50'},
+        {escola:'UFSCar', professor:'Samantha', dia:'19/06', horario:'20h às 21h', escolaridade:'Misto', alunos: 'menos que 15'},
+        {escola:'Maria Rosa', professor:'Edenilze', dia:'20/06', horario:'19h às 20h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'Maria Rosa', professor:'Guilherme', dia:'20/06', horario:'19h às 20h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'Maria Rosa', professor:'Valdezir', dia:'20/06', horario:'20h às 21h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'Maria Rosa', professor:'Daniele', dia:'20/06', horario:'20h às 21h', escolaridade:'Ensino Médio', alunos: 'entre 30 e 50'},
+        {escola:'C.E. Sagrada Família', professor:'Jonathan', dia:'20/06', horario:'20h às 21h', escolaridade:'Ensino Médio', alunos: 'menos que 15'},
+        {escola:'NFP/UFSCar', professor:'Victor', dia:'20/06', horario:'20h às 21h', escolaridade:'Superior', alunos: 'menos que 15'},
+    ];
+
+    const Ngrupos = 6;
+
+    const evento = 'XVII Jornada das Estrelas';
+
+    const professor = {
+        label: "Professor(a)",
+        placeholder: "Professor(a) responsável por acompanhar os estudantes"
+    }
+    const telefone = {
+        label: "Telefone",
+        placeholder: "Telefone para contato em caso de necessidade"
+    }
+
+    const datas = genDatasDisponiveisLista(agendamentos, dias, horarios);
+
+    let grupos = document.getElementById("grupos");
+    for (let i = 1; i < Ngrupos+1; i++) {
+        let botaoHTML = fromHTML(`<p><button type="button" class="btn btn-primary btn-block" data-bs-toggle="collapse" href="#grupo${i}">Grupo ${i}</button></p>`);
+        grupos.append(botaoHTML);
+        let divHTML = fromHTML(`<div id="grupo${i}" class="collapse"></div>"`);
+        let professorHTML = genInput(`professor${i}`, divHTML, 'text', professor.label, professor.placeholder);
+        let telefoneHTML = genInput(`telefone${i}`, divHTML, 'text', telefone.label, telefone.placeholder);
+        let alunosHTML = genSelect(`alunos${i}`, divHTML, alunos.options, alunos.label); 
+        let escolaridadeHTML = genSelect(`escolaridade${i}`, divHTML, escolaridade.options, escolaridade.label); 
+        let opcao1HTML = genSelect(`opcao${i}1`, divHTML, datas, 'Opção 1'); 
+        let opcao2HTML = genSelect(`opcao${i}2`, divHTML, datas, 'Opção 2'); 
+        grupos.append(divHTML);
+    };  
+
+    function genDatasDisponiveisLista(agendamentos, dias, horarios, maxGrupos = 3) {
+        let datas = {};
+        for (let d of dias) {
+            let h = {};
+            for (let hx of horarios) h[hx] = 0;
+            datas[d] = h;
+        }
+        for (let a of agendamentos) datas[a.dia][a.horario]++;
+        let datasDispo = [nulo];
+        for (let d of dias) for (let hx of horarios) if (datas[d][hx] < maxGrupos) datasDispo.push(d + ' - ' + hx);
+        return datasDispo;
+    }
+
+    function formSubmit(event) {
+        event.preventDefault();
+        let el = event.target.elements;
+        let x0 = ``;
+        let x = ``;
+        if (el.escola.value == "") return alert("Insira o nome da Escola.");
+        else {
+            x0 = 
+`Prezados organizadores da ${evento},
+
+Nós, da instituição ${el.escola.value}, localizada no município de ${el.municipio.value}, gostaríamos de solicitar o agendamento para participação no evento nas seguintes datas:`
+        }; 
+        for (let i = 1; i < Ngrupos+1; i++) {
+            if (el[`professor${i}`].value != "" &&
+                el[`telefone${i}`].value != "" &&
+                el[`alunos${i}`].value != nulo &&
+                el[`opcao${i}1`].value != nulo) 
+            {
+                x += 
+`
+
+Grupo ${i}:
+- Professor responsável: ${el[`professor${i}`].value}
+- Telefone: ${el[`telefone${i}`].value}
+- Número de alunos: ${el[`alunos${i}`].value}
+- Escolaridade: ${el[`escolaridade${i}`].value}
+- 1ª opção: ${el[`opcao${i}1`].value}
+- 2ª opção: ${el[`opcao${i}2`].value}`;
+            }
+        }
+        if (x == "") return alert("Informe os dados de pelo menos um grupo de alunos.");
+        else {
+            el.solicitacao.value = x0 + x;
+            navigator.clipboard.writeText(x0+x);
+            document.getElementById('solicitacao').setAttribute('rows', '20');  
+            return alert("A solicitação foi copiada para a área de transferência. Cole-a no corpo do email e envie para oberve@ufscar.br");
+        }
+    }
+    document.getElementById("formulario").addEventListener("submit", formSubmit);
+
+    function genSelect(id, parentHTML, optionsList, label = "", paragraph = true) {
+        let selectHTML = fromHTML(`<select class="form-select" id="${id}"></select>`);
+        for (option of optionsList) {
+            let optHTML = fromHTML(`<option>${option}</option>`);
+            selectHTML.append(optHTML);
+        }
+        if (label != "") {
+            let labelHTML = fromHTML(`<label for="${id}">${label}</label>`);
+            parentHTML.append(labelHTML);
+        }
+        if (paragraph) {
+            let parHTML = fromHTML('<p></p>');
+            parHTML.append(selectHTML);
+            parentHTML.append(parHTML);
+        }
+        else parentHTML.append(selectHTML);
+    }
+
+    function genInput(id, parentHTML, type, label = "", placeholder = "", paragraph = true) {
+        let inputHTML = fromHTML(`<input type="${type}" class="form-control" id="${id}" placeholder="${placeholder}">`);
+        if (label != "") {
+            let labelHTML = fromHTML(`<label for="${id}">${label}</label>`);
+            parentHTML.append(labelHTML);
+        }
+        if (paragraph) {
+            let parHTML = fromHTML('<p></p>');
+            parHTML.append(inputHTML);
+            parentHTML.append(parHTML);
+        }
+        else parentHTML.append(inputHTML);
+    }
+
+    function fromHTML(html, trim = false) {
+        html = trim ? html.trim() : html;
+        if (!html) return null;
+
+        const template = document.createElement('template');
+        template.innerHTML = html;
+        const result = template.content.children;
+
+        if (result.length === 1) return result[0];
+        return result;
+    }
+
+</script>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Atenção
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A solicitação não é enviada automaticamente. É necessário que você envie manualmente o texto de solicitação de agendamento para o email observe@ufscar.br</p>
+</div>
+</div>
+</section>
+<section id="agendamentos-confirmados" class="level2">
+<h2 class="anchored" data-anchor-id="agendamentos-confirmados">Agendamentos confirmados</h2>
+<div id="tabelaAgendamentos"></div>
+
+<script>
+    var tableAgen = new Tabulator("#tabelaAgendamentos", {
+        layout:"fitColumns",
+        groupBy:["dia","horario"],
+        data: agendamentos,
+        columns:[
+            {field:'escola', title:'Escola'},
+            {field:'alunos', title:'Alunos'},
+            {field:'escolaridade', title:'Nível'},
+            {field:'professor', title:'Prof(a)'},
+        ],
+    });
+</script>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://observe.ufscar.br/calendario/eventos/xvii_jornada_das_estrelas.html</guid>
+  <pubDate>Mon, 27 May 2024 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Observação do cometa Pons-Brook</title>
+  <link>https://observe.ufscar.br/calendario/eventos/pons_brooks.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Este evento está encerrado
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Leia sobre o seu relato em <a href="../../blog/posts/pons-brooks_21_04_24/pons-brooks_21_04_24.html">Observação do cometa Pons-Brooks em 21/04/24</a></p>
+</div>
+</div>
+<p>No final da tarde deste domingo (21/04) nos reuniremos na praça do Observatório a Olho Nu do CCA-UFSCar a partir das 17h45 (horário do pôr do Sol) para tentarmos observer o cometa Pons-Brooks. Dificilmente o cometa será visível a olho nu, por isso utilizaremos um dos nossos telescópios. Esperamos conseguir observá-lo no máximo até às 18h40, quando estará quase se pondo. Coincidentemente, na mesma região do céu, Urano estará em conjunção com Júpiter e poderemos tentar testemunhar esse evento também (apesar de ser improvável conseguirmos identificar Urano com o céu ainda levemente claro). Por fim, fecharemos o encontro observando a Lua – nossa única garantia – quase cheia no horizonte oposto.</p>
+
+
+
+ ]]></description>
+  <guid>https://observe.ufscar.br/calendario/eventos/pons_brooks.html</guid>
+  <pubDate>Sun, 21 Apr 2024 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
