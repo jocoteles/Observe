@@ -177,7 +177,11 @@ ul.task-list li input[type="checkbox"] {
 <div class="column-body">
 <p>Abaixo encontra-se o mapa de localização da Praça do Observatório a Olho Nu – marca vermelha – que é o ponto de referência da maioria das atividades desenvolvidas no <em>obseRVe</em>. O CCA/UFSCar possui duas entradas. Uma, indicada pela marca azul no mapa, é por dentro da cidade entre o Jardim Pedras Preciosas e o Jardim Esmeraldas. A outra, indicada pela marca verde, é pela rodovia Anhanguera no sentido de Araras para Ribeirão Preto.</p>
 <p>Mas atenção, as participações nos eventos do <em>obseRVe</em> precisam ser agendadas ou estarem programadas no <a href="../calendario/calendario.html">calendário de eventos</a>. Não há pessoas disponíveis para atendimento fora dessas condições.</p>
+<<<<<<< HEAD
 <div id="c4b2f294" class="cell" data-execution_count="1">
+=======
+<div id="f7bef819" class="cell" data-execution_count="1">
+>>>>>>> 35993d4 (XX Jornada)
 <div class="cell-output cell-output-display" data-execution_count="1">
 <div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -&gt; Trust Notebook</span><iframe srcdoc="<!DOCTYPE html>
 <html>
@@ -206,7 +210,11 @@ ul.task-list li input[type="checkbox"] {
             <meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
             <style>
+<<<<<<< HEAD
                 #map_1bb4bbfc220abd1f50467da71019f656 {
+=======
+                #map_4af62eb8fdfe2691b47f92947a10a2e1 {
+>>>>>>> 35993d4 (XX Jornada)
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -220,14 +228,23 @@ ul.task-list li input[type="checkbox"] {
 <body>
     
     
+<<<<<<< HEAD
             <div class=&quot;folium-map&quot; id=&quot;map_1bb4bbfc220abd1f50467da71019f656&quot; ></div>
+=======
+            <div class=&quot;folium-map&quot; id=&quot;map_4af62eb8fdfe2691b47f92947a10a2e1&quot; ></div>
+>>>>>>> 35993d4 (XX Jornada)
         
 </body>
 <script>
     
     
+<<<<<<< HEAD
             var map_1bb4bbfc220abd1f50467da71019f656 = L.map(
                 &quot;map_1bb4bbfc220abd1f50467da71019f656&quot;,
+=======
+            var map_4af62eb8fdfe2691b47f92947a10a2e1 = L.map(
+                &quot;map_4af62eb8fdfe2691b47f92947a10a2e1&quot;,
+>>>>>>> 35993d4 (XX Jornada)
                 {
                     center: [-22.315687, -47.384686],
                     crs: L.CRS.EPSG3857,
@@ -241,12 +258,17 @@ ul.task-list li input[type="checkbox"] {
 
         
     
+<<<<<<< HEAD
             var tile_layer_d83300c1a98b2f54a17257693c007bfe = L.tileLayer(
+=======
+            var tile_layer_f3020733ce7aa8563b653aeecbaaab26 = L.tileLayer(
+>>>>>>> 35993d4 (XX Jornada)
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
+<<<<<<< HEAD
             tile_layer_d83300c1a98b2f54a17257693c007bfe.addTo(map_1bb4bbfc220abd1f50467da71019f656);
         
     
@@ -272,12 +294,43 @@ ul.task-list li input[type="checkbox"] {
         
 
         marker_1d398179fcdca6848df1a0e429446ad7.bindPopup(popup_441fbaca68230d8f84115afed97c7528)
+=======
+            tile_layer_f3020733ce7aa8563b653aeecbaaab26.addTo(map_4af62eb8fdfe2691b47f92947a10a2e1);
+        
+    
+            var marker_b3ae1b555bd588665d33da377c44c849 = L.marker(
+                [-22.315134, -47.382005],
+                {}
+            ).addTo(map_4af62eb8fdfe2691b47f92947a10a2e1);
+        
+    
+            var icon_693e8b69e7b01bda6de62c706e91cb9b = L.AwesomeMarkers.icon(
+                {&quot;extraClasses&quot;: &quot;fa-rotate-0&quot;, &quot;icon&quot;: &quot;check&quot;, &quot;iconColor&quot;: &quot;white&quot;, &quot;markerColor&quot;: &quot;red&quot;, &quot;prefix&quot;: &quot;glyphicon&quot;}
+            );
+            marker_b3ae1b555bd588665d33da377c44c849.setIcon(icon_693e8b69e7b01bda6de62c706e91cb9b);
+        
+    
+        var popup_66be16135b8843485d1d9f8628d8c184 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_e2729931e9ba64995ae7f65e236bd77b = $(`<div id=&quot;html_e2729931e9ba64995ae7f65e236bd77b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Observatório a Olho Nu</div>`)[0];
+                popup_66be16135b8843485d1d9f8628d8c184.setContent(html_e2729931e9ba64995ae7f65e236bd77b);
+            
+        
+
+        marker_b3ae1b555bd588665d33da377c44c849.bindPopup(popup_66be16135b8843485d1d9f8628d8c184)
+>>>>>>> 35993d4 (XX Jornada)
         ;
 
         
     
     
+<<<<<<< HEAD
             marker_1d398179fcdca6848df1a0e429446ad7.bindTooltip(
+=======
+            marker_b3ae1b555bd588665d33da377c44c849.bindTooltip(
+>>>>>>> 35993d4 (XX Jornada)
                 `<div>
                      Observatório a Olho Nu
                  </div>`,
@@ -285,6 +338,7 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
+<<<<<<< HEAD
             var marker_266a5a1c5e0169573ddc6c5f2af82218 = L.marker(
                 [-22.318592, -47.379902],
                 {}
@@ -307,12 +361,40 @@ ul.task-list li input[type="checkbox"] {
         
 
         marker_266a5a1c5e0169573ddc6c5f2af82218.bindPopup(popup_875443dd7448b72907e8c4d8561215e6)
+=======
+            var marker_d602819cb36363ae7116e5e2ba2b61d4 = L.marker(
+                [-22.318592, -47.379902],
+                {}
+            ).addTo(map_4af62eb8fdfe2691b47f92947a10a2e1);
+        
+    
+            var icon_5ce9df8dc7d20881d2aeb38754996541 = L.AwesomeMarkers.icon(
+                {&quot;extraClasses&quot;: &quot;fa-rotate-0&quot;, &quot;icon&quot;: &quot;arrow-down&quot;, &quot;iconColor&quot;: &quot;white&quot;, &quot;markerColor&quot;: &quot;blue&quot;, &quot;prefix&quot;: &quot;glyphicon&quot;}
+            );
+            marker_d602819cb36363ae7116e5e2ba2b61d4.setIcon(icon_5ce9df8dc7d20881d2aeb38754996541);
+        
+    
+        var popup_0a263828da1ff07a548025ad8e2dd742 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_13ec01fbe43e102c584e9b086b284773 = $(`<div id=&quot;html_13ec01fbe43e102c584e9b086b284773&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Entrada Jd. Esmeralda</div>`)[0];
+                popup_0a263828da1ff07a548025ad8e2dd742.setContent(html_13ec01fbe43e102c584e9b086b284773);
+            
+        
+
+        marker_d602819cb36363ae7116e5e2ba2b61d4.bindPopup(popup_0a263828da1ff07a548025ad8e2dd742)
+>>>>>>> 35993d4 (XX Jornada)
         ;
 
         
     
     
+<<<<<<< HEAD
             marker_266a5a1c5e0169573ddc6c5f2af82218.bindTooltip(
+=======
+            marker_d602819cb36363ae7116e5e2ba2b61d4.bindTooltip(
+>>>>>>> 35993d4 (XX Jornada)
                 `<div>
                      Entrada Jd. Esmeralda
                  </div>`,
@@ -320,6 +402,7 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
+<<<<<<< HEAD
             var marker_40aea77cc49f254c007bd6dbb171f7e1 = L.marker(
                 [-22.316097, -47.390171],
                 {}
@@ -342,12 +425,40 @@ ul.task-list li input[type="checkbox"] {
         
 
         marker_40aea77cc49f254c007bd6dbb171f7e1.bindPopup(popup_9b1e817a1347d138f9d7a9da458d0da9)
+=======
+            var marker_8b02c73519e4c6e1f803d3c4bb38e155 = L.marker(
+                [-22.316097, -47.390171],
+                {}
+            ).addTo(map_4af62eb8fdfe2691b47f92947a10a2e1);
+        
+    
+            var icon_be07778a4d30ff8a8a1ef5b2dc6133f9 = L.AwesomeMarkers.icon(
+                {&quot;extraClasses&quot;: &quot;fa-rotate-0&quot;, &quot;icon&quot;: &quot;arrow-down&quot;, &quot;iconColor&quot;: &quot;white&quot;, &quot;markerColor&quot;: &quot;green&quot;, &quot;prefix&quot;: &quot;glyphicon&quot;}
+            );
+            marker_8b02c73519e4c6e1f803d3c4bb38e155.setIcon(icon_be07778a4d30ff8a8a1ef5b2dc6133f9);
+        
+    
+        var popup_15cc77cb3abb8e683e92a881b03baa8e = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+
+        
+            
+                var html_ffe2c2947d185d8daacfb609c190498e = $(`<div id=&quot;html_ffe2c2947d185d8daacfb609c190498e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Entrada Anhanguera</div>`)[0];
+                popup_15cc77cb3abb8e683e92a881b03baa8e.setContent(html_ffe2c2947d185d8daacfb609c190498e);
+            
+        
+
+        marker_8b02c73519e4c6e1f803d3c4bb38e155.bindPopup(popup_15cc77cb3abb8e683e92a881b03baa8e)
+>>>>>>> 35993d4 (XX Jornada)
         ;
 
         
     
     
+<<<<<<< HEAD
             marker_40aea77cc49f254c007bd6dbb171f7e1.bindTooltip(
+=======
+            marker_8b02c73519e4c6e1f803d3c4bb38e155.bindTooltip(
+>>>>>>> 35993d4 (XX Jornada)
                 `<div>
                      Entrada Anhanguera
                  </div>`,
