@@ -22,7 +22,7 @@ Nesta edição teremos:
 - [Caminhada pelos planetas](/atividades/passeio_dos_planetas/passeio_dos_planetas.qmd) (caso não chova).
 - Apresentação do Sistema Solar em Realidade Aumentada com nossos [óculos de realidade virtual](/acervo/itens/quest2/quest2.qmd) (em qualquer condição climática).
 
-**Acessibilidade em Libras:** No dia 13/10, das 19h às 20h, as atividades contarão com intérprete de Libras, além de legendas na atividade em Realidade Aumentada.
+**Acessibilidade em Libras:** No dia 14/10, no período noturno, as atividades contarão com intérprete de Libras, além de legendas na atividade em Realidade Aumentada.
 
 O circuito completo de atividades terá duração em torno de 1 hora. Como várias atividades são realizadas a céu aberto, recomendamos que os visitantes venham protegidos contra as intempéries.
 
@@ -32,11 +32,11 @@ O evento é GRATUITO e aberto ao público. Não há necessidade de agendamento. 
 
 Não percam essa oportunidade! Chamem a família e os amigos!
 
-Divulguem [<i class="bi bi-instagram"></i>](https://www.instagram.com/p/DAW0IgOSeJC/?igsh=MTg5YzNvamt6c3k0MQ==)!
+<!-- Divulguem [<i class="bi bi-instagram"></i>](https://www.instagram.com/p/DAW0IgOSeJC/?igsh=MTg5YzNvamt6c3k0MQ==)! -->
 
 Para dar um gostinho do que poderemos observar no evento, seguem algumas imagens obtidas com os nossos mais recentes telescópios.
 
-![Imagem da cromosfera solar obtida com o telescópio solar e câmera ASI em 07/07/2025.](Sol_07_07_25.jpeg)
+![Imagem da cromosfera solar obtida com o telescópio solar e câmera [SVBony 305](/acervo/itens/svbony305/) em 07/07/2025.](Sol_07_07_25.jpeg)
 
 ![Nebulosa da Hélice (C63) obtida com o telescópio [Seestar S50](/acervo/itens/seestarS50/seestarS50.qmd) em 07/11/2025](Nebulosa_da_Helice-11_07_25.jpeg)
 

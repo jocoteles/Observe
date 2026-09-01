@@ -13,6 +13,8 @@ Do céu real ao céu virtual - ensino e divulgação de astronomia
 :::
 
 ::: {.centerText}
+[*Nos dias 13 e 14/10/2026 ocerrerá a XX Jornada diurna e noturna das Estrelas!*](calendario/eventos/xx_jornada_das_estrelas/xx_jornada_das_estrelas.qmd)
+
 O {{< var tipo.observe >}} é um grupo de estudos voltado à divulgação e ensino de astronomia, desenvolvendo e utilizando recursos didáticos para a apreciação e compreensão dos fenômenos celestes.
 :::
 
