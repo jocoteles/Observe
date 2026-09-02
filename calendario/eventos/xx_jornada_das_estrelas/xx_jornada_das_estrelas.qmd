@@ -17,12 +17,12 @@ _Esta é a segunda vez que a Jornada das Estrelas ocorrerá [à tarde](/atividad
 
 Nesta edição teremos:
 
-- Observação do céu com [telescópios](/acervo/itens/c6-s/c6s.qmd) (Sol à tarde e planetas à noite, caso o céu esteja limpo).
+- Observação do céu com [telescópios](/acervo/itens/c6-s/c6s.qmd): Sol à tarde, [Saturno](/repo/planetas/saturno.qmd) e demais [maravilhas do Cosmo](/blog/posts/seestar_teste_30_05_25/seestar_teste_30_05_25.qmd) à noite (caso o céu esteja limpo).
 - Visitação ao [Observatório a Olho Nu](/atividades/observatorio/observatorio.qmd) (caso não chova).
 - [Caminhada pelos planetas](/atividades/passeio_dos_planetas/passeio_dos_planetas.qmd) (caso não chova).
-- Apresentação do Sistema Solar em Realidade Aumentada com nossos [óculos de realidade virtual](/acervo/itens/quest2/quest2.qmd) (em qualquer condição climática).
+- Apresentação do [Sistema Solar em Realidade Aumentada](/projetos/sissolxr_proj/sissolxr_proj.qmd) com nossos [óculos de realidade virtual](/acervo/itens/quest2/quest2.qmd) (em qualquer condição climática).
 
-**Acessibilidade em Libras:** No dia 14/10, no período noturno, as atividades contarão com intérprete de Libras, além de legendas na atividade em Realidade Aumentada.
+**Acessibilidade em Libras:** No dia 14/10, durante o período noturno, as atividades contarão com intérprete de Libras, além de legendas na atividade em Realidade Aumentada.
 
 O circuito completo de atividades terá duração em torno de 1 hora. Como várias atividades são realizadas a céu aberto, recomendamos que os visitantes venham protegidos contra as intempéries.
 
@@ -36,7 +36,7 @@ Não percam essa oportunidade! Chamem a família e os amigos!
 
 Para dar um gostinho do que poderemos observar no evento, seguem algumas imagens obtidas com os nossos mais recentes telescópios.
 
-![Imagem da cromosfera solar obtida com o telescópio solar e câmera [SVBony 305](/acervo/itens/svbony305/) em 07/07/2025.](Sol_07_07_25.jpeg)
+![Imagem da cromosfera solar obtida com o telescópio solar [Acuter EP40](/acervo/itens/acuterEP40/) e câmera [SVBony 305](/acervo/itens/svbony305/) em 07/07/2025.](Sol_07_07_25.jpeg)
 
 ![Nebulosa da Hélice (C63) obtida com o telescópio [Seestar S50](/acervo/itens/seestarS50/seestarS50.qmd) em 07/11/2025](Nebulosa_da_Helice-11_07_25.jpeg)
 

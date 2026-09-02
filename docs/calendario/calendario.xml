@@ -9,7 +9,7 @@
 <link>https://observe.ufscar.br/calendario/calendario.html</link>
 <atom:link href="https://observe.ufscar.br/calendario/calendario.xml" rel="self" type="application/rss+xml"/>
 <description> </description>
-<generator>quarto-1.6.42</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Mon, 31 Aug 2026 03:00:00 GMT</lastBuildDate>
 <item>
   <title>XX Jornada diurna e noturna das Estrelas</title>
@@ -32,12 +32,12 @@
 </ul>
 <p>Nesta edição teremos:</p>
 <ul>
-<li>Observação do céu com <a href="../../../acervo/itens/c6-s/c6s.html">telescópios</a> (Sol à tarde e planetas à noite, caso o céu esteja limpo).</li>
+<li>Observação do céu com <a href="../../../acervo/itens/c6-s/c6s.html">telescópios</a>: Sol à tarde, <a href="../../../repo/planetas/saturno.html">Saturno</a> e demais <a href="../../../blog/posts/seestar_teste_30_05_25/seestar_teste_30_05_25.html">maravilhas do Cosmo</a> à noite (caso o céu esteja limpo).</li>
 <li>Visitação ao <a href="../../../atividades/observatorio/observatorio.html">Observatório a Olho Nu</a> (caso não chova).</li>
 <li><a href="../../../atividades/passeio_dos_planetas/passeio_dos_planetas.html">Caminhada pelos planetas</a> (caso não chova).</li>
-<li>Apresentação do Sistema Solar em Realidade Aumentada com nossos <a href="../../../acervo/itens/quest2/quest2.html">óculos de realidade virtual</a> (em qualquer condição climática).</li>
+<li>Apresentação do <a href="../../../projetos/sissolxr_proj/sissolxr_proj.html">Sistema Solar em Realidade Aumentada</a> com nossos <a href="../../../acervo/itens/quest2/quest2.html">óculos de realidade virtual</a> (em qualquer condição climática).</li>
 </ul>
-<p><strong>Acessibilidade em Libras:</strong> No dia 14/10, no período noturno, as atividades contarão com intérprete de Libras, além de legendas na atividade em Realidade Aumentada.</p>
+<p><strong>Acessibilidade em Libras:</strong> No dia 14/10, durante o período noturno, as atividades contarão com intérprete de Libras, além de legendas na atividade em Realidade Aumentada.</p>
 <p>O circuito completo de atividades terá duração em torno de 1 hora. Como várias atividades são realizadas a céu aberto, recomendamos que os visitantes venham protegidos contra as intempéries.</p>
 <p>O evento é GRATUITO e aberto ao público. Não há necessidade de agendamento. Basta comparecer nos dias e horários do evento.</p>
 <p><strong>Aviso às escolas:</strong> nesta Jornada não teremos estrutura para agendamento de turmas grandes. Para garantir a melhor experiência, a visitação será limitada a grupos de até 10 pessoas por vez.</p>
@@ -47,7 +47,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://observe.ufscar.br/calendario/eventos/xx_jornada_das_estrelas/Sol_07_07_25.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Imagem da cromosfera solar obtida com o telescópio solar e câmera <a href="../../../acervo/itens/svbony305/">SVBony 305</a> em 07/07/2025.</figcaption>
+<figcaption>Imagem da cromosfera solar obtida com o telescópio solar <a href="../../../acervo/itens/acuterEP40/">Acuter EP40</a> e câmera <a href="../../../acervo/itens/svbony305/">SVBony 305</a> em 07/07/2025.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
