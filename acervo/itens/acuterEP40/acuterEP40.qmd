@@ -1,5 +1,5 @@
 ---
-title: Acuter Elite Phoenix 40
+title: Elite Phoenix 40 - Acuter
 image: acuterEP40.jpg
 description: "Refrator com filtro (etalon) H-Alfa, 40 mm f/10."
 category: Telescópio
