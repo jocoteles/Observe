@@ -21,6 +21,7 @@ Nesta edição teremos:
 - Visitação ao [Observatório a Olho Nu](/atividades/observatorio/observatorio.qmd) (caso não chova).
 - [Caminhada pelos planetas](/atividades/passeio_dos_planetas/passeio_dos_planetas.qmd) (caso não chova).
 - Apresentação do [Sistema Solar em Realidade Aumentada](/projetos/sissolxr_proj/sissolxr_proj.qmd) com nossos [óculos de realidade virtual](/acervo/itens/quest2/quest2.qmd) (em qualquer condição climática).
+- [Visitação ao Pêndulo de Foucault](/projetos/foucault_proj/foucault_proj.qmd) -- experimento histórico que demonstra a rotação da Terra em tempo real e de forma absoluta (em qualquer condição climática).
 
 **Acessibilidade em Libras:** No dia 14/10, durante o período noturno, as atividades contarão com intérprete de Libras, além de legendas na atividade em Realidade Aumentada.
 
